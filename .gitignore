@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node (si se usa para build)
+node_modules/
+dist/
+
+# Temp
+*.tmp
+*.bak
