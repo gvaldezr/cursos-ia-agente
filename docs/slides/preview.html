@@ -8,7 +8,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap');
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body {
+  html, body, #deck {
     background: #0a0a1a;
     overflow: hidden;
     height: 100%;
@@ -16,12 +16,8 @@
     font-family: 'Roboto', system-ui, sans-serif;
     color: #e8e8f0;
   }
-  #deck {
-    width: 100%;
-    height: 100%;
-  }
 
-  /* Slide fills entire iframe — no gaps */
+  /* ── Slide: fill entire viewport ── */
   .slide {
     width: 100% !important;
     height: 100% !important;
@@ -32,93 +28,100 @@
     padding: 1.5rem 2rem;
     text-align: center;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     max-width: none !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     margin: 0 !important;
+    background: #0a0a1a;
   }
   .slide:first-child { display: flex; }
 
-  /* Cover slide gradient — fill everything */
-  .slide--cover,
-  .slide--cover .slide__gradient {
+  /* ── Cover: gradient fills everything ── */
+  .slide--cover {
     background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
+    padding: 0 !important;
+  }
+
+  /* The .slide__gradient wrapper must also fill 100% */
+  .slide--cover .slide__gradient {
     width: 100% !important;
     height: 100% !important;
-    border-radius: 0 !important;
-    padding: 1.5rem 2rem;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    max-width: none !important;
+    box-sizing: border-box;
   }
 
-  /* Title with gradient text (non-cover) */
-  .slide-title,
-  .slide__title {
+  /* ── Typography ── */
+  .slide--cover h1,
+  .slide--cover .ana-display,
+  .slide--cover .slide__title {
     font-family: 'Manrope', sans-serif;
-    font-size: clamp(1rem, 3vw, 1.4rem);
+    font-size: clamp(1.1rem, 4vw, 1.6rem);
     font-weight: 800;
-    margin-bottom: 0.75rem;
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    background: none !important;
+    margin-bottom: 0.5rem;
     line-height: 1.2;
+  }
+
+  .slide--cover p {
+    color: rgba(255,255,255,0.8);
+    font-size: clamp(0.65rem, 2vw, 0.85rem);
+    line-height: 1.5;
+    max-width: 90%;
+  }
+
+  .slide--cover .ana-overline,
+  .slide__overline {
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 0.3rem;
+  }
+
+  .slide--cover .slide__meta,
+  .slide--cover div:last-child {
+    font-size: 0.55rem;
+    color: rgba(255,255,255,0.5);
+    margin-top: 0.4rem;
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slide--cover div:last-child span {
+    font-size: 0.55rem;
+  }
+
+  /* ── Non-cover slides ── */
+  .slide:not(.slide--cover) h2,
+  .slide:not(.slide--cover) .ana-h2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(0.9rem, 3vw, 1.3rem);
+    font-weight: 800;
     background: linear-gradient(135deg, #FF5900, #432F64);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
+    margin-bottom: 0.6rem;
   }
 
-  /* Cover title is white */
-  .slide--cover .slide-title,
-  .slide--cover .slide__title,
-  .slide--cover .slide__gradient .slide__title {
-    background: none !important;
-    -webkit-text-fill-color: #fff !important;
-    color: #fff !important;
-    font-size: clamp(1.2rem, 4vw, 1.8rem);
-  }
-
-  .slide__overline {
-    font-size: 0.6rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: rgba(255,255,255,0.6);
-    margin-bottom: 0.4rem;
-  }
-
-  .slide__subtitle,
-  .slide-subtitle {
-    font-size: 0.8rem;
-    color: rgba(255,255,255,0.75);
-    font-weight: 300;
-  }
-
-  .slide__meta {
-    font-size: 0.65rem;
-    color: rgba(255,255,255,0.5);
-    margin-top: 0.5rem;
-  }
-
-  /* Content box glassmorphism */
-  .content-box {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 10px;
-    padding: 0.8rem;
-    max-width: 90%;
-    font-size: 0.7rem;
-    line-height: 1.5;
-    color: #c8c8d8;
-  }
-
-  /* Hide details not needed in compact preview */
-  .slide__callout, .reflection { display: none; }
-  .slide__prompt, .slide__table { display: none; }
+  /* Hide detail elements in compact preview */
+  .slide__callout, .reflection, .slide__note { display: none; }
+  .slide__prompt { display: none; }
   .slide__two-col { display: none; }
   .slide__body { font-size: 0.7rem; color: #c8c8d8; }
+  table { font-size: 0.6rem; color: #c8c8d8; }
 </style>
 </head>
 <body>
