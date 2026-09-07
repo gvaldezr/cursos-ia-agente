@@ -730,15 +730,35 @@ a:hover { color: var(--ana-primary-hover); }
    HERO
    ══════════════════════════════════════════════════════════════════════════════ */
 .ana-hero {
-  padding: var(--ana-space-16) 0 var(--ana-space-12);
+  padding: var(--ana-space-20, 5rem) 0 var(--ana-space-12);
   text-align: center;
 }
 @media (max-width: 639px) {
-  .ana-hero { padding: var(--ana-space-10) 0 var(--ana-space-8); }
+  .ana-hero { padding: var(--ana-space-12) 0 var(--ana-space-8); }
 }
-.ana-hero__overline  { display: inline-block; margin-bottom: var(--ana-space-3); }
-.ana-hero__title     { margin: 0 auto var(--ana-space-4); max-width: 800px; }
-.ana-hero__subtitle  { margin: 0 auto var(--ana-space-6); max-width: 600px; }
+.ana-hero__overline  {
+  display: inline-block;
+  margin-bottom: var(--ana-space-6);
+  font-size: var(--ana-text-sm);
+  letter-spacing: 0.05em;
+  color: var(--ana-gray);
+}
+.ana-hero__title {
+  margin: 0 auto var(--ana-space-8);
+  max-width: 900px;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ana-dark);
+}
+.ana-hero__subtitle {
+  margin: 0 auto var(--ana-space-8);
+  max-width: 640px;
+  font-size: var(--ana-text-lg);
+  line-height: var(--ana-leading-relaxed);
+  color: var(--ana-gray);
+}
 .ana-hero__actions   { display: flex; justify-content: center; gap: var(--ana-space-3); flex-wrap: wrap; }
 .ana-hero__progress  { max-width: 400px; margin: var(--ana-space-6) auto 0; }
 
