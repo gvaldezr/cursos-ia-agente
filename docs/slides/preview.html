@@ -4,16 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Preview</title>
-<link rel="stylesheet" href="../css/slides.css">
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap');
+
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     background: #0a0a1a;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
+    font-family: 'Roboto', system-ui, sans-serif;
+    color: #e8e8f0;
   }
-  /* Override viewer styles — show slide directly */
+
+  /* Slide fills the iframe viewport */
   .slide {
     width: 100%;
     height: 100vh;
@@ -21,17 +25,101 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 3rem;
-    position: absolute;
-    top: 0; left: 0;
+    padding: 1.5rem 2rem;
+    text-align: center;
   }
-  .slide.active { display: flex; }
-  .slide-title, .slide__title {
-    font-size: 1.6rem !important;
-  }
-  /* Hide everything except first slide */
-  .slide:not(:first-child) { display: none !important; }
   .slide:first-child { display: flex; }
+
+  /* Cover slide gradient */
+  .slide--cover {
+    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%);
+  }
+
+  /* Title with gradient text (non-cover) */
+  .slide-title,
+  .slide__title {
+    font-family: 'Manrope', sans-serif;
+    font-size: clamp(1rem, 3vw, 1.4rem);
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    line-height: 1.2;
+    background: linear-gradient(135deg, #FF5900, #432F64);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Cover title is white */
+  .slide--cover .slide-title,
+  .slide--cover .slide__title {
+    background: none;
+    -webkit-text-fill-color: #fff;
+    color: #fff;
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
+  }
+
+  .slide__overline {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 0.4rem;
+  }
+
+  .slide__subtitle,
+  .slide-subtitle {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.75);
+    font-weight: 300;
+  }
+
+  .slide__meta {
+    font-size: 0.65rem;
+    color: rgba(255,255,255,0.5);
+    margin-top: 0.5rem;
+  }
+
+  /* Content box glassmorphism */
+  .content-box {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 0.8rem;
+    max-width: 90%;
+    font-size: 0.7rem;
+    line-height: 1.5;
+    color: #c8c8d8;
+  }
+
+  /* Cards */
+  .card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 0.6rem;
+  }
+
+  /* Grids */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; max-width: 90%; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; max-width: 90%; }
+
+  .slide__gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%);
+    border-radius: 0;
+  }
+
+  /* Hide everything not needed in preview */
+  .slide__body p, .slide__body ul { font-size: 0.7rem; color: #c8c8d8; }
+  .slide__callout, .reflection { display: none; }
+  .slide__prompt, .slide__table { display: none; }
+  .slide__two-col { display: none; }
 </style>
 </head>
 <body>
@@ -47,9 +135,11 @@
       var doc = parser.parseFromString(html, 'text/html');
       var first = doc.querySelector('.slide');
       if (first) {
-        first.classList.add('active');
         document.getElementById('deck').appendChild(document.importNode(first, true));
       }
+    })
+    .catch(function() {
+      document.getElementById('deck').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#666;font-size:0.8rem">Vista previa no disponible</div>';
     });
 })();
 </script>

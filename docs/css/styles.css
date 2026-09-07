@@ -1466,7 +1466,8 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 
 .ana-pres-preview__stage {
   position: relative;
-  height: 280px;
+  aspect-ratio: 16 / 9;
+  max-height: 320px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -1498,7 +1499,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 }
 
 @media (max-width: 639px) {
-  .ana-pres-preview__stage { height: 180px; }
+  .ana-pres-preview__stage { max-height: 200px; }
 }
 
 /* ══════════════════════════════════════════
