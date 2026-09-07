@@ -10,7 +10,7 @@
 
 ## 1. Concepto clave
 
-La *inteligencia artificial generativa* (IA generativa) es una herramienta que produce texto, análisis y resúmenes a partir de patrones aprendidos de millones de documentos. No busca información en internet en tiempo real, no es experta en su área y no es infalible.
+La *inteligencia artificial generativa* (IA generativa) es una herramienta que produce texto, análisis y resúmenes a partir de patrones aprendidos de millones de documentos. Algunos modelos pueden buscar información en internet, pero la mayoría trabaja solo con lo que ya aprendió. No es experta en su área específica y no es infalible. Pregunte siempre a la herramienta si está usando información actualizada.
 
 Piense en ella como un asistente de recién ingreso con memoria fotográfica: leyó más documentos de los que usted leerá en su vida, pero no conoce su universidad, no sabe quién es usted y —lo más importante— a veces inventa datos con total confianza. A este fenómeno se le conoce como *hallucination* (fabricación): la IA genera información que suena real pero es falsa.
 

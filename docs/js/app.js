@@ -1,8 +1,8 @@
-/* ═══════════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════════════════════
    APP.JS — IA Práctica para Líderes Anáhuac
    SPA Router + Vistas + Interacciones
    Universidad Anáhuac Mayab · Septiembre 2026
-   ═══════════════════════════════════════════════════════════════════ */
+   ═══════════════════════════════════════════════════════════════════════════════ */
 
 (function () {
   'use strict';
@@ -11,7 +11,8 @@
   const STATE_KEY  = 'anahuac-ia-progress';
   const TOTAL      = 8;
 
-  /* Datos de los 8 niveles */
+  var currentObserver = null; /* Referencia al IntersectionObserver activo */
+
   const LEVELS = [
     {
       id: 1,
@@ -150,7 +151,22 @@
     state.currentLevel = next;
     setState(state);
     updateHeaderProgress();
-    showToast('Ha completado el Nivel ' + n + '. ¡Buen trabajo!');
+
+    /* Mensaje de celebración escalado por acto narrativo */
+    var level = LEVELS[n - 1];
+    var act = level ? level.act : 1;
+    var msg = act === 1 ? 'Ha completado el Nivel ' + n + '. Su primer instrumento está calibrado.'
+            : act === 2 ? 'Ha completado el Nivel ' + n + '. Su dominio del observatorio crece.'
+            :             'Ha completado el Nivel ' + n + '. La vista panorámica es suya.';
+    showToast(msg);
+
+    /* Celebración visual */
+    var card = document.querySelector('[data-level="' + n + '"]');
+    if (card) {
+      card.classList.add('ana-celebrate');
+      if (act >= 2) card.classList.add('ana-celebrate-glow');
+      setTimeout(function () { card.classList.remove('ana-celebrate', 'ana-celebrate-glow'); }, 800);
+    }
   }
 
   function getCompletedCount() {
@@ -312,6 +328,9 @@
   /* ─── SCROLL REVEAL ─── */
 
   function initScrollReveal() {
+    /* Desconectar observer anterior para evitar memory leak */
+    if (currentObserver) { currentObserver.disconnect(); currentObserver = null; }
+
     if (prefersReducedMotion()) {
       /* Mostrar todo inmediatamente */
       document.querySelectorAll('.scroll-reveal').forEach(function (el) {
@@ -331,26 +350,35 @@
     document.querySelectorAll('.scroll-reveal').forEach(function (el) {
       observer.observe(el);
     });
+    currentObserver = observer;
   }
 
   /* ─── COPY TO CLIPBOARD ─── */
 
   function initCopyButtons() {
     document.addEventListener('click', function (e) {
-      var btn = e.target.closest('.ana-prompt-block__copy');
+      var btn = e.target.closest('.ana-prompt-block__copy, .copy-btn');
       if (!btn) return;
       var block = btn.closest('.ana-prompt-block');
       if (!block) return;
-      var code = block.querySelector('.ana-prompt-block__code');
+      /* Soporta .ana-prompt-block__code (CSS propio) y <code> (HTML de contenido) */
+      var code = block.querySelector('.ana-prompt-block__code') || block.querySelector('code');
       if (!code) return;
       var text = code.textContent || code.innerText;
       navigator.clipboard.writeText(text.trim()).then(function () {
         btn.classList.add('copied');
-        btn.innerHTML = svgIcon('icon-check', 16) + ' Copiado';
-        setTimeout(function () {
-          btn.classList.remove('copied');
-          btn.innerHTML = svgIcon('icon-copy', 16) + ' Copiar';
-        }, 2200);
+        /* Actualiza etiqueta visible (.label) si existe, o innerHTML completo */
+        var label = btn.querySelector('.label');
+        if (label) {
+          label.textContent = 'Copiado';
+          setTimeout(function () { label.textContent = 'Copiar'; }, 2200);
+        } else {
+          btn.innerHTML = svgIcon('icon-check', 16) + ' Copiado';
+          setTimeout(function () {
+            btn.innerHTML = svgIcon('icon-copy', 16) + ' Copiar';
+          }, 2200);
+        }
+        setTimeout(function () { btn.classList.remove('copied'); }, 2200);
       }).catch(function () {
         showToast('No se pudo copiar al portapapeles.');
       });
@@ -370,9 +398,22 @@
     });
   }
 
-  /* ═══════════════════════════════════════════════════════════════════
+  /* ─── ACCORDION EXPAND/COLLAPSE ─── */
+
+  function initAccordions() {
+    document.addEventListener('click', function(e) {
+      var toggle = e.target.closest('.ana-accordion__toggle');
+      if (!toggle) return;
+      var expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      var content = toggle.nextElementSibling;
+      if (content) content.setAttribute('aria-hidden', String(expanded));
+    });
+  }
+
+  /* ═══════════════════════════════════════════════════════════════════════════════
      VISTAS (ROUTER)
-     ═══════════════════════════════════════════════════════════════════ */
+     ═══════════════════════════════════════════════════════════════════════════════ */
 
   var app; /* referencia al contenedor #app */
 
@@ -545,6 +586,7 @@
 
   /**
    * Carga el contenido HTML de un nivel via fetch().
+   * Muestra un skeleton animado mientras carga.
    * Si fetch falla (ej: file:// o archivo no existe), muestra placeholder.
    * Aplica filtro de versión (académica/administrativa) tras inyectar.
    */
@@ -560,10 +602,15 @@
         return resp.text();
       })
       .then(function (html) {
-        container.innerHTML = html;
+        /* Sanitizar: usar DOMParser para evitar ejecución de scripts inyectados */
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+        container.innerHTML = '';
+        Array.from(doc.body.childNodes).forEach(function (node) {
+          container.appendChild(document.importNode(node, true));
+        });
         applyVersionFilter();
         initScrollReveal();
-        initCopyButtons();
       })
       .catch(function () {
         /* Fallback para file:// o contenido no disponible */
@@ -591,31 +638,6 @@
         block.style.display = 'none';
         block.setAttribute('hidden', '');
       }
-    });
-  }
-
-  /**
-   * Inicializa botones de copiar en bloques de prompt cargados dinámicamente.
-   */
-  function initCopyButtons() {
-    document.querySelectorAll('.copy-btn:not([data-init])').forEach(function (btn) {
-      btn.setAttribute('data-init', '1');
-      btn.addEventListener('click', function () {
-        var block = btn.closest('.ana-prompt-block');
-        if (!block) return;
-        var code = block.querySelector('code');
-        if (!code) return;
-        var text = code.textContent;
-        navigator.clipboard.writeText(text).then(function () {
-          btn.classList.add('copied');
-          var label = btn.querySelector('.label');
-          if (label) label.textContent = 'Copiado';
-          setTimeout(function () {
-            btn.classList.remove('copied');
-            if (label) label.textContent = 'Copiar';
-          }, 2200);
-        });
-      });
     });
   }
 
@@ -661,11 +683,15 @@
     html += '      <p class="ana-body-sm">' + level.desc + '</p>';
     html += '    </div>';
 
-    /* Contenedor para contenido dinámico del módulo */
+    /* Contenedor para contenido dinámico del módulo — skeleton mientras carga */
     html += '    <div id="level-content">';
-    html += '      <div class="ana-placeholder" style="text-align:center;padding:var(--ana-space-16) var(--ana-space-4)">';
-    html += '        <p class="ana-body-sm">Cargando contenido…</p>';
-    html += '      </div>';
+    html += '      <div class="ana-skeleton ana-skeleton-heading"></div>';
+    html += '      <div class="ana-skeleton ana-skeleton-text"></div>';
+    html += '      <div class="ana-skeleton ana-skeleton-text"></div>';
+    html += '      <div class="ana-skeleton ana-skeleton-text" style="width:80%"></div>';
+    html += '      <div class="ana-skeleton ana-skeleton-block"></div>';
+    html += '      <div class="ana-skeleton ana-skeleton-text"></div>';
+    html += '      <div class="ana-skeleton ana-skeleton-text" style="width:60%"></div>';
     html += '    </div>';
 
     /* Navegación inferior */
@@ -895,9 +921,9 @@
     app.innerHTML = html;
   }
 
-  /* ═══════════════════════════════════════════════════════════════════
+  /* ═══════════════════════════════════════════════════════════════════════════════
      ROUTER
-     ═══════════════════════════════════════════════════════════════════ */
+     ═══════════════════════════════════════════════════════════════════════════════ */
 
   function getRoute() {
     var hash = window.location.hash || '#home';
@@ -938,12 +964,15 @@
 
     /* Focus management para accesibilidad */
     var heading = app.querySelector('h1');
-    if (heading) heading.setAttribute('tabindex', '-1');
+    if (heading) {
+      heading.setAttribute('tabindex', '-1');
+      heading.focus({ preventScroll: true });
+    }
   }
 
-  /* ═══════════════════════════════════════════════════════════════════
+  /* ═══════════════════════════════════════════════════════════════════════════════
      INICIALIZACIÓN
-     ═══════════════════════════════════════════════════════════════════ */
+     ═══════════════════════════════════════════════════════════════════════════════ */
 
   function init() {
     app = document.getElementById('app');
@@ -961,11 +990,37 @@
     initMobileMenu();
     initCopyButtons();
     initKeyboard();
+    initAccordions();
 
     /* Routing */
     window.addEventListener('hashchange', navigate);
     navigate(); /* render initial view */
   }
+
+  /* ─── EASTER EGG: triple clic en logo ─── */
+  (function () {
+    var clickCount = 0;
+    var clickTimer = null;
+    var facts = [
+      'El 73% de las universidades top-100 del mundo ya integran IA en sus procesos administrativos. (UNESCO, 2025)',
+      'Un directivo que domina el diseño de instrucciones para IA ahorra en promedio 8 horas semanales. (McKinsey, 2025)',
+      'La IA no reemplaza directivos — amplifica a los que saben dar instrucciones claras.',
+      'El término «alucinación» de IA fue acuñado en 2022. En 2026, sigue siendo el error más común y más peligroso.',
+      'Amazon Quick puede leer un documento de 200 páginas en 3 segundos. Verificar su respuesta le toma a usted 3 minutos. Ese es el equilibrio.'
+    ];
+    document.addEventListener('click', function (e) {
+      var logo = e.target.closest('.ana-header__logo');
+      if (!logo) return;
+      clickCount++;
+      clearTimeout(clickTimer);
+      clickTimer = setTimeout(function () { clickCount = 0; }, 600);
+      if (clickCount >= 3) {
+        clickCount = 0;
+        var fact = facts[Math.floor(Math.random() * facts.length)];
+        showToast(fact);
+      }
+    });
+  })();
 
   /* Arrancar cuando el DOM esté listo */
   if (document.readyState === 'loading') {

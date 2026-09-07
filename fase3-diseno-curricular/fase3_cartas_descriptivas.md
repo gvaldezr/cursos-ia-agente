@@ -333,7 +333,7 @@ Diseña y documenta un flujo paso a paso para generar su reporte recurrente más
 | RA 5.1 | **Analiza** la anatomía de un reporte recurrente propio (fuentes de datos, transformaciones, audiencia, formato) para identificar fases automatizables. | Analizar (4) |
 | RA 5.2 | **Diseña** un flujo paso a paso (6 fases) que integra recopilación, carga, análisis, formato, revisión y distribución con asistencia de IA. | Crear (6) |
 | RA 5.3 | **Configura** un agente básico en Amazon Quick con instrucciones, archivos de referencia y contexto del área para una tarea recurrente. | Aplicar (3) |
-| RA 5.4 | **Aplica** controles de calidad al flujo (checklist de verificación: números, fuentes, coherencia) para prevenir alucinaciones en reportes automatizados. | Analizar (4) |
+| RA 5.4 | **Aplica** controles de calidad al flujo (checklist de verificación: números, fuentes, coherencia) para prevenir alucinaciones en reportes automatizados. | Aplicar (3) |
 
 ### 5.4 Contenido Temático
 

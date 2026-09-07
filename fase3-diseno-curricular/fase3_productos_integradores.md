@@ -12,14 +12,14 @@
 ## Mapa de Progresión de Complejidad
 
 ```
-Módulo 1 ─── SIMPLE ──────────────── Resumen generado con IA
-Módulo 2 ─── SIMPLE+ ─────────────── Prompts estructurados con frameworks
-Módulo 3 ─── INTERMEDIO ──────────── Templates de comunicación personalizados
-Módulo 4 ─── INTERMEDIO+ ─────────── Análisis verificado con protocolo PAUS
-Módulo 5 ─── AVANZADO ────────────── Flujo de reporte documentado ⭐
-Módulo 6 ─── AVANZADO ────────────── Kit de atención con protocolo ético
-Módulo 7 ─── AVANZADO+ ───────────── Plan de proyecto completo
-Módulo 8 ─── COMPLEJO ────────────── Ecosistema: agentes + flujo + banco de prompts ⭐
+Módulo 1 ─── SIMPLE ──────────────────── Resumen generado con IA
+Módulo 2 ─── SIMPLE+ ─────────────────── Prompts estructurados con frameworks
+Módulo 3 ─── INTERMEDIO ────────────────── Templates de comunicación personalizados
+Módulo 4 ─── INTERMEDIO+ ──────────────── Análisis verificado con protocolo PAUS
+Módulo 5 ─── AVANZADO ──────────────────── Flujo de reporte documentado ⭐
+Módulo 6 ─── AVANZADO ──────────────────── Kit de atención con protocolo ético
+Módulo 7 ─── AVANZADO+ ─────────────────── Plan de proyecto completo
+Módulo 8 ─── COMPLEJO ──────────────────── Ecosistema: agentes + flujo + banco de prompts ⭐
 ```
 
 **Progresión cognitiva (Bloom):**
@@ -74,7 +74,7 @@ El participante identifica 5 tareas de su semana laboral que podrían beneficiar
 **Nivel de complejidad:** 🟢 Simple+
 
 **Descripción:**
-El participante crea 3 prompts reutilizables para sus tareas más frecuentes, cada uno usando un framework distinto (RTF, RISE, CO-STAR). Incluye el output generado por cada prompt y una nota de por qué eligió ese framework para esa tarea.
+El participante crea 3 prompts reutilizables para sus tareas más frecuentes, cada uno usando un framework distinto (RCTF, RISE, CO-STAR). Incluye el output generado por cada prompt y una nota de por qué eligió ese framework para esa tarea.
 
 **Formato de entrega:**
 - 3 prompts completos con el framework explícitamente señalado
@@ -99,10 +99,10 @@ El participante crea 3 prompts reutilizables para sus tareas más frecuentes, ca
 
 | Criterio | Básico (60–69) | Competente (70–89) | Destacado (90–100) |
 |---|---|---|---|
-| **Uso correcto del framework** | Incluye 3 prompts pero al menos 1 no sigue la estructura del framework (falta un componente clave). | Los 3 prompts siguen correctamente la estructura de RTF, RISE y CO-STAR respectivamente. Todos los componentes presentes. | Los 3 prompts son ejemplares: estructura perfecta, componentes completos, y cada prompt podría usarse como modelo para enseñar el framework. |
+| **Uso correcto del framework** | Incluye 3 prompts pero al menos 1 no sigue la estructura del framework (falta un componente clave). | Los 3 prompts siguen correctamente la estructura de RCTF, RISE y CO-STAR respectivamente. Todos los componentes presentes. | Los 3 prompts son ejemplares: estructura perfecta, componentes completos, y cada prompt podría usarse como modelo para enseñar el framework. |
 | **Relevancia de las tareas** | Al menos 1 prompt es para una tarea genérica, no específica de su gestión. | Los 3 prompts son para tareas reales y recurrentes de su cargo. | Los 3 prompts resuelven las tareas de mayor impacto/frecuencia. El participante explicita la priorización. |
 | **Calidad del output** | Los outputs son genéricos o requieren edición significativa para ser usables. | Los outputs son usables con edición menor. Están personalizados con datos del participante. | Los outputs son profesionales, personalizados y listos para usar. El participante señala qué editó y por qué. |
-| **Justificación y iteración** | No hay justificación de la elección del framework o evidencia de iteración. | Justificación clara por cada framework. Se evidencia al menos 1 iteración en alguno de los prompts. | Justificación fundamentada. Evidencia de 2+ iteraciones con registro del proceso: «versión 1 → ajuste → versión 2 → resultado mejorado». |
+| **Justificación e iteración** | No hay justificación de la elección del framework o evidencia de iteración. | Justificación clara por cada framework. Se evidencia al menos 1 iteración en alguno de los prompts. | Justificación fundamentada. Evidencia de 2+ iteraciones con registro del proceso: «versión 1 → ajuste → versión 2 → resultado mejorado». |
 
 ---
 

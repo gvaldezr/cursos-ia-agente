@@ -1,4 +1,4 @@
-# Nivel 3. Comunicación institucional con IA
+# Email y Comunicados Institucionales
 ## *No se trata de que la IA escriba por usted. Se trata de que nunca más empiece de cero.*
 
 > **Fase:** II — USAR  

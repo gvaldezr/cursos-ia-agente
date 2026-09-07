@@ -2,9 +2,10 @@
 
 > **Modalidad:** Formación Continua — Programa de Actualización Profesional  
 > **Institución:** Universidad Anáhuac Mayab  
-> **Versión del documento:** 1.0 | **Fecha:** septiembre 2026  
+> **Versión del documento:** 1.1 | **Fecha:** septiembre 2026  
 > **Diseño curricular:** Backward Design (Wiggins & McTighe, 2005); Constructive Alignment (Biggs & Tang, 2011)  
-> **Marcos de AI Literacy:** UNESCO AI Competency Framework (2024), Stanford HAI, RAIL-Ed (2026)
+> **Marcos de AI Literacy:** UNESCO AI Competency Framework (2024), Stanford HAI, RAIL-Ed (2026)  
+> **Nota v1.1:** Pesos de evaluación estandarizados a distribución canónica (35/25/25/15). Nomenclatura de entregables finales unificada con assessment blueprint y mapa de competencias.
 
 ---
 
@@ -17,7 +18,7 @@
 | **Área de conocimiento** | Tecnologías de la Información aplicadas a la Gestión Universitaria |
 | **Modalidad** | En línea, autogestiva con acompañamiento opcional sincrónico |
 | **Duración total** | 8 módulos — 120 horas totales (40 horas de contacto + 80 horas de trabajo independiente) |
-| **Créditos SATCA** | 7.5 créditos |
+| **Créditos SATCA** | 6.5 créditos |
 | **Versiones** | Académica (🎓) y Administrativa (🏢) — estructura y competencias idénticas; casos, ejemplos, entregables y contextos diferenciados |
 | **Herramienta principal** | Amazon Quick (workspace local, agentes, archivos conectados) |
 | **Acreditación** | Constancia de Formación Continua con valor curricular, Universidad Anáhuac Mayab |
@@ -139,21 +140,23 @@ FASE IV: INTEGRAR (Módulos 7-8)
 El sistema SATCA (Sistema de Asignación y Transferencia de Créditos Académicos) establece:
 - **1 crédito = 16 horas de contacto** (bajo conducción docente o equivalente interactivo)
 - **1 crédito = 20 horas de trabajo independiente**
-- Para formación mixta: **1 crédito = (HC × 16) + (HI × 20)**, redondeado según lineamiento ANUIES.
+- Para formación mixta: **Créditos = (HC / 16) + (HI / 20)**, redondeado según lineamiento ANUIES.
 
 En este programa autogestivo con componentes interactivos, las "horas de contacto" (HC) comprenden interacción guiada con la plataforma, ejercicios prácticos con Amazon Quick y sesiones sincrónicas opcionales. Las "horas independientes" (HI) comprenden práctica con documentos reales, desarrollo de entregables y aplicación en el puesto.
 
 | # | Módulo | Competencia del Módulo | HC | HI | Horas Totales | Créditos SATCA |
 |---|---|---|---|---|---|---|
-| M1 | Conceptos de IA Generativa | Comprende qué es la IA generativa, identifica capacidades y limitaciones, y reconoce oportunidades de aplicación en su rol directivo. | 3 | 6 | 9 | 0.5 |
-| M2 | Frameworks de Prompts | Estructura instrucciones efectivas para IA usando 3 frameworks (RCTF, Chain of Thought, Few-shot), obteniendo resultados consistentes. | 5 | 10 | 15 | 1.0 |
-| M3 | Email y Comunicados Institucionales | Produce correos, comunicados y respuestas institucionales con IA, adaptando tono, audiencia y formato con eficiencia demostrable. | 5 | 10 | 15 | 1.0 |
-| M4 | Análisis de Reportes con IA | Analiza reportes y documentos propios con IA, extrae insights, identifica tendencias y genera resúmenes ejecutivos verificados. | 5 | 10 | 15 | 1.0 |
-| M5 | Automatización de Reportes | Diseña flujos paso a paso para generar reportes recurrentes con IA, integra agentes básicos y controles de calidad. | 6 | 12 | 18 | 1.0 |
-| M6 | Atención a Stakeholders con IA | Gestiona comunicación de alto volumen con stakeholders, crea bancos de respuestas personalizables y aplica protocolos éticos. | 5 | 10 | 15 | 1.0 |
-| M7 | Gestión de Proyectos con IA | Planea, estructura, da seguimiento y reporta avance de proyectos usando IA como asistente de gestión. | 5 | 10 | 15 | 1.0 |
-| M8 | Agentes y Trabajo en Equipo Local | Configura agentes especializados, diseña flujos multi-paso y establece un plan de adopción de IA para su área. | 6 | 12 | 18 | 1.0 |
-| | **TOTALES** | | **40** | **80** | **120** | **7.5** |
+| M1 | Conceptos de IA Generativa | Comprende qué es la IA generativa, identifica capacidades y limitaciones, y reconoce oportunidades de aplicación en su rol directivo. | 3 | 6 | 9 | 0.49 |
+| M2 | Frameworks de Prompts | Estructura instrucciones efectivas para IA usando 3 frameworks (RCTF, Chain of Thought, Few-shot), obteniendo resultados consistentes. | 5 | 10 | 15 | 0.81 |
+| M3 | Email y Comunicados Institucionales | Produce correos, comunicados y respuestas institucionales con IA, adaptando tono, audiencia y formato con eficiencia demostrable. | 5 | 10 | 15 | 0.81 |
+| M4 | Análisis de Reportes con IA | Analiza reportes y documentos propios con IA, extrae insights, identifica tendencias y genera resúmenes ejecutivos verificados. | 5 | 10 | 15 | 0.81 |
+| M5 | Automatización de Reportes | Diseña flujos paso a paso para generar reportes recurrentes con IA, integra agentes básicos y controles de calidad. | 6 | 12 | 18 | 0.98 |
+| M6 | Atención a Stakeholders con IA | Gestiona comunicación de alto volumen con stakeholders, crea bancos de respuestas personalizables y aplica protocolos éticos. | 5 | 10 | 15 | 0.81 |
+| M7 | Gestión de Proyectos con IA | Planea, estructura, da seguimiento y reporta avance de proyectos usando IA como asistente de gestión. | 5 | 10 | 15 | 0.81 |
+| M8 | Agentes y Trabajo en Equipo Local | Configura agentes especializados, diseña flujos multi-paso y establece un plan de adopción de IA para su área. | 6 | 12 | 18 | 0.98 |
+| | **TOTALES** | | **40** | **80** | **120** | **6.50** |
+> **Nota sobre créditos SATCA (corrección v1.1, septiembre 2026):**  
+> El cálculo original declaraba 7.5 créditos, resultado de redondear cada módulo individualmente al medio crédito más cercano y luego sumar. El cálculo correcto según lineamiento ANUIES-SATCA se realiza a nivel programa: **(40 HC / 16) + (80 HI / 20) = 2.50 + 4.00 = 6.50 créditos**. Se corrigió el total y los valores por módulo a su cálculo exacto sin redondeo individual para mantener trazabilidad aritmética. Las horas de contacto (40) e independientes (80) se conservan sin cambio, pues la distribución pedagógica es coherente con el perfil de ingreso y la carga de trabajo semanal declarada. También se corrigió la notación de la fórmula mixta que aparecía invertida (HC × 16 en lugar de HC / 16).
 
 ### 6.3 Seriación
 
@@ -240,10 +243,10 @@ La evaluación es **formativa continua** con **dos entregables sumativos finales
 
 | Componente | Tipo | Peso | Módulos |
 |---|---|---|---|
-| **Entregables intermedios** (6) | Formativa-sumativa | 40% | M1-M4, M6-M7 |
-| **Entregable final 1:** Flujo de reporte documentado | Sumativa | 25% | M5 (integra M1-M4) |
-| **Entregable final 2:** Ecosistema de IA personal | Sumativa | 25% | M8 (integra M1-M7) |
-| **Participación y reflexiones éticas** | Formativa | 10% | Transversal |
+| **Entregables intermedios** (6) | Formativa-sumativa | 35% | M1-M4, M6-M7 |
+| **Entregable final 1:** Flujo de reportes automatizado | Sumativa | 25% | M5 (integra M1-M4) |
+| **Entregable final 2:** Banco de prompts personalizado | Sumativa | 25% | M8 (integra M1-M7) |
+| **Participación y reflexiones éticas** | Formativa | 15% | Transversal |
 | **TOTAL** | | **100%** | |
 
 ### 9.3 Entregables por Módulo
@@ -254,10 +257,10 @@ La evaluación es **formativa continua** con **dos entregables sumativos finales
 | M2 | 3 prompts maestros usando frameworks RCTF/CoT/Few-shot | Banco de prompts + outputs generados | 3 prompts funcionales con estructura correcta y calificación de utilidad |
 | M3 | 5 templates de correo/comunicado adaptados a su rol | Portafolio de templates | Templates diferenciados por audiencia, con tono institucional adecuado |
 | M4 | Análisis ejecutivo real de 1 página de un reporte de su área | Resumen ejecutivo + prompt usado | Resumen verificado contra documento fuente, con insights accionables |
-| M5 | ⭐ **Flujo de reporte documentado** (entregable final 1) | Documento de flujo paso a paso | Flujo completo: fuentes, prompts, formato, checklist, revisión humana |
+| M5 | ⭐ **Flujo de reportes automatizado** (entregable final 1) | Documento de flujo paso a paso | Flujo completo: fuentes, prompts, formato, checklist, revisión humana |
 | M6 | Kit de atención: 10 respuestas maestras + protocolo de uso IA | Banco de respuestas + protocolo | Respuestas personalizables con límites éticos definidos |
 | M7 | Plan de proyecto real estructurado con IA | Documento de proyecto | Incluye: objetivos, WBS, calendario, riesgos, template de minuta |
-| M8 | ⭐ **Ecosistema de IA personal** (entregable final 2) | 3 agentes + 1 flujo + banco de 20+ prompts + plan de adopción | Agentes funcionales probados + plan de 90 días con política y métricas |
+| M8 | ⭐ **Banco de prompts personalizado** (entregable final 2) | 3 agentes + 1 flujo + banco de 20+ prompts + plan de adopción | Agentes funcionales probados + plan de 90 días con política y métricas |
 
 ### 9.4 Escala de Evaluación
 

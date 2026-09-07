@@ -1,4 +1,4 @@
-# Nivel 2. Diseño de instrucciones efectivas
+# Frameworks de Prompts
 ## *La diferencia entre un usuario básico y un experto no es la herramienta: es la instrucción.*
 
 > **Fase:** I — ENTENDER  
@@ -14,21 +14,21 @@ Un *framework* (estructura o receta) de instrucciones es una plantilla probada q
 
 En este nivel aprenderá tres marcos, de menor a mayor control:
 
-- **RTF** (Rol + Tarea + Formato): la receta más rápida. Ideal para solicitudes directas donde no necesita controlar el proceso intermedio.
+- **RCTF** (Rol + Contexto + Tarea + Formato): la receta más rápida. Ideal para solicitudes directas donde no necesita controlar el proceso intermedio.
 - **RISE** (Rol + *Input* + *Steps* + *Expectation*): cuando necesita que la IA siga un proceso paso a paso con datos específicos. Como darle a un analista junior un protocolo detallado.
 - **CO-STAR** (*Context* + *Objective* + *Style* + *Tone* + *Audience* + *Response*): cuando la comunicación es lo que importa. Controla tono, audiencia y voz institucional con precisión.
 
-La recomendación es directa: empiece con RTF para todo. Cuando necesite más control sobre el proceso, migre a RISE. Cuando el tono y la audiencia sean críticos, use CO-STAR. Los tres marcos se complementan; no compiten.
+La recomendación es directa: empiece con RCTF para todo. Cuando necesite más control sobre el proceso, migre a RISE. Cuando el tono y la audiencia sean críticos, use CO-STAR. Los tres marcos se complementan; no compiten.
 
 ---
 
 ## 2. Demostración paso a paso
 
-### Framework RTF — Análisis de retención estudiantil
+### Framework RCTF — Análisis de retención estudiantil
 
 **Contexto:** Dos coordinadores piden lo mismo a la IA: un análisis de retención. Uno obtiene un texto genérico; el otro obtiene un documento con datos reales, semáforo visual y acciones concretas. La diferencia es la instrucción.
 
-**Prompt RTF (el que funciona):**
+**Prompt RCTF (el que funciona):**
 
 ```
 ROL: Actúe como analista de gestión académica universitaria.
@@ -113,7 +113,7 @@ Cree tres instrucciones maestras para sus tareas más frecuentes. Use una para c
 
 | # | Tarea frecuente | Framework | Instrucción completa |
 |---|---|---|---|
-| 1 | Su tarea más repetitiva (ej: comunicado a docentes, recordatorio de fechas) | RTF | Escriba aquí su instrucción con Rol + Tarea + Formato |
+| 1 | Su tarea más repetitiva (ej: comunicado a docentes, recordatorio de fechas) | RCTF | Escriba aquí su instrucción con Rol + Contexto + Tarea + Formato |
 | 2 | Tarea que requiere análisis (ej: análisis de indicadores, evaluación de programa) | RISE | Escriba aquí con Rol + Input + Steps + Expectation |
 | 3 | Tarea de comunicación sensible (ej: respuesta a padres, comunicado a rectoría) | CO-STAR | Escriba aquí con Context + Objective + Style + Tone + Audience + Response |
 
@@ -123,7 +123,7 @@ Ejecute cada instrucción en Amazon Quick y compare los resultados con lo que ha
 
 | # | Tarea frecuente | Framework | Instrucción completa |
 |---|---|---|---|
-| 1 | Su tarea más repetitiva (ej: reporte de gastos, solicitud de compra) | RTF | Escriba aquí su instrucción con Rol + Tarea + Formato |
+| 1 | Su tarea más repetitiva (ej: reporte de gastos, solicitud de compra) | RCTF | Escriba aquí su instrucción con Rol + Contexto + Tarea + Formato |
 | 2 | Tarea que requiere análisis (ej: variaciones presupuestales, avance de proyecto) | RISE | Escriba aquí con Rol + Input + Steps + Expectation |
 | 3 | Tarea de comunicación sensible (ej: respuesta a proveedores, comunicado a Vicerrectoría) | CO-STAR | Escriba aquí con Context + Objective + Style + Tone + Audience + Response |
 
@@ -149,11 +149,11 @@ Tome una de sus instrucciones anteriores, aplique al menos dos refinamientos, y 
 
 | ✅ Haga esto | ❌ Evite esto |
 |---|---|
-| Empiece con RTF para todo; migre a RISE o CO-STAR cuando necesite más control | Intentar memorizar los tres marcos a la vez — empiece con RTF |
+| Empiece con RCTF para todo; migre a RISE o CO-STAR cuando necesite más control | Intentar memorizar los tres marcos a la vez — empiece con RCTF |
 | Guarde sus mejores instrucciones en un documento reutilizable | Crear cada instrucción desde cero cada vez |
 | Itere dos o tres veces antes de dar por bueno el resultado | Aceptar el primer resultado sin revisión |
 | Indique siempre la audiencia y el formato de salida | Dejar que la IA decida el tono y la extensión |
-| Use CO-STAR cuando el tono y la audiencia sean críticos | Usar RTF para correos sensibles que requieren control fino de tono |
+| Use CO-STAR cuando el tono y la audiencia sean críticos | Usar RCTF para correos sensibles que requieren control fino de tono |
 
 > **Importante:** Los *frameworks* no compensan la incompetencia — **potencian** la experiencia. Sus 20 años de gestión son exactamente lo que hace que estas instrucciones funcionen. Sin su criterio, la IA produce texto genérico; con su criterio, produce documentos profesionales.
 
@@ -167,7 +167,7 @@ Si la IA le escribió un comunicado para rectoría con análisis de datos, ¿dó
 
 ## 7. Tarea de la semana y transición al Nivel 3
 
-**Tarea:** Esta semana, use el *framework* RTF para al menos tres tareas reales de su trabajo. Guarde las instrucciones y los resultados en su banco de *prompts*.
+**Tarea:** Esta semana, use el *framework* RCTF para al menos tres tareas reales de su trabajo. Guarde las instrucciones y los resultados en su banco de *prompts*.
 
 **Transición narrativa:**
 

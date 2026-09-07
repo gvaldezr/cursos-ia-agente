@@ -1,4 +1,4 @@
-# Nivel 5. Automatización de reportes
+# Nivel 5. Automatización de Procesos Directivos
 ## «Del copy-paste mensual al flujo que se genera solo»
 
 > **Fase:** III — ACELERAR  
@@ -17,6 +17,8 @@ Cada mes o cada semestre, usted produce el mismo reporte: recopila datos, los or
 El principio es sencillo: todo reporte recurrente puede descomponerse en seis fases — recopilar datos, subirlos a la herramienta, solicitar el análisis, dar formato al resultado, revisar con criterio humano y distribuir. De esas seis fases, la IA puede encargarse de tres (análisis, formato y borrador) mientras usted conserva las que requieren juicio: la selección de datos, la verificación y la decisión de enviar.
 
 La pieza nueva de este nivel es el *agente de IA* (un asistente con instrucciones permanentes y archivos de referencia). A diferencia de una conversación nueva, el agente ya «conoce» su área, su formato preferido y sus indicadores clave. Solo necesita los datos actualizados.
+
+> **📌 Nota sobre agentes en este curso:** En este nivel utilizará un agente pre-configurado como parte de su flujo de reportes. Piense en él como un asistente que alguien más ya entrenó para usted. En el Nivel 8 aprenderá a crear y configurar sus propios agentes especializados desde cero — esa es la diferencia entre usar una herramienta y diseñar su ecosistema.
 
 **Importante:** Un reporte automatizado sin revisión humana es más peligroso que uno manual. La IA puede fabricar datos con formato impecable. Su experiencia es el único filtro confiable.
 

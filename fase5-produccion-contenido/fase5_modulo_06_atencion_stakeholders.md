@@ -1,4 +1,4 @@
-# Nivel 6. Atención a alumnos y stakeholders con IA
+# Atención a Stakeholders con IA
 ## «Respuestas consistentes, empáticas y en minutos — no en días»
 
 > **Fase:** III — ACELERAR  

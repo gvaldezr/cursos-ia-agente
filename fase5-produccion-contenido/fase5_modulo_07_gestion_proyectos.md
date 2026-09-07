@@ -1,4 +1,4 @@
-# Nivel 7. Gestión de proyectos con IA
+# Gestión de Proyectos con IA
 ## «De la junta de planeación al tablero de seguimiento en 15 minutos»
 
 > **Fase:** IV — INTEGRAR  

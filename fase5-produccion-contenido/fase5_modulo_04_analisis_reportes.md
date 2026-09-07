@@ -12,7 +12,7 @@
 
 Los directivos reciben entre cinco y diez reportes por semana. Seamos directos: la mayoría lee el 20% de cada uno. El otro 80% se archiva «para después» — pero después nunca llega. Las decisiones terminan basándose en los datos que se alcanzan a leer, no en los que se deberían leer.
 
-La IA resuelve ese problema de una forma precisa: usted sube su documento a Amazon Quick y le pide que lo analice. Esto se llama *RAG* (IA con sus documentos): la IA busca en SUS archivos antes de responder, en vez de responder de memoria. Es como darle una carpeta a su asistente y decirle: «léete esto y dime qué es lo más importante».
+La IA resuelve ese problema de una forma precisa: usted sube su documento a Amazon Quick y le pide que lo analice. Este proceso se conoce como *RAG* (generación con recuperación de información): la IA consulta primero SUS documentos y basa su respuesta en lo que encuentra ahí, en vez de responder solo de memoria. Es como darle una carpeta a su asistente y decirle: «léete esto y dime qué es lo más importante.» Pero atención: aunque los datos provengan de su documento, la IA puede inventar la interpretación. Por eso, la verificación humana sigue siendo obligatoria.
 
 La diferencia crítica frente a los niveles anteriores: aquí la IA no solo redacta — **analiza**. Puede identificar tendencias, señalar anomalías, comparar periodos y generar resúmenes ejecutivos. Pero esa potencia trae un riesgo proporcional: si la IA inventa un dato y usted no lo verifica, ese dato llega a rectoría con su firma. Por eso, este nivel introduce el protocolo PAUS de verificación obligatoria.
 

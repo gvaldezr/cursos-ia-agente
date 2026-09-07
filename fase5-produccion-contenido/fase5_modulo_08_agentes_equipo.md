@@ -1,4 +1,4 @@
-# Nivel 8. Flujos con agentes y trabajo en equipo local
+# Agentes y Equipo Local de IA
 ## «Su equipo de IA personalizado, listo para trabajar con usted»
 
 > **Fase:** IV — INTEGRAR  
