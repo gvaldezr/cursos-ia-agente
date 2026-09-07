@@ -430,11 +430,17 @@ a:hover { color: var(--ana-primary-hover); }
   flex-direction: column;
   gap: var(--ana-space-6);
   padding-top: var(--ana-space-6);
+  max-width: var(--ana-max-width-layout);
+  margin: 0 auto;
+  padding-left: var(--ana-space-4);
+  padding-right: var(--ana-space-4);
 }
 @media (min-width: 1024px) {
   .ana-level-layout {
     flex-direction: row;
     gap: var(--ana-space-8);
+    padding-left: var(--ana-space-12);
+    padding-right: var(--ana-space-12);
   }
 }
 
@@ -442,7 +448,8 @@ a:hover { color: var(--ana-primary-hover); }
 .ana-content {
   flex: 1;
   min-width: 0;
-  max-width: var(--ana-max-width-content);
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* ══════════════════════════════════════════
@@ -701,6 +708,11 @@ a:hover { color: var(--ana-primary-hover); }
   font-size: var(--ana-text-sm);
   color: var(--ana-gray);
   margin-bottom: var(--ana-space-4);
+  max-width: var(--ana-max-width-layout);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--ana-space-4);
+  padding-right: var(--ana-space-4);
   flex-wrap: wrap;
 }
 .ana-breadcrumbs a { color: var(--ana-gray); }
@@ -998,6 +1010,19 @@ a:hover { color: var(--ana-primary-hover); }
 .ana-callout--success { background: var(--ana-success-light); border-color: var(--ana-success); }
 .ana-callout--success .ana-callout__label { color: var(--ana-success); }
 
+/* Aliases for HTML content files (use single-dash naming) */
+.ana-callout-theory {
+  background: var(--ana-bg-theory); border-left: 4px solid var(--ana-tertiary);
+  border-radius: var(--ana-radius-md); padding: var(--ana-space-4) var(--ana-space-6);
+  margin-bottom: var(--ana-space-6);
+}
+.ana-callout-practice {
+  background: var(--ana-bg-exercise); border-left: 4px solid var(--ana-primary);
+  border-radius: var(--ana-radius-md); padding: var(--ana-space-4) var(--ana-space-6);
+  margin-bottom: var(--ana-space-6);
+}
+.ana-callout-theory p, .ana-callout-practice p { margin-bottom: var(--ana-space-2); }
+.ana-callout-theory p:last-child, .ana-callout-practice p:last-child { margin-bottom: 0; }
 /* ══════════════════════════════════════════
    PROMPT BLOCK
    ══════════════════════════════════════════ */
@@ -1056,10 +1081,28 @@ a:hover { color: var(--ana-primary-hover); }
 .ana-prompt-block__copy.copied { border-color: var(--ana-success); color: var(--ana-success); }
 .ana-prompt-block__copy svg { width: 14px; height: 14px; }
 
+/* Copy button (used in dynamically loaded content) */
+.ana-prompt-block .copy-btn {
+  position: absolute;
+  top: var(--ana-space-2);
+  right: var(--ana-space-2);
+  background: var(--ana-white);
+  border: 1px solid var(--ana-border-prompt);
+  border-radius: var(--ana-radius-sm);
+  padding: var(--ana-space-1) var(--ana-space-2);
+  font-size: var(--ana-text-xs);
+  color: var(--ana-gray);
+  cursor: pointer;
+  transition: color var(--ana-transition-fast), border-color var(--ana-transition-fast);
+  z-index: 2;
+}
+.ana-prompt-block .copy-btn:hover { border-color: var(--ana-primary); color: var(--ana-primary); }
+.ana-prompt-block .copy-btn.copied { border-color: var(--ana-success); color: var(--ana-success); }
 /* ══════════════════════════════════════════
    TABLES
    ══════════════════════════════════════════ */
 .ana-table-wrap { overflow-x: auto; margin-bottom: var(--ana-space-6); border-radius: var(--ana-radius-md); }
+.ana-table-wrapper { overflow-x: auto; margin-bottom: var(--ana-space-6); border-radius: var(--ana-radius-md); }
 .ana-table {
   width: 100%;
   border-collapse: collapse;
@@ -1302,6 +1345,22 @@ input:focus-visible, textarea:focus-visible, select:focus-visible {
    ══════════════════════════════════════════ */
 .ana-section {
   margin-bottom: var(--ana-space-12);
+}
+.ana-section .ana-body {
+  margin-bottom: var(--ana-space-4);
+}
+.ana-section .ana-body:last-child {
+  margin-bottom: 0;
+}
+.ana-section .ana-h2 {
+  margin-bottom: var(--ana-space-6);
+}
+.ana-section .ana-h3 {
+  margin-top: var(--ana-space-8);
+  margin-bottom: var(--ana-space-3);
+}
+.ana-level-content {
+  padding-bottom: var(--ana-space-12);
 }
 .ana-section__header {
   margin-bottom: var(--ana-space-6);
