@@ -1417,7 +1417,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
    PRESENTATION PREVIEW (compact embed)
    ══════════════════════════════════════════ */
 .ana-pres-preview {
-  background: #0a0a1a;
+  background: linear-gradient(135deg, #FF5900 0%, #432F64 100%);
   border-radius: var(--ana-radius-lg);
   overflow: hidden;
   margin-bottom: var(--ana-space-8);
@@ -1429,8 +1429,10 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
   align-items: center;
   justify-content: space-between;
   padding: var(--ana-space-3) var(--ana-space-4);
-  background: rgba(10, 10, 26, 0.95);
+  background: rgba(10, 10, 26, 0.85);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  z-index: 1;
 }
 
 .ana-pres-preview__label {
@@ -1466,8 +1468,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 
 .ana-pres-preview__stage {
   position: relative;
-  aspect-ratio: 16 / 9;
-  max-height: 320px;
+  height: 240px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -1499,7 +1500,7 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 }
 
 @media (max-width: 639px) {
-  .ana-pres-preview__stage { max-height: 200px; }
+  .ana-pres-preview__stage { height: 180px; }
 }
 
 /* ══════════════════════════════════════════

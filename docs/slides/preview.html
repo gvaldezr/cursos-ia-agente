@@ -7,121 +7,113 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap');
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
   html, body, #deck {
-    background: #0a0a1a;
+    width: 100%; height: 100%;
     overflow: hidden;
-    height: 100%;
-    width: 100%;
+    background: #0a0a1a;
     font-family: 'Roboto', system-ui, sans-serif;
     color: #e8e8f0;
   }
 
-  /* ── Slide: fill entire viewport ── */
-  .slide {
+  /* ── Every slide: absolute fill, centered content ── */
+  .slide,
+  .slide[class] {
+    position: absolute !important;
+    inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    text-align: center;
-    position: absolute;
-    inset: 0;
     max-width: none !important;
+    margin: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    margin: 0 !important;
+    display: none;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    padding: 1.2rem 1.5rem;
     background: #0a0a1a;
   }
-  .slide:first-child { display: flex; }
+  .slide:first-child { display: flex !important; }
 
   /* ── Cover: gradient fills everything ── */
-  .slide--cover {
+  .slide--cover,
+  .slide--cover[class] {
     background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
     padding: 0 !important;
   }
 
-  /* The .slide__gradient wrapper must also fill 100% */
-  .slide--cover .slide__gradient {
+  .slide--cover .slide__gradient,
+  .slide--cover > div:first-child {
+    position: absolute !important;
+    inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 1.2rem 1.5rem !important;
+    border-radius: 0 !important;
     display: flex !important;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem 2rem;
+    justify-content: center !important;
+    align-items: center !important;
     background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
-    border-radius: 0 !important;
-    margin: 0 !important;
-    max-width: none !important;
-    box-sizing: border-box;
   }
 
-  /* ── Typography ── */
+  /* ── Cover typography ── */
   .slide--cover h1,
   .slide--cover .ana-display,
   .slide--cover .slide__title {
     font-family: 'Manrope', sans-serif;
-    font-size: clamp(1.1rem, 4vw, 1.6rem);
+    font-size: clamp(1rem, 4vw, 1.5rem);
     font-weight: 800;
     color: #fff !important;
     -webkit-text-fill-color: #fff !important;
     background: none !important;
-    margin-bottom: 0.5rem;
     line-height: 1.2;
+    margin-bottom: 0.4rem;
   }
 
   .slide--cover p {
     color: rgba(255,255,255,0.8);
-    font-size: clamp(0.65rem, 2vw, 0.85rem);
-    line-height: 1.5;
-    max-width: 90%;
+    font-size: clamp(0.6rem, 1.8vw, 0.8rem);
+    line-height: 1.4;
+    max-width: 85%;
   }
 
   .slide--cover .ana-overline,
-  .slide__overline {
-    font-size: 0.55rem;
+  .slide--cover .slide__overline {
+    font-size: 0.5rem;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: rgba(255,255,255,0.6);
-    margin-bottom: 0.3rem;
-  }
-
-  .slide--cover .slide__meta,
-  .slide--cover div:last-child {
-    font-size: 0.55rem;
-    color: rgba(255,255,255,0.5);
-    margin-top: 0.4rem;
-    display: flex;
-    gap: 0.8rem;
-    flex-wrap: wrap;
-    justify-content: center;
+    color: rgba(255,255,255,0.55);
+    margin-bottom: 0.25rem;
   }
 
   .slide--cover div:last-child span {
-    font-size: 0.55rem;
+    font-size: 0.5rem;
+    color: rgba(255,255,255,0.45);
   }
 
-  /* ── Non-cover slides ── */
+  /* ── Non-cover typography ── */
   .slide:not(.slide--cover) h2,
-  .slide:not(.slide--cover) .ana-h2 {
+  .slide:not(.slide--cover) .ana-h2,
+  .slide:not(.slide--cover) .slide__title {
     font-family: 'Manrope', sans-serif;
-    font-size: clamp(0.9rem, 3vw, 1.3rem);
+    font-size: clamp(0.85rem, 3vw, 1.2rem);
     font-weight: 800;
     background: linear-gradient(135deg, #FF5900, #432F64);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
   }
 
-  /* Hide detail elements in compact preview */
-  .slide__callout, .reflection, .slide__note { display: none; }
-  .slide__prompt { display: none; }
-  .slide__two-col { display: none; }
-  .slide__body { font-size: 0.7rem; color: #c8c8d8; }
-  table { font-size: 0.6rem; color: #c8c8d8; }
+  /* ── Hide details in compact preview ── */
+  .slide__callout, .reflection, .slide__note,
+  .slide__prompt, .slide__two-col, .grid-2, .grid-3,
+  table, .slide__table, .content-box { display: none !important; }
+  .slide__body { font-size: 0.65rem; color: #c8c8d8; }
 </style>
 </head>
 <body>
@@ -141,7 +133,7 @@
       }
     })
     .catch(function() {
-      document.getElementById('deck').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#666">Vista previa no disponible</div>';
+      document.getElementById('deck').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#666">No disponible</div>';
     });
 })();
 </script>
