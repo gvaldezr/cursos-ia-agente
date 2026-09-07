@@ -1,0 +1,317 @@
+<article class="ana-level-content scroll-reveal" data-level="5">
+
+  <header class="ana-level-header">
+    <span class="ana-label">NIVEL 5</span>
+    <h1 class="ana-display">Automatización de reportes</h1>
+    <p class="ana-body-sm" style="font-style:italic; color:var(--ana-gray);">«Del copy-paste mensual al flujo que se genera solo»</p>
+    <div class="ana-level-meta">
+      <span>⏱ Duración: 40 minutos</span>
+      <span>🛠 Herramienta: Amazon Quick</span>
+    </div>
+  </header>
+
+  <!-- ─── SECCIÓN 1: CONCEPTO CLAVE ─────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">1. Concepto clave</h2>
+
+    <p class="ana-body">Cada mes o cada semestre, usted produce el mismo reporte: recopila datos, los organiza, calcula indicadores, redacta el análisis y lo envía. El proceso le toma entre cuatro y ocho horas. La automatización con IA no elimina su participación; la reorganiza.</p>
+
+    <p class="ana-body">El principio es sencillo: todo reporte recurrente puede descomponerse en seis fases — recopilar datos, subirlos a la herramienta, solicitar el análisis, dar formato al resultado, revisar con criterio humano y distribuir. De esas seis fases, la IA puede encargarse de tres (análisis, formato y borrador) mientras usted conserva las que requieren juicio: la selección de datos, la verificación y la decisión de enviar.</p>
+
+    <p class="ana-body">La pieza nueva de este nivel es el <em>agente de IA</em> (un asistente con instrucciones permanentes y archivos de referencia). A diferencia de una conversación nueva, el agente ya «conoce» su área, su formato preferido y sus indicadores clave. Solo necesita los datos actualizados.</p>
+
+    <div class="ana-callout-practice">
+      <p><strong>Importante:</strong> Un reporte automatizado sin revisión humana es más peligroso que uno manual. La IA puede fabricar datos con formato impecable. Su experiencia es el único filtro confiable.</p>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 2: DEMOSTRACIÓN ────────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">2. Demostración paso a paso</h2>
+
+    <p class="ana-body"><strong>Contexto:</strong> Generar el reporte semestral de indicadores de un programa académico (versión 🎓) o el dashboard operativo mensual (versión 🏢).</p>
+
+    <!-- Paso 1 -->
+    <h3 class="ana-h3">Paso 1 — Mapear la anatomía del reporte</h3>
+
+    <p class="ana-body">Complete esta plantilla con su reporte real:</p>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>Elemento</th>
+            <th>Mi reporte</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nombre del reporte</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Frecuencia</td>
+            <td>Mensual / Trimestral / Semestral</td>
+          </tr>
+          <tr>
+            <td>Fuentes de datos</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Transformaciones necesarias</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Audiencia principal</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Formato de entrega</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tiempo actual de producción</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Paso 2 -->
+    <h3 class="ana-h3">Paso 2 — Escribir la instrucción de análisis (RISE)</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>ROL: Actúe como analista de gestión universitaria especializado
+en indicadores de calidad para universidades privadas mexicanas.
+
+ENTRADA: [Archivos subidos: tabla de matrícula, encuestas de
+satisfacción, tasas de retención del semestre]
+
+PASOS:
+1. Consolide los datos en una tabla única por indicador
+2. Compare cada indicador con el ciclo anterior
+3. Identifique los 3 indicadores con mayor deterioro
+4. Proponga 1 acción de intervención por cada indicador crítico
+
+RESULTADO ESPERADO: Tabla semáforo (🟢🟡🔴) con análisis de
+1 párrafo por indicador. Máximo 2 cuartillas.</code></pre>
+    </div>
+
+    <!-- Paso 3 -->
+    <h3 class="ana-h3">Paso 3 — Escribir la instrucción de formato</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Con base en el análisis anterior, genere un resumen ejecutivo
+para la Dirección de Escuela:
+- Párrafo de apertura (80 palabras)
+- Tabla de indicadores con semáforo
+- 3 recomendaciones prioritarias
+- Solicitudes al Consejo Académico
+Firmado por: [NOMBRE], [CARGO]</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Un resumen ejecutivo de una a dos cuartillas, presentable en reunión de consejo, con datos verificables y formato institucional.</p>
+
+    <!-- Paso 4 -->
+    <h3 class="ana-h3">Paso 4 — Crear un agente básico en Amazon Quick</h3>
+
+    <ol class="ana-body">
+      <li>Crear nuevo agente → nombre: «Analista de [MI PROGRAMA]»</li>
+      <li>Instrucciones del agente:</li>
+    </ol>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Eres el analista de indicadores del programa de [LICENCIATURA]
+de la Universidad Anáhuac Mayab.
+
+Tu contexto permanente:
+- Programa: [NOMBRE]
+- Organismos de acreditación: [COPAES/CACEI/etc.]
+- Indicadores clave: matrícula, retención, titulación,
+  satisfacción, profesores con posgrado
+- Formato de reportes: ejecutivo, máximo 2 cuartillas,
+  con semáforo
+- Audiencia: Dirección de Escuela y Rectoría
+- Tono: formal, basado en datos, orientado a acciones
+
+Siempre que analices datos, aplica el formato semáforo
+y sugiere acciones correctivas para indicadores en riesgo.</code></pre>
+    </div>
+
+    <ol class="ana-body" start="3">
+      <li>Agregar archivos de referencia (criterios de acreditación, reportes previos)</li>
+      <li>Probar con una solicitud: «Analiza estos nuevos datos de matrícula»</li>
+    </ol>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 3: EJERCICIO PRÁCTICO ──────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">3. Ejercicio práctico</h2>
+
+    <section class="ana-version-block" data-version="academica">
+      <h3 class="ana-h3">🎓 Versión académica</h3>
+
+      <p class="ana-body">Diseñe el flujo completo de su reporte de indicadores de programa (matrícula, deserción, titulación, satisfacción). Complete los seis pasos:</p>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>Paso</th>
+              <th>Descripción</th>
+              <th>¿Humano o IA?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1. Recopilar datos</td>
+              <td>Exportar de Banner/Excel</td>
+              <td>🧑 Humano</td>
+            </tr>
+            <tr>
+              <td>2. Subir a Amazon Quick</td>
+              <td>Conectar archivos al espacio de trabajo</td>
+              <td>🧑 Humano (1 min)</td>
+            </tr>
+            <tr>
+              <td>3. Instrucción de análisis</td>
+              <td>Análisis prediseñado con RISE</td>
+              <td>🤖 IA</td>
+            </tr>
+            <tr>
+              <td>4. Instrucción de formato</td>
+              <td>Resumen ejecutivo para audiencia</td>
+              <td>🤖 IA</td>
+            </tr>
+            <tr>
+              <td>5. Revisión PAUS</td>
+              <td>Verificar datos, tono, completitud</td>
+              <td>🧑 Humano</td>
+            </tr>
+            <tr>
+              <td>6. Distribuir</td>
+              <td>Enviar por correo o presentar</td>
+              <td>🧑 Humano</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="ana-body"><strong>Entregable:</strong> Documente el flujo con las instrucciones exactas de los pasos 3 y 4, nombre del agente creado y checklist de revisión.</p>
+    </section>
+
+    <section class="ana-version-block" data-version="administrativa">
+      <h3 class="ana-h3">🏢 Versión administrativa</h3>
+
+      <p class="ana-body">Diseñe el flujo completo de su dashboard operativo mensual (presupuesto vs. real, avance de proyectos, incidencias). Use la misma tabla de seis pasos, reemplazando los datos académicos por indicadores de gestión: gastos por centro de costos, avance de proyectos y métricas de servicio.</p>
+    </section>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 4: TIPS Y ANTI-PATRONES ────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">4. Tips y anti-patrones</h2>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>✅ Haga esto</th>
+            <th>❌ Evite esto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Descomponga su reporte en las 6 fases antes de automatizar</td>
+            <td>Intentar automatizar todo de un golpe sin mapear el proceso</td>
+          </tr>
+          <tr>
+            <td>Cree un agente con instrucciones permanentes para tareas recurrentes</td>
+            <td>Escribir la misma instrucción larga cada vez que genera el reporte</td>
+          </tr>
+          <tr>
+            <td>Verifique CADA dato numérico contra la fuente original</td>
+            <td>Confiar en que «si el formato se ve bien, los datos son correctos»</td>
+          </tr>
+          <tr>
+            <td>Incluya en su checklist: ¿este dato está en mis archivos originales?</td>
+            <td>Enviar el reporte a rectoría sin revisar al menos las cifras clave</td>
+          </tr>
+          <tr>
+            <td>Documente su flujo para que sea reproducible el próximo ciclo</td>
+            <td>Depender de su memoria para recordar qué instrucciones usó</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 5: MOMENTO ÉTICO ────────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <h3 class="ana-h3">Momento ético</h3>
+      <p>Un reporte generado con IA lleva su firma. Si contiene un dato fabricado que usted no verificó, la responsabilidad es suya, no de la herramienta. Reflexione: ¿su checklist de revisión es lo suficientemente riguroso para que usted firme con confianza cada resultado?</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 6: TAREA ──────────────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">6. Instrucción de tarea</h2>
+
+    <div class="ana-callout-practice">
+      <h3 class="ana-h3">Tarea de la semana</h3>
+      <p>Antes del siguiente nivel, ejecute su flujo completo con datos reales. Documente los ajustes que necesitó hacer. Guarde el flujo terminado: es su primer entregable evaluable.</p>
+    </div>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Ejecute el flujo de 6 pasos que diseñó en este nivel con datos
+reales de su reporte más reciente. Después, responda:
+1. ¿Cuánto tiempo le tomó con IA vs. sin IA?
+2. ¿La IA fabricó algún dato? Si sí, ¿cuál y cómo lo detectó?
+3. ¿Qué ajustaría en su flujo para el próximo ciclo?</code></pre>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 7: TRANSICIÓN NARRATIVA ─────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">7. Transición narrativa</h2>
+
+    <div class="ana-callout-theory">
+      <p>«Ahora tiene un flujo automatizado Y sabe verificar sus resultados. Domina la generación y el análisis. Pero hay una dimensión que aún no ha tocado: la IA interactuando con PERSONAS. Alumnos, padres, proveedores. En el siguiente nivel descubrirá cómo responder 40 consultas en 20 minutos — y, más importante aún, dónde trazar la línea entre eficiencia y humanidad.»</p>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────────────────────────── -->
+  <footer class="ana-level-footer">
+    <p class="ana-caption">Nivel 5 — Automatización de reportes · Curso «IA Práctica para Líderes Anáhuac Mayab» · Septiembre 2026</p>
+  </footer>
+
+</article>

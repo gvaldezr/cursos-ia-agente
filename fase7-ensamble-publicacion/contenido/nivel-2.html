@@ -1,0 +1,320 @@
+<article class="ana-level-content scroll-reveal" data-level="2">
+
+  <header class="ana-level-header">
+    <span class="ana-label">NIVEL 2</span>
+    <h1 class="ana-display">Diseño de instrucciones efectivas</h1>
+    <p class="ana-body-sm" style="font-style:italic; color:var(--ana-gray);">La diferencia entre un usuario básico y un experto no es la herramienta: es la instrucción.</p>
+    <div class="ana-level-meta">
+      <span>⏱ Duración: 45–50 minutos</span>
+      <span>🛠 Herramienta: Amazon Quick</span>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 1 — Concepto clave
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">1. Concepto clave</h2>
+
+    <p class="ana-body">Un <em>framework</em> (estructura o receta) de instrucciones es una plantilla probada que organiza lo que usted le pide a la IA. Sin estructura, la IA devuelve respuestas genéricas; con estructura, produce resultados específicos, útiles y consistentes.</p>
+
+    <p class="ana-body">En este nivel aprenderá tres marcos, de menor a mayor control:</p>
+
+    <p class="ana-body">
+      <strong>RTF</strong> (Rol + Tarea + Formato): la receta más rápida. Ideal para solicitudes directas donde no necesita controlar el proceso intermedio.<br>
+      <strong>RISE</strong> (Rol + <em>Input</em> + <em>Steps</em> + <em>Expectation</em>): cuando necesita que la IA siga un proceso paso a paso con datos específicos. Como darle a un analista junior un protocolo detallado.<br>
+      <strong>CO-STAR</strong> (<em>Context</em> + <em>Objective</em> + <em>Style</em> + <em>Tone</em> + <em>Audience</em> + <em>Response</em>): cuando la comunicación es lo que importa. Controla tono, audiencia y voz institucional con precisión.
+    </p>
+
+    <p class="ana-body">La recomendación es directa: empiece con RTF para todo. Cuando necesite más control sobre el proceso, migre a RISE. Cuando el tono y la audiencia sean críticos, use CO-STAR. Los tres marcos se complementan; no compiten.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 2 — Demostración paso a paso
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">2. Demostración paso a paso</h2>
+
+    <!-- RTF -->
+    <h3 class="ana-h3">Framework RTF — Análisis de retención estudiantil</h3>
+
+    <div class="ana-callout-theory">
+      <p><strong>Contexto:</strong> Dos coordinadores piden lo mismo a la IA: un análisis de retención. Uno obtiene un texto genérico; el otro obtiene un documento con datos reales, semáforo visual y acciones concretas. La diferencia es la instrucción.</p>
+    </div>
+
+    <p class="ana-body"><strong>Prompt RTF (el que funciona):</strong></p>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>ROL: Actúe como analista de gestión académica universitaria.
+
+TAREA: Necesito un análisis de retención estudiantil para presentar a rectoría
+con los siguientes datos de la Licenciatura en Derecho:
+- Matrícula inicio de ciclo Primavera 2026: 180 estudiantes
+- Estudiantes que permanecen al cierre: 162 estudiantes
+- Principales causas de baja: económicas, cambio de carrera, bajo rendimiento
+- Tasa de retención del ciclo anterior: 92%
+
+Genere:
+1. Cálculo de la tasa de retención actual y comparativa
+2. Identificación de 3 factores de riesgo
+3. 3 acciones concretas de intervención temprana
+4. Párrafo ejecutivo de máximo 80 palabras para informe a rectoría
+
+FORMATO: Use encabezados claros y viñetas. Documento presentable en reunión
+de consejo.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Documento de una cuartilla con tasa de retención calculada (90% vs. 92% anterior), tabla de factores de riesgo priorizados, tres acciones con responsable sugerido, y párrafo ejecutivo listo para copiar al informe.</p>
+
+    <hr class="ana-divider">
+
+    <!-- RISE -->
+    <h3 class="ana-h3">Framework RISE — Seguimiento de acreditación</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>ROLE: Actúe como asesor de aseguramiento de calidad educativa con experiencia
+en acreditaciones COPAES en México.
+
+INPUT: Estos son los indicadores actuales del programa de [LICENCIATURA]:
+- Tasa de titulación: Meta 60% — Actual 52%
+- Profesores con posgrado: Meta 80% — Actual 74%
+- Satisfacción estudiantil: Meta 8.5/10 — Actual 7.9/10
+
+STEPS:
+1. Evalúe el estatus de cada indicador (cumple / en riesgo / no cumple)
+2. Calcule la brecha entre meta y actual
+3. Proponga acción correctiva para cada indicador en riesgo
+4. Sugiera responsable y plazo
+
+EXPECTATION: Tabla ejecutiva con semáforo visual (🟢🟡🔴) + resumen en un párrafo
+para presentar a la Dirección de Escuela. Máximo 1 cuartilla.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Tabla con tres filas (una por indicador), semáforo visual, columna de acción correctiva con responsable y plazo, y párrafo de síntesis ejecutiva.</p>
+
+    <hr class="ana-divider">
+
+    <!-- CO-STAR -->
+    <h3 class="ana-h3">Framework CO-STAR — Respuesta a padre de familia</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>CONTEXT: Un padre de familia ha escrito preguntando por qué su hijo reprobó
+dos materias y si está en riesgo de baja académica. El estudiante es mayor
+de edad.
+
+OBJECTIVE: Responder con empatía, explicar los límites de la información que
+podemos compartir (protección de datos del estudiante mayor de edad), y
+ofrecer alternativas constructivas.
+
+STYLE: Redacción institucional de la Universidad Anáhuac Mayab. Claro,
+sin tecnicismos.
+
+TONE: Empático pero institucionalmente correcto. Que el padre se sienta
+escuchado pero entienda el marco normativo.
+
+AUDIENCE: Padre/madre de familia, 45–55 años, preocupado, posiblemente
+molesto. No familiarizado con normativa universitaria.
+
+RESPONSE: Correo de máximo 200 palabras con: (1) agradecimiento,
+(2) explicación de la normativa de privacidad, (3) alternativas (reunión
+con el estudiante, tutoría), (4) datos de contacto. Firmado por el
+coordinador del programa.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Correo equilibrado que reconoce la preocupación del padre, explica con claridad que el estudiante mayor de edad gestiona su información directamente, ofrece reunión y tutoría, y cierra con datos de contacto.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 3 — Ejercicio práctico
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">3. Ejercicio práctico</h2>
+
+    <!-- Versión académica -->
+    <section class="ana-version-block" data-version="academica">
+      <h3 class="ana-h3">🎓 Versión académica</h3>
+
+      <p class="ana-body">Cree tres instrucciones maestras para sus tareas más frecuentes. Use una para cada <em>framework</em>.</p>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Tarea frecuente</th>
+              <th>Framework</th>
+              <th>Instrucción completa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Su tarea más repetitiva (ej: comunicado a docentes, recordatorio de fechas)</td>
+              <td>RTF</td>
+              <td>Escriba aquí su instrucción con Rol + Tarea + Formato</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Tarea que requiere análisis (ej: análisis de indicadores, evaluación de programa)</td>
+              <td>RISE</td>
+              <td>Escriba aquí con Rol + Input + Steps + Expectation</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Tarea de comunicación sensible (ej: respuesta a padres, comunicado a rectoría)</td>
+              <td>CO-STAR</td>
+              <td>Escriba aquí con Context + Objective + Style + Tone + Audience + Response</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="ana-body">Ejecute cada instrucción en Amazon Quick y compare los resultados con lo que habría producido sin IA.</p>
+    </section>
+
+    <!-- Versión administrativa -->
+    <section class="ana-version-block" data-version="administrativa">
+      <h3 class="ana-h3">🏢 Versión administrativa</h3>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Tarea frecuente</th>
+              <th>Framework</th>
+              <th>Instrucción completa</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Su tarea más repetitiva (ej: reporte de gastos, solicitud de compra)</td>
+              <td>RTF</td>
+              <td>Escriba aquí su instrucción con Rol + Tarea + Formato</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Tarea que requiere análisis (ej: variaciones presupuestales, avance de proyecto)</td>
+              <td>RISE</td>
+              <td>Escriba aquí con Rol + Input + Steps + Expectation</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Tarea de comunicación sensible (ej: respuesta a proveedores, comunicado a Vicerrectoría)</td>
+              <td>CO-STAR</td>
+              <td>Escriba aquí con Context + Objective + Style + Tone + Audience + Response</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 4 — Output: Banco de prompts personal
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">4. Output — Banco de prompts personal</h2>
+
+    <p class="ana-body">Guarde sus tres instrucciones maestras en un documento accesible. Son la semilla de su banco de instrucciones personal. Al final del curso tendrá más de 20.</p>
+
+    <h3 class="ana-h3">Técnicas de iteración</h3>
+
+    <p class="ana-body">El <em>prompt</em> perfecto no existe en el primer intento. Lo que distingue al usuario experto es que <strong>refina</strong>. Tres técnicas para mejorar cualquier resultado:</p>
+
+    <p class="ana-body">
+      1. <strong>Refinar:</strong> «Ajusta el tono para que sea más directo y menos extenso.»<br>
+      2. <strong>Criticar:</strong> «Revisa tu propia respuesta: ¿omitiste algo importante? ¿El tono es apropiado?»<br>
+      3. <strong>Variar:</strong> «Dame dos versiones: una formal para rectoría y una más cercana para docentes.»
+    </p>
+
+    <p class="ana-body">Tome una de sus instrucciones anteriores, aplique al menos dos refinamientos, y compare la evolución del resultado.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 5 — Tips y anti-patrones
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">5. Tips y anti-patrones</h2>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>✅ Haga esto</th>
+            <th>❌ Evite esto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Empiece con RTF para todo; migre a RISE o CO-STAR cuando necesite más control</td>
+            <td>Intentar memorizar los tres marcos a la vez — empiece con RTF</td>
+          </tr>
+          <tr>
+            <td>Guarde sus mejores instrucciones en un documento reutilizable</td>
+            <td>Crear cada instrucción desde cero cada vez</td>
+          </tr>
+          <tr>
+            <td>Itere dos o tres veces antes de dar por bueno el resultado</td>
+            <td>Aceptar el primer resultado sin revisión</td>
+          </tr>
+          <tr>
+            <td>Indique siempre la audiencia y el formato de salida</td>
+            <td>Dejar que la IA decida el tono y la extensión</td>
+          </tr>
+          <tr>
+            <td>Use CO-STAR cuando el tono y la audiencia sean críticos</td>
+            <td>Usar RTF para correos sensibles que requieren control fino de tono</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ana-callout-practice">
+      <p><strong>Importante:</strong> Los <em>frameworks</em> no compensan la incompetencia — <strong>potencian</strong> la experiencia. Sus 20 años de gestión son exactamente lo que hace que estas instrucciones funcionen. Sin su criterio, la IA produce texto genérico; con su criterio, produce documentos profesionales.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 6 — Momento ético
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <h3 class="ana-h3">Momento ético</h3>
+      <p>Si la IA le escribió un comunicado para rectoría con análisis de datos, ¿dónde está la línea entre comunicación «asistida por IA» y comunicación «hecha por IA»? No existe una respuesta universal, pero cada directivo debería tener la suya antes de enviar. La transparencia sobre el uso de herramientas de IA es una decisión profesional, no técnica.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 7 — Tarea de la semana y transición
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">7. Tarea de la semana y transición al Nivel 3</h2>
+
+    <div class="ana-callout-practice">
+      <h3 class="ana-h3">Tarea de la semana</h3>
+      <p>Esta semana, use el <em>framework</em> RTF para al menos tres tareas reales de su trabajo. Guarde las instrucciones y los resultados en su banco de <em>prompts</em>.</p>
+    </div>
+
+    <h3 class="ana-h3">Transición narrativa</h3>
+
+    <p class="ana-body">Ahora tiene las recetas. Sabe <strong>CÓMO</strong> pedir para obtener resultados consistentes. En el Nivel 3 va a usar estos marcos para atacar el dolor más grande de cualquier directivo: las dos o tres horas diarias que pasa escribiendo correos y comunicados. Nunca más empezará un correo mirando la pantalla en blanco.</p>
+  </section>
+
+  <hr class="ana-divider">
+
+  <footer class="ana-level-footer">
+    <p class="ana-caption">Nivel 2 — Diseño de instrucciones efectivas · Curso «IA Práctica para Líderes Anáhuac Mayab» · Septiembre 2026</p>
+  </footer>
+
+</article>

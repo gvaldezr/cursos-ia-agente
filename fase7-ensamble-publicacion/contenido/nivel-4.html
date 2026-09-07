@@ -1,0 +1,355 @@
+<article class="ana-level-content scroll-reveal" data-level="4">
+
+  <header class="ana-level-header">
+    <span class="ana-label">NIVEL 4</span>
+    <h1 class="ana-display">Análisis de reportes con IA</h1>
+    <p class="ana-body-sm" style="font-style:italic; color:var(--ana-gray);">Un directivo no necesita leer más. Necesita entender mejor lo que ya tiene.</p>
+    <div class="ana-level-meta">
+      <span>⏱ Duración: 45–50 minutos</span>
+      <span>🛠 Herramienta: Amazon Quick</span>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       SECCIÓN 1 — Concepto clave
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">1. Concepto clave</h2>
+
+    <p class="ana-body">Los directivos reciben entre cinco y diez reportes por semana. Seamos directos: la mayoría lee el 20% de cada uno. El otro 80% se archiva «para después» — pero después nunca llega. Las decisiones terminan basándose en los datos que se alcanzan a leer, no en los que se deberían leer.</p>
+
+    <p class="ana-body">La IA resuelve ese problema de una forma precisa: usted sube su documento a Amazon Quick y le pide que lo analice. Esto se llama <em>RAG</em> (IA con sus documentos): la IA busca en SUS archivos antes de responder, en vez de responder de memoria. Es como darle una carpeta a su asistente y decirle: «léete esto y dime qué es lo más importante».</p>
+
+    <p class="ana-body">La diferencia crítica frente a los niveles anteriores: aquí la IA no solo redacta — <strong>analiza</strong>. Puede identificar tendencias, señalar anomalías, comparar periodos y generar resúmenes ejecutivos. Pero esa potencia trae un riesgo proporcional: si la IA inventa un dato y usted no lo verifica, ese dato llega a rectoría con su firma. Por eso, este nivel introduce el protocolo PAUS de verificación obligatoria.</p>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ============================================================
+       SECCIÓN 2 — Demostración paso a paso
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">2. Demostración paso a paso</h2>
+
+    <h3 class="ana-h3">Subir documento y generar resumen ejecutivo</h3>
+
+    <p class="ana-body"><strong>Paso 1 — Subir el documento a Amazon Quick:</strong><br>
+    Conecte un archivo local (PDF, Word o Excel) al workspace de Amazon Quick.</p>
+
+    <p class="ana-body"><strong>Paso 2 — Prompt de resumen en cinco puntos:</strong></p>
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Resume este documento en 5 puntos clave para un coordinador académico
+que debe presentarlo en reunión de consejo. Indica qué datos requieren
+acción inmediata.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Lista priorizada de cinco hallazgos, con señalamiento explícito de los que requieren atención urgente.</p>
+
+    <p class="ana-body"><strong>Paso 3 — Prompt de hallazgos preocupantes:</strong></p>
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Identifica los 3 datos más preocupantes de este reporte. Para cada uno,
+explica por qué es preocupante y qué acción sugiere.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Tres observaciones críticas con justificación y recomendación de acción. La IA señala específicamente qué páginas o secciones del documento fundamentan cada hallazgo.</p>
+
+    <p class="ana-body"><strong>Paso 4 — Prompt de resumen ejecutivo completo:</strong></p>
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Genera un resumen ejecutivo de 1 página para presentar a la Dirección
+de Escuela, basado en el documento que acabo de compartir.
+
+Formato solicitado:
+- Párrafo ejecutivo de apertura (80 palabras máximo)
+- 5 hallazgos clave en viñetas
+- 3 indicadores que requieren atención inmediata
+- 2 recomendaciones accionables
+- Nota: señale si algún dato del documento parece inconsistente o incompleto</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Documento de una página, estructurado, con tono formal, datos extraídos del archivo subido. Listo para presentar — después de verificación.</p>
+
+    <h3 class="ana-h3">Análisis de datos tabulares</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>De la siguiente tabla de matrícula por programa, identifique:
+1. ¿Qué programas perdieron más del 10% de alumnos respecto al ciclo anterior?
+2. ¿Qué programas crecieron por encima de la meta institucional?
+3. ¿Cuál es la tendencia general: crecimiento, estancamiento o contracción?
+
+[PEGAR TABLA O SUBIR ARCHIVO CSV/EXCEL]
+
+Presente los resultados en formato de tabla semáforo (🟢🟡🔴) con un
+párrafo ejecutivo de máximo 100 palabras.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Tabla con semáforo visual por programa, identificación de outliers positivos y negativos, y párrafo de síntesis que integra la tendencia general.</p>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ============================================================
+       SECCIÓN 3 — Ejercicio práctico
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">3. Ejercicio práctico</h2>
+
+    <section class="ana-version-block" data-version="academica">
+      <h3 class="ana-h3">🎓 Versión académica</h3>
+
+      <p class="ana-body">Suba un reporte real de su programa a Amazon Quick (indicadores CIEES/COPAES, estadísticas de matrícula, evaluaciones docentes o encuestas de satisfacción) y genere un resumen ejecutivo con la instrucción del paso 4.</p>
+
+      <p class="ana-body">Si no tiene un reporte a la mano, use los siguientes datos de práctica:</p>
+
+      <p class="ana-body"><strong>Datos de ejemplo — Indicadores del programa de Ingeniería Industrial:</strong></p>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>Indicador</th>
+              <th>Meta</th>
+              <th>Actual</th>
+              <th>Ciclo anterior</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Matrícula activa</td>
+              <td>250</td>
+              <td>228</td>
+              <td>245</td>
+            </tr>
+            <tr>
+              <td>Tasa de retención</td>
+              <td>90%</td>
+              <td>86%</td>
+              <td>91%</td>
+            </tr>
+            <tr>
+              <td>Tasa de titulación</td>
+              <td>60%</td>
+              <td>48%</td>
+              <td>55%</td>
+            </tr>
+            <tr>
+              <td>Profesores con posgrado</td>
+              <td>80%</td>
+              <td>76%</td>
+              <td>73%</td>
+            </tr>
+            <tr>
+              <td>Satisfacción estudiantil</td>
+              <td>8.5/10</td>
+              <td>7.6/10</td>
+              <td>8.1/10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="ana-body">Suba estos datos (o péguelos directamente) y solicite el análisis.</p>
+    </section>
+
+    <section class="ana-version-block" data-version="administrativa">
+      <h3 class="ana-h3">🏢 Versión administrativa</h3>
+
+      <p class="ana-body">Suba un reporte operativo real (estados financieros, KPIs operativos, avance de proyectos, resultados de auditoría) y genere el resumen ejecutivo.</p>
+
+      <p class="ana-body"><strong>Datos de ejemplo — KPIs operativos Q2 2026:</strong></p>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>Indicador</th>
+              <th>Meta</th>
+              <th>Actual</th>
+              <th>Q1 2026</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ejecución presupuestal</td>
+              <td>95%</td>
+              <td>87%</td>
+              <td>92%</td>
+            </tr>
+            <tr>
+              <td>Proyectos en tiempo</td>
+              <td>80%</td>
+              <td>65%</td>
+              <td>72%</td>
+            </tr>
+            <tr>
+              <td>Satisfacción de servicio</td>
+              <td>8.0/10</td>
+              <td>7.2/10</td>
+              <td>7.8/10</td>
+            </tr>
+            <tr>
+              <td>Rotación de personal</td>
+              <td>&lt;5%</td>
+              <td>8%</td>
+              <td>6%</td>
+            </tr>
+            <tr>
+              <td>Cumplimiento de auditoría</td>
+              <td>100%</td>
+              <td>94%</td>
+              <td>97%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ============================================================
+       SECCIÓN 4 — Output: Análisis ejecutivo verificado
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">4. Output — Análisis ejecutivo verificado</h2>
+
+    <h3 class="ana-h3">Verificación crítica: el protocolo PAUS</h3>
+
+    <p class="ana-body"><strong>Antes de confiar en cualquier resumen generado por IA, aplique esta verificación obligatoria:</strong></p>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>Paso</th>
+            <th>Pregunta</th>
+            <th>Aplique a su resumen</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>P</strong> — Procedencia</td>
+            <td>¿De dónde sacó esto la IA? ¿De mi documento o de «su memoria»?</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><strong>A</strong> — Actualidad</td>
+            <td>¿Estos datos son del ciclo correcto? ¿No mezcló periodos?</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><strong>U</strong> — Unicidad</td>
+            <td>¿Este análisis es específico para MI programa o es genérico?</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><strong>S</strong> — Sesgo</td>
+            <td>¿Hay algún sesgo? ¿Qué perspectiva falta?</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ana-callout-theory">
+      <p><strong>Ejemplo:</strong> Si la IA dice «la matrícula nacional creció 3%», pregunte: ¿de qué año es ese dato? ¿Está en mi documento? Si no, lo inventó.</p>
+    </div>
+
+    <h3 class="ana-h3">Su entregable completo</h3>
+    <p class="ana-body">
+      — Resumen ejecutivo de una página de un reporte de su área<br>
+      — Instrucción utilizada (para reutilizar el próximo ciclo)<br>
+      — Checklist PAUS completado (verificación de datos)<br>
+      — Tabla semáforo de indicadores (si aplica)
+    </p>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ============================================================
+       SECCIÓN 5 — Tips y anti-patrones
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">5. Tips y anti-patrones</h2>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>✅ Haga esto</th>
+            <th>❌ Evite esto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>✅ Suba el documento a Amazon Quick para que la IA use SUS datos</td>
+            <td>❌ Pedirle análisis «de memoria» sin subir archivos</td>
+          </tr>
+          <tr>
+            <td>✅ Verifique cada dato numérico contra el documento original</td>
+            <td>❌ Confiar en porcentajes y cifras sin verificar</td>
+          </tr>
+          <tr>
+            <td>✅ Aplique el protocolo PAUS en cada resumen antes de presentarlo</td>
+            <td>❌ Enviar un resumen a rectoría sin revisión humana</td>
+          </tr>
+          <tr>
+            <td>✅ Pida que la IA señale inconsistencias en los datos</td>
+            <td>❌ Asumir que la IA nunca se equivoca con datos</td>
+          </tr>
+          <tr>
+            <td>✅ Incluya en su instrucción la audiencia del resumen</td>
+            <td>❌ Generar un resumen genérico sin especificar quién lo leerá</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ana-callout-practice">
+      <p><strong>Importante:</strong> La IA es especialmente propensa a <em>fabricar</em> (inventar) datos estadísticos que suenan plausibles. Un porcentaje inventado con formato impecable es más peligroso que un dato obviamente erróneo. Verifique SIEMPRE las cifras contra el documento fuente.</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ============================================================
+       SECCIÓN 6 — Momento ético
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <h3 class="ana-h3">Momento ético</h3>
+      <p>¿Qué documentos nunca deben subirse a una herramienta de IA en la nube pública? Expedientes disciplinarios, datos de salud de alumnos, información financiera confidencial sujeta a auditoría. Amazon Quick procesa información de forma local en su espacio de trabajo, pero cada directivo debe conocer la diferencia entre procesamiento local y nube pública, y establecer sus propios criterios de confidencialidad.</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ============================================================
+       SECCIÓN 7 — Tarea de la semana y transición al Nivel 5
+  ============================================================ -->
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-practice">
+      <h3 class="ana-h3">Tarea de la semana</h3>
+      <p>Genere un resumen ejecutivo de un reporte pendiente esta semana. Guarde la instrucción, el resultado y el checklist PAUS completado. Ese trío — instrucción + resultado + verificación — es su nuevo flujo estándar de análisis.</p>
+    </div>
+
+    <h3 class="ana-h3">Transición al Nivel 5</h3>
+    <p class="ana-body">Acaba de convertir un reporte de 50 páginas en un resumen ejecutivo de una página. Pero lo hizo manualmente: subió el archivo, escribió la instrucción, revisó el resultado. ¿Y si pudiera AUTOMATIZAR ese proceso para que su reporte mensual se genere en 15 minutos en vez de seis horas? En el Nivel 5, va a diseñar un flujo completo — desde los datos hasta el documento final — y a crear su primer agente de IA que ya conozca su programa, sus indicadores y su formato. Nunca volverá a empezar de cero.</p>
+  </section>
+
+  <footer class="ana-level-footer">
+    <p class="ana-caption">Nivel 4 — Análisis de reportes con IA · Curso «IA Práctica para Líderes Anáhuac Mayab» · Septiembre 2026</p>
+  </footer>
+
+</article>

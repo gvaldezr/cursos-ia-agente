@@ -1,0 +1,337 @@
+<article class="ana-level-content scroll-reveal" data-level="1">
+
+  <header class="ana-level-header">
+    <span class="ana-label">NIVEL 1</span>
+    <h1 class="ana-display">Fundamentos de IA generativa</h1>
+    <p class="ana-body-sm" style="font-style:italic; color:var(--ana-gray);">Todo experto fue primero un principiante que se atrevió a escribir la primera instrucción.</p>
+    <div class="ana-level-meta">
+      <span>⏱ Duración: 40–45 minutos</span>
+      <span>🛠 Herramienta: Amazon Quick</span>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 1 — Concepto clave
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">1. Concepto clave</h2>
+
+    <p class="ana-body">La <em>inteligencia artificial generativa</em> (IA generativa) es una herramienta que produce texto, análisis y resúmenes a partir de patrones aprendidos de millones de documentos. No busca información en internet en tiempo real, no es experta en su área y no es infalible.</p>
+
+    <p class="ana-body">Piense en ella como un asistente de recién ingreso con memoria fotográfica: leyó más documentos de los que usted leerá en su vida, pero no conoce su universidad, no sabe quién es usted y —lo más importante— a veces inventa datos con total confianza. A este fenómeno se le conoce como <em>hallucination</em> (fabricación): la IA genera información que suena real pero es falsa.</p>
+
+    <p class="ana-body">Como todo asistente nuevo, necesita instrucciones claras y supervisión constante. La calidad de lo que usted recibe depende directamente de la calidad de lo que usted pide. Esa es la habilidad que este curso desarrolla.</p>
+
+    <p class="ana-body">Amazon Quick es su herramienta principal: un espacio de trabajo donde puede conversar con la IA, subir archivos y crear asistentes especializados para su gestión.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 2 — Demostración paso a paso
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">2. Demostración paso a paso</h2>
+
+    <h3 class="ana-h3">Prompt vago vs. prompt estructurado</h3>
+
+    <p class="ana-body">El facilitador muestra dos instrucciones en Amazon Quick para evidenciar la diferencia dramática entre pedir sin contexto y pedir con precisión.</p>
+
+    <p class="ana-body"><strong>Paso 1 — Prompt vago:</strong></p>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Hazme un comunicado para docentes.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Un texto genérico sin datos, con tono impreciso, imposible de enviar como está.</p>
+
+    <p class="ana-body"><strong>Paso 2 — Prompt estructurado:</strong></p>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Redacte un comunicado formal dirigido al cuerpo docente de la Licenciatura
+en Psicología de la Universidad Anáhuac Mayab.
+
+Asunto: Inicio del periodo de evaluaciones parciales del ciclo Otoño 2026.
+
+Incluya:
+- Fechas del periodo de evaluaciones: 15 al 22 de octubre de 2026
+- Recordatorio de subir calificaciones al sistema Banner antes del 25 de octubre
+- Disponibilidad de la coordinación para dudas sobre el proceso
+- Tono institucional, respetuoso y claro
+
+Firmante: Dra. Laura Méndez, Coordinadora de Psicología — Universidad Anáhuac Mayab</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Un comunicado de 150–250 palabras con estructura formal (saludo, cuerpo con tres o cuatro párrafos, cierre), tono institucional y datos precisos según lo indicado. Listo para enviar.</p>
+
+    <div class="ana-callout-theory">
+      <p><strong>Observación clave:</strong> La diferencia no es la herramienta — es la instrucción. Un <em>prompt</em> (instrucción estructurada para un modelo de IA) claro produce un resultado profesional; uno vago produce algo inservible.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 3 — Ejercicio práctico
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">3. Ejercicio práctico</h2>
+
+    <!-- Versión académica -->
+    <section class="ana-version-block" data-version="academica">
+      <h3 class="ana-h3">🎓 Versión académica</h3>
+
+      <p class="ana-body">Copie la siguiente instrucción, reemplace cada <code>[DATO]</code> con información real de su programa, y ejecútela en Amazon Quick. Si no tiene los datos a la mano, use los valores de ejemplo debajo.</p>
+
+      <div class="ana-prompt-block">
+        <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+          <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+        </button>
+        <pre class="ana-prompt"><code>Redacte un comunicado formal dirigido al cuerpo docente de la [NOMBRE DE LICENCIATURA]
+de la Universidad Anáhuac Mayab.
+
+Asunto: [TEMA — ej: Inicio de evaluaciones / Fecha límite de calificaciones /
+Reunión de academia]
+
+Incluya:
+- Información principal: [DETALLE]
+- Fechas relevantes: [FECHA 1], [FECHA 2]
+- Acciones requeridas del docente: [ACCIÓN 1], [ACCIÓN 2]
+- Contacto para dudas: [NOMBRE, EXT. O CORREO]
+- Tono institucional, respetuoso y claro
+- Extensión: máximo 200 palabras
+
+Firmante: [SU NOMBRE], [CARGO] — Universidad Anáhuac Mayab</code></pre>
+      </div>
+
+      <p class="ana-body"><strong>Datos de práctica (si no tiene los propios):</strong></p>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>Campo</th>
+              <th>Valor de ejemplo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Programa</td>
+              <td>Licenciatura en Derecho</td>
+            </tr>
+            <tr>
+              <td>Tema</td>
+              <td>Fecha límite para entrega de actas de calificaciones finales</td>
+            </tr>
+            <tr>
+              <td>Fechas</td>
+              <td>Entrega antes del 5 de diciembre de 2026</td>
+            </tr>
+            <tr>
+              <td>Sistema</td>
+              <td>Banner</td>
+            </tr>
+            <tr>
+              <td>Contacto</td>
+              <td>Lic. Roberto Pech, ext. 2145</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Versión administrativa -->
+    <section class="ana-version-block" data-version="administrativa">
+      <h3 class="ana-h3">🏢 Versión administrativa</h3>
+
+      <p class="ana-body">Copie la siguiente instrucción con datos de su área operativa:</p>
+
+      <div class="ana-prompt-block">
+        <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+          <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+        </button>
+        <pre class="ana-prompt"><code>Redacte un comunicado formal dirigido al equipo de [DEPARTAMENTO]
+de la Universidad Anáhuac Mayab.
+
+Asunto: [TEMA — ej: Cierre trimestral / Nuevo procedimiento de compras /
+Fecha límite de reportes]
+
+Incluya:
+- Información principal: [DETALLE]
+- Fechas relevantes: [FECHA 1], [FECHA 2]
+- Acciones requeridas: [ACCIÓN 1], [ACCIÓN 2]
+- Contacto para dudas: [NOMBRE, EXT. O CORREO]
+- Tono formal y ejecutivo
+- Extensión: máximo 200 palabras
+
+Firmante: [SU NOMBRE], [CARGO] — Universidad Anáhuac Mayab</code></pre>
+      </div>
+
+      <p class="ana-body"><strong>Datos de práctica (si no tiene los propios):</strong></p>
+
+      <div class="ana-table-wrapper">
+        <table class="ana-table">
+          <thead>
+            <tr>
+              <th>Campo</th>
+              <th>Valor de ejemplo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Departamento</td>
+              <td>Dirección de Administración y Finanzas</td>
+            </tr>
+            <tr>
+              <td>Tema</td>
+              <td>Fecha límite para conciliación de gastos del tercer trimestre</td>
+            </tr>
+            <tr>
+              <td>Fechas</td>
+              <td>Entrega antes del 10 de octubre de 2026</td>
+            </tr>
+            <tr>
+              <td>Sistema</td>
+              <td>SAP</td>
+            </tr>
+            <tr>
+              <td>Contacto</td>
+              <td>C.P. Ana Rivero, ext. 3210</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 4 — Output: Mini-diagnóstico personal
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">4. Output — Mini-diagnóstico personal</h2>
+
+    <p class="ana-body">Complete la siguiente tabla con cinco tareas de su semana típica que podrían beneficiarse de IA. Para cada una, clasifíquela por tipo.</p>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Tarea de mi semana</th>
+            <th>Tipo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td></td>
+            <td>(a) Comunicación / redacción &nbsp; (b) Análisis de datos &nbsp; (c) Organización / planeación</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ana-callout-practice">
+      <p><strong>Recomendación:</strong> Priorice las tareas donde invierte más tiempo en trabajo repetitivo. Esas son las que mayor ahorro le darán con IA.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 5 — Tips y anti-patrones
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">5. Tips y anti-patrones</h2>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>✅ Haga esto</th>
+            <th>❌ Evite esto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Especifique a quién va dirigido el texto</td>
+            <td>Pedir «un comunicado» sin decir para quién</td>
+          </tr>
+          <tr>
+            <td>Indique el tono deseado (formal, empático, ejecutivo)</td>
+            <td>Asumir que la IA adivinará el tono Anáhuac</td>
+          </tr>
+          <tr>
+            <td>Dé contexto: universidad privada, México, Mérida</td>
+            <td>Omitir el contexto institucional</td>
+          </tr>
+          <tr>
+            <td>Revise SIEMPRE antes de enviar</td>
+            <td>Copiar y pegar sin leer el resultado</td>
+          </tr>
+          <tr>
+            <td>Pida máximo de palabras</td>
+            <td>Dejar que la IA escriba sin límite</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ana-callout-practice">
+      <p><strong>Importante:</strong> El error más común del primer día: pedirle a la IA que «escriba un poema» o «explique la relatividad para un niño». Eso es un juguete. Usted no necesita juguetes — necesita que le ahorre las dos horas que pasa redactando comunicados. Empiece SIEMPRE con una tarea real de su trabajo.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 6 — Momento ético
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <h3 class="ana-h3">Momento ético</h3>
+      <p>La IA le acaba de generar un comunicado profesional. Pregunta para reflexionar: ¿lo presenta como redactado por usted, o menciona que usó una herramienta de IA? No hay respuesta correcta única, pero es importante que lo piense. La IA no piensa, no decide, no tiene opinión — la responsabilidad siempre es del directivo.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       SECCIÓN 7 — Tarea de la semana y transición
+  ════════════════════════════════════════════════ -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">7. Tarea de la semana y transición al Nivel 2</h2>
+
+    <div class="ana-callout-practice">
+      <h3 class="ana-h3">Tarea de la semana</h3>
+      <p>Antes del siguiente nivel, use Amazon Quick para generar UN comunicado o correo que tenga pendiente en su bandeja. Guarde la instrucción que usó y el resultado. Los necesitará en el Nivel 2.</p>
+    </div>
+
+    <h3 class="ana-h3">Transición narrativa</h3>
+
+    <p class="ana-body">Acaba de comprobar que la IA genera resultados útiles. Pero también notó que la calidad depende de <strong>CÓMO</strong> le pide las cosas. ¿Y si existiera una receta — un <em>framework</em> (estructura probada) — para que SIEMPRE obtenga resultados de alta calidad, sin importar la tarea? En el Nivel 2, va a aprender tres marcos de instrucciones que transforman cualquier tarea en un resultado consistente. La diferencia entre un usuario básico y uno experto no es la herramienta: es la instrucción.</p>
+  </section>
+
+  <hr class="ana-divider">
+
+  <footer class="ana-level-footer">
+    <p class="ana-caption">Nivel 1 — Fundamentos de IA generativa · Curso «IA Práctica para Líderes Anáhuac Mayab» · Septiembre 2026</p>
+  </footer>
+
+</article>

@@ -1,0 +1,382 @@
+<article class="ana-level-content scroll-reveal" data-level="8">
+
+  <header class="ana-level-header">
+    <span class="ana-label">NIVEL 8</span>
+    <h1 class="ana-display">Flujos con agentes y trabajo en equipo local</h1>
+    <p class="ana-body-sm" style="font-style:italic; color:var(--ana-gray);">«Su equipo de IA personalizado, listo para trabajar con usted»</p>
+    <div class="ana-level-meta">
+      <span>⏱ Duración: 60 minutos</span>
+      <span>🛠 Herramienta: Amazon Quick</span>
+    </div>
+  </header>
+
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <p><strong>Fase:</strong> IV — INTEGRAR</p>
+      <p><strong>Epígrafe:</strong> <em>«Un líder no es quien hace todo. Es quien sabe a quién pedirle qué — incluidos los agentes que diseñó.»</em></p>
+      <p><strong>Título narrativo:</strong> <em>Su equipo invisible</em></p>
+      <p><strong>Competencia:</strong> Configura agentes especializados en Amazon Quick, crea flujos de varios pasos y establece prácticas para integrar IA en el trabajo de su equipo. Completa sus dos entregables finales: flujo de reportes automatizado y banco de instrucciones personalizado.</p>
+      <p><strong>Nivel Bloom:</strong> Crear</p>
+      <p><strong>Producto integrador:</strong> ⭐ Ecosistema de IA personal: 3 agentes configurados + 1 flujo de varios pasos funcional + banco de instrucciones completo (20+). ENTREGABLE FINAL 2.</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">1. Concepto clave</h2>
+
+    <h3 class="ana-h3">¿Qué es un agente de IA?</h3>
+    <p class="ana-body">A lo largo del curso, usted ha conversado con la IA iniciando cada vez una conversación nueva. Cada vez tenía que explicar quién es usted, qué programa coordina, qué formato necesita y qué tono usar. Un <em>agente de IA</em> elimina esa repetición: es un asistente con instrucciones permanentes y archivos de referencia que siempre están listos. Solo le dice «analiza estos nuevos datos» y el agente ya sabe el resto.</p>
+
+    <h3 class="ana-h3">¿Por qué varios agentes y no uno solo?</h3>
+    <p class="ana-body">Piense en su equipo ideal: un analista que maneja datos, un comunicador que redacta y un especialista en su área normativa. Cada uno es experto en UNA función. Un agente que intente hacerlo todo produce resultados mediocres en todo. Tres agentes especializados producen resultados excelentes en su área.</p>
+
+    <h3 class="ana-h3">¿Qué es un flujo de varios pasos?</h3>
+    <p class="ana-body">Es una cadena donde el resultado de un agente alimenta al siguiente. Ejemplo: datos brutos → Agente Analista → resumen ejecutivo → Agente Comunicador → comunicado a docentes. En vez de hacer cada paso por separado, usted diseña la secuencia completa y la ejecuta de principio a fin.</p>
+
+    <div class="ana-callout-practice">
+      <p><strong>Importante:</strong> Orquestar agentes es dirigir, no programar. Requiere precisión y criterio — exactamente la habilidad que ha desarrollado desde el Nivel 1.</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">2. Demostración paso a paso</h2>
+
+    <p class="ana-body"><strong>Contexto:</strong> Crear un ecosistema de tres agentes y un flujo encadenado para su área.</p>
+
+    <h3 class="ana-h3">Paso 1 — Diseñar la arquitectura de agentes</h3>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>Agente</th>
+            <th>Función</th>
+            <th>Archivos de referencia</th>
+            <th>Tono</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🎓 Analista Académico</td>
+            <td>Indicadores, matrícula, retención, eficiencia terminal</td>
+            <td>Criterios de acreditación, datos históricos</td>
+            <td>Ejecutivo, basado en datos</td>
+          </tr>
+          <tr>
+            <td>🎓 Comunicador Institucional</td>
+            <td>Correos a docentes, estudiantes, padres, rectoría</td>
+            <td>Plantillas de comunicación, reglamentos</td>
+            <td>Institucional Anáhuac</td>
+          </tr>
+          <tr>
+            <td>🎓 Asistente de Acreditación</td>
+            <td>Revisión de evidencias, autoevaluación, preparación de visitas</td>
+            <td>Marco de referencia del organismo, expedientes</td>
+            <td>Técnico-institucional</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="ana-callout-theory">
+      <p><strong>Nota para versión 🏢:</strong> Los agentes equivalentes serían Analista de Gestión (KPIs, presupuesto), Comunicador Institucional (proveedores, equipo) y Project Manager (proyectos, seguimiento).</p>
+    </div>
+
+    <h3 class="ana-h3">Paso 2 — Configurar el agente principal</h3>
+
+    <p class="ana-body">En Amazon Quick, cree su primer agente:</p>
+    <ol class="ana-body">
+      <li><strong>Crear nuevo agente</strong> → nombre: «Analista de [MI PROGRAMA]»</li>
+      <li><strong>Instrucciones del agente:</strong></li>
+    </ol>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Eres el analista de indicadores del programa de [LICENCIATURA]
+de la Universidad Anáhuac Mayab (Mérida, Yucatán).
+
+Responsabilidades:
+- Analizar datos de matrícula, retención, eficiencia terminal,
+  titulación y satisfacción estudiantil
+- Comparar indicadores con el ciclo anterior y con metas
+  institucionales
+- Generar reportes ejecutivos con formato semáforo (🟢🟡🔴)
+- Sugerir acciones correctivas para indicadores en riesgo
+
+Formato por defecto: tabla de indicadores + párrafo ejecutivo
++ recomendaciones accionables
+Audiencia: Dirección de Escuela y Rectoría
+Tono: formal, basado en datos, orientado a acciones
+Tratamiento: de «usted» siempre</code></pre>
+    </div>
+
+    <ol class="ana-body" start="3">
+      <li><strong>Agregar archivos:</strong> criterios de acreditación, reportes del ciclo anterior, metas institucionales</li>
+      <li><strong>Probar:</strong> «Con estos nuevos datos de matrícula, genera el reporte del semestre»</li>
+    </ol>
+
+    <h3 class="ana-h3">Paso 3 — Diseñar y ejecutar un flujo de varios pasos</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>PASO 1 (Agente Analista):
+«Analiza los datos de matrícula del semestre [archivo adjunto]
+y genera un reporte semáforo con las 3 alertas principales.»
+
+PASO 2 (Agente Comunicador):
+«Con base en el análisis anterior, redacta:
+(a) Un resumen ejecutivo de 1 párrafo para la Directora de Escuela
+(b) Un comunicado para los coordinadores de los programas en
+    amarillo/rojo con las acciones que deben tomar»
+
+PASO 3 (Revisión humana):
+Usted revisa ambos productos, verifica datos, ajusta tono
+y distribuye.</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Dos documentos listos para distribuir — un resumen ejecutivo y un comunicado — generados en cadena a partir de los mismos datos, con revisión humana antes de enviar.</p>
+
+    <h3 class="ana-h3">Paso 4 — Consolidar el banco de instrucciones</h3>
+
+    <p class="ana-body">Revise todas las instrucciones que ha creado a lo largo del curso y organícelas en un banco permanente:</p>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nivel de origen</th>
+            <th>Tarea</th>
+            <th>Marco usado</th>
+            <th>Instrucción completa</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Nivel 2</td>
+            <td>Análisis de retención</td>
+            <td>RISE</td>
+            <td>[instrucción guardada]</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Nivel 3</td>
+            <td>Correo a docentes</td>
+            <td>RTF</td>
+            <td>[instrucción guardada]</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nivel 3</td>
+            <td>Respuesta a padre de familia</td>
+            <td>CO-STAR</td>
+            <td>[instrucción guardada]</td>
+          </tr>
+          <tr>
+            <td>…</td>
+            <td>…</td>
+            <td>…</td>
+            <td>…</td>
+            <td>…</td>
+          </tr>
+          <tr>
+            <td>20+</td>
+            <td>Nivel 8</td>
+            <td>Flujo de varios pasos</td>
+            <td>Agentes</td>
+            <td>[instrucción guardada]</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">3. Ejercicio práctico</h2>
+
+    <section class="ana-version-block scroll-reveal" data-version="academica">
+      <h3 class="ana-h3">🎓 Versión académica</h3>
+
+      <ol class="ana-body">
+        <li><strong>Configure tres agentes</strong> en Amazon Quick: Analista Académico, Comunicador Institucional y Asistente de Acreditación (o equivalente para su área).</li>
+        <li><strong>Ejecute un flujo de dos pasos:</strong> pase datos reales al Agente Analista y use su resultado como entrada para el Agente Comunicador.</li>
+        <li><strong>Complete su banco de instrucciones</strong> con al menos 20 entradas organizadas por tarea y marco utilizado.</li>
+        <li><strong>Elabore su plan de adopción personal</strong> (ver formato abajo).</li>
+      </ol>
+      <p class="ana-body"><strong>Entregable final:</strong> Ecosistema documentado (3 agentes + 1 flujo probado + banco de 20+ instrucciones + plan de adopción).</p>
+    </section>
+
+    <section class="ana-version-block scroll-reveal" data-version="administrativa">
+      <h3 class="ana-h3">🏢 Versión administrativa</h3>
+
+      <ol class="ana-body">
+        <li><strong>Configure tres agentes:</strong> Analista de Gestión, Comunicador Institucional y Project Manager.</li>
+        <li><strong>Ejecute un flujo de dos pasos:</strong> datos de KPIs operativos → análisis → comunicado para Vicerrectoría.</li>
+        <li><strong>Complete su banco de instrucciones</strong> con al menos 20 entradas orientadas a gestión administrativa.</li>
+        <li><strong>Elabore su plan de adopción personal.</strong></li>
+      </ol>
+    </section>
+
+    <h3 class="ana-h3">Plan de adopción personal</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>MI COMPROMISO DE IMPLEMENTACIÓN DE IA
+Nombre: [MI NOMBRE]
+Cargo: [MI CARGO]
+Programa/Área: [MI PROGRAMA O ÁREA]
+Fecha: [HOY]
+
+Esta semana voy a usar IA para: ___________
+Mi meta al cierre del mes: ___________
+3 cosas que la IA NO hará por mí: ___________
+Mi criterio para evaluar si la IA me ayuda: ___________
+Lo primero que compartiré con mi equipo: ___________</code></pre>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">4. Tips y anti-patrones</h2>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>✅ Haga esto</th>
+            <th>❌ Evite esto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cree un agente especializado por función clave (analista, comunicador, proyecto)</td>
+            <td>Crear un solo agente que «haga todo» — producirá resultados mediocres en todo</td>
+          </tr>
+          <tr>
+            <td>Pruebe cada agente con tres preguntas antes de integrarlo en un flujo</td>
+            <td>Asumir que el agente funciona bien sin probarlo</td>
+          </tr>
+          <tr>
+            <td>Revise siempre el resultado del flujo completo antes de distribuir</td>
+            <td>Confiar en que «si el Agente A hizo bien su parte, el Agente B también lo hará»</td>
+          </tr>
+          <tr>
+            <td>Documente sus instrucciones en un banco permanente y actualícelo cada ciclo</td>
+            <td>Depender de su memoria para recordar qué instrucciones funcionaron</td>
+          </tr>
+          <tr>
+            <td>Defina reglas claras de gobernanza: quién puede usar los agentes, qué datos se suben, quién revisa</td>
+            <td>Compartir agentes con su equipo sin establecer protocolos de uso</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <h3 class="ana-h3">Momento ético</h3>
+      <p>Usted presenta su ecosistema de IA al rector. Un colega pregunta: «¿Y si esto elimina puestos de trabajo?» La IA no reemplaza a las personas — amplifica a las personas. Pero esa amplificación requiere criterio, ética y liderazgo. Reflexione: ¿cómo introduciría estas herramientas en su equipo de forma que potencie a cada integrante en vez de generar temor?</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">6. Instrucción de tarea</h2>
+
+    <p class="ana-body">Este es el nivel final. Su tarea es ejecutar su ecosistema completo con datos reales y entregar los dos productos evaluables del curso.</p>
+
+    <div class="ana-callout-practice">
+      <h3 class="ana-h3">Tarea de la semana</h3>
+      <div class="ana-prompt-block">
+        <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+          <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+        </button>
+        <pre class="ana-prompt"><code>ENTREGABLE FINAL — Ecosistema de IA Personal
+
+Entregue:
+1. Flujo de reporte documentado (del Nivel 5, ejecutado con
+   datos reales y ajustes incorporados)
+2. Banco de instrucciones completo (20+ instrucciones organizadas
+   por tarea y marco, acumuladas a lo largo del curso)
+3. Tres agentes configurados en Amazon Quick (capturas de
+   configuración + prueba con 3 preguntas cada uno)
+4. Un flujo de varios pasos probado y documentado
+5. Plan de adopción personal (1 página)
+
+Para cada agente, incluya: nombre, instrucciones, archivos
+de referencia y resultados de las 3 preguntas de prueba.</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">7. Cierre del curso</h2>
+
+    <div class="ana-callout-theory">
+      <p><em>«Hace ocho niveles, usted pensaba que la IA era para técnicos. Hoy tiene tres agentes trabajando para su área, un flujo que genera su reporte principal en 15 minutos, y 20 instrucciones listas para cualquier tarea. No aprendió tecnología. Aprendió a liderar de una forma nueva — una en la que su experiencia, su criterio y su visión tienen un amplificador que antes no existía.</em></p>
+      <p><em>El lunes a las 9 AM, su equipo invisible estará listo. Y usted, al frente.»</em></p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">Gobernanza básica de IA para su área</h2>
+
+    <p class="ana-body">Antes de compartir sus agentes con su equipo, defina estas reglas:</p>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>Elemento</th>
+            <th>Definición</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>¿Quién puede usar los agentes?</td>
+            <td>Coordinador + asistentes con capacitación</td>
+          </tr>
+          <tr>
+            <td>¿Qué datos se pueden subir?</td>
+            <td>Datos institucionales no confidenciales. Datos personales: SOLO en Amazon Quick (local)</td>
+          </tr>
+          <tr>
+            <td>¿Quién revisa los resultados?</td>
+            <td>El coordinador SIEMPRE revisa antes de distribuir</td>
+          </tr>
+          <tr>
+            <td>¿Qué NO se hace con IA?</td>
+            <td>Decisiones sobre alumnos, evaluaciones docentes definitivas, comunicaciones legales</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="ana-level-footer">
+    <p class="ana-caption">Nivel 8 — Flujos con agentes y trabajo en equipo local · Curso «IA Práctica para Líderes Anáhuac Mayab» · Septiembre 2026</p>
+  </footer>
+
+</article>

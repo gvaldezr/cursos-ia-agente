@@ -1,0 +1,245 @@
+<article class="ana-level-content scroll-reveal" data-level="6">
+
+  <header class="ana-level-header">
+    <span class="ana-label">NIVEL 6</span>
+    <h1 class="ana-display">Atención a alumnos y stakeholders con IA</h1>
+    <p class="ana-body-sm" style="font-style:italic; color:var(--ana-gray);">«Respuestas consistentes, empáticas y en minutos — no en días»</p>
+    <div class="ana-level-meta">
+      <span>⏱ Duración: 40 minutos</span>
+      <span>🛠 Herramienta: Amazon Quick</span>
+    </div>
+  </header>
+
+  <!-- ─── SECCIÓN 1: CONCEPTO CLAVE ─────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">1. Concepto clave</h2>
+
+    <p class="ana-body">En periodo de inscripciones, una coordinación de programa recibe entre 40 y 80 consultas diarias. El 80% son las mismas 15 preguntas: equivalencias, reinscripción, servicio social, titulación, becas. Cada respuesta toma entre tres y cinco minutos. Multiplicado por 40 consultas, son entre dos y tres horas dedicadas a repetir lo mismo con variaciones mínimas.</p>
+
+    <p class="ana-body">La solución no es ignorar a los estudiantes ni responder con textos genéricos. Es construir un banco de respuestas maestras: plantillas completas que la IA personaliza en segundos con el nombre, programa y situación de cada persona. El resultado es una respuesta que suena individual pero se genera en 30 segundos.</p>
+
+    <p class="ana-body">Sin embargo, no toda consulta es una pregunta frecuente. Un alumno que escribe diciendo que «ya no le ve sentido a nada» no necesita una plantilla. Necesita a un ser humano que lo escuche. El criterio para distinguir lo automatizable de lo humano es la competencia más importante de este nivel.</p>
+
+    <div class="ana-callout-practice">
+      <p><strong>Regla de oro:</strong> La IA responde preguntas. Las personas atienden personas.</p>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 2: DEMOSTRACIÓN ────────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">2. Demostración paso a paso</h2>
+
+    <p class="ana-body"><strong>Contexto:</strong> Crear respuestas maestras para las consultas más frecuentes y un protocolo para saber cuándo no usar IA.</p>
+
+    <!-- Paso 1 -->
+    <h3 class="ana-h3">Paso 1 — Listar las 10 preguntas más frecuentes</h3>
+
+    <p class="ana-body">Escriba las 10 consultas que más recibe en su área. Ejemplo (🎓):</p>
+    <ol class="ana-body">
+      <li>¿Cuál es el proceso de equivalencia de materias?</li>
+      <li>¿Cuándo abre la reinscripción?</li>
+      <li>¿Qué requisitos tiene el servicio social?</li>
+      <li>¿Cómo inicio el proceso de titulación?</li>
+      <li>¿Puedo cambiar de grupo/horario?</li>
+    </ol>
+
+    <!-- Paso 2 -->
+    <h3 class="ana-h3">Paso 2 — Generar una respuesta maestra con IA</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Actúe como coordinador académico de la Universidad Anáhuac Mayab.
+
+Genere una respuesta maestra para la pregunta frecuente:
+«¿Cuál es el proceso para solicitar equivalencia de materias?»
+
+La respuesta debe:
+1. Ser completa pero concisa (máximo 150 palabras)
+2. Incluir los pasos que el estudiante debe seguir
+3. Indicar documentos requeridos
+4. Dar datos de contacto y ubicación
+5. Tono: cercano-institucional, tratamiento de «usted»
+
+Después, genere una versión personalizable con variables:
+«Estimado/a [NOMBRE], en relación con su solicitud de
+equivalencia para la materia [MATERIA], le informo que...»</code></pre>
+    </div>
+
+    <p class="ana-body"><strong>Resultado esperado:</strong> Una respuesta de 100 a 150 palabras con pasos claros, documentos necesarios, datos de contacto y una segunda versión con variables reemplazables.</p>
+
+    <!-- Paso 3 -->
+    <h3 class="ana-h3">Paso 3 — Manejar un caso sensible</h3>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Un estudiante de 7.° semestre ha reprobado 3 materias consecutivas
+y está en riesgo de baja reglamentaria. Es la primera vez que se
+comunica con la coordinación. Tiene beca del 40%.
+
+Genere una respuesta que:
+1. Muestre empatía genuina sin ser condescendiente
+2. Explique la situación reglamentaria con claridad
+3. Presente las opciones disponibles (recurso de apelación,
+   tutoría, baja voluntaria temporal)
+4. Canalice a servicios de apoyo (psicopedagogía, tutoría)
+5. NO tome la decisión por el alumno — empodérelo
+6. Tono: empático, respetuoso, esperanzador pero realista
+7. Máximo 200 palabras</code></pre>
+    </div>
+
+    <!-- Paso 4 -->
+    <h3 class="ana-h3">Paso 4 — Construir el protocolo semáforo</h3>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>Nivel</th>
+            <th>Tipo de consulta</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>🟢 Respondo con IA</td>
+            <td>Preguntas frecuentes con respuesta estándar</td>
+            <td>Usar respuesta maestra, personalizar y enviar</td>
+          </tr>
+          <tr>
+            <td>🟡 Con precaución</td>
+            <td>Quejas formales, solicitudes fuera de norma</td>
+            <td>Borrador con IA + revisión humana exhaustiva</td>
+          </tr>
+          <tr>
+            <td>🔴 NUNCA con IA</td>
+            <td>Crisis emocional, salud mental, casos legales, fallecimiento</td>
+            <td>Atención humana directa, canalización inmediata</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 3: EJERCICIO PRÁCTICO ──────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">3. Ejercicio práctico</h2>
+
+    <section class="ana-version-block" data-version="academica">
+      <h3 class="ana-h3">🎓 Versión académica</h3>
+
+      <p class="ana-body">Genere cinco respuestas maestras para las consultas más frecuentes de sus estudiantes (equivalencias, reinscripción, servicio social, titulación, becas). Para cada una, incluya la versión con variables de personalización. Después, clasifique 10 solicitudes reales de su bandeja en las tres categorías del semáforo.</p>
+
+      <p class="ana-body"><strong>Entregable:</strong> Kit con 10 respuestas maestras + protocolo semáforo con al menos tres casos límite identificados.</p>
+    </section>
+
+    <section class="ana-version-block" data-version="administrativa">
+      <h3 class="ana-h3">🏢 Versión administrativa</h3>
+
+      <p class="ana-body">Genere cinco respuestas maestras para las consultas más frecuentes de sus stakeholders (trámites de pago, solicitudes de compra, políticas de viáticos, acceso a sistemas, estatus de facturas). Complete el mismo protocolo semáforo, identificando tres casos donde la atención debe ser exclusivamente humana (irregularidad administrativa, conflicto laboral, auditoría).</p>
+    </section>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 4: TIPS Y ANTI-PATRONES ────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">4. Tips y anti-patrones</h2>
+
+    <div class="ana-table-wrapper">
+      <table class="ana-table">
+        <thead>
+          <tr>
+            <th>✅ Haga esto</th>
+            <th>❌ Evite esto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cree respuestas maestras con variables ([NOMBRE], [PROGRAMA], [MATERIA])</td>
+            <td>Copiar y pegar la misma respuesta genérica para todos</td>
+          </tr>
+          <tr>
+            <td>Defina su protocolo semáforo ANTES de empezar a automatizar</td>
+            <td>Automatizar primero y decidir los límites después</td>
+          </tr>
+          <tr>
+            <td>Revise el tono de cada respuesta: ¿suena a persona o a robot?</td>
+            <td>Enviar respuestas que inicien con «Estimado usuario» sin nombre</td>
+          </tr>
+          <tr>
+            <td>Canalice inmediatamente si detecta señales de crisis emocional</td>
+            <td>Responder con plantilla a un estudiante que expresa desesperanza</td>
+          </tr>
+          <tr>
+            <td>Actualice sus respuestas maestras al inicio de cada ciclo</td>
+            <td>Usar respuestas con fechas y datos del semestre anterior</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 5: MOMENTO ÉTICO ────────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <div class="ana-callout-theory">
+      <h3 class="ana-h3">Momento ético</h3>
+      <p>Un alumno le escribe diciendo que está pensando en dejar la carrera porque «ya no le ve sentido a nada». Ese mensaje no es una pregunta frecuente. Es una persona que necesita ser escuchada por otro ser humano. Reflexione: ¿su protocolo identifica con claridad las señales que exigen atención humana directa?</p>
+    </div>
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 6: TAREA ──────────────────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">6. Instrucción de tarea</h2>
+
+    <div class="ana-callout-practice">
+      <h3 class="ana-h3">Tarea de la semana</h3>
+      <p>Esta semana, use su kit de respuestas maestras para atender al menos 10 consultas reales. Documente el tiempo ahorrado y los casos donde decidió no usar IA.</p>
+    </div>
+
+    <div class="ana-prompt-block">
+      <button class="copy-btn ana-btn-text" aria-label="Copiar instrucción">
+        <span class="icon-copy">⎘</span><span class="label">Copiar</span>
+      </button>
+      <pre class="ana-prompt"><code>Durante esta semana:
+1. Responda al menos 10 consultas reales usando sus respuestas maestras
+2. Anote cuánto tiempo le tomó vs. responder manualmente
+3. Identifique al menos 1 caso donde decidió NO usar IA y explique por qué
+4. Agregue al menos 2 respuestas nuevas a su banco si surgieron
+   preguntas que no tenía cubiertas</code></pre>
+    </div>
+
+  </section>
+
+  <hr class="ana-divider">
+
+  <!-- ─── SECCIÓN 7: TRANSICIÓN NARRATIVA ─────────────────────────────────────── -->
+  <section class="ana-section scroll-reveal">
+    <h2 class="ana-h2">7. Transición narrativa</h2>
+
+    <div class="ana-callout-theory">
+      <p>«Ya sabe usar la IA para comunicar, analizar, automatizar y atender. Sabe cuándo confiar, cuándo verificar y cuándo decir "esto lo hago yo". Ahora viene la pregunta que cambia todo: ¿y si pudiera usar la IA no solo para EJECUTAR tareas, sino para PLANEAR y DIRIGIR proyectos enteros? En el siguiente nivel, saldrá de una junta de planeación con un proyecto completamente estructurado — en 15 minutos en vez de 3 días.»</p>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────────────────────────── -->
+  <footer class="ana-level-footer">
+    <p class="ana-caption">Nivel 6 — Atención a alumnos y stakeholders con IA · Curso «IA Práctica para Líderes Anáhuac Mayab» · Septiembre 2026</p>
+  </footer>
+
+</article>
