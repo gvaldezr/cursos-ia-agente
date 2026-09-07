@@ -427,6 +427,7 @@ a:hover { color: var(--ana-primary-hover); }
 @media (min-width: 640px) {
   .ana-grid--2col   { grid-template-columns: repeat(2, 1fr); }
   .ana-grid--levels { grid-template-columns: repeat(2, 1fr); }
+  .ana-grid--3col   { grid-template-columns: repeat(2, 1fr); }
 }
 @media (min-width: 1024px) {
   .ana-grid--3col   { grid-template-columns: repeat(3, 1fr); }
@@ -1251,10 +1252,29 @@ a:hover { color: var(--ana-primary-hover); }
 .ana-credential-badge--earned     { box-shadow: 0 0 0 4px var(--ana-success), 0 0 12px rgba(45,138,57,0.3); }
 .ana-credential-badge--locked     { opacity: 0.4; filter: grayscale(1); }
 
-.ana-credential-card { display: flex; align-items: center; gap: var(--ana-space-4); padding: var(--ana-space-6); background: var(--ana-white); border: 1px solid var(--ana-border-card); border-radius: var(--ana-radius-md); box-shadow: var(--ana-shadow-sm); }
-.ana-credential-card__info  { flex: 1; min-width: 0; }
-.ana-credential-card__name  { font-weight: var(--ana-font-bold); font-size: var(--ana-text-md); color: var(--ana-dark); margin: 0 0 4px; }
-.ana-credential-card__range { font-size: var(--ana-text-sm); color: var(--ana-gray); margin: 0; }
+.ana-credential-card {
+  display: flex; flex-direction: column; align-items: center; text-align: center;
+  gap: var(--ana-space-3); padding: var(--ana-space-6);
+  background: var(--ana-white); border: 1px solid var(--ana-border-card);
+  border-radius: var(--ana-radius-md); box-shadow: var(--ana-shadow-sm);
+  min-height: 220px;
+}
+.ana-credential-card__name {
+  font-weight: var(--ana-font-bold); font-size: var(--ana-text-md);
+  color: var(--ana-dark); margin: var(--ana-space-2) 0 0;
+}
+.ana-credential-card__range {
+  font-size: var(--ana-text-sm); color: var(--ana-gray); margin: 0;
+}
+.ana-credential-card__info {
+  font-size: var(--ana-text-sm); color: var(--ana-gray);
+  line-height: var(--ana-leading-relaxed); margin: 0;
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.ana-credential-card .ana-badge {
+  margin-top: auto; /* empuja al fondo de la card */
+}
 
 /* ══════════════════════════════════════════════════════════════════════════════
    FOOTER
@@ -1379,4 +1399,30 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 .ana-skeleton-block           { height: 120px; margin-bottom: var(--ana-space-6); border-radius: var(--ana-radius-md); }
 @media (prefers-reduced-motion: reduce) {
   .ana-skeleton { animation: none; background: var(--ana-gray-light); }
+}
+
+/* ══════════════════════════════════════════
+   PRINT STYLES
+   ══════════════════════════════════════════ */
+@media print {
+  .ana-header, .ana-footer, .ana-sidebar, .ana-breadcrumbs,
+  .ana-btn, .copy-btn, .ana-version-picker, .ana-mobile-menu,
+  .ana-toast { display: none !important; }
+
+  .ana-level-layout { display: block; }
+  .ana-content { max-width: 100%; margin: 0; }
+
+  body { font-size: 12pt; line-height: 1.5; color: #000; background: #fff; }
+  
+  .ana-h1 { font-size: 24pt; }
+  .ana-h2 { font-size: 18pt; page-break-after: avoid; }
+  .ana-h3 { font-size: 14pt; page-break-after: avoid; }
+
+  .ana-prompt-block { border: 1px solid #ccc; page-break-inside: avoid; }
+  .ana-callout-theory, .ana-callout-practice { border: 1px solid #ccc; page-break-inside: avoid; }
+  .ana-table { border-collapse: collapse; }
+  .ana-table th, .ana-table td { border: 1px solid #ccc; }
+
+  a[href]::after { content: ' (' attr(href) ')'; font-size: 10pt; color: #666; }
+  a[href^="#"]::after { content: ''; }
 }

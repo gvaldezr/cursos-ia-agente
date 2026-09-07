@@ -16,18 +16,19 @@
 
 1. [Tokens CSS Completos (Light + Dark)](#1-tokens-css-completos)
 2. [Sistema de Color Extendido](#2-sistema-de-color-extendido)
-3. [Componentes Tipográficos](#3-componentes-tipográficos)
+3. [Componentes Tipográficos](#3-componentes-tipogr%C3%A1ficos)
 4. [Sistema de Espaciado](#4-sistema-de-espaciado)
-5. [Bordes, Sombras y Elevación](#5-bordes-sombras-y-elevación)
+5. [Bordes, Sombras y Elevación](#5-bordes-sombras-y-elevaci%C3%B3n)
 6. [Transiciones y Animaciones](#6-transiciones-y-animaciones)
 7. [Z-Index Scale](#7-z-index-scale)
-8. [Paleta Semántica Completa](#8-paleta-semántica-completa)
+8. [Paleta Semántica Completa](#8-paleta-sem%C3%A1ntica-completa)
 9. [Color Mapping por Componente](#9-color-mapping-por-componente)
-10. [Guía de Iconografía](#10-guía-de-iconografía)
+10. [Guía de Iconografía](#10-gu%C3%ADa-de-iconograf%C3%ADa)
 11. [Do's & Don'ts Visuales](#11-dos--donts-visuales)
 12. [Accesibilidad (WCAG AA)](#12-accesibilidad-wcag-aa)
-13. [Checklist de Auditoría Visual](#13-checklist-de-auditoría-visual)
+13. [Checklist de Auditoría Visual](#13-checklist-de-auditor%C3%ADa-visual)
 14. [Glosario de Tokens](#14-glosario-de-tokens)
+15. [Convenciones de Naming CSS](#15-convenciones-de-naming-css)
 
 ---
 
@@ -999,107 +1000,66 @@
   cursor: not-allowed;
   opacity: 0.7;
 }
-.ana-level-card--locked:hover {
-  transform: none;
-  box-shadow: var(--ana-shadow-sm);
-  border-color: var(--ana-inactive);
-}
 ```
 
 ### 9.4 Callouts
 
 ```css
 /* ═══════════════════════════════════════════════════════════
-   CALLOUTS
+   CALLOUTS — Bloques de contenido destacado
    ═══════════════════════════════════════════════════════════ */
 
 .ana-callout {
   padding: var(--ana-space-6);
   border-radius: var(--ana-radius-md);
   border-left: 4px solid;
-  margin-bottom: var(--ana-space-6);
+  margin: var(--ana-space-8) 0;
 }
 
-/* Teórico / Informativo */
+/* Teórico (púrpura) */
+.ana-callout-theory,
 .ana-callout--theory {
   background: var(--ana-bg-theory);
   border-color: var(--ana-tertiary);
 }
-.ana-callout--theory .ana-callout__label {
-  color: var(--ana-tertiary);
-}
 
-/* Práctico / Ejercicio */
-.ana-callout--exercise {
+/* Práctico (naranja) */
+.ana-callout-practice,
+.ana-callout--practice {
   background: var(--ana-bg-exercise);
   border-color: var(--ana-primary);
 }
-.ana-callout--exercise .ana-callout__label {
-  color: var(--ana-primary);
-}
 
 /* Advertencia */
+.ana-callout-warning,
 .ana-callout--warning {
   background: var(--ana-warning-light);
   border-color: var(--ana-warning);
 }
 
 /* Error */
+.ana-callout-error,
 .ana-callout--error {
   background: var(--ana-error-light);
   border-color: var(--ana-error);
 }
 
 /* Éxito */
+.ana-callout-success,
 .ana-callout--success {
   background: var(--ana-success-light);
   border-color: var(--ana-success);
 }
 ```
 
-### 9.5 Bloques de prompt/instrucción
+### 9.5 Progress bars
 
 ```css
 /* ═══════════════════════════════════════════════════════════
-   BLOQUE DE PROMPT
+   PROGRESS BARS
    ═══════════════════════════════════════════════════════════ */
 
-.ana-prompt-block {
-  background: var(--ana-bg-prompt);
-  border: 1px solid var(--ana-border-prompt);
-  border-top: 3px solid var(--ana-primary);
-  border-radius: var(--ana-radius-md);
-  padding: var(--ana-space-6);
-  position: relative;
-}
-
-.ana-prompt-block__code {
-  background: var(--ana-white);
-  border: 1px solid var(--ana-border-prompt);
-  border-radius: var(--ana-radius-sm);
-  padding: var(--ana-space-4);
-  font-family: var(--ana-font-mono);
-  font-size: var(--ana-text-base);
-  line-height: var(--ana-leading-loose);
-  white-space: pre-wrap;
-  word-break: break-word;
-}
-
-.ana-prompt-block__copy-btn {
-  position: absolute;
-  bottom: var(--ana-space-4);
-  right: var(--ana-space-4);
-}
-```
-
-### 9.6 Progress tracker
-
-```css
-/* ═══════════════════════════════════════════════════════════
-   PROGRESS TRACKER
-   ═══════════════════════════════════════════════════════════ */
-
-.ana-progress-bar {
+.ana-progress {
   width: 100%;
   height: 8px;
   background: var(--ana-inactive);
@@ -1107,132 +1067,15 @@
   overflow: hidden;
 }
 
-.ana-progress-bar__fill {
+.ana-progress-fill {
   height: 100%;
   background: var(--ana-primary);
   border-radius: var(--ana-radius-full);
   transition: width var(--ana-transition-slower);
 }
 
-.ana-progress-bar__fill--complete {
+.ana-progress-fill--complete {
   background: var(--ana-success);
-}
-
-/* Nodos del progress tracker horizontal */
-.ana-progress-node {
-  width: 32px;
-  height: 32px;
-  border-radius: var(--ana-radius-full);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--ana-text-sm);
-  font-weight: var(--ana-font-semibold);
-  border: 2px solid;
-  transition: all var(--ana-transition-base);
-}
-
-.ana-progress-node--complete {
-  background: var(--ana-level-complete);
-  border-color: var(--ana-level-complete);
-  color: #FFFFFF;
-}
-.ana-progress-node--current {
-  background: var(--ana-level-current);
-  border-color: var(--ana-level-current);
-  color: #FFFFFF;
-  box-shadow: 0 0 0 4px var(--ana-primary-ring);
-}
-.ana-progress-node--pending {
-  background: var(--ana-white);
-  border-color: var(--ana-inactive);
-  color: var(--ana-gray);
-}
-
-/* Mobile: nodos más pequeños */
-@media (max-width: 639px) {
-  .ana-progress-node { width: 24px; height: 24px; font-size: 11px; }
-}
-```
-
-### 9.7 Tablas
-
-```css
-/* ═══════════════════════════════════════════════════════════
-   TABLAS
-   ═══════════════════════════════════════════════════════════ */
-
-.ana-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-radius: var(--ana-radius-md);
-  overflow: hidden;
-  box-shadow: var(--ana-shadow-xs);
-}
-
-.ana-table thead th {
-  background: var(--ana-tertiary);
-  color: #FFFFFF;
-  font-weight: var(--ana-font-semibold);
-  padding: 12px 16px;
-  text-align: left;
-  font-size: var(--ana-text-base);
-}
-
-.ana-table tbody td {
-  padding: 12px 16px;
-  font-size: var(--ana-text-base);
-  color: var(--ana-dark);
-  border-bottom: 1px solid var(--ana-inactive);
-}
-
-.ana-table tbody tr:nth-child(even) {
-  background: var(--ana-gray-lighter);
-}
-.ana-table tbody tr:hover {
-  background: var(--ana-gray-light);
-}
-```
-
-### 9.8 Badges
-
-```css
-/* ═══════════════════════════════════════════════════════════
-   BADGES
-   ═══════════════════════════════════════════════════════════ */
-
-.ana-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--ana-space-1);
-  padding: 4px 12px;
-  border-radius: var(--ana-radius-full);
-  font-size: var(--ana-text-xs);
-  font-weight: var(--ana-font-semibold);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.ana-badge--complete  { background: var(--ana-success); color: #FFFFFF; }
-.ana-badge--current   { background: var(--ana-primary); color: #FFFFFF; }
-.ana-badge--locked    { background: var(--ana-inactive); color: var(--ana-footer-gray); }
-.ana-badge--tertiary  { background: var(--ana-tertiary); color: #FFFFFF; }
-.ana-badge--academic  { background: var(--ana-tertiary); color: #FFFFFF; }
-.ana-badge--admin     { background: var(--ana-primary); color: #FFFFFF; }
-
-/* Credential badges (Open Badges) */
-.ana-credential-badge {
-  width: 80px;
-  height: 80px;
-  border-radius: var(--ana-radius-full);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.ana-credential-badge--explorer  { background: var(--ana-primary); }
-.ana-credential-badge--strategist { background: var(--ana-tertiary); }
-.ana-credential-badge--leader {
-  background: linear-gradient(135deg, var(--ana-primary), var(--ana-tertiary));
 }
 ```
 
@@ -1240,242 +1083,163 @@
 
 ## 10. Guía de Iconografía
 
-### 10.1 Biblioteca seleccionada
+### 10.1 Sistema de iconos
 
-**Lucide Icons** — https://lucide.dev/
-
-| Criterio | Especificación |
-|---|---|
-| Estilo | Outline (línea) |
-| Peso de trazo | 1.5px–2px |
-| Esquinas | Redondeadas (consistente con radius 5px) |
-| Color | Hereda `currentColor` del padre |
-| Formato | SVG inline (no icon fonts) |
-| Alternativa | Heroicons (Outline) si Lucide no cubre un caso |
+| Biblioteca | Variante | Uso |
+|---|---|---|
+| Lucide Icons | `stroke` (outline) | Interfaz general, navegación |
+| Lucide Icons | `fill` | Estados activos, badges completados |
+| Emoji Unicode | — | Solo en contextos celebratorios (Whimsy Injector) |
 
 ### 10.2 Tamaños estándar
 
-| Contexto | Tamaño | Ejemplo |
+| Contexto | Tamaño | Grosor stroke |
 |---|---|---|
-| Inline (junto a texto) | `16px`–`20px` | Icono antes de "Duración: 15 min" |
-| Navegación | `20px`–`24px` | Iconos en sidebar/navbar |
-| Card feature | `28px`–`32px` | Icono decorativo en card |
-| Hero / ilustrativo | `40px`–`48px` | Icono de módulo en vista de detalle |
-| Badge / avatar | `16px` dentro de badge | Icono dentro de chip |
+| Inline (en texto) | `16px` | `1.5px` |
+| Botón | `18px` | `1.5px` |
+| Card header | `20px` | `2px` |
+| Hero / Display | `24px`–`32px` | `2px` |
+| Estado de nivel | `24px` | `2px` |
 
-### 10.3 Mapa de iconos por función
+### 10.3 Iconos por semántica
 
-| Función | Icono Lucide | Color |
+| Significado | Icono Lucide | Color |
 |---|---|---|
-| Nivel/Módulo | `layers` | hereda contexto |
-| Ejercicio práctico | `pencil-line` | `--ana-primary` |
-| Instrucción/Prompt | `terminal` | `--ana-primary` |
 | Completado | `check-circle` | `--ana-success` |
-| En progreso | `clock` | `--ana-primary` |
+| En progreso | `circle-dot` | `--ana-primary` |
 | Bloqueado | `lock` | `--ana-level-locked-text` |
-| Recurso/Descarga | `file-down` | hereda contexto |
-| Tip/Recomendación | `lightbulb` | `--ana-warning` |
-| Concepto clave | `info` | `--ana-tertiary` |
-| Advertencia | `alert-triangle` | `--ana-warning` |
 | Error | `x-circle` | `--ana-error` |
-| Duración | `clock` | `--ana-gray` |
-| IA/Modelo | `brain` | `--ana-tertiary` |
-| Agente de IA | `bot` | `--ana-tertiary` |
-| Versión académica | `graduation-cap` | `--ana-tertiary` |
-| Versión administrativa | `briefcase` | `--ana-primary` |
-| Copiar al portapapeles | `copy` | `--ana-gray` → `--ana-success` |
-| Navegación anterior | `chevron-left` | hereda contexto |
-| Navegación siguiente | `chevron-right` | hereda contexto |
-| Menú | `menu` | `--ana-dark` |
-| Cerrar | `x` | `--ana-gray` |
-| Expandir/colapsar | `chevron-down` | `--ana-gray` |
-| Buscar | `search` | `--ana-gray` |
-| Configuración | `settings` | `--ana-gray` |
+| Advertencia | `alert-triangle` | `--ana-warning` |
+| Información | `info` | `--ana-tertiary` |
+| Teoría | `book-open` | `--ana-tertiary` |
+| Práctica | `zap` | `--ana-primary` |
+| Copiar | `copy` | `--ana-gray` |
+| Copiado | `check` | `--ana-success` |
+| Navegar siguiente | `chevron-right` | `--ana-primary` |
+| Navegar anterior | `chevron-left` | `--ana-gray` |
+| Cerrar modal | `x` | `--ana-gray` |
 | Usuario | `user` | `--ana-gray` |
-| Flujo/Workflow | `git-branch` | `--ana-tertiary` |
-| Banco de prompts | `library` | `--ana-primary` |
-| Ética | `shield-check` | `--ana-tertiary` |
-
-### 10.4 Reglas de uso
-
-1. **Nunca usar iconos solos** sin label de texto (WCAG AA). Excepción: iconos universales (✕ cerrar, ← atrás, ≡ menú).
-2. **Iconos decorativos:** `aria-hidden="true"`.
-3. **Iconos funcionales:** `aria-label="[acción]"`.
-4. **Color:** SIEMPRE `currentColor` — no colorear iconos individualmente.
-5. **No mezclar** estilos filled y outline en la misma vista.
-6. **No usar emojis** como iconos en la interfaz principal del mini sitio.
-7. **Tamaño mínimo clickable:** `44px × 44px` touch target (WCAG 2.5.5).
+| Configuración | `settings` | `--ana-gray` |
 
 ---
 
 ## 11. Do's & Don'ts Visuales
 
-### Regla 1: Naranja NUNCA para errores
+### ✅ DO — Hacer siempre
 
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Error en `#DC2626` (rojo): "No fue posible cargar el recurso." | Error en `#FF5900` (naranja): "No fue posible cargar el recurso." |
-| **Razón:** Naranja es el color de MARCA. Usarlo para errores confunde la semántica. | El cerebro asociaría "error" con "Anáhuac", lo cual daña la marca. |
+- Usar `--ana-primary` (#FF5900) como color de acción principal
+- Hover naranja = **más claro** (#FF7900), no más oscuro
+- Errores siempre en `--ana-error` (#DC2626) — **NUNCA naranja**
+- Cards con `border-radius: var(--ana-radius-md)` (8px)
+- Botones con `border-radius: var(--ana-radius-sm)` (5px)
+- Focus visible en **todos** los elementos interactivos
+- Texto "Anáhuac Mayab" en naranja `--ana-primary`, sin distintivo
+- Tono de "usted" en todos los textos de interfaz
+- Usar `prefers-color-scheme` para Dark Mode automático
 
-### Regla 2: Hover naranja es MÁS CLARO (#FF7900)
+### ❌ DON'T — Nunca hacer
 
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Botón hover: `#FF5900` → `#FF7900` (más claro) | Botón hover: `#FF5900` → `#E04F00` (más oscuro) |
-| **Razón:** El sitio oficial merida.anahuac.mx aclara el hover. Consistencia con la fuente de verdad. | Oscurecer rompe el patrón del sitio oficial. |
-
-### Regla 3: Proporción 60-25-10-5
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| 60% blanco/gris, 10% naranja puntual en CTAs y acentos | Header completo en naranja, fondo naranja degradado |
-| **Razón:** Interfaz académica sobria con acentos puntuales. | Landing page de startup — no es la identidad del curso. |
-
-### Regla 4: Contraste WCAG AA
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Texto naranja `#FF5900` solo en texto grande (≥18px bold o ≥24px regular). Contraste 4.58:1 sobre blanco. | Texto naranja en 14px regular sobre blanco. Contraste insuficiente. |
-| Texto pequeño siempre en `#231F20` sobre claro o `#EDEDED` sobre oscuro. | Texto gris `#A3A9AB` en tamaño 12px — contraste < 3:1. |
-
-### Regla 5: Tipografía — Máximo 2 familias + 1 mono
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Manrope (display) + Roboto (body) + JetBrains Mono (code/prompt) | Añadir Open Sans, Lato o cualquier otra fuente |
-| **Razón:** Consistencia tipográfica. Cada familia tiene un rol claro. | Más fuentes = más carga, menos cohesión. |
-
-### Regla 6: Espaciado — Siempre múltiplos de 4px
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| `padding: 24px;` (múltiplo de 4) | `padding: 23px;` o `padding: 15px;` |
-| **Razón:** Sistema coherente que produce alineación visual natural. | Valores arbitrarios rompen el ritmo visual. |
-
-### Regla 7: Radius — Escala fija (5/8/12/9999)
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Botón: `5px`. Card: `8px`. Modal: `12px`. Badge: `9999px`. | Botón: `10px`. Card: `6px`. Modal: `20px`. |
-| **Razón:** Consistencia con el sitio oficial. Cada radio tiene un contexto definido. | Valores aleatorios hacen que el diseño se sienta improvisado. |
-
-### Regla 8: "Anáhuac Mayab" en naranja, sin distintivo
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| "Anáhuac Mayab" como texto en `#FF5900`, sin logo al lado | Logo "A" + "Anáhuac Mayab" juntos en el mismo elemento |
-| **Razón:** El distintivo "A" y el nombre son elementos visuales INDEPENDIENTES según la identidad institucional. | Juntar ambos crea redundancia visual y viola la guía de marca. |
-
-### Regla 9: Bloques de prompt siempre diferenciados
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Prompt en card con fondo `#F8F7F5`, borde, font-mono, acento naranja superior | Prompt como texto normal entre párrafos, sin diferenciación |
-| **Razón:** El participante debe poder identificar inmediatamente qué copiar y ejecutar en Amazon Quick. | Un prompt que se confunde con texto explicativo es inútil. |
-
-### Regla 10: Dark mode — Nunca negro puro ni blanco puro
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Fondo: `#141416`. Texto: `#EDEDED`. | Fondo: `#000000`. Texto: `#FFFFFF`. |
-| **Razón:** Blanco puro sobre negro puro causa fatiga visual. Los tonos casi-puros son más cómodos. | El contraste máximo lastima la vista en sesiones prolongadas. |
-
-### Regla 11: Máximo 2 callouts por sección
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Una sección con 1 callout teórico + 1 callout práctico | Una sección con 4 callouts consecutivos |
-| **Razón:** Si todo es importante, nada es importante. Los callouts pierden su función de destacar. | El contenido se siente fragmentado y difícil de leer. |
-
-### Regla 12: Sin emojis en interfaz principal
-
-| ✅ Correcto | ❌ Incorrecto |
-|---|---|
-| Icono Lucide `check-circle` + "Nivel completado" | "✅ ¡Nivel completado! 🎉" |
-| **Razón:** Tono institucional para directivos de 40-55 años. Emojis trivializan. | Parece una app de gamificación para adolescentes. |
+- ❌ Usar naranja para errores o estados negativos
+- ❌ Oscurecer el hover naranja (no `#E04F00`)
+- ❌ Colocar el distintivo "A" junto al nombre "Anáhuac Mayab"
+- ❌ Usar colores fuera de la paleta oficial sin aprobación
+- ❌ Texto blanco sobre naranja en tamaños < 14px (contraste insuficiente)
+- ❌ Cards con `border-radius` > 12px (no es el estilo Anáhuac)
+- ❌ Gradientes decorativos no autorizados
+- ❌ Tipografías distintas a Manrope/Roboto/JetBrains Mono
+- ❌ Animaciones > 500ms o scroll hijacking
+- ❌ Tutear al usuario ("tú", "tu cuenta") — siempre "usted"
 
 ---
 
 ## 12. Accesibilidad (WCAG AA)
 
-### 12.1 Contraste mínimo
+### 12.1 Ratios de contraste verificados
 
-| Contexto | Ratio mínimo | Verificación |
-|---|---|---|
-| Texto normal (< 18px) | **4.5:1** | `#231F20` sobre `#FFFFFF` = 15.1:1 ✅ |
-| Texto grande (≥ 18px bold o ≥ 24px) | **3:1** | `#FF5900` sobre `#FFFFFF` = 4.58:1 ✅ |
-| Texto sobre fondo naranja | **4.5:1** | `#FFFFFF` sobre `#FF5900` = 4.58:1 ✅ |
-| Texto secundario | **4.5:1** | `#6F6F6F` sobre `#FFFFFF` = 4.98:1 ✅ |
-| Componentes UI y gráficos | **3:1** | Bordes, iconos funcionales |
+| Combinación | Ratio | WCAG AA (4.5:1) | Uso |
+|---|---|---|---|
+| Naranja `#FF5900` sobre blanco `#FFFFFF` | 3.1:1 | ⚠️ Solo texto ≥ 18px Bold | Botones, CTAs grandes |
+| Naranja `#FF5900` sobre `#141416` (dark) | 5.2:1 | ✅ | Dark mode primario |
+| Blanco `#FFFFFF` sobre naranja `#FF5900` | 3.1:1 | ⚠️ Solo texto ≥ 18px Bold | Texto en botones |
+| Gris oscuro `#231F20` sobre blanco | 16.1:1 | ✅ | Texto principal |
+| Gris `#6F6F6F` sobre blanco | 5.4:1 | ✅ | Texto secundario |
+| Púrpura `#432F64` sobre blanco | 9.7:1 | ✅ | H2, badges |
+| Error `#DC2626` sobre blanco | 4.5:1 | ✅ | Mensajes de error |
 
-### 12.2 Focus states
+### 12.2 Reglas obligatorias
 
 ```css
-/* Focus visible para todos los interactivos */
-*:focus-visible {
+/* Focus ring — OBLIGATORIO en todos los interactivos */
+:focus-visible {
   outline: 2px solid var(--ana-primary);
   outline-offset: 2px;
-  border-radius: var(--ana-radius-sm);
 }
 
-/* Focus alternativo para inputs (shadow en vez de outline) */
-.ana-input:focus-visible {
-  outline: none;
-  border-color: var(--ana-border-input-focus);
-  box-shadow: var(--ana-shadow-focus);
+/* Skip to content — Para navegación por teclado */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--ana-space-4);
+  z-index: var(--ana-z-max);
+  background: var(--ana-primary);
+  color: white;
+  padding: var(--ana-space-2) var(--ana-space-4);
+  border-radius: var(--ana-radius-sm);
+}
+.skip-link:focus { top: var(--ana-space-4); }
+
+/* Tamaño mínimo touch target */
+.ana-btn,
+[role="button"],
+a {
+  min-height: 44px;
+  min-width: 44px;
 }
 ```
 
-### 12.3 Checklist de accesibilidad
+### 12.3 Atributos ARIA requeridos
 
-- [ ] Estructura semántica: `<main>`, `<nav>`, `<section>`, `<article>`, `<aside>`
-- [ ] Skip link como primer elemento focusable: "Ir al contenido principal"
-- [ ] Todos los `<img>` tienen `alt` descriptivo
-- [ ] Iconos decorativos: `aria-hidden="true"`
-- [ ] Iconos funcionales: `aria-label="[acción]"`
-- [ ] Todo interactivo es navegable por teclado (Tab, Enter, Escape)
-- [ ] `prefers-reduced-motion`: todas las animaciones deshabilitadas
-- [ ] `prefers-color-scheme`: dark mode automático
-- [ ] Touch targets: mínimo `44px × 44px`
-- [ ] No depender solo del color para comunicar estado (agregar texto/icono)
-- [ ] `lang="es"` en `<html>`
-- [ ] Formularios: cada `<input>` tiene `<label>` asociado
+| Componente | Atributo | Ejemplo |
+|---|---|---|
+| Botón de acción | `aria-label` | `aria-label="Ir al Nivel 2"` |
+| Progress bar | `role`, `aria-valuenow`, `aria-valuemin`, `aria-valuemax` | `role="progressbar" aria-valuenow="65"` |
+| Modal | `role="dialog"`, `aria-modal`, `aria-labelledby` | — |
+| Card bloqueada | `aria-disabled` | `aria-disabled="true"` |
+| Icono decorativo | `aria-hidden` | `aria-hidden="true"` |
+| Icono funcional | `aria-label` | `aria-label="Copiar prompt"` |
+| Nav actual | `aria-current` | `aria-current="page"` |
 
 ---
 
 ## 13. Checklist de Auditoría Visual
 
-Cada asset visual, componente o pantalla **debe pasar todos los puntos** antes de publicar:
+### Colores
 
-### Colores y marca
-
-- [ ] **C-01** — Naranja usado es exactamente `#FF5900` (no #FF6600 ni #E55A00)
-- [ ] **C-02** — Púrpura usado es exactamente `#432F64` (light) o `#8B73BE` (dark)
-- [ ] **C-03** — Hover naranja es `#FF7900` (MÁS CLARO, no oscuro)
-- [ ] **C-04** — Errores usan `#DC2626` (rojo), NUNCA naranja
-- [ ] **C-05** — Proporción 60-25-10-5 respetada (no exceso de naranja/púrpura)
-- [ ] **C-06** — Dark mode: fondo no es negro puro (`#000000` prohibido como bg)
+- [ ] **C-01** — Primario = `#FF5900`, Hover = `#FF7900` (más claro)
+- [ ] **C-02** — Errores en `#DC2626` (rojo), NUNCA naranja
+- [ ] **C-03** — Púrpura `#432F64` solo en acentos secundarios
+- [ ] **C-04** — Proporción 60/25/10/5 respetada
+- [ ] **C-05** — Dark mode funciona con `prefers-color-scheme: dark`
 
 ### Tipografía
 
-- [ ] **T-01** — Solo Manrope, Roboto y JetBrains Mono (no fuentes adicionales)
-- [ ] **T-02** — Escala tipográfica respetada (no tamaños arbitrarios)
-- [ ] **T-03** — Líneas de texto ≤ 75 caracteres (max-width 680px en contenido)
-- [ ] **T-04** — Responsive: tamaños reducidos en mobile según tabla 3.3
+- [ ] **T-01** — Títulos en Manrope Bold (o Sharp-Bold con licencia)
+- [ ] **T-02** — Cuerpo en Roboto Regular 18px / line-height 1.6
+- [ ] **T-03** — H2 en color púrpura `--ana-tertiary`
+- [ ] **T-04** — Código en JetBrains Mono
+- [ ] **T-05** — Responsive typography activa en mobile (< 640px)
 
 ### Componentes
 
-- [ ] **K-01** — Border radius usa escala correcta (5/8/12/9999)
-- [ ] **K-02** — Espaciado usa múltiplos de 4px exclusivamente
-- [ ] **K-03** — Sombras usan tokens del design system (no valores custom)
-- [ ] **K-04** — Botón primario: bg `#FF5900`, texto blanco, radius 5px, padding 8px 26px
-- [ ] **K-05** — Callout teórico: fondo púrpura light, borde izq púrpura
-- [ ] **K-06** — Callout práctico: fondo naranja light, borde izq naranja
-- [ ] **K-07** — Prompt block: monoespaciado, fondo diferenciado, acento naranja
+- [ ] **CM-01** — Botones: `border-radius: 5px`, padding `8px 26px`
+- [ ] **CM-02** — Cards: `border-radius: 8px`, sombra `--ana-shadow-sm`
+- [ ] **CM-03** — Inputs: focus con borde naranja + shadow ring
+- [ ] **CM-04** — Progress bars: fill naranja, completado verde
+- [ ] **CM-05** — Callouts: borde izquierdo 4px según semántica
 
 ### Accesibilidad
 
-- [ ] **A-01** — Contraste WCAG AA: texto normal ≥ 4.5:1, texto grande ≥ 3:1
+- [ ] **A-01** — Contraste de texto ≥ 4.5:1 para texto normal, ≥ 3:1 para texto grande
 - [ ] **A-02** — Focus ring visible en todos los elementos interactivos
 - [ ] **A-03** — Iconos funcionales tienen `aria-label`
 - [ ] **A-04** — `prefers-reduced-motion` respetada
@@ -1518,6 +1282,23 @@ Referencia rápida de todos los prefijos de tokens CSS:
 | `--ana-easing-*` | Curvas de animación | `--ana-easing-out`, `--ana-easing-in-out` |
 | `--ana-z-*` | Z-index | `--ana-z-header`, `--ana-z-modal` |
 | `--ana-max-width-*` | Anchos máximos | `--ana-max-width-content`, `--ana-max-width-layout` |
+
+---
+
+## 15. Convenciones de Naming CSS
+
+### Prefijo
+Todas las clases usan el prefijo `ana-` (Anáhuac).
+
+### Convención
+- **Componentes:** `.ana-[componente]` — ej: `.ana-card`, `.ana-btn`, `.ana-header`
+- **Variantes:** `.ana-[componente]-[variante]` — ej: `.ana-callout-theory`, `.ana-callout-practice`
+- **Elementos internos:** `.ana-[componente]__[elemento]` (BEM) — ej: `.ana-header__logo`, `.ana-sidebar__item`
+- **Estados:** `.ana-[componente]--[estado]` (BEM) — ej: `.ana-btn--primary`, `.ana-sidebar__item--current`
+- **Utilitarios:** sin prefijo, funcionales — ej: `.scroll-reveal`, `.visible`, `.copied`
+
+### Nota sobre aliases
+Los archivos HTML de contenido (`contenido/nivel-*.html`) usan single-dash para variantes (`.ana-callout-theory`). El CSS define ambas convenciones como aliases. Para NUEVO código, usar single-dash.
 
 ---
 

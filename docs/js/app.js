@@ -114,7 +114,7 @@
     try {
       const raw = localStorage.getItem(STATE_KEY);
       if (raw) return JSON.parse(raw);
-    } catch (e) { /* ignorar */ }
+    } catch (e) {}
     return {
       completedLevels: [],
       currentLevel: 1,
@@ -125,7 +125,7 @@
 
   function setState(updates) {
     const state = Object.assign(getState(), updates);
-    try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) { /* ignorar */ }
+    try { localStorage.setItem(STATE_KEY, JSON.stringify(state)); } catch (e) {}
     return state;
   }
 
@@ -505,8 +505,8 @@
       html += '</' + tag + '>';
     });
 
-    html += '    </div>'; /* grid */
-    html += '  </div>'; /* container */
+    html += '    </div>';
+    html += '  </div>';
     html += '</section>';
 
     /* ── Sección informativa ── */
@@ -628,7 +628,7 @@
    */
   function applyVersionFilter() {
     var state = getState();
-    var version = state.version; /* 'academica' o 'administrativa' */
+    var version = state.version;
     var blocks = document.querySelectorAll('[data-version]');
     blocks.forEach(function (block) {
       if (block.dataset.version === version) {
@@ -723,11 +723,11 @@
       html += '      <a href="#progreso" class="ana-btn ana-btn--primary ana-btn--sm">' + svgIcon('icon-trophy', 16) + ' Ver mis logros</a>';
     }
 
-    html += '    </div>'; /* nav inferior */
+    html += '    </div>';
 
-    html += '  </div>'; /* container */
-    html += '</div>'; /* content */
-    html += '</div>'; /* level-layout */
+    html += '  </div>';
+    html += '</div>';
+    html += '</div>';
 
     app.innerHTML = html;
 
@@ -741,7 +741,7 @@
         var lvl = parseInt(this.dataset.level, 10);
         completeLevel(lvl);
         updateMobileNav();
-        renderLevel(lvl); /* re-renderizar vista */
+        renderLevel(lvl);
       });
     }
 
@@ -814,7 +814,7 @@
       html += '    </div>';
     });
 
-    html += '    </div>'; /* grid badges */
+    html += '    </div>';
 
     /* Entregables del participante */
     html += '    <div class="ana-section__header">';
@@ -859,7 +859,7 @@
 
     html += '    </div>';
 
-    html += '  </div>'; /* container */
+    html += '  </div>';
     html += '</section>';
 
     app.innerHTML = html;
@@ -994,7 +994,7 @@
 
     /* Routing */
     window.addEventListener('hashchange', navigate);
-    navigate(); /* render initial view */
+    navigate();
   }
 
   /* ─── EASTER EGG: triple clic en logo ─── */
