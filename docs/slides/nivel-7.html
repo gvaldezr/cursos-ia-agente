@@ -1,0 +1,249 @@
+<!-- ═══════════════════════════════════════════════════════════════
+ NIVEL 7 — Gestión de Proyectos con IA
+ Slides HTML parciales · Cargados via fetch()
+ Curso «IA Práctica para Líderes Anáhuac» · Universidad Anáhuac Mayab
+ ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ——— SLIDE 1 · PORTADA ——— -->
+<div class="slide slide--cover" data-slide="1">
+ <div class="slide__gradient"></div>
+ <div class="slide__content">
+ <span class="slide__phase">Fase IV — INTEGRAR</span>
+ <h1 class="slide__title">Gestión de Proyectos con&nbsp;IA</h1>
+ <p class="slide__epigraph">«Un buen plan hoy vale más que un plan perfecto mañana.»</p>
+ <div class="slide__meta">
+ <span class="slide__meta-item">Nivel 7 de 8</span>
+ <span class="slide__meta-item">30-35 min</span>
+ <span class="slide__meta-item">Bloom: Evaluar / Crear</span>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 2 · AGENDA ——— -->
+<div class="slide slide--agenda" data-slide="2">
+ <h2 class="slide__heading">Agenda del nivel</h2>
+ <div class="slide__table-wrap">
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Tema</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr><td>1</td><td>Concepto — De la junta al tablero en 15 minutos</td><td>5 min</td></tr>
+ <tr><td>2</td><td>Demo — Plan, WBS, minuta, semáforo</td><td>10 min</td></tr>
+ <tr><td>3</td><td>Ejercicio — Su proyecto real estructurado</td><td>10 min</td></tr>
+ <tr><td>4</td><td>Tips + ética + entregable</td><td>10 min</td></tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 3 · CONCEPTO CLAVE ——— -->
+<div class="slide slide--concept" data-slide="3">
+ <h2 class="slide__heading">El problema: acuerdos que se pierden</h2>
+ <ul class="slide__list">
+ <li>Sale de una junta con notas que se difuminan en días</li>
+ <li>El plan se formaliza 3 días después — ya se perdió el impulso</li>
+ <li>La IA: describe el proyecto en lenguaje natural → plan estructurado</li>
+ <li>No es un plan perfecto — es un plan sólido que usted ajusta</li>
+ </ul>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">💡</span>
+ <p><strong>Insight:</strong> La IA es un consultor externo brillante: entrega un marco impecable, pero no conoce los pasillos.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 4 · VERIFICACIÓN DE RIESGOS ——— -->
+<div class="slide slide--concept" data-slide="4">
+ <h2 class="slide__heading">Punto crítico: verificación de riesgos</h2>
+ <ul class="slide__list">
+ <li>La IA propone riesgos genéricos (presupuesto, tiempo, personal)</li>
+ <li>Los riesgos reales: proveedor que se retrasa, lluvias en Mérida, rotación en diciembre</li>
+ <li>La IA estructura; <strong>usted completa lo que ella no puede ver</strong></li>
+ </ul>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">🎯</span>
+ <p><strong>Regla de oro:</strong> Revise los riesgos de la IA y agregue al menos 2 que solo usted conoce.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 5 · DEMO — PLAN DE PROYECTO ——— -->
+<div class="slide slide--demo" data-slide="5">
+ <h2 class="slide__heading">Paso 1 — Plan de proyecto instantáneo</h2>
+ <div class="slide__columns">
+ <div class="slide__col">
+ <h3 class="slide__col-title">❌ Prompt vago</h3>
+ <div class="slide__prompt slide__prompt--bad">
+ <code>Hazme un plan de proyecto para la acreditación.</code>
+ </div>
+ </div>
+ <div class="slide__col">
+ <h3 class="slide__col-title">✅ Enfoque estructurado</h3>
+ <div class="slide__prompt slide__prompt--good">
+ <p>Incluye: rol (consultor PM), descripción del proyecto, 6 entregables (objetivos, alcance, entregables, cronograma, riesgos, stakeholders). Máx 3 cuartillas.</p>
+ </div>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 6 · DEMO — PROMPT PLAN COMPLETO ——— -->
+<div class="slide slide--demo" data-slide="6">
+ <h2 class="slide__heading">Prompt de plan de proyecto</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <code>Actúe como consultor de gestión de proyectos en educación superior.
+
+Proyecto: [DESCRIPCIÓN — ej: Preparación de visita CACEI
+para Ingeniería Industrial, marzo 2027].
+
+Genere: (1) Objetivo general + 3 específicos (2) Alcance
+(incluye y NO incluye) (3) 5 entregables con responsable
+(4) Cronograma de 6 meses en tabla (5) 5 riesgos con
+probabilidad y mitigación (6) Stakeholders y su rol.
+
+Formato: documento ejecutivo, máximo 3 cuartillas.</code>
+ </div>
+</div>
+
+<!-- ——— SLIDE 7 · DEMO — DESGLOSE WBS ——— -->
+<div class="slide slide--demo" data-slide="7">
+ <h2 class="slide__heading">Paso 2 — Desglose de tareas (WBS)</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <code>Desglosa este proyecto en fases, tareas y subtareas.
+
+Formato tabla: Fase | Tarea | Subtareas | Responsable |
+Duración | Dependencias
+
+Identifique las 3 tareas en la ruta crítica (si se
+retrasan, retrasan todo el proyecto).</code>
+ </div>
+</div>
+
+<!-- ——— SLIDE 8 · DEMO — MINUTA ——— -->
+<div class="slide slide--demo" data-slide="8">
+ <h2 class="slide__heading">Paso 3 — De notas a minuta ejecutiva</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <code>Convierta las siguientes notas de mi reunión en minuta
+ejecutiva formal: [PEGAR NOTAS]
+
+Incluya: (1) Datos generales (fecha, hora, asistentes)
+(2) Temas con decisiones tomadas (3) Tabla de acuerdos:
+acuerdo | responsable | fecha compromiso (4) Próxima reunión
+(5) Formato formal, lista para firma y archivo</code>
+ </div>
+</div>
+
+<!-- ——— SLIDE 9 · DEMO — REPORTE SEMÁFORO ——— -->
+<div class="slide slide--technique" data-slide="9">
+ <h2 class="slide__heading">Paso 4 — Reporte de avance semáforo</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <code>Basándose en estos datos de avance del proyecto [NOMBRE]:
+[DESCRIBIR AVANCE POR FASE]
+
+Genere reporte semáforo: 🟢 En tiempo · 🟡 Retraso < 1 sem
+· 🔴 Retraso crítico. Acción correctiva por punto rojo.
+Formato: tabla + párrafo ejecutivo de 100 palabras.</code>
+ </div>
+</div>
+
+<!-- ——— SLIDE 10 · EJERCICIO ——— -->
+<div class="slide slide--exercise" data-slide="10">
+ <h2 class="slide__heading">Ejercicio práctico</h2>
+ <div class="slide__columns">
+ <div class="slide__col" data-version="academica">
+ <h3 class="slide__col-title">🎓 Versión académica</h3>
+ <p class="slide__body">Estructure un proyecto REAL:</p>
+ <ul class="slide__list">
+ <li>Acreditación / Rediseño curricular</li>
+ <li>Programa de tutoría / Congreso</li>
+ </ul>
+ <p class="slide__body">Complete los 4 pasos: plan, WBS, minuta y semáforo.</p>
+ </div>
+ <div class="slide__col" data-version="administrativa">
+ <h3 class="slide__col-title">🏢 Versión administrativa</h3>
+ <p class="slide__body">Estructure un proyecto real:</p>
+ <ul class="slide__list">
+ <li>Nuevo sistema / Remodelación</li>
+ <li>Certificación ISO / Migración</li>
+ </ul>
+ <p class="slide__body">Agregue riesgos de su contexto operativo.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 11 · TIPS ——— -->
+<div class="slide slide--tips" data-slide="11">
+ <h2 class="slide__heading">Tips y anti-patrones</h2>
+ <div class="slide__table-wrap">
+ <table class="slide__table slide__table--dodont">
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Use la IA para el primer borrador, luego edite</td>
+ <td>Aceptar el plan sin agregar su contexto</td>
+ </tr>
+ <tr>
+ <td>Convierta notas de junta en minuta el MISMO DÍA</td>
+ <td>Esperar una semana para formalizar acuerdos</td>
+ </tr>
+ <tr>
+ <td>Use semáforo para que cualquiera entienda en 30 seg</td>
+ <td>Reportes narrativos de 5 páginas que nadie lee</td>
+ </tr>
+ <tr>
+ <td>Guarde templates de minuta y reporte para reutilizar</td>
+ <td>Crear cada documento de seguimiento desde cero</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 12 · MOMENTO ÉTICO ——— -->
+<div class="slide slide--ethics" data-slide="12">
+ <h2 class="slide__heading">Momento ético</h2>
+ <div class="slide__ethics-scenario">
+ <p class="slide__body">Un colega pregunta: «¿Lo hizo la IA o lo hizo usted?»</p>
+ <p class="slide__body">Respuesta honesta: la IA generó la estructura; usted aportó contexto, corrigió riesgos y tomó las decisiones.</p>
+ </div>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">🤔</span>
+ <p><strong>Reflexione:</strong> ¿La IA reemplaza su capacidad de planear o la hace más explícita?</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 13 · ENTREGABLE ——— -->
+<div class="slide slide--deliverable" data-slide="13">
+ <h2 class="slide__heading">Entregable del nivel</h2>
+ <div class="slide__deliverable-box">
+ <h3 class="slide__deliverable-title">Plan de proyecto real</h3>
+ <ul class="slide__list">
+ <li>Objetivos (general + 3 específicos) y alcance</li>
+ <li>Desglose de tareas (WBS) con ruta crítica</li>
+ <li>5 riesgos con mitigación — incluyendo 2 editados por usted</li>
+ <li>Template de minuta + formato de reporte semáforo</li>
+ </ul>
+ </div>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">📌</span>
+ <p><strong>Tarea:</strong> Aplique el template de minuta en su próxima reunión real. Convierta notas en minuta formal antes de que termine el día.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 14 · TRANSICIÓN ——— -->
+<div class="slide slide--transition" data-slide="14">
+ <div class="slide__transition-content">
+ <p class="slide__transition-text">«Ya usa la IA para comunicar, analizar, automatizar, atender y planear. Ahora viene algo diferente: va a dejar de ser el <strong>USUARIO</strong> de la IA para convertirse en el <strong>ARQUITECTO</strong>. Va a diseñar su propio equipo de agentes inteligentes.»</p>
+ <div class="slide__transition-next">
+ <span class="slide__transition-label">Siguiente nivel</span>
+ <span class="slide__transition-title">Nivel 8 — Agentes y Equipo Local de IA</span>
+ </div>
+ </div>
+</div>

@@ -1,0 +1,285 @@
+<!-- ═══════════════════════════════════════════════════════════════
+ SLIDES — Nivel 2: Frameworks de Prompts
+ Curso «IA Práctica para Líderes Anáhuac Mayab»
+ HTML parcial — cargado via fetch() en el SPA
+ ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ——— SLIDE 1 · PORTADA ——— -->
+<div class="slide slide--cover" data-slide="1">
+ <div class="slide__gradient">
+ <div></div>
+ <p class="ana-overline">NIVEL 2 · FASE I — ENTENDER</p>
+ <h1 class="ana-display">Frameworks de Prompts</h1>
+ <p>
+ «La diferencia entre un usuario básico y un experto no es la herramienta: es la instrucción.»
+ </p>
+ <div>
+ <span>⏱ 45–50 minutos</span>
+ <span>🛠 Amazon Quick</span>
+ <span>📋 Tres prompts maestros</span>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 2 · AGENDA ——— -->
+<div class="slide slide--agenda" data-slide="2">
+ <h2 class="ana-h2">Agenda del Nivel 2</h2>
+ <div class="slide__table">
+ <table>
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Contenido</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Concepto clave</td>
+ <td>Tres frameworks: RCTF, RISE, CO-STAR</td>
+ <td>8 min</td>
+ </tr>
+ <tr>
+ <td>2. Demos</td>
+ <td>RCTF · RISE · CO-STAR con casos reales</td>
+ <td>22 min</td>
+ </tr>
+ <tr>
+ <td>3. Ejercicio</td>
+ <td>Crear 3 prompts maestros + técnicas de iteración</td>
+ <td>12 min</td>
+ </tr>
+ <tr>
+ <td>4. Tips y cierre</td>
+ <td>Anti-patrones, momento ético, transición</td>
+ <td>8 min</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 3 · CONCEPTO CLAVE: LOS 3 FRAMEWORKS ——— -->
+<div class="slide slide--concept" data-slide="3">
+ <h2 class="ana-h2">1. Concepto clave — Tres frameworks, un principio</h2>
+
+ <p class="ana-body">Un <em>framework</em> es una plantilla probada que organiza lo que usted le pide a la IA. Con estructura → resultados consistentes.</p>
+
+ <div>
+ <div>
+ <p>RCTF</p>
+ <p class="ana-caption">Rol · Contexto · Tarea · Formato</p>
+ <p class="ana-caption">La receta más rápida.</p>
+ </div>
+ <div>
+ <p>RISE</p>
+ <p class="ana-caption">Rol · Input · Steps · Expectation</p>
+ <p class="ana-caption">Proceso paso a paso.</p>
+ </div>
+ <div>
+ <p>CO-STAR</p>
+ <p class="ana-caption">Context · Objective · Style · Tone · Audience · Response</p>
+ <p class="ana-caption">Control fino de tono.</p>
+ </div>
+ </div>
+
+ <div class="ana-callout ana-callout--theory">
+ <p class="ana-callout__label">💡 Recomendación</p>
+ <p class="ana-body-sm">Empiece con RCTF para todo. Migre a RISE o CO-STAR cuando necesite más control.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 4 · DEMO RCTF: COMPARACIÓN ——— -->
+<div class="slide slide--demo" data-slide="4">
+ <h2 class="ana-h2">2. Demo RCTF — Análisis de retención</h2>
+ <p class="ana-body-sm">Dos coordinadores piden lo mismo. La diferencia es la instrucción.</p>
+
+ <div class="grid-2">
+ <div class="slide__prompt slide__prompt--bad">
+ <p>❌ Sin framework</p>
+ <pre class="ana-prompt"><code>Analiza la retención de mi programa.</code></pre>
+ <p class="ana-caption">Resultado: texto genérico sin datos.</p>
+ </div>
+ <div class="slide__prompt slide__prompt--good">
+ <p>✅ Con RCTF</p>
+ <p class="ana-body-sm">Incluye ROL (analista), datos concretos, 4 entregables y formato específico.</p>
+ <p class="ana-caption">Resultado: documento con tasa calculada, factores y acciones.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 5 · DEMO RCTF: PROMPT COMPLETO ——— -->
+<div class="slide slide--demo" data-slide="5">
+ <h2 class="ana-h2">Demo RCTF — Prompt completo</h2>
+
+ <div class="slide__prompt slide__prompt--good">
+ <pre class="ana-prompt"><code>ROL: Actúe como analista de gestión académica universitaria.
+
+TAREA: Análisis de retención estudiantil para rectoría.
+Datos de la Licenciatura en Derecho:
+- Matrícula inicio Primavera 2026: 180 · Cierre: 162
+- Causas de baja: económicas, cambio de carrera, bajo rendimiento
+- Tasa de retención ciclo anterior: 92%
+
+Genere: (1) Tasa actual y comparativa (2) 3 factores de riesgo
+(3) 3 acciones de intervención (4) Párrafo ejecutivo de 80 palabras
+
+FORMATO: Encabezados claros y viñetas. Presentable en consejo.</code></pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 6 · DEMO RISE ——— -->
+<div class="slide slide--demo" data-slide="6">
+ <h2 class="ana-h2">3. Demo RISE — Seguimiento de acreditación</h2>
+
+ <div>
+ <p>🔬 Framework RISE</p>
+ <pre class="ana-prompt"><code>ROLE: Asesor de aseguramiento de calidad educativa (COPAES).
+
+INPUT: Indicadores del programa de [LICENCIATURA]:
+- Titulación: Meta 60% — Actual 52%
+- Prof. con posgrado: Meta 80% — Actual 74%
+- Satisfacción: Meta 8.5/10 — Actual 7.9/10
+
+STEPS: (1) Evaluar estatus 🟢🟡🔴 (2) Calcular brecha
+(3) Acción correctiva por indicador (4) Responsable y plazo
+
+EXPECTATION: Tabla semáforo + resumen de 1 párrafo. Máx 1 cuartilla.</code></pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 7 · DEMO CO-STAR ——— -->
+<div class="slide slide--demo" data-slide="7">
+ <h2 class="ana-h2">4. Demo CO-STAR — Respuesta a padre de familia</h2>
+
+ <div>
+ <p>🎯 Framework CO-STAR</p>
+ <pre class="ana-prompt"><code>CONTEXT: Padre pregunta por qué su hijo (mayor de edad) reprobó 2 materias.
+OBJECTIVE: Responder con empatía, explicar límites de privacidad, ofrecer alternativas.
+STYLE: Redacción institucional Anáhuac Mayab, sin tecnicismos.
+TONE: Empático pero institucionalmente correcto.
+AUDIENCE: Padre/madre, 45–55 años, preocupado.
+RESPONSE: Correo de máx 200 palabras: agradecimiento, normativa,
+alternativas (reunión, tutoría), datos de contacto.</code></pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 8 · EJERCICIO: 3 PROMPTS MAESTROS ——— -->
+<div class="slide slide--exercise" data-slide="8">
+ <h2 class="ana-h2">5. Ejercicio — Cree sus tres prompts maestros</h2>
+
+ <div class="grid-2">
+ <div data-version="academica">
+ <p>🎓 Versión académica</p>
+ <div>
+ <div><strong>1. RCTF</strong> — Tarea repetitiva (comunicado a docentes)</div>
+ <div><strong>2. RISE</strong> — Análisis (indicadores de programa)</div>
+ <div><strong>3. CO-STAR</strong> — Comunicación sensible (padres)</div>
+ </div>
+ </div>
+ <div data-version="administrativa">
+ <p>🏢 Versión administrativa</p>
+ <div>
+ <div><strong>1. RCTF</strong> — Tarea repetitiva (reporte de gastos)</div>
+ <div><strong>2. RISE</strong> — Análisis (variaciones presupuestales)</div>
+ <div><strong>3. CO-STAR</strong> — Comunicación sensible (proveedores)</div>
+ </div>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 9 · TÉCNICAS DE ITERACIÓN ——— -->
+<div class="slide slide--technique" data-slide="9">
+ <h2 class="ana-h2">Técnicas de iteración</h2>
+
+ <div>
+ <div>
+ <p>🔧</p>
+ <p>Refinar</p>
+ <p class="ana-caption">«Ajusta el tono para que sea más directo.»</p>
+ </div>
+ <div>
+ <p>🔍</p>
+ <p>Criticar</p>
+ <p class="ana-caption">«Revisa tu respuesta: ¿omitiste algo?»</p>
+ </div>
+ <div>
+ <p>🔄</p>
+ <p>Variar</p>
+ <p class="ana-caption">«Dame dos versiones: formal y cercana.»</p>
+ </div>
+ </div>
+
+ <div class="ana-callout ana-callout--exercise">
+ <p class="ana-callout__label">🎯 Práctica</p>
+ <p class="ana-body-sm">Aplique dos refinamientos a una instrucción anterior y compare la evolución.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 10 · TIPS DO / DON'T ——— -->
+<div class="slide slide--tips" data-slide="10">
+ <h2 class="ana-h2">Tips y anti-patrones</h2>
+
+ <div class="slide__table">
+ <table>
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Empiece con RCTF para todo</td>
+ <td>Memorizar los tres marcos a la vez</td>
+ </tr>
+ <tr>
+ <td>Guarde sus mejores instrucciones</td>
+ <td>Crear cada instrucción desde cero</td>
+ </tr>
+ <tr>
+ <td>Itere 2-3 veces antes de dar por bueno</td>
+ <td>Aceptar el primer resultado sin revisión</td>
+ </tr>
+ <tr>
+ <td>Use CO-STAR cuando el tono sea crítico</td>
+ <td>Usar RCTF para correos sensibles</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+
+ <div class="ana-callout ana-callout--theory">
+ <p class="ana-callout__label">🔑 Recuerde</p>
+ <p class="ana-body-sm">Los <em>frameworks</em> potencian su experiencia. Sin su criterio, la IA produce texto genérico.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 11 · MOMENTO ÉTICO ——— -->
+<div class="slide slide--ethics" data-slide="11">
+ <h2 class="ana-h2">6. Momento ético</h2>
+
+ <div>
+ <p>⚖️</p>
+ <p class="ana-body">Si la IA le escribió un comunicado con análisis de datos, ¿dónde está la línea entre «asistida por IA» y «hecha por IA»?</p>
+ <div>
+ <p class="ana-body-sm">La transparencia sobre el uso de IA es una <strong>decisión profesional, no técnica.</strong></p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 12 · TAREA + TRANSICIÓN ——— -->
+<div class="slide slide--transition" data-slide="12">
+ <div>
+ <div></div>
+ <p class="ana-overline">ENTREGABLE</p>
+ <p class="ana-body">Guarde sus tres instrucciones maestras. Son la semilla de su banco personal — al final del curso tendrá más de 20.</p>
+
+ <p class="ana-overline">TAREA DE LA SEMANA</p>
+ <p class="ana-body">Use RCTF para al menos <strong>tres tareas reales</strong>. Guarde instrucciones y resultados.</p>
+
+ <div></div>
+ <p class="ana-overline">CONEXIÓN AL NIVEL 3</p>
+ <p class="ana-body">Ahora tiene las recetas. En el <strong>Nivel 3</strong> las usará para atacar las 2-3 horas diarias que pasa escribiendo correos.</p>
+ </div>
+</div>

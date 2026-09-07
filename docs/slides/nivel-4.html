@@ -1,0 +1,238 @@
+<!-- ============================================================
+ SLIDES — Nivel 4: Análisis de Reportes con IA
+ Curso «IA Práctica para Líderes Anáhuac Mayab»
+ HTML parcial — cargado con fetch() por el visor de slides
+ ============================================================ -->
+
+<!-- ——— SLIDE 1: PORTADA ——— -->
+<div class="slide slide--cover">
+ <div class="slide__gradient">
+ <p class="slide__overline">Nivel 4 · Fase II — USAR</p>
+ <h1 class="slide__title">Análisis de Reportes con IA</h1>
+ <p class="slide__epigraph"><em>Un directivo no necesita leer más. Necesita entender mejor lo que ya tiene.</em></p>
+ <div class="slide__meta">
+ <span>⏱ 45–50 min</span>
+ <span>🛠 Amazon Quick (workspace)</span>
+ <span>📄 Resumen ejecutivo 1 página</span>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 2: AGENDA ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Agenda del módulo</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Actividad</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Concepto clave</td>
+ <td>De leer reportes a entender reportes — RAG</td>
+ <td>5 min</td>
+ </tr>
+ <tr>
+ <td>2. Demostración</td>
+ <td>Resumen ejecutivo + análisis en 3 pasos</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>3. Ejercicio</td>
+ <td>Analizar reporte real con protocolo PAUS</td>
+ <td>20 min</td>
+ </tr>
+ <tr>
+ <td>4. Output + ética</td>
+ <td>Resumen verificado + confidencialidad</td>
+ <td>10 min</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ——— SLIDE 3: CONCEPTO CLAVE ——— -->
+<div class="slide">
+ <h2 class="slide__heading">El problema del directivo con reportes</h2>
+ <ul>
+ <li>📚 Recibe <strong>5-10 reportes por semana</strong> — lee el 20% de cada uno</li>
+ <li>📁 El otro 80% se archiva «para después» que nunca llega</li>
+ <li>🔍 <strong>RAG</strong>: la IA consulta SUS documentos y basa respuestas en ellos</li>
+ <li>⚠️ Aunque los datos vengan de su archivo, la IA puede inventar la interpretación</li>
+ </ul>
+ <div class="slide__callout">
+ <p><strong>💡 Insight:</strong> Es como darle una carpeta a su asistente y decirle «léete esto y dime qué es lo más importante.»</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 4: RIESGO CLAVE ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Aquí la IA no solo redacta — analiza</h2>
+ <p class="slide__body">La IA identifica tendencias, señala anomalías y genera resúmenes ejecutivos. Pero esa potencia trae un riesgo proporcional.</p>
+ <div>
+ <p><strong>⚠️ Riesgo:</strong> Un dato fabricado con su firma llega a rectoría. Por eso, este nivel introduce el <strong>protocolo PAUS</strong>.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 5: DEMO — COMPARACIÓN ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Demostración: Resumen ejecutivo</h2>
+ <div class="grid-2">
+ <div class="slide__prompt slide__prompt--bad">
+ <p>❌ Prompt vago</p>
+ <pre>Resúmeme este documento.</pre>
+ </div>
+ <div class="slide__prompt slide__prompt--good">
+ <p>✅ Estructurado</p>
+ <p>Incluye: audiencia, formato (párrafo + hallazgos + indicadores + recomendaciones), señalar inconsistencias.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 6: PROMPT COMPLETO ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Prompt de resumen ejecutivo</h2>
+ <div>
+ <pre>Genera un resumen ejecutivo de 1 página para la Dirección
+de Escuela, basado en el documento compartido.
+
+Formato:
+- Párrafo ejecutivo de apertura (80 palabras máximo)
+- 5 hallazgos clave en viñetas
+- 3 indicadores que requieren atención inmediata
+- 2 recomendaciones accionables
+- Señale datos inconsistentes o incompletos</pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 7: ANÁLISIS EN 3 PASOS ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Framework: Análisis en 3 pasos</h2>
+ <div>
+ <div>
+ <span>1</span>
+ <p><strong>Resumen en 5 puntos</strong> — Puntos clave para consejo. Señalar datos urgentes.</p>
+ </div>
+ <div>
+ <span>2</span>
+ <p><strong>3 hallazgos preocupantes</strong> — Por qué importan y qué acción sugiere.</p>
+ </div>
+ <div>
+ <span>3</span>
+ <p><strong>Resumen ejecutivo completo</strong> — 1 página con indicadores, alertas y recomendaciones.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 8: EJERCICIO ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Ejercicio: Analice su reporte</h2>
+ <div class="grid-2">
+ <div>
+ <p>🎓 Versión académica</p>
+ <p>Suba un reporte real: indicadores CIEES/COPAES, matrícula, evaluaciones docentes o encuestas de satisfacción.</p>
+ </div>
+ <div>
+ <p>🏢 Versión administrativa</p>
+ <p>Suba un reporte operativo: estados financieros, KPIs, avance de proyectos o resultados de auditoría.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 9: PROTOCOLO PAUS ——— -->
+<div class="slide">
+ <h2 class="slide__heading">🛡️ Protocolo PAUS de verificación</h2>
+ <div class="grid-2">
+ <div>
+ <p><strong>P</strong> — Procedencia</p>
+ <p>¿De mi documento o de «su memoria»?</p>
+ </div>
+ <div>
+ <p><strong>A</strong> — Actualidad</p>
+ <p>¿Datos del ciclo correcto? ¿No mezcló periodos?</p>
+ </div>
+ <div>
+ <p><strong>U</strong> — Unicidad</p>
+ <p>¿Específico para MI programa o genérico?</p>
+ </div>
+ <div>
+ <p><strong>S</strong> — Sesgo</p>
+ <p>¿Qué perspectiva falta en el análisis?</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 10: TIPS ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Tips y anti-patrones</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Suba el documento a Amazon Quick</td>
+ <td>Pedir análisis «de memoria» sin archivos</td>
+ </tr>
+ <tr>
+ <td>Verifique cada dato numérico contra el original</td>
+ <td>Confiar en cifras sin verificar</td>
+ </tr>
+ <tr>
+ <td>Aplique PAUS en cada resumen</td>
+ <td>Enviar a rectoría sin revisión humana</td>
+ </tr>
+ <tr>
+ <td>Pida que señale inconsistencias</td>
+ <td>Asumir que la IA nunca se equivoca</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ——— SLIDE 11: MOMENTO ÉTICO ——— -->
+<div class="slide">
+ <h2 class="slide__heading">⚖️ Momento ético: Documentos confidenciales</h2>
+ <div>
+ <p>¿Qué documentos <strong>nunca</strong> se suben a IA pública? Expedientes disciplinarios, datos de salud, información financiera sujeta a auditoría.</p>
+ </div>
+ <div class="slide__callout">
+ <p><strong>🤔 Reflexión:</strong> Conozca la diferencia entre procesamiento local y nube pública.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 12: ENTREGABLE ——— -->
+<div class="slide">
+ <h2 class="slide__heading">📦 Entregable: Análisis ejecutivo verificado</h2>
+ <div class="grid-2">
+ <div>
+ <p><strong>📝 Resumen ejecutivo</strong> — 1 página de su reporte</p>
+ </div>
+ <div>
+ <p><strong>💬 Instrucción utilizada</strong> — Para reutilizar</p>
+ </div>
+ <div>
+ <p><strong>✅ Checklist PAUS</strong> — Verificación completada</p>
+ </div>
+ <div>
+ <p><strong>🚦 Tabla semáforo</strong> — Indicadores con colores</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 13: TRANSICIÓN ——— -->
+<div class="slide slide--transition">
+ <div>
+ <p class="slide__overline">Tarea de la semana</p>
+ <p class="slide__body">Genere un resumen ejecutivo de un reporte pendiente. Guarde instrucción, resultado y checklist PAUS.</p>
+ <div></div>
+ <p class="slide__overline">Siguiente: Nivel 5</p>
+ <p class="slide__body">¿Y si pudiera <strong>automatizar</strong> ese proceso para que su reporte mensual se genere en 15 minutos? En el Nivel 5, diseñará su primer flujo completo.</p>
+ </div>
+</div>

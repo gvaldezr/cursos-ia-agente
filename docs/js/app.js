@@ -694,6 +694,10 @@
     html += '      <div class="ana-skeleton ana-skeleton-text" style="width:60%"></div>';
     html += '    </div>';
 
+    /* Botón: Ver presentación del nivel */
+    html += '    <button class="ana-btn--slides" onclick="SlideViewer.open(' + n + ')" aria-label="Ver presentación del nivel ' + n + '">';
+    html += '      ' + svgIcon('icon-layers', 18) + ' Ver presentación del nivel</button>';
+
     /* Navegación inferior */
     html += '    <div style="display:flex;flex-wrap:wrap;gap:var(--ana-space-3);justify-content:space-between;margin-top:var(--ana-space-8);padding-top:var(--ana-space-6);border-top:1px solid var(--ana-border-divider)">';
 

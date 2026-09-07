@@ -1,0 +1,243 @@
+<!-- ═══════════════════════════════════════════════════════════════
+ SLIDES — Nivel 6: Atención a Stakeholders con IA
+ Curso «IA Práctica para Líderes Anáhuac» · Universidad Anáhuac Mayab
+ HTML parcial (sin html/head/body) — se carga vía fetch()
+ ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ▸ SLIDE 1 — PORTADA ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--cover" data-slide="1">
+ <div class="slide__badge">Fase III — ACELERAR</div>
+ <h1 class="slide__title">Atención a Stakeholders con IA</h1>
+ <p class="slide__epigraph">«La eficiencia sin empatía es negligencia con buena presentación.»</p>
+ <div class="slide__meta">
+ <span class="slide__meta-item">🎯 Nivel 6 de 8</span>
+ <span class="slide__meta-item">⏱ 25-30 min</span>
+ <span class="slide__meta-item">🧠 Aplicar / Evaluar</span>
+ </div>
+ <p class="slide__narrative">La línea que no se cruza</p>
+</div>
+
+<!-- ▸ SLIDE 2 — AGENDA ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--agenda" data-slide="2">
+ <h2 class="slide__heading">Agenda del nivel</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Contenido</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Concepto clave</td>
+ <td>Banco de respuestas maestras y protocolo semáforo</td>
+ <td>5 min</td>
+ </tr>
+ <tr>
+ <td>2. Demostración</td>
+ <td>Respuesta maestra → Caso sensible → Semáforo</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>3. Ejercicio práctico</td>
+ <td>Crear 5 respuestas maestras + protocolo</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>4. Tips + ética + cierre</td>
+ <td>Personalización, tono y la línea que no se cruza</td>
+ <td>5 min</td>
+ </tr>
+ </tbody>
+ </table>
+ <p class="slide__footnote">📦 Producto integrador: Kit de atención — 10 respuestas maestras + protocolo semáforo</p>
+</div>
+
+<!-- ▸ SLIDE 3 — CONCEPTO CLAVE ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--concept" data-slide="3">
+ <h2 class="slide__heading">Concepto clave: Respuestas maestras</h2>
+ <ul class="slide__list">
+ <li>En inscripciones: <strong>40-80 consultas diarias</strong>, 80% son las mismas 15 preguntas</li>
+ <li>A 3-5 min cada una = <strong>2-3 horas diarias</strong> repitiendo lo mismo</li>
+ <li>Solución: banco de respuestas maestras que la IA personaliza en segundos</li>
+ <li>Resultado: respuesta individual generada en 30 segundos</li>
+ </ul>
+ <div class="slide__callout slide__callout--insight">
+ <strong>💡 Regla de oro:</strong> La IA responde preguntas. Las personas atienden personas.
+ </div>
+</div>
+
+<!-- ▸ SLIDE 4 — SEMÁFORO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--concept" data-slide="4">
+ <h2 class="slide__heading">Protocolo semáforo: ¿cuándo NO usar IA?</h2>
+ <table class="slide__table slide__table--semaforo">
+ <thead>
+ <tr>
+ <th>Nivel</th>
+ <th>Tipo de consulta</th>
+ <th>Acción</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr class="slide__row--green">
+ <td>🟢 Con IA</td>
+ <td>Preguntas frecuentes estándar</td>
+ <td>Respuesta maestra, personalizar y enviar</td>
+ </tr>
+ <tr class="slide__row--yellow">
+ <td>🟡 Precaución</td>
+ <td>Quejas formales, solicitudes fuera de norma</td>
+ <td>Borrador con IA + revisión humana exhaustiva</td>
+ </tr>
+ <tr class="slide__row--red">
+ <td>🔴 NUNCA</td>
+ <td>Crisis emocional, salud mental, casos legales</td>
+ <td>Atención humana directa, canalización</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ▸ SLIDE 5 — DEMO: COMPARACIÓN ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--demo" data-slide="5">
+ <h2 class="slide__heading">Demostración: Respuesta maestra con IA</h2>
+ <div class="slide__columns">
+ <div class="slide__column">
+ <div class="slide__prompt slide__prompt--bad">
+ <div class="slide__prompt-label">❌ Respuesta genérica</div>
+ <pre class="slide__prompt-code">Estimado usuario, su solicitud ha sido
+recibida. Le informaremos a la brevedad.</pre>
+ </div>
+ </div>
+ <div class="slide__column">
+ <div class="slide__prompt slide__prompt--good">
+ <div class="slide__prompt-label">✅ Enfoque con respuesta maestra</div>
+ <p class="slide__body-sm">Incluye: rol, pregunta frecuente, pasos del estudiante, documentos requeridos, contacto, tono y versión con variables [NOMBRE], [MATERIA].</p>
+ </div>
+ </div>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 6 — DEMO: PROMPT COMPLETO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--demo" data-slide="6">
+ <h2 class="slide__heading">Prompt para respuesta maestra</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <div class="slide__prompt-label">✅ Instrucción completa</div>
+ <pre class="slide__prompt-code">Actúe como coordinador académico de la Anáhuac Mayab.
+
+Genere una respuesta maestra para: «¿Cuál es el proceso
+para solicitar equivalencia de materias?»
+
+La respuesta debe:
+1. Ser completa pero concisa (máx 150 palabras)
+2. Incluir los pasos que el estudiante debe seguir
+3. Indicar documentos requeridos y datos de contacto
+4. Tono: cercano-institucional, tratamiento de «usted»
+
+Después, genere versión personalizable con variables:
+«Estimado/a [NOMBRE], respecto a su solicitud...»</pre>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 7 — DEMO: CASO SENSIBLE ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--demo" data-slide="7">
+ <h2 class="slide__heading">Caso sensible: Estudiante en riesgo de baja</h2>
+ <p class="slide__body">Estudiante de 7.° semestre, 3 materias reprobadas, beca del 40%. Primera comunicación con coordinación.</p>
+ <div class="slide__prompt slide__prompt--good">
+ <div class="slide__prompt-label">✅ Instrucción para caso sensible</div>
+ <pre class="slide__prompt-code">Genere respuesta que: (1) Empatía genuina (2) Situación
+reglamentaria clara (3) Opciones: apelación, tutoría,
+baja temporal (4) Canalice a psicopedagogía (5) NO tome
+la decisión por el alumno. Tono empático, máx 200 palabras.</pre>
+ </div>
+ <div class="slide__callout slide__callout--warning">
+ <strong>⚠️ Atención:</strong> Nivel 🟡 — nunca se envía sin revisión humana exhaustiva.
+ </div>
+</div>
+
+<!-- ▸ SLIDE 8 — EJERCICIO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--exercise" data-slide="8">
+ <h2 class="slide__heading">Ejercicio práctico</h2>
+ <div class="slide__columns">
+ <div class="slide__column">
+ <h3 class="slide__subheading">🎓 Versión académica</h3>
+ <p class="slide__body-sm">Genere 5 respuestas maestras: equivalencias, reinscripción, servicio social, titulación, becas. Clasifique 10 solicitudes reales con el semáforo.</p>
+ </div>
+ <div class="slide__column">
+ <h3 class="slide__subheading">🏢 Versión administrativa</h3>
+ <p class="slide__body-sm">Genere 5 respuestas maestras: trámites de pago, compras, viáticos, acceso a sistemas, facturas. Identifique 3 casos exclusivamente humanos.</p>
+ </div>
+ </div>
+ <div class="slide__callout slide__callout--deliverable">
+ <strong>📦 Entregable:</strong> Kit con 10 respuestas maestras + protocolo semáforo con 3 casos límite.
+ </div>
+</div>
+
+<!-- ▸ SLIDE 9 — TIPS ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--tips" data-slide="9">
+ <h2 class="slide__heading">Tips y anti-patrones</h2>
+ <table class="slide__table slide__table--dodont">
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Cree respuestas con variables ([NOMBRE], [PROGRAMA])</td>
+ <td>Copiar la misma respuesta genérica para todos</td>
+ </tr>
+ <tr>
+ <td>Defina su semáforo ANTES de automatizar</td>
+ <td>Automatizar primero, decidir límites después</td>
+ </tr>
+ <tr>
+ <td>Revise el tono: ¿suena a persona o a robot?</td>
+ <td>Enviar «Estimado usuario» sin nombre</td>
+ </tr>
+ <tr>
+ <td>Canalice inmediatamente ante señales de crisis</td>
+ <td>Responder con plantilla a quien expresa desesperanza</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ▸ SLIDE 10 — MOMENTO ÉTICO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--ethics" data-slide="10">
+ <h2 class="slide__heading">Momento ético</h2>
+ <div class="slide__ethics-block">
+ <p class="slide__body">Un alumno escribe: «ya no le veo sentido a nada». No es una pregunta frecuente. Es una persona que necesita ser escuchada por otro ser humano.</p>
+ <div class="slide__ethics-question">
+ <strong>🤔 Reflexione:</strong> ¿Su protocolo identifica las señales que exigen atención humana directa?
+ </div>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 11 — ENTREGABLE ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--deliverable" data-slide="11">
+ <h2 class="slide__heading">📦 Entregable: Kit de atención con IA</h2>
+ <p class="slide__body">Esta semana, use su kit para atender al menos 10 consultas reales.</p>
+ <div class="slide__checklist">
+ <ol class="slide__ordered-list">
+ <li>Responda 10 consultas con sus respuestas maestras</li>
+ <li>Anote tiempo con IA vs. manual</li>
+ <li>Identifique 1 caso donde decidió NO usar IA</li>
+ <li>Agregue 2 respuestas nuevas a su banco</li>
+ </ol>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 12 — TRANSICIÓN ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--transition" data-slide="12">
+ <h2 class="slide__heading">Siguiente nivel</h2>
+ <blockquote class="slide__transition-quote">
+ «Ya sabe comunicar, analizar, automatizar y atender. Ahora viene la pregunta que cambia todo: ¿y si pudiera usar la IA para PLANEAR y DIRIGIR proyectos enteros? En el Nivel 7, saldrá de una junta con un proyecto completamente estructurado — en 15 minutos.»
+ </blockquote>
+ <div class="slide__next-level">
+ <span class="slide__next-label">Próximo →</span>
+ <span class="slide__next-title">Nivel 7: Gestión de Proyectos con IA</span>
+ </div>
+</div>

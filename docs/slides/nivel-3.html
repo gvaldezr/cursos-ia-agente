@@ -1,0 +1,271 @@
+<!-- ============================================================
+ SLIDES — Nivel 3: Email y Comunicados Institucionales
+ Curso «IA Práctica para Líderes Anáhuac Mayab»
+ HTML parcial — cargado con fetch() por el visor de slides
+ ============================================================ -->
+
+<!-- ——— SLIDE 1: PORTADA ——— -->
+<div class="slide slide--cover">
+ <div class="slide__gradient">
+ <p class="slide__overline">Nivel 3 · Fase II — USAR</p>
+ <h1 class="slide__title">Email y Comunicados Institucionales</h1>
+ <p class="slide__epigraph"><em>No se trata de que la IA escriba por usted. Se trata de que nunca más empiece de cero.</em></p>
+ <div class="slide__meta">
+ <span>⏱ 45–50 min</span>
+ <span>🛠 Amazon Quick</span>
+ <span>📄 Kit de 5 templates</span>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 2: AGENDA ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Agenda del módulo</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Actividad</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Concepto clave</td>
+ <td>El problema de la bandeja de entrada</td>
+ <td>5 min</td>
+ </tr>
+ <tr>
+ <td>2. Demostración</td>
+ <td>Correo institucional + adaptación por audiencia</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>3. Ejercicio</td>
+ <td>3 correos reales + caso difícil</td>
+ <td>20 min</td>
+ </tr>
+ <tr>
+ <td>4. Output + ética</td>
+ <td>Kit de 5 templates + privacidad en prompts</td>
+ <td>10 min</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ——— SLIDE 3: CONCEPTO CLAVE ——— -->
+<div class="slide">
+ <h2 class="slide__heading">El problema de la bandeja de entrada</h2>
+ <ul>
+ <li>📊 Un directivo Anáhuac envía <strong>30-50 correos al día</strong></li>
+ <li>⏱ A 4 minutos promedio = <strong>2-3 horas diarias</strong> solo en redacción</li>
+ <li>🔄 El 80% son variaciones del mismo mensaje para distintas audiencias</li>
+ <li>🎯 La IA no quita el trabajo de comunicar — quita el de <em>empezar de cero</em></li>
+ </ul>
+ <div class="slide__callout">
+ <p><strong>💡 Meta:</strong> Reducir tiempo de redacción de 3 horas a 45 minutos diarios.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 4: 4 VARIABLES ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Las 4 variables de la comunicación con IA</h2>
+ <div class="grid-2">
+ <div>
+ <p><strong>🎯 Audiencia</strong> — A quién va dirigido</p>
+ </div>
+ <div>
+ <p><strong>🗣 Tono</strong> — Formal, empático, ejecutivo</p>
+ </div>
+ <div>
+ <p><strong>✅ Acción esperada</strong> — Qué debe hacer el destinatario</p>
+ </div>
+ <div>
+ <p><strong>📏 Extensión</strong> — Cuántas palabras máximo</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 5: DEMO — COMPARACIÓN ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Demostración: Vago vs. estructurado</h2>
+ <div class="grid-2">
+ <div class="slide__prompt slide__prompt--bad">
+ <p>❌ Prompt vago</p>
+ <pre>Escríbeme un correo para los profesores
+sobre las calificaciones.</pre>
+ </div>
+ <div class="slide__prompt slide__prompt--good">
+ <p>✅ Prompt estructurado</p>
+ <p>Incluye: rol, destinatario, asunto, contexto con datos, acción esperada, tono, extensión y firmante.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 6: DEMO — PROMPT COMPLETO ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Prompt estructurado en detalle</h2>
+ <div>
+ <pre>Actúe como coordinador académico de la Anáhuac Mayab.
+Redacte un correo formal a docentes.
+Asunto: Fecha límite de calificaciones Otoño 2026.
+
+Contexto: Deben subir calificaciones a Banner antes del
+5 de diciembre. El semestre pasado, 30% entregó tarde.
+
+El correo debe: saludo institucional, ir al punto,
+acción = subir calificaciones antes del 5 de diciembre,
+tono institucional-respetuoso, máx 200 palabras, de «usted».
+
+Firmante: Dra. Laura Méndez, Coordinadora de Psicología</pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 7: ADAPTACIÓN POR AUDIENCIA ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Mismo tema, dos audiencias</h2>
+ <div class="grid-2">
+ <div>
+ <p>🎓 A docentes (tono formal)</p>
+ <p>Comunicado formal: nuevos horarios, acciones del docente, contacto. Tono formal, máx 200 palabras.</p>
+ </div>
+ <div>
+ <p>👩‍🎓 A estudiantes (tono cercano)</p>
+ <p>Aviso con horarios alternativos y contacto para dudas. Tono cercano-institucional, máx 150 palabras.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 8: EJERCICIO ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Ejercicio: 3 correos + caso difícil</h2>
+ <div class="grid-2">
+ <div>
+ <p>🎓 Versión académica</p>
+ <ol>
+ <li>Recordatorio de calificaciones a docentes</li>
+ <li>Convocatoria de tutoría a estudiantes</li>
+ <li>Respuesta a padre sobre situación académica</li>
+ </ol>
+ </div>
+ <div>
+ <p>🏢 Versión administrativa</p>
+ <ol>
+ <li>Solicitud de cotización a proveedores</li>
+ <li>Aviso de nuevo procedimiento al equipo</li>
+ <li>Resumen trimestral a Vicerrectoría</li>
+ </ol>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 9: TÉCNICA DE REVISIÓN ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Técnica: Revisar borradores existentes</h2>
+ <div>
+ <pre>Revise el siguiente correo institucional y evalúe:
+1. Claridad: ¿Se entiende en los primeros 2 renglones?
+2. Tono: ¿Es apropiado para [AUDIENCIA]?
+3. Acción: ¿Queda claro qué debe hacer el destinatario?
+4. Extensión: ¿Es conciso o tiene texto innecesario?
+
+[PEGAR EL CORREO AQUÍ]
+
+Genere una versión mejorada debajo de su evaluación.</pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 10: TIPS ——— -->
+<div class="slide">
+ <h2 class="slide__heading">Tips y anti-patrones</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Genere borrador con IA, edite con su criterio</td>
+ <td>Enviar sin leer el resultado completo</td>
+ </tr>
+ <tr>
+ <td>Use IA para correos rutinarios (80% de su bandeja)</td>
+ <td>Usar IA para correos sensibles sin edición humana</td>
+ </tr>
+ <tr>
+ <td>Guarde sus mejores templates para reutilizar</td>
+ <td>Crear cada correo desde cero cada vez</td>
+ </tr>
+ <tr>
+ <td>Indique SIEMPRE audiencia, tono y extensión</td>
+ <td>Asumir que la IA «ya sabe» para quién es</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ——— SLIDE 11: MOMENTO ÉTICO ——— -->
+<div class="slide">
+ <h2 class="slide__heading">⚖️ Momento ético: Privacidad en los prompts</h2>
+ <div>
+ <p class="slide__body">Antes de pegar información personal en cualquier herramienta: ¿es necesario? ¿Puedo usar datos anónimos y personalizar después?</p>
+ </div>
+ <div class="slide__callout">
+ <p><strong>🤔 Reflexión:</strong> La privacidad es un criterio de diseño que se integra desde el primer <em>prompt</em>.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 12: ENTREGABLE ——— -->
+<div class="slide">
+ <h2 class="slide__heading">📦 Entregable: Kit de comunicación</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>#</th>
+ <th>Tipo</th>
+ <th>Audiencia</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1</td>
+ <td>Comunicado acad/operativo</td>
+ <td>Docentes / Equipo</td>
+ </tr>
+ <tr>
+ <td>2</td>
+ <td>Respuesta a solicitud</td>
+ <td>Estudiantes / Proveedores</td>
+ </tr>
+ <tr>
+ <td>3</td>
+ <td>Comunicación delicada</td>
+ <td>Padres / Proveedores</td>
+ </tr>
+ <tr>
+ <td>4</td>
+ <td>Informe breve</td>
+ <td>Rectoría / Vicerrectoría</td>
+ </tr>
+ <tr>
+ <td>5</td>
+ <td>Aviso urgente</td>
+ <td>Comunidad del programa</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ——— SLIDE 13: TRANSICIÓN ——— -->
+<div class="slide slide--transition">
+ <div>
+ <p class="slide__overline">Tarea de la semana</p>
+ <p class="slide__body">Genere al menos <strong>cinco correos reales</strong> con sus templates. Anote el tiempo con IA vs. sin IA.</p>
+ <div></div>
+ <p class="slide__overline">Siguiente: Nivel 4</p>
+ <p class="slide__body">¿Y si la IA pudiera leer un reporte de 50 páginas y entregarle solo lo que importa? En el Nivel 4, descubrirá que la IA no solo redacta — <strong>analiza</strong>.</p>
+ </div>
+</div>

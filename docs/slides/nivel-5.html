@@ -1,0 +1,250 @@
+<!-- ═══════════════════════════════════════════════════════════════
+ SLIDES — Nivel 5: Automatización de Procesos Directivos
+ Curso «IA Práctica para Líderes Anáhuac» · Universidad Anáhuac Mayab
+ HTML parcial (sin html/head/body) — se carga vía fetch()
+ ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ▸ SLIDE 1 — PORTADA ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--cover" data-slide="1">
+ <div class="slide__badge">Fase III — ACELERAR</div>
+ <h1 class="slide__title">Automatización de Procesos Directivos</h1>
+ <p class="slide__epigraph">«La confianza no se regala. Se construye con verificación.»</p>
+ <div class="slide__meta">
+ <span class="slide__meta-item">🎯 Nivel 5 de 8</span>
+ <span class="slide__meta-item">⏱ 30-35 min</span>
+ <span class="slide__meta-item">🧠 Analizar / Crear</span>
+ </div>
+ <p class="slide__narrative">El dato que la IA inventó</p>
+</div>
+
+<!-- ▸ SLIDE 2 — AGENDA ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--agenda" data-slide="2">
+ <h2 class="slide__heading">Agenda del nivel</h2>
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Contenido</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Concepto clave</td>
+ <td>Las 6 fases de un reporte y el rol del agente</td>
+ <td>5 min</td>
+ </tr>
+ <tr>
+ <td>2. Demostración</td>
+ <td>Mapear reporte → Instrucción RISE → Agente básico</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>3. Ejercicio práctico</td>
+ <td>Diseñar flujo completo de 6 pasos</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>4. Tips + ética + cierre</td>
+ <td>Verificación, documentación y responsabilidad</td>
+ <td>5 min</td>
+ </tr>
+ </tbody>
+ </table>
+ <p class="slide__footnote">⭐ Producto integrador: Flujo de reporte documentado</p>
+</div>
+
+<!-- ▸ SLIDE 3 — CONCEPTO CLAVE ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--concept" data-slide="3">
+ <h2 class="slide__heading">Concepto clave: Las 6 fases del reporte</h2>
+ <ul class="slide__list">
+ <li>Todo reporte recurrente se descompone en <strong>6 fases</strong></li>
+ <li>Recopilar → Subir → Analizar → Formatear → Revisar → Distribuir</li>
+ <li>La IA puede encargarse de 3 (análisis, formato y borrador)</li>
+ <li>Usted conserva las que requieren juicio humano</li>
+ </ul>
+ <div class="slide__callout slide__callout--insight">
+ <strong>💡 Insight:</strong> Un <em>agente de IA</em> es un asistente con instrucciones permanentes. A diferencia de una conversación nueva, ya «conoce» su área.
+ </div>
+</div>
+
+<!-- ▸ SLIDE 4 — HUMANO + IA ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--concept" data-slide="4">
+ <h2 class="slide__heading">Humano + IA: quién hace qué</h2>
+ <table class="slide__table slide__table--compact">
+ <thead>
+ <tr>
+ <th>Fase</th>
+ <th>Descripción</th>
+ <th>Responsable</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Recopilar datos</td>
+ <td>Exportar de Banner / Excel</td>
+ <td>🧑 Humano</td>
+ </tr>
+ <tr>
+ <td>2. Subir a la herramienta</td>
+ <td>Conectar archivos al workspace</td>
+ <td>🧑 Humano (1 min)</td>
+ </tr>
+ <tr>
+ <td>3. Instrucción de análisis</td>
+ <td>Análisis prediseñado con RISE</td>
+ <td>🤖 IA</td>
+ </tr>
+ <tr>
+ <td>4. Instrucción de formato</td>
+ <td>Resumen ejecutivo para audiencia</td>
+ <td>🤖 IA</td>
+ </tr>
+ <tr>
+ <td>5. Revisión PAUS + distribuir</td>
+ <td>Verificar datos, tono y enviar</td>
+ <td>🧑 Humano</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ▸ SLIDE 5 — DEMO: COMPARACIÓN ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--demo" data-slide="5">
+ <h2 class="slide__heading">Demostración: Instrucción de análisis</h2>
+ <div class="slide__columns">
+ <div class="slide__column">
+ <div class="slide__prompt slide__prompt--bad">
+ <div class="slide__prompt-label">❌ Instrucción vaga</div>
+ <pre class="slide__prompt-code">Analiza estos datos y hazme un reporte.</pre>
+ </div>
+ </div>
+ <div class="slide__column">
+ <div class="slide__prompt slide__prompt--good">
+ <div class="slide__prompt-label">✅ Enfoque RISE estructurado</div>
+ <p class="slide__body-sm">Incluye: ROL (analista), ENTRADA (archivos), 4 PASOS (consolidar, comparar, alertar, recomendar), RESULTADO (tabla semáforo + 2 cuartillas).</p>
+ </div>
+ </div>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 6 — DEMO: PROMPT RISE COMPLETO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--demo" data-slide="6">
+ <h2 class="slide__heading">Prompt RISE completo</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <div class="slide__prompt-label">✅ Instrucción RISE estructurada</div>
+ <pre class="slide__prompt-code">ROL: Analista de gestión universitaria (calidad, universidades
+privadas mexicanas).
+
+ENTRADA: [Archivos: matrícula, encuestas, retención del semestre]
+
+PASOS:
+1. Consolidar datos en tabla única por indicador
+2. Comparar cada indicador con el ciclo anterior
+3. Identificar los 3 indicadores con mayor deterioro
+4. Proponer 1 acción de intervención por indicador crítico
+
+RESULTADO: Tabla semáforo (🟢🟡🔴) + 1 párrafo por indicador.
+Máximo 2 cuartillas.</pre>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 7 — DEMO: INSTRUCCIÓN DE FORMATO ▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--demo" data-slide="7">
+ <h2 class="slide__heading">Instrucción de formato</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <div class="slide__prompt-label">✅ Instrucción de formato</div>
+ <pre class="slide__prompt-code">Con base en el análisis anterior, genere un resumen ejecutivo
+para la Dirección de Escuela:
+- Párrafo de apertura (80 palabras)
+- Tabla de indicadores con semáforo
+- 3 recomendaciones prioritarias
+- Solicitudes al Consejo Académico
+Firmado por: [NOMBRE], [CARGO]</pre>
+ </div>
+ <div class="slide__callout slide__callout--insight">
+ <strong>💡 Resultado:</strong> Resumen de 1-2 cuartillas, presentable en reunión de consejo.
+ </div>
+</div>
+
+<!-- ▸ SLIDE 8 — EJERCICIO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--exercise" data-slide="8">
+ <h2 class="slide__heading">Ejercicio práctico</h2>
+ <div class="slide__columns">
+ <div class="slide__column">
+ <h3 class="slide__subheading">🎓 Versión académica</h3>
+ <p class="slide__body-sm">Diseñe el flujo completo de su reporte de indicadores (matrícula, deserción, titulación, satisfacción). Documente instrucciones exactas para los pasos 3 y 4.</p>
+ </div>
+ <div class="slide__column">
+ <h3 class="slide__subheading">🏢 Versión administrativa</h3>
+ <p class="slide__body-sm">Diseñe el flujo de su dashboard operativo mensual (presupuesto vs. real, avance de proyectos, incidencias). Use la tabla de 6 pasos con sus indicadores.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 9 — TIPS ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--tips" data-slide="9">
+ <h2 class="slide__heading">Tips y anti-patrones</h2>
+ <table class="slide__table slide__table--dodont">
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Descomponga su reporte en las 6 fases antes de automatizar</td>
+ <td>Intentar automatizar todo de un golpe</td>
+ </tr>
+ <tr>
+ <td>Cree un agente con instrucciones permanentes</td>
+ <td>Escribir la misma instrucción larga cada vez</td>
+ </tr>
+ <tr>
+ <td>Verifique CADA dato numérico contra la fuente</td>
+ <td>Confiar en que «si se ve bien, es correcto»</td>
+ </tr>
+ <tr>
+ <td>Documente su flujo para el próximo ciclo</td>
+ <td>Depender de su memoria para recordar instrucciones</td>
+ </tr>
+ </tbody>
+ </table>
+</div>
+
+<!-- ▸ SLIDE 10 — MOMENTO ÉTICO ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--ethics" data-slide="10">
+ <h2 class="slide__heading">Momento ético</h2>
+ <div class="slide__ethics-block">
+ <p class="slide__body">Un reporte generado con IA lleva su firma. Si contiene un dato fabricado, la responsabilidad es suya, no de la herramienta.</p>
+ <div class="slide__ethics-question">
+ <strong>🤔 Reflexione:</strong> ¿Su checklist de revisión es lo suficientemente riguroso para firmar con confianza?
+ </div>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 11 — ENTREGABLE ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--deliverable" data-slide="11">
+ <h2 class="slide__heading">⭐ Entregable: Flujo de reporte documentado</h2>
+ <p class="slide__body">Ejecute su flujo con datos reales y responda:</p>
+ <div class="slide__checklist">
+ <ol class="slide__ordered-list">
+ <li>¿Cuánto tiempo le tomó con IA vs. sin IA?</li>
+ <li>¿La IA fabricó algún dato? ¿Cómo lo detectó?</li>
+ <li>¿Qué ajustaría para el próximo ciclo?</li>
+ </ol>
+ </div>
+</div>
+
+<!-- ▸ SLIDE 12 — TRANSICIÓN ▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸▸ -->
+<div class="slide slide--transition" data-slide="12">
+ <h2 class="slide__heading">Siguiente nivel</h2>
+ <blockquote class="slide__transition-quote">
+ «Ahora tiene un flujo automatizado Y sabe verificar resultados. Pero hay una dimensión que aún no ha tocado: la IA interactuando con PERSONAS. En el siguiente nivel descubrirá cómo responder 40 consultas en 20 minutos — y dónde trazar la línea entre eficiencia y humanidad.»
+ </blockquote>
+ <div class="slide__next-level">
+ <span class="slide__next-label">Próximo →</span>
+ <span class="slide__next-title">Nivel 6: Atención a Stakeholders con IA</span>
+ </div>
+</div>

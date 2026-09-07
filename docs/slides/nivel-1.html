@@ -1,0 +1,327 @@
+<!-- ═══════════════════════════════════════════════════════════════
+ SLIDES — Nivel 1: Fundamentos de IA Generativa
+ Curso «IA Práctica para Líderes Anáhuac Mayab»
+ HTML parcial — cargado via fetch() en el SPA
+ ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ——— SLIDE 1 · PORTADA ——— -->
+<div class="slide slide--cover" data-slide="1">
+ <div class="slide__gradient">
+ <div></div>
+ <p class="ana-overline">NIVEL 1 · FASE I — ENTENDER</p>
+ <h1 class="ana-display">Fundamentos de IA Generativa</h1>
+ <p>
+ «Todo experto fue primero un principiante que se atrevió a escribir la primera instrucción.»
+ </p>
+ <div>
+ <span>⏱ 40–45 minutos</span>
+ <span>🛠 Amazon Quick</span>
+ <span>📋 Mini-diagnóstico personal</span>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 2 · AGENDA ——— -->
+<div class="slide slide--agenda" data-slide="2">
+ <h2 class="ana-h2">Agenda del Nivel 1</h2>
+ <div class="slide__table">
+ <table>
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Contenido</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>1. Concepto clave</td>
+ <td>Qué es la IA generativa, alucinaciones, Amazon Quick</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>2. Demostración</td>
+ <td>Prompt vago vs. prompt estructurado</td>
+ <td>8 min</td>
+ </tr>
+ <tr>
+ <td>3. Ejercicio</td>
+ <td>Redactar comunicado con plantilla personalizable</td>
+ <td>10 min</td>
+ </tr>
+ <tr>
+ <td>4. Entregable</td>
+ <td>Mini-diagnóstico: 5 tareas con potencial de IA</td>
+ <td>8 min</td>
+ </tr>
+ <tr>
+ <td>5. Tips y cierre</td>
+ <td>Anti-patrones, momento ético, tarea de la semana</td>
+ <td>7 min</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 3 · ¿QUÉ ES LA IA GENERATIVA? ——— -->
+<div class="slide slide--concept" data-slide="3">
+ <h2 class="ana-h2">1. Concepto clave — ¿Qué es la IA generativa?</h2>
+
+ <ul>
+ <li class="ana-body"><span>📄</span> Produce texto, análisis y resúmenes a partir de patrones aprendidos</li>
+ <li class="ana-body"><span>🧠</span> No es experta en su área específica y no es infalible</li>
+ <li class="ana-body"><span>👤</span> Piénsela como un asistente nuevo con memoria fotográfica</li>
+ <li class="ana-body"><span>⚠️</span> A veces inventa datos con total confianza (<em>hallucination</em>)</li>
+ </ul>
+
+ <div class="ana-callout ana-callout--theory">
+ <p class="ana-callout__label">💡 Insight clave</p>
+ <p class="ana-body-sm">La IA fabrica información que suena real pero es falsa. Verifique siempre si usa datos actualizados.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 4 · LA CALIDAD DEPENDE DE LA INSTRUCCIÓN ——— -->
+<div class="slide slide--concept" data-slide="4">
+ <h2 class="ana-h2">La calidad depende de la instrucción</h2>
+
+ <ul>
+ <li class="ana-body"><span>🎯</span> Lo que usted recibe depende de lo que usted pide</li>
+ <li class="ana-body"><span>🛠</span> <strong>Amazon Quick</strong> es su herramienta: chat con IA, archivos y agentes</li>
+ <li class="ana-body"><span>📝</span> Un <em>prompt</em> claro → resultado profesional; uno vago → resultado inservible</li>
+ </ul>
+
+ <div class="ana-callout ana-callout--exercise">
+ <p class="ana-callout__label">🎯 Principio fundamental</p>
+ <p class="ana-body-sm">La diferencia entre un resultado inservible y uno profesional no es la herramienta — es la instrucción.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 5 · DEMOSTRACIÓN: PROMPT VAGO ——— -->
+<div class="slide slide--demo" data-slide="5">
+ <h2 class="ana-h2">2. Demostración — Prompt vago vs. estructurado</h2>
+
+ <div class="grid-2">
+
+ <!-- Prompt vago -->
+ <div class="slide__prompt slide__prompt--bad">
+ <p>❌ Prompt vago</p>
+ <pre class="ana-prompt"><code>Hazme un comunicado para docentes.</code></pre>
+ <p class="ana-caption">Resultado: texto genérico, sin datos, tono impreciso.</p>
+ </div>
+
+ <!-- Resumen del bueno -->
+ <div class="slide__prompt slide__prompt--good">
+ <p>✅ Prompt estructurado</p>
+ <p class="ana-body-sm">Un prompt que incluye:</p>
+ <ul>
+ <li>Destinatario específico</li>
+ <li>Asunto y datos concretos</li>
+ <li>Lista de puntos a cubrir</li>
+ <li>Tono y extensión deseados</li>
+ <li>Firmante con cargo</li>
+ </ul>
+ <p class="ana-caption">Resultado: comunicado listo para enviar.</p>
+ </div>
+
+ </div>
+</div>
+
+<!-- ——— SLIDE 6 · PROMPT ESTRUCTURADO (protagonista) ——— -->
+<div class="slide slide--demo" data-slide="6">
+ <h2 class="ana-h2">El prompt estructurado en detalle</h2>
+
+ <div class="slide__prompt slide__prompt--good">
+ <pre class="ana-prompt"><code>Redacte un comunicado formal dirigido al cuerpo docente de la
+Licenciatura en Psicología de la Universidad Anáhuac Mayab.
+
+Asunto: Inicio del periodo de evaluaciones parciales Otoño 2026.
+
+Incluya:
+- Fechas del periodo: 15 al 22 de octubre de 2026
+- Recordatorio de subir calificaciones a Banner antes del 25 de octubre
+- Disponibilidad de la coordinación para dudas
+- Tono institucional, respetuoso y claro
+
+Firmante: Dra. Laura Méndez, Coordinadora de Psicología</code></pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 7 · EJERCICIO — INSTRUCCIONES ——— -->
+<div class="slide slide--exercise" data-slide="7">
+ <h2 class="ana-h2">3. Ejercicio — Su primer prompt real</h2>
+
+ <p class="ana-body">Copie la instrucción de su versión, reemplace cada <code class="ana-code-inline">[DATO]</code> con información real y ejecútela en Amazon Quick.</p>
+
+ <div class="grid-2">
+ <div>
+ <p>🎓 Versión académica</p>
+ <p class="ana-caption">Comunicado a docentes sobre fecha límite, recordatorio y acciones requeridas.</p>
+ </div>
+ <div>
+ <p>🏢 Versión administrativa</p>
+ <p class="ana-caption">Comunicado al equipo sobre nuevo procedimiento, fechas y acciones requeridas.</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 8 · EJERCICIO — PROMPT ACADÉMICO ——— -->
+<div class="slide slide--exercise" data-slide="8">
+ <h2 class="ana-h2">Ejercicio — Prompt académico</h2>
+
+ <div>
+ <p>🎓 Versión académica</p>
+ <pre class="ana-prompt"><code>Redacte un comunicado formal dirigido al cuerpo docente
+de la [NOMBRE DE LICENCIATURA] de la Universidad Anáhuac Mayab.
+
+Asunto: [TEMA — ej: Inicio de evaluaciones]
+
+Incluya:
+- Información principal: [DETALLE]
+- Fechas relevantes: [FECHA 1], [FECHA 2]
+- Acciones requeridas del docente: [ACCIÓN 1], [ACCIÓN 2]
+- Tono institucional y claro · Máximo 200 palabras
+
+Firmante: [SU NOMBRE], [CARGO]</code></pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 9 · EJERCICIO — PROMPT ADMINISTRATIVO ——— -->
+<div class="slide slide--exercise" data-slide="9">
+ <h2 class="ana-h2">Ejercicio — Prompt administrativo</h2>
+
+ <div>
+ <p>🏢 Versión administrativa</p>
+ <pre class="ana-prompt"><code>Redacte un comunicado formal dirigido al equipo de [DEPARTAMENTO]
+de la Universidad Anáhuac Mayab.
+
+Asunto: [TEMA — ej: Cierre trimestral / Nuevo procedimiento]
+
+Incluya:
+- Información principal: [DETALLE]
+- Fechas relevantes: [FECHA 1], [FECHA 2]
+- Acciones requeridas: [ACCIÓN 1], [ACCIÓN 2]
+- Tono formal y ejecutivo · Máximo 200 palabras
+
+Firmante: [SU NOMBRE], [CARGO]</code></pre>
+ </div>
+</div>
+
+<!-- ——— SLIDE 10 · ANATOMÍA DE UN BUEN PROMPT ——— -->
+<div class="slide slide--framework" data-slide="10">
+ <h2 class="ana-h2">Anatomía de un buen prompt</h2>
+
+ <div>
+ <div>
+ <p>🎯 Destinatario</p>
+ <p class="ana-caption">A quién va dirigido el texto</p>
+ </div>
+ <div>
+ <p>🎭 Tono</p>
+ <p class="ana-caption">Formal, empático, ejecutivo…</p>
+ </div>
+ <div>
+ <p>🏛 Contexto</p>
+ <p class="ana-caption">Universidad privada, México, Mérida</p>
+ </div>
+ <div>
+ <p>📏 Extensión</p>
+ <p class="ana-caption">Pida máximo de palabras — no deje sin límite</p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 11 · TIPS DO / DON'T ——— -->
+<div class="slide slide--tips" data-slide="11">
+ <h2 class="ana-h2">5. Tips y anti-patrones</h2>
+
+ <div class="slide__table">
+ <table>
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Especifique destinatario y tono</td>
+ <td>Pedir «un comunicado» sin contexto</td>
+ </tr>
+ <tr>
+ <td>Dé contexto institucional</td>
+ <td>Asumir que la IA adivina el tono Anáhuac</td>
+ </tr>
+ <tr>
+ <td>Revise SIEMPRE antes de enviar</td>
+ <td>Copiar y pegar sin leer el resultado</td>
+ </tr>
+ <tr>
+ <td>Pida máximo de palabras</td>
+ <td>Dejar que la IA escriba sin límite</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+
+ <div class="ana-callout ana-callout--warning">
+ <p class="ana-callout__label">⚠️ Error más común del primer día</p>
+ <p class="ana-body-sm">Usar la IA como juguete en vez de herramienta. Empiece SIEMPRE con una tarea real de su trabajo.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 12 · MOMENTO ÉTICO ——— -->
+<div class="slide slide--ethics" data-slide="12">
+ <h2 class="ana-h2">6. Momento ético</h2>
+
+ <div>
+ <p>⚖️</p>
+ <p class="ana-body">La IA le generó un comunicado profesional. ¿Lo presenta como redactado por usted, o menciona que usó IA?</p>
+ <div>
+ <p class="ana-body-sm">La IA no piensa ni decide — <strong>la responsabilidad siempre es del directivo.</strong></p>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 13 · ENTREGABLE ——— -->
+<div class="slide slide--deliverable" data-slide="13">
+ <h2 class="ana-h2">4. Entregable — Mini-diagnóstico personal</h2>
+
+ <p class="ana-body">Complete esta tabla con cinco tareas de su semana que podrían beneficiarse de IA.</p>
+
+ <div class="slide__table">
+ <table>
+ <thead>
+ <tr>
+ <th>#</th>
+ <th>Tarea de mi semana</th>
+ <th>Tipo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr><td>1</td><td>Su tarea aquí…</td><td>(a) Comunicación (b) Análisis (c) Planeación</td></tr>
+ <tr><td>2</td><td></td><td></td></tr>
+ <tr><td>3</td><td></td><td></td></tr>
+ <tr><td>4</td><td></td><td></td></tr>
+ <tr><td>5</td><td></td><td></td></tr>
+ </tbody>
+ </table>
+ </div>
+
+ <div class="ana-callout ana-callout--exercise">
+ <p class="ana-callout__label">💡 Recomendación</p>
+ <p class="ana-body-sm">Priorice las tareas donde invierte más tiempo en trabajo repetitivo.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 14 · TAREA DE LA SEMANA ——— -->
+<div class="slide slide--transition" data-slide="14">
+ <div>
+ <div></div>
+ <p class="ana-overline">TAREA DE LA SEMANA</p>
+ <p class="ana-body">Use Amazon Quick para generar <strong>UN comunicado o correo</strong> que tenga pendiente. Guarde la instrucción y el resultado — los necesitará en el Nivel 2.</p>
+ <div></div>
+ <p class="ana-overline">CONEXIÓN AL NIVEL 2</p>
+ <p class="ana-body">¿Y si existiera una receta para que SIEMPRE obtenga resultados de alta calidad? En el <strong>Nivel 2</strong> aprenderá tres <em>frameworks</em> de instrucciones.</p>
+ </div>
+</div>

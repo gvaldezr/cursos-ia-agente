@@ -1,0 +1,273 @@
+<!-- ═══════════════════════════════════════════════════════════════
+ NIVEL 8 — Agentes y Equipo Local de IA
+ Slides HTML parciales · Cargados via fetch()
+ Curso «IA Práctica para Líderes Anáhuac» · Universidad Anáhuac Mayab
+ ═══════════════════════════════════════════════════════════════ -->
+
+<!-- ——— SLIDE 1 · PORTADA ——— -->
+<div class="slide slide--cover" data-slide="1">
+ <div class="slide__gradient"></div>
+ <div class="slide__content">
+ <span class="slide__phase">Fase IV — INTEGRAR · Nivel final</span>
+ <h1 class="slide__title">Agentes y Equipo Local de&nbsp;IA</h1>
+ <p class="slide__epigraph">«Un líder no es quien hace todo. Es quien sabe a quién pedirle qué — incluidos los agentes que diseñó.»</p>
+ <div class="slide__meta">
+ <span class="slide__meta-item">Nivel 8 de 8</span>
+ <span class="slide__meta-item">35-40 min</span>
+ <span class="slide__meta-item">Bloom: Crear</span>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 2 · AGENDA ——— -->
+<div class="slide slide--agenda" data-slide="2">
+ <h2 class="slide__heading">Agenda del nivel</h2>
+ <div class="slide__table-wrap">
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Sección</th>
+ <th>Tema</th>
+ <th>Tiempo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr><td>1</td><td>Concepto — Agentes, especialización y flujos</td><td>7 min</td></tr>
+ <tr><td>2</td><td>Demo — Arquitectura + configuración + flujo</td><td>12 min</td></tr>
+ <tr><td>3</td><td>Ejercicio — Su ecosistema de 3 agentes</td><td>10 min</td></tr>
+ <tr><td>4</td><td>Tips + ética + entregable final</td><td>11 min</td></tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 3 · ¿QUÉ ES UN AGENTE? ——— -->
+<div class="slide slide--concept" data-slide="3">
+ <h2 class="slide__heading">¿Qué es un agente de IA?</h2>
+ <ul class="slide__list">
+ <li>Hasta ahora, cada conversación nueva requiere explicar todo desde cero</li>
+ <li>Un <em>agente</em> tiene instrucciones permanentes y archivos de referencia</li>
+ <li>Solo le dice «analiza estos nuevos datos» y ya sabe el resto</li>
+ </ul>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">💡</span>
+ <p><strong>Insight:</strong> Orquestar agentes es dirigir, no programar. Requiere la misma habilidad que ha desarrollado desde el Nivel 1.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 4 · ¿POR QUÉ VARIOS? ——— -->
+<div class="slide slide--concept" data-slide="4">
+ <h2 class="slide__heading">¿Por qué varios agentes y no uno solo?</h2>
+ <ul class="slide__list">
+ <li>Un agente que intente hacerlo todo → resultados mediocres</li>
+ <li>Tres agentes especializados → resultados excelentes por área</li>
+ <li><strong>Flujo:</strong> datos → Agente Analista → resumen → Agente Comunicador → comunicado</li>
+ </ul>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">🔗</span>
+ <p><strong>Flujo de varios pasos:</strong> Usted diseña la secuencia y la ejecuta de principio a fin.</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 5 · DEMO — ARQUITECTURA ——— -->
+<div class="slide slide--demo" data-slide="5">
+ <h2 class="slide__heading">Paso 1 — Diseñar la arquitectura de agentes</h2>
+ <div class="slide__columns">
+ <div class="slide__col" data-version="academica">
+ <h3 class="slide__col-title">🎓 Versión académica</h3>
+ <div class="slide__table-wrap">
+ <table class="slide__table slide__table--compact">
+ <thead><tr><th>Agente</th><th>Función</th></tr></thead>
+ <tbody>
+ <tr><td>🎓 Analista Académico</td><td>Indicadores, matrícula, retención</td></tr>
+ <tr><td>🎓 Comunicador</td><td>Correos a docentes, padres, rectoría</td></tr>
+ <tr><td>🎓 Asistente Acreditación</td><td>Evidencias, autoevaluación, visitas</td></tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ <div class="slide__col" data-version="administrativa">
+ <h3 class="slide__col-title">🏢 Versión administrativa</h3>
+ <div class="slide__table-wrap">
+ <table class="slide__table slide__table--compact">
+ <thead><tr><th>Agente</th><th>Función</th></tr></thead>
+ <tbody>
+ <tr><td>🏢 Analista de Gestión</td><td>KPIs, presupuesto, eficiencia</td></tr>
+ <tr><td>🏢 Comunicador</td><td>Proveedores, equipo, Vicerrectoría</td></tr>
+ <tr><td>🏢 Project Manager</td><td>Proyectos, seguimiento, avances</td></tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 6 · DEMO — COMPARACIÓN ——— -->
+<div class="slide slide--demo" data-slide="6">
+ <h2 class="slide__heading">Paso 2 — ¿Por qué un agente y no un prompt?</h2>
+ <div class="slide__columns">
+ <div class="slide__col">
+ <h3 class="slide__col-title">❌ Sin agente (repetitivo)</h3>
+ <div class="slide__prompt slide__prompt--bad">
+ <code>Soy coordinador de Ingeniería Industrial en la Anáhuac
+Mayab. Necesito que analices datos de matrícula en formato
+semáforo, con tono ejecutivo y de usted. Cada vez que te
+pido algo tengo que repetir todo esto...</code>
+ </div>
+ </div>
+ <div class="slide__col">
+ <h3 class="slide__col-title">✅ Agente configurado</h3>
+ <div class="slide__prompt slide__prompt--good">
+ <p>Instrucciones permanentes del agente: rol, programa, indicadores, formato semáforo, audiencia, tono. Se configura UNA vez.</p>
+ </div>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 7 · DEMO — INSTRUCCIONES DEL AGENTE ——— -->
+<div class="slide slide--demo" data-slide="7">
+ <h2 class="slide__heading">Instrucciones permanentes del agente</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <code>Eres el analista de indicadores del programa de [LICENCIATURA]
+de la Universidad Anáhuac Mayab (Mérida, Yucatán).
+
+Responsabilidades:
+- Analizar matrícula, retención, eficiencia terminal, titulación
+- Comparar indicadores con ciclo anterior y metas institucionales
+- Generar reportes ejecutivos con formato semáforo (🟢🟡🔴)
+- Sugerir acciones correctivas para indicadores en riesgo
+
+Formato: tabla + párrafo ejecutivo + recomendaciones
+Audiencia: Dirección de Escuela · Tono: formal, de «usted»</code>
+ </div>
+</div>
+
+<!-- ——— SLIDE 8 · DEMO — FLUJO ——— -->
+<div class="slide slide--technique" data-slide="8">
+ <h2 class="slide__heading">Paso 3 — Flujo de varios pasos</h2>
+ <div class="slide__prompt slide__prompt--good">
+ <code>PASO 1 (Agente Analista):
+«Analiza los datos de matrícula [archivo adjunto] y genera
+reporte semáforo con las 3 alertas principales.»
+
+PASO 2 (Agente Comunicador):
+«Con base en el análisis: (a) Resumen ejecutivo de 1 párrafo
+para Directora (b) Comunicado para coordinadores de programas
+en amarillo/rojo con acciones a tomar.»
+
+PASO 3 (Revisión humana): Verificar datos, ajustar tono.</code>
+ </div>
+</div>
+
+<!-- ——— SLIDE 9 · EJERCICIO ——— -->
+<div class="slide slide--exercise" data-slide="9">
+ <h2 class="slide__heading">Ejercicio práctico</h2>
+ <div class="slide__columns">
+ <div class="slide__col" data-version="academica">
+ <h3 class="slide__col-title">🎓 Versión académica</h3>
+ <ol class="slide__list slide__list--numbered">
+ <li><strong>Configure 3 agentes</strong> en Amazon Quick</li>
+ <li><strong>Ejecute un flujo de 2 pasos</strong> con datos reales</li>
+ <li><strong>Complete su banco</strong> con 20+ instrucciones</li>
+ <li><strong>Plan de adopción</strong> personal</li>
+ </ol>
+ </div>
+ <div class="slide__col" data-version="administrativa">
+ <h3 class="slide__col-title">🏢 Versión administrativa</h3>
+ <ol class="slide__list slide__list--numbered">
+ <li><strong>Configure 3 agentes</strong> de gestión</li>
+ <li><strong>Ejecute flujo:</strong> KPIs → análisis → comunicado</li>
+ <li><strong>Complete su banco</strong> orientado a gestión</li>
+ <li><strong>Plan de adopción</strong> personal</li>
+ </ol>
+ </div>
+ </div>
+</div>
+
+<!-- ——— SLIDE 10 · TIPS ——— -->
+<div class="slide slide--tips" data-slide="10">
+ <h2 class="slide__heading">Tips y anti-patrones</h2>
+ <div class="slide__table-wrap">
+ <table class="slide__table slide__table--dodont">
+ <thead>
+ <tr>
+ <th>✅ Haga esto</th>
+ <th>❌ Evite esto</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Un agente especializado por función clave</td>
+ <td>Un solo agente que «haga todo»</td>
+ </tr>
+ <tr>
+ <td>Pruebe cada agente con 3 preguntas antes de integrar</td>
+ <td>Asumir que funciona sin probarlo</td>
+ </tr>
+ <tr>
+ <td>Revise siempre el resultado del flujo completo</td>
+ <td>Confiar en que «si A hizo bien, B también»</td>
+ </tr>
+ <tr>
+ <td>Defina reglas de gobernanza: quién usa, qué sube, quién revisa</td>
+ <td>Compartir agentes sin protocolos de uso</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 11 · MOMENTO ÉTICO ——— -->
+<div class="slide slide--ethics" data-slide="11">
+ <h2 class="slide__heading">Momento ético</h2>
+ <div class="slide__ethics-scenario">
+ <p class="slide__body">Un colega pregunta: «¿Y si esto elimina puestos de trabajo?»</p>
+ <p class="slide__body">La IA no reemplaza personas — amplifica personas. Pero esa amplificación requiere criterio, ética y liderazgo.</p>
+ </div>
+ <div class="slide__callout">
+ <span class="slide__callout-icon">🤔</span>
+ <p><strong>Reflexione:</strong> ¿Cómo introduciría estas herramientas potenciando a cada integrante en vez de generar temor?</p>
+ </div>
+</div>
+
+<!-- ——— SLIDE 12 · GOBERNANZA ——— -->
+<div class="slide slide--technique" data-slide="12">
+ <h2 class="slide__heading">Gobernanza básica de IA para su área</h2>
+ <div class="slide__table-wrap">
+ <table class="slide__table">
+ <thead>
+ <tr>
+ <th>Elemento</th>
+ <th>Definición</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr><td>¿Quién puede usar los agentes?</td><td>Coordinador + asistentes con capacitación</td></tr>
+ <tr><td>¿Qué datos se pueden subir?</td><td>Datos institucionales no confidenciales</td></tr>
+ <tr><td>¿Quién revisa los resultados?</td><td>El coordinador SIEMPRE revisa antes de distribuir</td></tr>
+ <tr><td>¿Qué NO se hace con IA?</td><td>Decisiones sobre alumnos, evaluaciones definitivas, comunicaciones legales</td></tr>
+ </tbody>
+ </table>
+ </div>
+</div>
+
+<!-- ——— SLIDE 13 · ENTREGABLE FINAL ——— -->
+<div class="slide slide--deliverable" data-slide="13">
+ <h2 class="slide__heading">⭐ Entregable final del curso</h2>
+ <div class="slide__deliverable-box">
+ <h3 class="slide__deliverable-title">Ecosistema de IA personal</h3>
+ <ul class="slide__list">
+ <li>3 agentes configurados (capturas + prueba con 3 preguntas)</li>
+ <li>1 flujo de varios pasos probado y documentado</li>
+ <li>Banco de instrucciones completo (20+ entradas)</li>
+ <li>Plan de adopción personal (1 página)</li>
+ </ul>
+ </div>
+</div>
+
+<!-- ——— SLIDE 14 · CIERRE DEL CURSO ——— -->
+<div class="slide slide--transition" data-slide="14">
+ <div class="slide__transition-content">
+ <p class="slide__transition-text">«Hace ocho niveles, pensaba que la IA era para técnicos. Hoy tiene tres agentes trabajando para su área, un flujo que genera su reporte en 15 minutos, y 20 instrucciones listas. No aprendió tecnología. Aprendió a <strong>liderar de una forma nueva</strong>. El lunes a las 9&nbsp;AM, su equipo invisible estará listo. Y usted, al frente.»</p>
+ </div>
+</div>

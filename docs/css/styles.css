@@ -382,6 +382,10 @@ a:hover { color: var(--ana-primary-hover); }
   font-size: var(--ana-text-base);
   line-height: var(--ana-leading-loose);
   color: var(--ana-dark);
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 .ana-code-inline {
   font-family: var(--ana-font-mono);
@@ -459,6 +463,7 @@ a:hover { color: var(--ana-primary-hover); }
   min-width: 0;
   max-width: 800px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -948,6 +953,8 @@ a:hover { color: var(--ana-primary-hover); }
   padding: var(--ana-space-6);
   position: relative;
   margin-bottom: var(--ana-space-6);
+  overflow: visible;
+  box-sizing: border-box;
 }
 .ana-prompt-block__label {
   font-weight: var(--ana-font-semibold);
@@ -966,11 +973,16 @@ a:hover { color: var(--ana-primary-hover); }
   border: 1px solid var(--ana-border-prompt);
   border-radius: var(--ana-radius-sm);
   padding: var(--ana-space-4);
+  padding-top: var(--ana-space-8);
+  padding-right: var(--ana-space-12);
   font-family: var(--ana-font-mono);
   font-size: var(--ana-text-base);
   line-height: var(--ana-leading-loose);
   white-space: pre-wrap;
   word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
   color: var(--ana-dark);
 }
 .ana-prompt-block__copy {

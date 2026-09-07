@@ -25,6 +25,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/slides.css">
 </head>
 <body>
   <!-- Skip Link -->
@@ -118,6 +119,27 @@
   </div>
 
   <!-- ═══════════════════════════════════════
+       SLIDE VIEWER (presentaciones web)
+       ═══════════════════════════════════════ -->
+  <div class="ana-slide-viewer" id="slide-viewer" role="dialog" aria-label="Presentación" aria-modal="true">
+    <header class="ana-slide-toolbar">
+      <span class="ana-slide-toolbar__title" id="slide-title"></span>
+      <div class="ana-slide-toolbar__actions">
+        <span class="ana-slide-toolbar__counter" id="slide-counter"></span>
+        <button class="ana-slide-toolbar__btn" id="slide-fullscreen" aria-label="Pantalla completa">⛶</button>
+        <button class="ana-slide-toolbar__btn" id="slide-close" aria-label="Cerrar presentación (Esc)"><span aria-hidden="true">✕</span> <kbd>Esc</kbd></button>
+      </div>
+    </header>
+    <div class="ana-slide-stage" id="slide-stage"></div>
+    <footer class="ana-slide-nav">
+      <button class="ana-slide-nav__btn" id="slide-prev" aria-label="Slide anterior">← Anterior</button>
+      <div class="ana-slide-progress"><div class="ana-slide-progress__fill" id="slide-progress-fill"></div></div>
+      <div class="ana-slide-nav__dots" id="slide-dots"></div>
+      <button class="ana-slide-nav__btn" id="slide-next" aria-label="Siguiente slide">Siguiente →</button>
+    </footer>
+  </div>
+
+  <!-- ═══════════════════════════════════════
        SVG ICON SPRITES
        ═══════════════════════════════════════ -->
   <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
@@ -179,5 +201,8 @@
 
   <!-- App Script -->
   <script src="js/app.js" defer></script>
+
+  <!-- Slide Viewer Engine -->
+  <script src="js/slides.js" defer></script>
 </body>
 </html>
