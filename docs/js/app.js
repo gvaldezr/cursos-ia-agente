@@ -624,33 +624,6 @@
   }
 
   /**
-   * Carga el primer slide de un nivel en el preview compacto.
-   */
-  function loadPresPreview(n) {
-    var previewEl = document.getElementById('pres-preview-' + n);
-    if (!previewEl) return;
-
-    fetch('slides/nivel-' + n + '.html')
-      .then(function (resp) {
-        if (!resp.ok) throw new Error('HTTP ' + resp.status);
-        return resp.text();
-      })
-      .then(function (html) {
-        var parser = new DOMParser();
-        var doc = parser.parseFromString(html, 'text/html');
-        var firstSlide = doc.querySelector('.slide');
-        if (firstSlide) {
-          firstSlide.classList.add('active');
-          previewEl.innerHTML = '';
-          previewEl.appendChild(document.importNode(firstSlide, true));
-        }
-      })
-      .catch(function () {
-        previewEl.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#999;font-size:14px">Presentación no disponible</div>';
-      });
-  }
-
-  /**
    * Filtra secciones data-version según la versión seleccionada.
    */
   function applyVersionFilter() {
@@ -718,7 +691,7 @@
     html += '          ' + svgIcon('icon-expand', 14) + ' Ampliar</button>';
     html += '      </div>';
     html += '      <div class="ana-pres-preview__stage" onclick="SlideViewer.open(' + n + ')" role="button" tabindex="0" aria-label="Abrir presentación">';
-    html += '        <div class="ana-pres-preview__slide" id="pres-preview-' + n + '"></div>';
+    html += '        <iframe class="ana-pres-preview__iframe" src="slides/preview.html?n=' + n + '" title="Preview presentación nivel ' + n + '" loading="lazy"></iframe>';
     html += '        <div class="ana-pres-preview__overlay">';
     html += '          <span>' + svgIcon('icon-expand', 24) + '</span>';
     html += '          <span>Clic para abrir presentación</span>';
@@ -780,7 +753,6 @@
 
     /* ── Cargar contenido HTML del módulo via fetch ── */
     loadLevelContent(n);
-    loadPresPreview(n);
 
     /* Evento: marcar como completado */
     var btnComplete = document.getElementById('btn-complete-level');

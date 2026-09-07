@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preview</title>
+<link rel="stylesheet" href="../css/slides.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a1a;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+  /* Override viewer styles — show slide directly */
+  .slide {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    position: absolute;
+    top: 0; left: 0;
+  }
+  .slide.active { display: flex; }
+  .slide-title, .slide__title {
+    font-size: 1.6rem !important;
+  }
+  /* Hide everything except first slide */
+  .slide:not(:first-child) { display: none !important; }
+  .slide:first-child { display: flex; }
+</style>
+</head>
+<body>
+<div id="deck"></div>
+<script>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  var nivel = params.get('n') || '1';
+  fetch('nivel-' + nivel + '.html')
+    .then(function(r) { return r.ok ? r.text() : ''; })
+    .then(function(html) {
+      var parser = new DOMParser();
+      var doc = parser.parseFromString(html, 'text/html');
+      var first = doc.querySelector('.slide');
+      if (first) {
+        first.classList.add('active');
+        document.getElementById('deck').appendChild(document.importNode(first, true));
+      }
+    });
+})();
+</script>
+</body>
+</html>
