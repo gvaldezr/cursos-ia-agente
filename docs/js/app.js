@@ -443,6 +443,7 @@
     /* ── Hero Section ── */
     html += '<section class="ana-hero" aria-labelledby="hero-title">';
     html += '  <div class="ana-container">';
+    html += '    <img src="assets/logo-ia/ia-solid-negativo.png" alt="iA Anáhuac" style="width:100px;height:auto;display:block;margin:0 auto var(--ana-space-6);opacity:0.9;">';
     html += '    <p class="ana-hero__overline">Universidad Anáhuac Mayab · Formación Continua</p>';
     html += '    <h1 class="ana-hero__title" id="hero-title">IA Práctica para Líderes Anáhuac</h1>';
     html += '    <p class="ana-hero__subtitle">Programa de formación en inteligencia artificial generativa para directivos. 8 niveles progresivos, de conceptos fundamentales a agentes de IA.</p>';
@@ -667,6 +668,7 @@
     /* Hero banner del nivel con imagen */
     html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.6)), url(\'assets/images/nivel-' + n + '-hero.png\')">';
     html += '  <div class="ana-level-hero__content">';
+    html += '    <img src="assets/logo-ia/ia-solid-negativo.png" alt="iA Anáhuac" class="ana-level-hero__logo">';
     html += '    <p class="ana-level-hero__overline">NIVEL ' + n + ' · ' + actName + ' · Versión ' + versionLabel + '</p>';
     html += '    <h1 class="ana-level-hero__title">' + level.title + '</h1>';
     html += '    <p class="ana-level-hero__desc">' + level.desc + '</p>';
