@@ -11,6 +11,12 @@
   const STATE_KEY  = 'anahuac-ia-progress';
   const TOTAL      = 8;
 
+  /* FIX-8: paths centralizados (evita strings hardcodeados dispersos) */
+  const CONTENT_PATH = 'contenido/nivel-';   /* + N + '.html' */
+  const SLIDES_PATH  = 'slides/nivel-';       /* + N + '.html' */
+  const IMAGES_PATH  = 'assets/images/';      /* + 'nivel-N-hero.png', etc. */
+  const LOGO_IA      = 'assets/logo-ia/ia-solid-negativo.png';
+
   var currentObserver = null; /* Referencia al IntersectionObserver activo */
 
   const LEVELS = [
@@ -295,6 +301,23 @@
     /* Cerrar al navegar */
     window.addEventListener('hashchange', closeMenu);
 
+    /* BUG-3 FIX: Focus trap — Tab no escapa del menú móvil */
+    menu.addEventListener('keydown', function (e) {
+      if (e.key !== 'Tab') return;
+      if (!menu.classList.contains('open')) return;
+      var focusable = menu.querySelectorAll(
+        'a[href], button, [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+      var first = focusable[0];
+      var last  = focusable[focusable.length - 1];
+      if (e.shiftKey) {
+        if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+      } else {
+        if (document.activeElement === last)  { e.preventDefault(); first.focus(); }
+      }
+    });
+
     /* Inyectar links de niveles en el menú mobile */
     updateMobileNav();
   }
@@ -443,7 +466,7 @@
     /* ── Hero Section ── */
     html += '<section class="ana-hero" aria-labelledby="hero-title">';
     html += '  <div class="ana-container">';
-    html += '    <img src="assets/logo-ia/ia-solid-negativo.png" alt="iA Anáhuac" style="width:100px;height:auto;display:block;margin:0 auto var(--ana-space-6);opacity:0.9;">';
+    html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" loading="lazy" style="width:100px;height:auto;display:block;margin:0 auto var(--ana-space-6);opacity:0.9;">';
     html += '    <p class="ana-hero__overline">Universidad Anáhuac Mayab · Formación Continua</p>';
     html += '    <h1 class="ana-hero__title" id="hero-title">IA Práctica para Líderes Anáhuac</h1>';
     html += '    <p class="ana-hero__subtitle">Programa de formación en inteligencia artificial generativa para directivos. 8 niveles progresivos, de conceptos fundamentales a agentes de IA.</p>';
@@ -591,13 +614,19 @@
    * Si fetch falla (ej: file:// o archivo no existe), muestra placeholder.
    * Aplica filtro de versión (académica/administrativa) tras inyectar.
    */
+
+  /* BUG-2 FIX: AbortController cancela fetch previos al navegar rápido */
+  var currentFetchController = null;
+
   function loadLevelContent(n) {
     var container = document.getElementById('level-content');
     if (!container) return;
 
-    var url = 'contenido/nivel-' + n + '.html';
+    if (currentFetchController) currentFetchController.abort();
+    currentFetchController = new AbortController();
+    var url = CONTENT_PATH + n + '.html';
 
-    fetch(url)
+    fetch(url, { signal: currentFetchController.signal })
       .then(function (resp) {
         if (!resp.ok) throw new Error('HTTP ' + resp.status);
         return resp.text();
@@ -613,7 +642,9 @@
         applyVersionFilter();
         initScrollReveal();
       })
-      .catch(function () {
+      .catch(function (err) {
+        /* Si fue cancelado por nueva navegación, no hacer nada */
+        if (err && err.name === 'AbortError') return;
         /* Fallback para file:// o contenido no disponible */
         container.innerHTML =
           '<div class="ana-placeholder" style="text-align:center;padding:var(--ana-space-16) var(--ana-space-4)">' +
@@ -666,9 +697,9 @@
                 : 'Acto III — Liderazgo';
 
     /* Hero banner del nivel con imagen */
-    html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.6)), url(\'assets/images/nivel-' + n + '-hero.png\')">';
+    html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.6)), url(\'' + IMAGES_PATH + 'nivel-' + n + '-hero.png\')">';
     html += '  <div class="ana-level-hero__content">';
-    html += '    <img src="assets/logo-ia/ia-solid-negativo.png" alt="iA Anáhuac" class="ana-level-hero__logo">';
+    html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" class="ana-level-hero__logo" loading="lazy">';
     html += '    <p class="ana-level-hero__overline">NIVEL ' + n + ' · ' + actName + ' · Versión ' + versionLabel + '</p>';
     html += '    <h1 class="ana-level-hero__title">' + level.title + '</h1>';
     html += '    <p class="ana-level-hero__desc">' + level.desc + '</p>';
@@ -690,10 +721,10 @@
     html += '    <div class="ana-pres-preview">';
     html += '      <div class="ana-pres-preview__header">';
     html += '        <span class="ana-pres-preview__label">' + svgIcon('icon-layers', 16) + ' Presentación del nivel</span>';
-    html += '        <button class="ana-pres-preview__btn" onclick="SlideViewer.open(' + n + ')" aria-label="Ampliar presentación del nivel ' + n + '">';
+    html += '        <button class="ana-pres-preview__btn" data-slides="' + n + '" aria-label="Ampliar presentación del nivel ' + n + '">';
     html += '          ' + svgIcon('icon-expand', 14) + ' Ampliar</button>';
     html += '      </div>';
-    html += '      <div class="ana-pres-preview__stage" onclick="SlideViewer.open(' + n + ')" role="button" tabindex="0" aria-label="Abrir presentación">';
+    html += '      <div class="ana-pres-preview__stage" data-slides="' + n + '" role="button" tabindex="0" aria-label="Abrir presentación">';
     html += '        <iframe class="ana-pres-preview__iframe" src="slides/preview.html?n=' + n + '" title="Preview presentación nivel ' + n + '" loading="lazy"></iframe>';
     html += '        <div class="ana-pres-preview__overlay">';
     html += '          <span>' + svgIcon('icon-expand', 24) + '</span>';
@@ -714,7 +745,7 @@
     html += '    </div>';
 
     /* Botón: Ver presentación del nivel */
-    html += '    <button class="ana-btn--slides" onclick="SlideViewer.open(' + n + ')" aria-label="Ver presentación del nivel ' + n + '">';
+    html += '    <button class="ana-btn--slides" data-slides="' + n + '" aria-label="Ver presentación del nivel ' + n + '">';
     html += '      ' + svgIcon('icon-layers', 18) + ' Ver presentación del nivel</button>';
 
     /* Navegación inferior */
@@ -781,7 +812,7 @@
 
     /* Hero de cierre si completó todo */
     if (pct >= 100) {
-      html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.55)), url(\'assets/images/hero-cierre.png\'); min-height:240px">';
+      html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.55)), url(\'' + IMAGES_PATH + 'hero-cierre.png\'); min-height:240px">';
       html += '  <div class="ana-level-hero__content">';
       html += '    <p class="ana-level-hero__overline">PROGRAMA COMPLETADO</p>';
       html += '    <h1 class="ana-level-hero__title">¡Felicidades, Líder IA!</h1>';
@@ -1027,6 +1058,24 @@
     initCopyButtons();
     initKeyboard();
     initAccordions();
+
+    /* FIX-10: delegación de eventos para abrir slides (reemplaza onclick inline).
+       Se registra una sola vez sobre #app, que persiste entre renders. */
+    app.addEventListener('click', function (e) {
+      var trigger = e.target.closest('[data-slides]');
+      if (!trigger || typeof SlideViewer === 'undefined') return;
+      SlideViewer.open(parseInt(trigger.dataset.slides, 10));
+    });
+    /* Accesibilidad: activar con Enter/Espacio los elementos role="button" */
+    app.addEventListener('keydown', function (e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      var trigger = e.target.closest('[data-slides]');
+      if (!trigger || typeof SlideViewer === 'undefined') return;
+      /* Los <button> nativos ya se activan solos; sólo interceptamos role="button" */
+      if (trigger.tagName === 'BUTTON') return;
+      e.preventDefault();
+      SlideViewer.open(parseInt(trigger.dataset.slides, 10));
+    });
 
     /* Routing */
     window.addEventListener('hashchange', navigate);

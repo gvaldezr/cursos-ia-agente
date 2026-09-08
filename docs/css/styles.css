@@ -28,14 +28,14 @@
   --ana-dark:               #231F20;
   --ana-dark-secondary:     #3D3A3B;
   --ana-gray:               #6F6F6F;
-  --ana-gray-medium:        #999999;
+  --ana-gray-medium:        #767676;
   --ana-gray-light:         #F3F3F1;
   --ana-gray-lighter:       #F8F8F7;
   --ana-inactive:           #EAEAEA;
   --ana-inactive-hover:     #DFDFDF;
   --ana-white:              #FFFFFF;
   --ana-black:              #000000;
-  --ana-footer-gray:        #A3A9AB;
+  --ana-footer-gray:        #737373;
 
   /* COLOR: Semánticos */
   --ana-error:              #DC2626;
@@ -78,7 +78,7 @@
   --ana-level-current:      #FF5900;
   --ana-level-current-bg:   #FFF6F1;
   --ana-level-locked:       #EAEAEA;
-  --ana-level-locked-text:  #A3A9AB;
+  --ana-level-locked-text:  #737373;
   --ana-level-locked-bg:    #F8F8F7;
 
   /* TIPOGRAFÍA: Familias */
@@ -1631,8 +1631,8 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 
 .ana-diagram-caption {
   margin-top: var(--ana-space-2, 0.5rem);
-  font-size: var(--ana-fs-sm, 0.875rem);
-  color: var(--ana-text-secondary, #6b7280);
+  font-size: var(--ana-text-sm, 0.875rem);
+  color: var(--ana-gray, #6b7280);
   font-style: italic;
 }
 

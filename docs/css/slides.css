@@ -694,6 +694,9 @@
 
 .ana-slide-viewer .slide__ethics-question {
   color: #a78bfa;
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 /* ══════════════════════════════════════════
    LOGO iA — Branding en slides
@@ -711,8 +714,19 @@
   filter: drop-shadow(0 0 8px rgba(0,0,0,0.3));
 }
 
-/* En portada: logo más visible y más grande */
-.ana-slide-viewer .slide--cover ~ .ana-slide-logo,
+/* En portada: logo más visible y más grande.
+   Fallback base (sin :has()) para Firefox 100–120 y navegadores antiguos.
+   Se mantiene en su propia regla para que, si el motor no entiende :has(),
+   NO invalide también este selector (una lista de selectores se descarta
+   entera si contiene un selector no reconocido). Además, slides.js aplica
+   opacity/width del logo vía estilos inline en showSlide(), por lo que el
+   comportamiento visual es idéntico aunque :has() no esté soportado. */
+.ana-slide-viewer .slide--cover ~ .ana-slide-logo {
+  opacity: 0.6;
+  width: 72px;
+}
+/* Mejora progresiva: refleja el slide activo cuando :has() está soportado
+   (Chrome/Edge 105+, Safari 15.4+, Firefox 121+). */
 .ana-slide-stage:has(.slide--cover.active) ~ .ana-slide-logo {
   opacity: 0.6;
   width: 72px;
@@ -728,9 +742,6 @@
 
 @media print {
   .ana-slide-logo { display: none; }
-}
-  font-weight: 600;
-  font-size: 1rem;
 }
 
 /* ── Deliverable Box ── */
@@ -800,7 +811,7 @@
 
 /* Make border-radius consistent */
 .ana-slide-viewer .slide [style*="border-radius:var(--ana-radius"] {
-  border-radius: 12px !important;
+  border-radius: var(--ana-radius-lg, 12px) !important;
 }
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -927,7 +938,7 @@
   .ana-slide-nav__dots { display: none; }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 639px) {
   .ana-slide-viewer .slide {
     padding: 1rem;
   }

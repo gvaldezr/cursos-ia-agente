@@ -23,11 +23,17 @@ window.SlideViewer = (function () {
   var isOpen      = false;
   var currentLevel = 0;
 
+  /* FIX-9: AbortController cancela fetch previos al abrir otro nivel rápido */
+  var currentFetchController = null;
+
   /* Touch state */
   var touchStartX = 0;
   var touchStartY = 0;
   var touchDeltaX = 0;
   var isSwiping   = false;
+
+  /* BUG-3 FIX: focus trap handler reference */
+  var _focusTrapHandler = null;
 
   /* Reduced motion */
   var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -84,7 +90,11 @@ window.SlideViewer = (function () {
       '</div>';
 
     /* Fetch slide HTML */
-    fetch('slides/nivel-' + levelN + '.html')
+    /* FIX-9: cancelar fetch previo si el usuario abre otro nivel rápidamente */
+    if (currentFetchController) currentFetchController.abort();
+    currentFetchController = new AbortController();
+
+    fetch('slides/nivel-' + levelN + '.html', { signal: currentFetchController.signal })
       .then(function (response) {
         if (!response.ok) throw new Error('HTTP ' + response.status);
         return response.text();
@@ -125,8 +135,28 @@ window.SlideViewer = (function () {
         /* Focus viewer for keyboard */
         viewer.setAttribute('tabindex', '-1');
         viewer.focus({ preventScroll: true });
+
+        /* BUG-3 FIX: activar focus trap dentro del viewer */
+        if (_focusTrapHandler) viewer.removeEventListener('keydown', _focusTrapHandler);
+        _focusTrapHandler = function (e) {
+          if (e.key !== 'Tab') return;
+          var focusable = viewer.querySelectorAll(
+            'button:not([disabled]), [href], [tabindex]:not([tabindex="-1"])'
+          );
+          if (focusable.length === 0) return;
+          var first = focusable[0];
+          var last  = focusable[focusable.length - 1];
+          if (e.shiftKey) {
+            if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+          } else {
+            if (document.activeElement === last)  { e.preventDefault(); first.focus(); }
+          }
+        };
+        viewer.addEventListener('keydown', _focusTrapHandler);
       })
       .catch(function (err) {
+        /* FIX-9: si fue cancelado por abrir otro nivel, no mostrar error */
+        if (err && err.name === 'AbortError') return;
         console.error('[SlideViewer] Error loading slides:', err);
         stage.innerHTML =
           '<div style="text-align:center;color:rgba(255,255,255,0.6);font-family:var(--ana-font-body);padding:var(--ana-space-8)">' +
@@ -140,17 +170,28 @@ window.SlideViewer = (function () {
   /* ─── CLOSE: Hide viewer, restore page ─── */
   function close() {
     if (!viewer) return;
-    viewer.classList.remove('active');
-    isOpen = false;
-    document.body.style.overflow = '';
-    slides = [];
-    totalSlides = 0;
-    current = 0;
+    /* BUG-4 FIX: ejecutar animación de cierre antes de ocultar */
+    isOpen = false; /* prevenir doble-close y bloquear teclado inmediatamente */
+    viewer.classList.add('is-closing');
 
-    /* Exit fullscreen if active */
-    if (document.fullscreenElement) {
-      document.exitFullscreen().catch(function () {});
+    /* BUG-3 FIX: liberar focus trap */
+    if (_focusTrapHandler) {
+      viewer.removeEventListener('keydown', _focusTrapHandler);
+      _focusTrapHandler = null;
     }
+
+    setTimeout(function () {
+      viewer.classList.remove('active', 'is-closing');
+      document.body.style.overflow = '';
+      slides = [];
+      totalSlides = 0;
+      current = 0;
+
+      /* Exit fullscreen if active */
+      if (document.fullscreenElement) {
+        document.exitFullscreen().catch(function () {});
+      }
+    }, 200); /* 200ms = duración de modalScaleOut */
   }
 
   /* ─── SHOW SLIDE ─── */
