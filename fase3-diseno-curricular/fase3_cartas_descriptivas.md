@@ -98,7 +98,7 @@ Comprende qué es la IA generativa, identifica sus capacidades y limitaciones, y
 
 ### 2.2 Competencia del Nivel
 
-Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCTF, Chain of Thought, Few-shot), transformando cualquier tarea de gestión en un prompt que produce resultados consistentes y de alta calidad.
+Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCTF, RISE, CO-STAR), transformando cualquier tarea de gestión en un prompt que produce resultados consistentes y de alta calidad.
 
 ### 2.3 Resultados de Aprendizaje
 
@@ -106,15 +106,15 @@ Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCT
 |---|---|---|
 | RA 2.1 | **Explica** la diferencia entre un prompt genérico y un prompt estructurado, identificando los componentes que determinan la calidad del output. | Comprender (2) |
 | RA 2.2 | **Aplica** el framework Rol-Contexto-Tarea-Formato (RCTF) para transformar tareas reales de su puesto en instrucciones efectivas para IA. | Aplicar (3) |
-| RA 2.3 | **Selecciona** el framework de prompting más adecuado (RCTF, Chain of Thought, Few-shot) según el tipo de tarea, justificando su elección. | Analizar (4) |
+| RA 2.3 | **Selecciona** el framework de prompting más adecuado (RCTF, RISE, CO-STAR) según el tipo de tarea, justificando su elección. | Analizar (4) |
 | RA 2.4 | **Itera** prompts de forma sistemática para mejorar la calidad de los resultados, aplicando técnicas de refinamiento y autocrítica. | Aplicar (3) |
 
 ### 2.4 Contenido Temático
 
 1. ¿Por qué los prompts genéricos fallan? — Demostración lado a lado
 2. Framework 1: Rol + Contexto + Tarea + Formato (RCTF) — Estructura, ejemplo, ejercicio
-3. Framework 2: Cadena de pensamiento (Chain of Thought) — "Piensa paso a paso"; cuándo usarlo
-4. Framework 3: Few-shot (Enseñar con ejemplos) — "Aquí tiene 2 ejemplos; ahora hágalo con estos datos"
+3. Framework 2: RISE (Rol + Input + Steps + Expectation) — Control del proceso: datos, pasos, resultado esperado
+4. Framework 3: CO-STAR (Context + Objective + Style + Tone + Audience + Response) — Comunicaciones de alto impacto
 5. Técnicas de iteración — Refinamiento incremental, autocrítica de la IA, comparación evolutiva
 6. Dimensión ética: Integridad en la comunicación — si la IA escribió el comunicado, ¿debo decirlo?
 
@@ -151,8 +151,8 @@ Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCT
 | Elemento | 🎓 Versión Académica | 🏢 Versión Administrativa |
 |---|---|---|
 | Ejemplo RCTF | "Actúa como coordinador académico de una universidad mexicana privada. Tengo los datos de deserción del semestre 2026-1 [datos]. Genera un análisis de causas probables organizado por programa académico, en formato de tabla." | "Actúa como director de planeación de una universidad mexicana privada. Tengo los gastos operativos del Q2 2026 [datos]. Genera un análisis de variaciones vs. presupuesto organizado por centro de costos, en formato de tabla." |
-| Ejemplo Chain of Thought | Evaluar pertinencia de un plan de estudios | Evaluar viabilidad de un proyecto de infraestructura |
-| Ejemplo Few-shot | Retroalimentación a docentes | Minutas ejecutivas para Comité de Dirección |
+| Ejemplo RISE | Evaluar pertinencia de un plan de estudios con datos y pasos estructurados | Evaluar viabilidad de un proyecto de infraestructura con proceso definido |
+| Ejemplo CO-STAR | Retroalimentación formal a docentes con tono y audiencia definidos | Minutas ejecutivas para Comité de Dirección con estilo institucional |
 
 ---
 
