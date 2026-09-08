@@ -2,20 +2,20 @@
 
 > **Programa:** IA Práctica para Líderes Anáhuac Mayab — Formación Continua  
 > **Versión del documento:** 1.0 | **Fecha:** septiembre 2026  
-> **Total de cartas:** 8 (una por módulo)  
+> **Total de cartas:** 8 (una por nivel)  
 > **Diseño curricular:** Backward Design (Wiggins & McTighe); Constructive Alignment (Biggs & Tang)  
 > **Convención de verbos:** Taxonomía de Bloom revisada (Anderson & Krathwohl, 2001) — nivel indicado entre paréntesis
 
 ---
 
-## Carta Descriptiva — Módulo 1: Conceptos de IA Generativa
+## Carta Descriptiva — Nivel 1: Conceptos de IA Generativa
 
 ### 1.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 1 — Conceptos de IA Generativa |
+| **Nivel** | 1 — Conceptos de IA Generativa |
 | **Fase** | I — ENTENDER |
 | **Prerrequisito** | Ninguno |
 | **Horas contacto** | 3 |
@@ -24,7 +24,7 @@
 | **Créditos SATCA** | 0.5 |
 | **Herramienta** | Amazon Quick (primera interacción guiada) |
 
-### 1.2 Competencia del Módulo
+### 1.2 Competencia del Nivel
 
 Comprende qué es la IA generativa, identifica sus capacidades y limitaciones, y reconoce oportunidades concretas de aplicación en su rol directivo universitario, diferenciando mitos de realidades con criterio informado.
 
@@ -80,23 +80,23 @@ Comprende qué es la IA generativa, identifica sus capacidades y limitaciones, y
 
 ---
 
-## Carta Descriptiva — Módulo 2: Frameworks de Prompts
+## Carta Descriptiva — Nivel 2: Frameworks de Prompts
 
 ### 2.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 2 — Frameworks de Prompts |
+| **Nivel** | 2 — Frameworks de Prompts |
 | **Fase** | I — ENTENDER |
-| **Prerrequisito** | Módulo 1 aprobado |
+| **Prerrequisito** | Nivel 1 aprobado |
 | **Horas contacto** | 5 |
 | **Horas independientes** | 10 |
 | **Horas totales** | 15 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick |
 
-### 2.2 Competencia del Módulo
+### 2.2 Competencia del Nivel
 
 Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCTF, Chain of Thought, Few-shot), transformando cualquier tarea de gestión en un prompt que produce resultados consistentes y de alta calidad.
 
@@ -114,7 +114,7 @@ Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCT
 1. ¿Por qué los prompts genéricos fallan? — Demostración lado a lado
 2. Framework 1: Rol + Contexto + Tarea + Formato (RCTF) — Estructura, ejemplo, ejercicio
 3. Framework 2: Cadena de pensamiento (Chain of Thought) — "Piensa paso a paso"; cuándo usarlo
-4. Framework 3: Few-shot (Enseñar con ejemplos) — "Aquí tienes 2 ejemplos; ahora hazlo con estos datos"
+4. Framework 3: Few-shot (Enseñar con ejemplos) — "Aquí tiene 2 ejemplos; ahora hágalo con estos datos"
 5. Técnicas de iteración — Refinamiento incremental, autocrítica de la IA, comparación evolutiva
 6. Dimensión ética: Integridad en la comunicación — si la IA escribió el comunicado, ¿debo decirlo?
 
@@ -156,23 +156,23 @@ Estructura instrucciones efectivas para IA utilizando 3 frameworks probados (RCT
 
 ---
 
-## Carta Descriptiva — Módulo 3: Email y Comunicados Institucionales
+## Carta Descriptiva — Nivel 3: Email y Comunicados Institucionales
 
 ### 3.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 3 — Email y Comunicados Institucionales |
+| **Nivel** | 3 — Email y Comunicados Institucionales |
 | **Fase** | II — USAR |
-| **Prerrequisito** | Módulo 2 aprobado |
+| **Prerrequisito** | Nivel 2 aprobado |
 | **Horas contacto** | 5 |
 | **Horas independientes** | 10 |
 | **Horas totales** | 15 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick |
 
-### 3.2 Competencia del Módulo
+### 3.2 Competencia del Nivel
 
 Produce correos, comunicados y respuestas institucionales con asistencia de IA, adaptando tono, audiencia y formato, reduciendo significativamente el tiempo de redacción sin sacrificar calidad ni apropiación institucional.
 
@@ -231,23 +231,23 @@ Produce correos, comunicados y respuestas institucionales con asistencia de IA, 
 
 ---
 
-## Carta Descriptiva — Módulo 4: Análisis de Reportes con IA
+## Carta Descriptiva — Nivel 4: Análisis de Reportes con IA
 
 ### 4.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 4 — Análisis de Reportes con IA |
+| **Nivel** | 4 — Análisis de Reportes con IA |
 | **Fase** | II — USAR |
-| **Prerrequisito** | Módulo 3 aprobado |
+| **Prerrequisito** | Nivel 3 aprobado |
 | **Horas contacto** | 5 |
 | **Horas independientes** | 10 |
 | **Horas totales** | 15 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick (workspace local / archivos conectados) |
 
-### 4.2 Competencia del Módulo
+### 4.2 Competencia del Nivel
 
 Analiza reportes y documentos institucionales propios con IA, extrayendo insights, identificando tendencias y generando resúmenes ejecutivos verificados, distinguiendo información fidedigna de información generada/inventada por la IA.
 
@@ -306,23 +306,23 @@ Analiza reportes y documentos institucionales propios con IA, extrayendo insight
 
 ---
 
-## Carta Descriptiva — Módulo 5: Automatización de Reportes
+## Carta Descriptiva — Nivel 5: Automatización de Reportes
 
 ### 5.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 5 — Automatización de Reportes |
+| **Nivel** | 5 — Automatización de Reportes |
 | **Fase** | III — ACELERAR |
-| **Prerrequisito** | Módulo 4 aprobado |
+| **Prerrequisito** | Nivel 4 aprobado |
 | **Horas contacto** | 6 |
 | **Horas independientes** | 12 |
 | **Horas totales** | 18 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick (agentes, workspace) |
 
-### 5.2 Competencia del Módulo
+### 5.2 Competencia del Nivel
 
 Diseña y documenta un flujo paso a paso para generar su reporte recurrente más importante con asistencia de IA, integrando agentes básicos, controles de calidad y verificación humana, con una reducción demostrable de tiempo ≥60%.
 
@@ -348,7 +348,7 @@ Diseña y documenta un flujo paso a paso para generar su reporte recurrente más
 
 | Fase | Actividad | Tiempo | Recursos |
 |---|---|---|---|
-| **Apertura** | "¿Cuánto tiempo te toma tu reporte más importante cada mes? ¿Y si se redujera a un tercio?" | 5 min | Reflexión guiada |
+| **Apertura** | "¿Cuánto tiempo le toma su reporte más importante cada mes? ¿Y si se redujera a un tercio?" | 5 min | Reflexión guiada |
 | **Conceptualización** | Anatomía de un reporte: el participante mapea SU reporte más importante | 10 min | Template de mapeo |
 | **Demostración** | Flujo completo de 6 pasos con reporte modelo | 10 min | Amazon Quick + demo |
 | **Práctica dirigida** | Crear cadena de 3 prompts reutilizables para su reporte real | 15 min | Amazon Quick |
@@ -369,7 +369,7 @@ Diseña y documenta un flujo paso a paso para generar su reporte recurrente más
 - Amazon Quick con workspace y agentes habilitados
 - Template de mapeo de reporte (anatomía)
 - Template de flujo de 6 pasos
-- Guía paso a paso: "Crear tu primer agente en Amazon Quick"
+- Guía paso a paso: "Crear su primer agente en Amazon Quick"
 - Checklist de verificación de reportes
 
 ### 5.8 Diferencias entre Versiones
@@ -382,23 +382,23 @@ Diseña y documenta un flujo paso a paso para generar su reporte recurrente más
 
 ---
 
-## Carta Descriptiva — Módulo 6: Atención a Stakeholders con IA
+## Carta Descriptiva — Nivel 6: Atención a Stakeholders con IA
 
 ### 6.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 6 — Atención a Stakeholders con IA |
+| **Nivel** | 6 — Atención a Stakeholders con IA |
 | **Fase** | III — ACELERAR |
-| **Prerrequisito** | Módulo 5 aprobado |
+| **Prerrequisito** | Nivel 5 aprobado |
 | **Horas contacto** | 5 |
 | **Horas independientes** | 10 |
 | **Horas totales** | 15 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick |
 
-### 6.2 Competencia del Módulo
+### 6.2 Competencia del Nivel
 
 Gestiona comunicación de alto volumen con stakeholders (alumnos/padres o proveedores/equipo) usando IA, creando bancos de respuestas personalizables, aplicando protocolos de escalamiento y estableciendo límites éticos claros sobre cuándo usar y cuándo no usar IA.
 
@@ -424,7 +424,7 @@ Gestiona comunicación de alto volumen con stakeholders (alumnos/padres o provee
 
 | Fase | Actividad | Tiempo | Recursos |
 |---|---|---|---|
-| **Apertura** | "¿Cuáles son las 10 preguntas que más te hacen?" — lista rápida | 5 min | Ejercicio de listado |
+| **Apertura** | "¿Cuáles son las 10 preguntas que más le hacen?" — lista rápida | 5 min | Ejercicio de listado |
 | **Conceptualización** | Embudo de atención: FAQ automatizable vs. atención humana | 5 min | Infografía de embudo |
 | **Demostración** | Crear 2 respuestas maestras → personalizar para 3 casos distintos | 10 min | Amazon Quick |
 | **Práctica dirigida** | Participante crea 5 respuestas maestras para sus FAQ reales | 15 min | Amazon Quick + lista FAQ |
@@ -460,23 +460,23 @@ Gestiona comunicación de alto volumen con stakeholders (alumnos/padres o provee
 
 ---
 
-## Carta Descriptiva — Módulo 7: Gestión de Proyectos con IA
+## Carta Descriptiva — Nivel 7: Gestión de Proyectos con IA
 
 ### 7.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 7 — Gestión de Proyectos con IA |
+| **Nivel** | 7 — Gestión de Proyectos con IA |
 | **Fase** | IV — INTEGRAR |
-| **Prerrequisito** | Módulo 6 aprobado |
+| **Prerrequisito** | Nivel 6 aprobado |
 | **Horas contacto** | 5 |
 | **Horas independientes** | 10 |
 | **Horas totales** | 15 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick |
 
-### 7.2 Competencia del Módulo
+### 7.2 Competencia del Nivel
 
 Planea, estructura, da seguimiento y reporta avance de proyectos de su área usando IA como asistente de gestión, integrando generación de planes, desglose de tareas, minutas ejecutivas, reportes de avance y análisis de riesgos.
 
@@ -502,7 +502,7 @@ Planea, estructura, da seguimiento y reporta avance de proyectos de su área usa
 
 | Fase | Actividad | Tiempo | Recursos |
 |---|---|---|---|
-| **Apertura** | "¿Tienes un proyecto pendiente de estructurar? Hoy lo vas a tener listo." | 3 min | Reflexión |
+| **Apertura** | "¿Tiene un proyecto pendiente de estructurar? Hoy lo va a tener listo." | 3 min | Reflexión |
 | **Conceptualización** | Componentes de un plan de proyecto; el concepto de WBS | 7 min | Guía de referencia |
 | **Demostración** | Generar plan completo + WBS de un proyecto modelo en Amazon Quick | 10 min | Amazon Quick + demo |
 | **Práctica dirigida** | Participante estructura un proyecto REAL pendiente con IA | 15 min | Amazon Quick |
@@ -536,23 +536,23 @@ Planea, estructura, da seguimiento y reporta avance de proyectos de su área usa
 
 ---
 
-## Carta Descriptiva — Módulo 8: Agentes y Trabajo en Equipo Local
+## Carta Descriptiva — Nivel 8: Agentes y Trabajo en Equipo Local
 
 ### 8.1 Datos de Identificación
 
 | Campo | Detalle |
 |---|---|
 | **Programa** | IA Práctica para Líderes Anáhuac Mayab |
-| **Módulo** | 8 — Agentes y Trabajo en Equipo Local |
+| **Nivel** | 8 — Agentes y Trabajo en Equipo Local |
 | **Fase** | IV — INTEGRAR |
-| **Prerrequisito** | Módulo 7 aprobado |
+| **Prerrequisito** | Nivel 7 aprobado |
 | **Horas contacto** | 6 |
 | **Horas independientes** | 12 |
 | **Horas totales** | 18 |
 | **Créditos SATCA** | 1.0 |
 | **Herramienta** | Amazon Quick (agentes avanzados, workspace colaborativo) |
 
-### 8.2 Competencia del Módulo
+### 8.2 Competencia del Nivel
 
 Configura un ecosistema de agentes especializados en Amazon Quick, diseña flujos multi-paso funcionales y establece un plan de adopción de IA para su área que incluye gobernanza, capacitación de equipo y métricas de impacto, demostrando capacidad de liderazgo en transformación digital.
 
@@ -578,7 +578,7 @@ Configura un ecosistema de agentes especializados en Amazon Quick, diseña flujo
 
 | Fase | Actividad | Tiempo | Recursos |
 |---|---|---|---|
-| **Apertura** | "Imagina que pudieras clonar a tu mejor analista y que trabajara 24/7" | 3 min | Analogía motivadora |
+| **Apertura** | "Imagine que pudiera clonar a su mejor analista y que trabajara 24/7" | 3 min | Analogía motivadora |
 | **Conceptualización** | Arquitectura de agentes: 1 agente = 1 función; diseño para el área | 10 min | Guía de diseño |
 | **Demostración** | Crear y probar un agente especializado paso a paso | 10 min | Amazon Quick |
 | **Práctica dirigida** | Participante diseña y configura 3 agentes para su área | 20 min | Amazon Quick |
@@ -592,7 +592,7 @@ Configura un ecosistema de agentes especializados en Amazon Quick, diseña flujo
 |---|---|---|---|
 | ⭐ **3 agentes funcionales en Amazon Quick** | Fichas técnicas + capturas de pruebas | Cada agente tiene: nombre descriptivo, instrucciones RCTF, documentos de referencia, limitaciones documentadas; responde adecuadamente a ≥2/3 pruebas | 30% |
 | ⭐ **1 flujo multi-paso funcional** | Diagrama de flujo + ejecución documentada | Flujo de ≥2 pasos con agentes encadenados; output coherente; verificación humana incluida | 20% |
-| ⭐ **Banco de prompts completo (20+)** | Banco consolidado de todos los módulos | ≥20 prompts organizados por tarea/módulo; todos con estructura RCTF; probados con outputs | 20% |
+| ⭐ **Banco de prompts completo (20+)** | Banco consolidado de todos los niveles | ≥20 prompts organizados por tarea/nivel; todos con estructura RCTF; probados con outputs | 20% |
 | ⭐ **Plan de adopción de IA (90 días)** | Documento ejecutivo de 2 páginas | Incluye: 3 quick wins, política de uso, top 3 riesgos con mitigación, plan de capacitación, métricas, gobernanza. Presentable a un superior. | 30% |
 
 ### 8.7 Recursos y Materiales

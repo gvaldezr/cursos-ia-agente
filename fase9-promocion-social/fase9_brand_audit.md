@@ -48,13 +48,13 @@ Este es el hallazgo más grave de la auditoría. **Los nombres de los 3 Open Bad
 |---|---|---|---|
 | **Contexto del proyecto (oficial)** | **Explorador IA** | **Estratega IA** | **Líder IA** |
 | `fase8_pitch_junta_directiva.md` (Slide 4) | Explorador IA ✅ | Estratega IA ✅ | Líder IA ✅ |
-| `fase8_one_pager.md` | Fundamentos IA ❌ | IA Aplicada ❌ | Líder IA ✅ |
-| `fase8_propuesta_ejecutiva.md` | Fundamentos IA ❌ | IA Aplicada ❌ | Líder IA ✅ |
-| `fase8_estrategia_adopcion.md` | Fundamentos IA / Explorador (mixto) ❌ | IA Aplicada / Practicante IA (mixto) ❌ | Líder IA ✅ |
-| `email: bienvenida_curso.md` | Fundamentos IA ❌ | IA Aplicada ❌ | Líder IA ✅ |
-| `email: cierre_celebracion.md` | Fundamentos de IA para Gestión Universitaria ❌ | IA Aplicada a la Gestión Universitaria ❌ | Líder de IA en Gestión Universitaria ❌ |
-| `email: seguimiento_semanal.md` | Fundamentos IA ❌ | IA Aplicada / Practicante IA ❌ | Líder IA ✅ |
-| `email: serie_nurture.md` | Badge Fundamentos IA ❌ | Badge IA Aplicada ❌ | Badge Líder IA ✅ |
+| `fase8_one_pager.md` | Explorador IA ❌ | Estratega IA ❌ | Líder IA ✅ |
+| `fase8_propuesta_ejecutiva.md` | Explorador IA ❌ | Estratega IA ❌ | Líder IA ✅ |
+| `fase8_estrategia_adopcion.md` | Explorador IA / Explorador (mixto) ❌ | Estratega IA / Practicante IA (mixto) ❌ | Líder IA ✅ |
+| `email: bienvenida_curso.md` | Explorador IA ❌ | Estratega IA ❌ | Líder IA ✅ |
+| `email: cierre_celebracion.md` | Explorador IA ❌ | Estratega IA ❌ | Líder IA ❌ |
+| `email: seguimiento_semanal.md` | Explorador IA ❌ | Estratega IA / Practicante IA ❌ | Líder IA ✅ |
+| `email: serie_nurture.md` | Badge Explorador IA ❌ | Badge Estratega IA ❌ | Badge Líder IA ✅ |
 
 **Impacto:** Un participante que lea el one-pager, reciba la invitación y luego vea el pitch verá tres nombres distintos para la misma credencial. Esto erosiona la credibilidad del sistema de micro-credenciales.
 
@@ -70,17 +70,17 @@ Las directrices de comunicación (Fase 1, sección 4) establecen explícitamente
 
 Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad principal:
 
-| Archivo | Uso de "Módulo(s)" | Uso de "Nivel(es)" |
+| Archivo | Uso de "Nivel(es)" | Uso de "Nivel(es)" |
 |---|---|---|
-| `fase8_one_pager.md` | "8 módulos" en datos clave, "Módulos 1-3" en badges | "8 niveles progresivos" en sección ¿Qué aprenderá? |
-| `fase8_propuesta_ejecutiva.md` | "8 Módulos en 4 Fases", M1-M8 | Ausente como nomenclatura principal |
-| `fase8_pitch_junta_directiva.md` | "Módulos 1-2", "8 módulos" generalizado | "8 niveles" solo en Slide 4 |
-| `fase8_estrategia_adopcion.md` | "Módulos 1-8" consistentemente | "niveles" ausente |
-| `email: invitacion_inicial.md` | "8 módulos" | Ausente |
-| `email: bienvenida_curso.md` | "8 módulos", "Módulo 1" | Ausente |
-| `email: seguimiento_semanal.md` | "Módulo 1-8" en todos los emails | Ausente |
-| `email: serie_nurture.md` | "8 módulos", "Módulo 1-8" | "8 niveles" en asunto del Email 3 |
-| `email: cierre_celebracion.md` | "8 módulos", "Módulos 1-3" | Ausente |
+| `fase8_one_pager.md` | "8 niveles" en datos clave, "Niveles 1-3" en badges | "8 niveles progresivos" en sección ¿Qué aprenderá? |
+| `fase8_propuesta_ejecutiva.md` | "8 Niveles en 4 Fases", M1-M8 | Ausente como nomenclatura principal |
+| `fase8_pitch_junta_directiva.md` | "Niveles 1-2", "8 niveles" generalizado | "8 niveles" solo en Slide 4 |
+| `fase8_estrategia_adopcion.md` | "Niveles 1-8" consistentemente | "niveles" ausente |
+| `email: invitacion_inicial.md` | "8 niveles" | Ausente |
+| `email: bienvenida_curso.md` | "8 niveles", "Nivel 1" | Ausente |
+| `email: seguimiento_semanal.md` | "Nivel 1-8" en todos los emails | Ausente |
+| `email: serie_nurture.md` | "8 niveles", "Nivel 1-8" | "8 niveles" en asunto del Email 3 |
+| `email: cierre_celebracion.md` | "8 niveles", "Niveles 1-3" | Ausente |
 
 **Impacto:** Contradicción directa con las directrices de naming aprobadas en Fase 1. El mini sitio web (que ya está construido) probablemente usa "Nivel" siguiendo las directrices, lo que crearía una desconexión entre los materiales de promoción y la plataforma.
 
@@ -94,8 +94,8 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
-| 1 | Naming | Badges nombrados "Fundamentos IA / IA Aplicada" en lugar de "Explorador IA / Estratega IA" | 🔴 | Unificar a nombres oficiales: Explorador IA, Estratega IA, Líder IA |
-| 2 | Naming | Mezcla de "niveles" y "módulos" — sección ¿Qué aprenderá? dice "8 niveles" pero datos clave dice "8 módulos" | 🔴 | Usar "niveles" consistentemente |
+| 1 | Naming | Badges nombrados "Explorador IA / Estratega IA" en lugar de "Explorador IA / Estratega IA" | 🔴 | Unificar a nombres oficiales: Explorador IA, Estratega IA, Líder IA |
+| 2 | Naming | Mezcla de "niveles" y "módulos" — sección ¿Qué aprenderá? dice "8 niveles" pero datos clave dice "8 niveles" | 🔴 | Usar "niveles" consistentemente |
 | 3 | Colores | Paleta de texto principal usa `#2D2D2D` en lugar del oficial `#231F20` (--ana-dark) | 🟡 | Cambiar a `#231F20` por consistencia con design system |
 | 4 | Colores | Texto secundario usa `#6B7280` en lugar del oficial `#6F6F6F` (--ana-gray) | 🟡 | Cambiar a `#6F6F6F` |
 | 5 | Calidad | Usa emojis en contenido principal (🕐🎯🛡️🏆🤖📅💻🎖️) — directrices los permiten solo en materiales complementarios informales | 🟡 | Para impresión formal: reemplazar emojis por íconos outline estilo Lucide. Para uso digital informal: aceptable |
@@ -115,9 +115,9 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 |---|---|---|---|---|
 | 1 | Naming | Título dice "IA Práctica para Líderes Anáhuac **Mayab**" — el nombre corto oficial del programa es "IA Práctica para Líderes Anáhuac" (sin Mayab). "Mayab" solo en contexto institucional ampliado | 🟡 | Mantener "Anáhuac Mayab" solo cuando se refiere a la universidad. El nombre del programa debe ser "IA Práctica para Líderes Anáhuac" |
 | 2 | Naming | Usa "Módulos" consistentemente (M1-M8), no "Niveles" | 🔴 | Reemplazar por "Niveles" (N1-N8) |
-| 3 | Naming | Badges nombrados "Fundamentos IA / IA Aplicada / Líder IA" | 🔴 | Unificar a Explorador IA / Estratega IA / Líder IA |
+| 3 | Naming | Badges nombrados "Explorador IA / Estratega IA / Líder IA" | 🔴 | Unificar a Explorador IA / Estratega IA / Líder IA |
 | 4 | Tono | Tono formal, ejecutivo, uso de "usted" — impecable ✅ | 🟢 | — |
-| 5 | Datos | 8 módulos, 6.5 SATCA, 120 horas, 2 versiones — todo correcto ✅ | 🟢 | — |
+| 5 | Datos | 8 niveles, 6.5 SATCA, 120 horas, 2 versiones — todo correcto ✅ | 🟢 | — |
 | 6 | Datos | ROI y métricas consistentes con product brief ✅ | 🟢 | — |
 | 7 | CTA | Solicitud de aprobación formal a Rectoría — apropiada ✅ | 🟢 | — |
 | 8 | Calidad | Sección 3.4 menciona un 4º badge integrador "Líder Digital Anáhuac" — correcto y consistente ✅ | 🟢 | — |
@@ -130,7 +130,7 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
 | 1 | Naming | Slide 4 usa "Explorador IA / Estratega IA / Líder IA" — ✅ CORRECTO, alineado con directrices | 🟢 | — |
-| 2 | Naming | Pero el cuerpo del guion mezcla "módulos" y "niveles" de forma inconsistente. Slide 4 dice "8 niveles" pero las notas del presentador dicen "8 módulos progresivos" | 🟡 | Unificar a "niveles" en todo el documento |
+| 2 | Naming | Pero el cuerpo del guion mezcla "módulos" y "niveles" de forma inconsistente. Slide 4 dice "8 niveles" pero las notas del presentador dicen "8 niveles progresivos" | 🟡 | Unificar a "niveles" en todo el documento |
 | 3 | Naming | Piloto dice "8-10 directivos" en lugar de los "30-40" de la propuesta ejecutiva — es correcto, el pitch pide un piloto más pequeño | 🟢 | — (es intencional: piloto escalonado) |
 | 4 | Tono | Notas del presentador usan tuteo ocasional: "tus propios documentos", "para ver qué sale" | 🟡 | Reescribir notas del presentador en registro de "usted": "sus propios documentos", "para ver qué resultado arroja" |
 | 5 | Tono | Slide 1 dice "Buenas tardes" y usa tono directo-persuasivo — apropiado para contexto de junta ✅ | 🟢 | — |
@@ -146,12 +146,12 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
 | 1 | Naming | Usa "módulos" a lo largo de todo el documento, nunca "niveles" | 🔴 | Reemplazar "módulos" por "niveles" |
-| 2 | Naming | Badges inconsistentes internamente: Sección 6.2 dice "Fundamentos IA" / "Practicante IA" / "Líder IA Anáhuac". Sección 1.2 usa "Explorador / Experimentador / Practicante / Avanzado / Estratégico" para la escala de madurez (no son badges, es correcto) pero puede crear confusión con los badges | 🟡 | Clarificar que la escala de madurez (Explorador…Estratégico) y los badges (Explorador IA, Estratega IA, Líder IA) son sistemas separados |
+| 2 | Naming | Badges inconsistentes internamente: Sección 6.2 dice "Explorador IA" / "Practicante IA" / "Líder IA Anáhuac". Sección 1.2 usa "Explorador / Experimentador / Practicante / Avanzado / Estratégico" para la escala de madurez (no son badges, es correcto) pero puede crear confusión con los badges | 🟡 | Clarificar que la escala de madurez (Explorador…Estratégico) y los badges (Explorador IA, Estratega IA, Líder IA) son sistemas separados |
 | 3 | Naming | Sección 6.2 introduce nombre de badge "Practicante IA" que no existe en ningún otro documento | 🔴 | Corregir a "Estratega IA" |
 | 4 | Tono | Tono formal y de "usted" — muy bien ejecutado ✅ | 🟢 | — |
 | 5 | Tono | Sección 3.2 (mensajes por segmento) — los asuntos de correo para innovadores usan tuteo implícito: "Eres de los que ya usan IA", "lo que ya probaste" | 🟡 | Reescribir: "Usted es de quienes ya usan IA", "lo que ya probó" |
 | 6 | Tono | Sección 3.2 para escépticos: "No es reemplazarte" — tuteo | 🟡 | Corregir: "No es reemplazarle" |
-| 7 | Datos | 8 módulos, 6.5 SATCA, 3 badges, 120 horas — datos correctos ✅ | 🟢 | — |
+| 7 | Datos | 8 niveles, 6.5 SATCA, 3 badges, 120 horas — datos correctos ✅ | 🟢 | — |
 | 8 | Calidad | Cuestionario de madurez digital — excelente herramienta, bien diseñado ✅ | 🟢 | — |
 | 9 | Calidad | Funnel de 5 etapas con métricas — sólido y accionable ✅ | 🟢 | — |
 | 10 | Contacto | Correo de Rectoría como canal principal, educacioncontinua@anahuac.mx como reply-to — consistente ✅ | 🟢 | — |
@@ -163,11 +163,11 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
 | 1 | Naming | Usa "módulos" — no "niveles" | 🟡 | Reemplazar por "niveles" |
-| 2 | Naming | Badges como "Fundamentos IA / IA Aplicada / Líder IA" | 🟡 | Unificar a Explorador IA / Estratega IA / Líder IA |
+| 2 | Naming | Badges como "Explorador IA / Estratega IA / Líder IA" | 🟡 | Unificar a Explorador IA / Estratega IA / Líder IA |
 | 3 | Tono | Registro formal, "usted", firma del Rector — impecable ✅ | 🟢 | — |
 | 4 | Colores | HTML usa #FF5900 y #432F64 correctamente ✅ | 🟢 | — |
 | 5 | Tipografía | HTML referencia Manrope en botón CTA — correcto ✅ | 🟢 | — |
-| 6 | Datos | "8 módulos", "6.5 créditos SATCA", "Amazon Quick" — datos correctos ✅ | 🟢 | — |
+| 6 | Datos | "8 niveles", "6.5 créditos SATCA", "Amazon Quick" — datos correctos ✅ | 🟢 | — |
 | 7 | CTA | "CONFIRME SU PARTICIPACIÓN →" — apropiado, infinitivo, sin exclamaciones excesivas ✅ | 🟢 | — |
 | 8 | Calidad | Variante de reenvío por Vicerrectoría — excelente estrategia de refuerzo ✅ | 🟢 | — |
 
@@ -177,13 +177,13 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
-| 1 | Naming | Usa "módulos" (Módulo 1, M1-M8) — no "niveles" | 🟡 | Reemplazar por "niveles" |
-| 2 | Naming | Badges como "Fundamentos IA / IA Aplicada / Líder IA" | 🟡 | Unificar a Explorador IA / Estratega IA / Líder IA |
+| 1 | Naming | Usa "módulos" (Nivel 1, M1-M8) — no "niveles" | 🟡 | Reemplazar por "niveles" |
+| 2 | Naming | Badges como "Explorador IA / Estratega IA / Líder IA" | 🟡 | Unificar a Explorador IA / Estratega IA / Líder IA |
 | 3 | Tono | Asunto usa "¡Bienvenido(a)!" con exclamación — directrices prohíben exclamaciones excesivas | 🟡 | Cambiar a: "Bienvenido(a) al programa — Su acceso, calendario y primer paso" |
 | 4 | Tono | Cuerpo del email — uso de "usted" impecable ✅ | 🟢 | — |
 | 5 | Colores | HTML usa #432F64, #FF5900, #f5f0fa — correcto ✅ | 🟢 | — |
 | 6 | Tipografía | Botón CTA usa font-family: 'Manrope' — correcto ✅ | 🟢 | — |
-| 7 | Datos | "8 módulos", "20-35 minutos" — correcto ✅ | 🟢 | — |
+| 7 | Datos | "8 niveles", "20-35 minutos" — correcto ✅ | 🟢 | — |
 | 8 | Calidad | Emojis usados como iconografía funcional (🔑📅🎯🚀🏅📞) — aceptable en email ✅ | 🟢 | — |
 | 9 | Contacto | Reply-to: educacioncontinua@anahuac.mx — consistente con otros emails ✅ | 🟢 | — |
 
@@ -193,8 +193,8 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
-| 1 | Naming | Email 3 título dice "8 niveles" ✅ pero cuerpo dice "8 módulos" ❌ — inconsistencia interna | 🟡 | Unificar a "niveles" en todo el email |
-| 2 | Naming | Badges como "Fundamentos IA / IA Aplicada / Líder IA" | 🟡 | Unificar a Explorador IA / Estratega IA / Líder IA |
+| 1 | Naming | Email 3 título dice "8 niveles" ✅ pero cuerpo dice "8 niveles" ❌ — inconsistencia interna | 🟡 | Unificar a "niveles" en todo el email |
+| 2 | Naming | Badges como "Explorador IA / Estratega IA / Líder IA" | 🟡 | Unificar a Explorador IA / Estratega IA / Líder IA |
 | 3 | Tono | Registro formal, "usted" — correcto ✅ | 🟢 | — |
 | 4 | Colores | HTML usa #FF5900, #432F64 correctamente ✅ | 🟢 | — |
 | 5 | Datos | 6.5 SATCA, 120 horas, 3 badges — correcto ✅ | 🟢 | — |
@@ -208,8 +208,8 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
-| 1 | Naming | Usa "Módulo" consistentemente (Módulo 1-8) — no "Nivel" | 🟡 | Reemplazar por "Nivel" |
-| 2 | Naming | Badge de Semana 6 dice "IA Aplicada" — correcto per se, pero inconsistente con nombres oficiales | 🟡 | Unificar a "Estratega IA" |
+| 1 | Naming | Usa "Módulo" consistentemente (Nivel 1-8) — no "Nivel" | 🟡 | Reemplazar por "Nivel" |
+| 2 | Naming | Badge de Semana 6 dice "Estratega IA" — correcto per se, pero inconsistente con nombres oficiales | 🟡 | Unificar a "Estratega IA" |
 | 3 | Naming | Semana 6 nota especial dice "Practicante IA" — este nombre NO existe en las directrices oficiales | 🔴 | Corregir a "Estratega IA" (nombre oficial del segundo badge) |
 | 4 | Tono | Textos de resumen semanal son motivacionales pero formales — excelente balance ✅ | 🟢 | — |
 | 5 | Tono | Semana 5: "tus 20 años de experiencia" — tuteo | 🟡 | Corregir: "sus 20 años de experiencia" |
@@ -224,13 +224,13 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 
 | # | Dimensión | Hallazgo | Sev. | Corrección sugerida |
 |---|---|---|---|---|
-| 1 | Naming | Badges con nombres extendidos: "Fundamentos de IA para Gestión Universitaria", "IA Aplicada a la Gestión Universitaria", "Líder de IA en Gestión Universitaria" — NO coinciden con ningún otro documento | 🔴 | Unificar a los nombres cortos oficiales: Explorador IA, Estratega IA, Líder IA. Pueden agregarse subtítulos descriptivos debajo del nombre oficial |
+| 1 | Naming | Badges con nombres extendidos: "Explorador IA", "Estratega IA", "Líder IA" — NO coinciden con ningún otro documento | 🔴 | Unificar a los nombres cortos oficiales: Explorador IA, Estratega IA, Líder IA. Pueden agregarse subtítulos descriptivos debajo del nombre oficial |
 | 2 | Naming | Badge integrador dice "Líder Digital Anáhuac — IA para Gestión Universitaria" — el nombre oficial es solo "Líder Digital Anáhuac" | 🟡 | Mantener "Líder Digital Anáhuac" como nombre principal. El subtítulo descriptivo puede ir en texto secundario |
 | 3 | Naming | Usa "módulos" — no "niveles" | 🟡 | Reemplazar por "niveles" |
 | 4 | Naming | Menciona "4 Open Badges" en acreditación, pero se refiere a 3 + 1 integrador. Técnicamente correcto pero puede confundir vs. la comunicación de "3 Open Badges" usada en otros docs | 🟡 | Clarificar: "3 Open Badges progresivos + 1 badge integrador (4 en total)" |
 | 5 | Tono | Firmado por el Rector — cierra el arco de comunicación institucional ✅ | 🟢 | — |
 | 6 | Tono | Tono celebratorio pero contenido — sin excesos ✅ | 🟢 | — |
-| 7 | Datos | 6.5 SATCA, 120 horas, 8 módulos — correcto ✅ | 🟢 | — |
+| 7 | Datos | 6.5 SATCA, 120 horas, 8 niveles — correcto ✅ | 🟢 | — |
 | 8 | Colores | HTML usa #FF5900, #432F64, gradiente correcto ✅ | 🟢 | — |
 | 9 | CTA | "COMPARTIR EN LINKEDIN →" con color #0077B5 (LinkedIn blue) — apropiado ✅ | 🟢 | — |
 | 10 | Calidad | Variante para participantes que no completaron — muy bien pensada ✅ | 🟢 | — |

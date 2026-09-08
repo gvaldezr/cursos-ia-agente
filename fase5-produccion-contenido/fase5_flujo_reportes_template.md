@@ -1,8 +1,8 @@
 # 📋 Flujo de Reportes con IA — Template del Entregable Final
-## IA Práctica para Líderes Anáhuac Mayab · Módulo 5
+## IA Práctica para Líderes Anáhuac Mayab · Nivel 5
 
 > **¿Qué es este documento?**
-> Este es el template para construir su **flujo de reporte automatizado con IA** — el entregable principal del Módulo 5. Usted completará cada paso con la información de su reporte recurrente más importante. Al terminarlo, tendrá un proceso documentado y reutilizable que reduce el tiempo de elaboración de su reporte en al menos 60%.
+> Este es el template para construir su **flujo de reporte automatizado con IA** — el entregable principal del Nivel 5. Usted completará cada paso con la información de su reporte recurrente más importante. Al terminarlo, tendrá un proceso documentado y reutilizable que reduce el tiempo de elaboración de su reporte en al menos 60%.
 >
 > **Instrucciones:**
 > 1. Lea cada paso completo antes de empezar a escribir

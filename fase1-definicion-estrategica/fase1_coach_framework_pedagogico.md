@@ -27,32 +27,32 @@ El directivo no necesita saber *cómo* funciona un transformer. Necesita saber:
 
 ---
 
-## 2. Tres Niveles de Competencia → 8 Módulos
+## 2. Tres Niveles de Competencia → 8 Niveles
 
 ### Mapa de Progresión
 
 ```
-NIVEL 1: CONSCIENCIA (Módulos 1-3)
+NIVEL 1: CONSCIENCIA (Niveles 1-3)
 "Entiendo qué es esto y por qué me importa"
-├── Módulo 1: Qué es IA generativa (y qué NO es)
-├── Módulo 2: Tu primera conversación útil con IA
-└── Módulo 3: El arte de pedir bien (prompt como instrucción directiva)
+├── Nivel 1: Qué es IA generativa (y qué NO es)
+├── Nivel 2: Tu primera conversación útil con IA
+└── Nivel 3: El arte de pedir bien (prompt como instrucción directiva)
 
-NIVEL 2: COMPETENCIA (Módulos 4-6)
+NIVEL 2: COMPETENCIA (Niveles 4-6)
 "Puedo usarla de forma productiva y segura"
-├── Módulo 4: IA con tus propios documentos (RAG / knowledge)
-├── Módulo 5: Pensamiento crítico: detectar errores y sesgos
-└── Módulo 6: Flujos de trabajo reales con IA
+├── Nivel 4: IA con sus propios documentos (RAG / knowledge)
+├── Nivel 5: Pensamiento crítico: detectar errores y sesgos
+└── Nivel 6: Flujos de trabajo reales con IA
 
-NIVEL 3: AGENCIA (Módulos 7-8)
+NIVEL 3: AGENCIA (Niveles 7-8)
 "Lidero la adopción de IA en mi área"
-├── Módulo 7: Agentes y automatización para directivos
-└── Módulo 8: Estrategia de IA para tu área — plan de adopción
+├── Nivel 7: Agentes y automatización para directivos
+└── Nivel 8: Estrategia de IA para su área — plan de adopción
 ```
 
 ---
 
-## 3. Detalle por Módulo
+## 3. Detalle por Nivel
 
 ---
 
@@ -60,7 +60,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 
 ---
 
-#### MÓDULO 1: Qué es IA Generativa (y Qué NO Es)
+#### NIVEL 1: Qué es IA Generativa (y Qué NO Es)
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **distinguir** (Comprender) qué puede y qué no puede hacer la IA generativa, identificando al menos 3 capacidades reales y 3 mitos comunes, usando lenguaje propio de su contexto directivo.
@@ -68,7 +68,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 **Concepto central:** La IA generativa es una herramienta de predicción de texto, no un cerebro. Genera lo *más probable*, no lo *más verdadero*.
 
 **Analogía clave:**
-> 🔑 **La IA es como un asistente recién contratado con memoria fotográfica pero cero criterio.** Leyó todo internet, puede redactar casi cualquier cosa, pero no sabe si lo que escribe es verdad. No tiene experiencia en TU universidad, no conoce TUS políticas, y si le preguntas algo que no sabe, inventará una respuesta convincente en lugar de decir "no sé". Tu trabajo como directivo es ser el supervisor de este asistente.
+> 🔑 **La IA es como un asistente recién contratado con memoria fotográfica pero cero criterio.** Leyó todo internet, puede redactar casi cualquier cosa, pero no sabe si lo que escribe es verdad. No tiene experiencia en SU universidad, no conoce SUS políticas, y si le preguntas algo que no sabe, inventará una respuesta convincente en lugar de decir "no sé". Su trabajo como directivo es ser el supervisor de este asistente.
 
 **Actividad práctica (10 min):**
 - Abrir Amazon Quick
@@ -81,7 +81,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 
 ---
 
-#### MÓDULO 2: Tu Primera Conversación Útil con IA
+#### NIVEL 2: Tu Primera Conversación Útil con IA
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **generar** (Aplicar) al menos un producto útil para su trabajo real — un borrador de comunicado, un resumen ejecutivo o un análisis preliminar — usando una conversación guiada con IA.
@@ -89,7 +89,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 **Concepto central:** La IA no es un buscador. Es un interlocutor. La calidad de lo que recibes depende de la calidad de lo que comunicas.
 
 **Analogía clave:**
-> 🔑 **Hablarle a la IA es como darle instrucciones a alguien por teléfono que no puede verte.** Si dices "hazme un reporte", obtendrás algo genérico. Si dices "hazme un reporte ejecutivo de 1 página para el rector sobre la tasa de retención del primer semestre, con tono formal, destacando las 3 principales causas de deserción y recomendaciones accionables", obtendrás algo que puedes usar. No es magia — es comunicación precisa.
+> 🔑 **Hablarle a la IA es como darle instrucciones a alguien por teléfono que no puede verle.** Si dice "hazme un reporte", obtendrá algo genérico. Si dice "hazme un reporte ejecutivo de 1 página para el rector sobre la tasa de retención del primer semestre, con tono formal, destacando las 3 principales causas de deserción y recomendaciones accionables", obtendrá algo que puede usar. No es magia — es comunicación precisa.
 
 **Actividad práctica (10 min):**
 - Tomar un problema REAL de su semana actual
@@ -102,7 +102,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 
 ---
 
-#### MÓDULO 3: El Arte de Pedir Bien — Prompt como Instrucción Directiva
+#### NIVEL 3: El Arte de Pedir Bien — Prompt como Instrucción Directiva
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **estructurar** (Analizar) instrucciones efectivas para IA usando el marco ROL-CONTEXTO-TAREA-FORMATO, adaptándolo a necesidades reales de gestión universitaria.
@@ -110,24 +110,24 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 **Concepto central:** Un prompt no es una búsqueda de Google. Es una instrucción de trabajo. Los mismos principios que usas para delegar bien aplican para instruir IA.
 
 **Analogía clave:**
-> 🔑 **Escribir un buen prompt es como escribir un buen memo de encargo.** ¿Le dirías a tu equipo "haz algo de marketing"? No. Le dirías: "Necesito una propuesta de campaña para el programa de Maestría en Educación, dirigida a egresados de licenciatura menores de 30 años, para redes sociales, con presupuesto máximo de $50,000, entregable el viernes." Con la IA aplica exactamente lo mismo.
+> 🔑 **Escribir un buen prompt es como escribir un buen memo de encargo.** ¿Le diría a su equipo "haz algo de marketing"? No. Le diría: "Necesito una propuesta de campaña para el programa de Maestría en Educación, dirigida a egresados de licenciatura menores de 30 años, para redes sociales, con presupuesto máximo de $50,000, entregable el viernes." Con la IA aplica exactamente lo mismo.
 
-**Estructura enseñada — Marco RCTE:**
+**Estructura enseñada — Marco RCTF:**
 
 | Elemento | Qué es | Ejemplo directivo |
 |----------|--------|--------------------|
-| **R**ol | Quién quieres que sea la IA | "Actúa como analista de planeación académica" |
+| **R**ol | Quién quiere que sea la IA | "Actúa como analista de planeación académica" |
 | **C**ontexto | La situación específica | "Nuestra universidad tiene 12,000 alumnos y 3 campus" |
-| **T**area | Qué necesitas exactamente | "Redacta un diagnóstico de las causas de baja matrícula en Ingeniería" |
+| **T**area | Qué necesita exactamente | "Redacta un diagnóstico de las causas de baja matrícula en Ingeniería" |
 | **E**specificaciones | Formato, tono, extensión, restricciones | "Máximo 1 página, tono ejecutivo, con datos y recomendaciones" |
 
 **Actividad práctica (15 min):**
-- Ejercicio "Del memo vago al memo preciso": reciben 3 prompts mal escritos y deben mejorarlos usando el marco RCTE
+- Ejercicio "Del memo vago al memo preciso": reciben 3 prompts mal escritos y deben mejorarlos usando el marco RCTF
 - Después, ejecutar su mejor prompt en Amazon Quick y evaluar el resultado
 - Comparar en parejas: ¿quién obtuvo mejor resultado? ¿Por qué?
 
 **Evaluación/Evidencia:**
-- "Biblioteca de 3 prompts": el participante entrega 3 instrucciones RCTE listas para usar en su trabajo real, con el output generado y una calificación propia (1-5) de utilidad.
+- "Biblioteca de 3 prompts": el participante entrega 3 instrucciones RCTF listas para usar en su trabajo real, con el output generado y una calificación propia (1-5) de utilidad.
 
 ---
 
@@ -135,18 +135,18 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 
 ---
 
-#### MÓDULO 4: IA con Tus Propios Documentos
+#### NIVEL 4: IA con Tus Propios Documentos
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **utilizar** (Aplicar) IA para analizar, resumir y extraer información de sus propios documentos institucionales (reportes, minutas, políticas), identificando cuándo el resultado es fiel al documento y cuándo la IA está "inventando".
 
-**Concepto central:** La IA es más útil cuando trabaja con TUS datos, no con internet. Pero incluso con tus documentos, puede malinterpretar o inventar. Debes verificar.
+**Concepto central:** La IA es más útil cuando trabaja con SUS datos, no con internet. Pero incluso con sus documentos, puede malinterpretar o inventar. Debe verificar.
 
 **Analogía clave:**
-> 🔑 **RAG (Retrieval-Augmented Generation) es como darle a tu asistente una carpeta con documentos ANTES de que redacte.** Sin la carpeta, el asistente escribe de memoria (y a veces inventa). Con la carpeta, busca primero en tus documentos y luego redacta basándose en ellos. No es perfecto — a veces lee mal, a veces mezcla información de dos documentos — pero es MUCHO mejor que dejarlo escribir de memoria. En Amazon Quick, subir archivos o conectar carpetas es "darle la carpeta".
+> 🔑 **RAG (Retrieval-Augmented Generation) es como darle a su asistente una carpeta con documentos ANTES de que redacte.** Sin la carpeta, el asistente escribe de memoria (y a veces inventa). Con la carpeta, busca primero en sus documentos y luego redacta basándose en ellos. No es perfecto — a veces lee mal, a veces mezcla información de dos documentos — pero es MUCHO mejor que dejarlo escribir de memoria. En Amazon Quick, subir archivos o conectar carpetas es "darle la carpeta".
 
 **Analogía complementaria — Tokens:**
-> 🔑 **Los tokens son las "unidades de lectura" de la IA.** Imagina que la IA lee con una ventana de cierto tamaño. Si tu documento es más largo que esa ventana, la IA no puede ver todo al mismo tiempo. Es como pedirle a alguien que lea un libro de 500 páginas pero solo puede tener abiertas 20 páginas a la vez. Por eso, a veces "olvida" información que está al principio de un documento largo.
+> 🔑 **Los tokens son las "unidades de lectura" de la IA.** Imagina que la IA lee con una ventana de cierto tamaño. Si su documento es más largo que esa ventana, la IA no puede ver todo al mismo tiempo. Es como pedirle a alguien que lea un libro de 500 páginas pero solo puede tener abiertas 20 páginas a la vez. Por eso, a veces "olvida" información que está al principio de un documento largo.
 
 **Actividad práctica (15 min):**
 - Subir un documento REAL de trabajo a Amazon Quick (reporte, minuta, política)
@@ -160,12 +160,12 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 
 ---
 
-#### MÓDULO 5: Pensamiento Crítico — Detectar Errores y Sesgos
+#### NIVEL 5: Pensamiento Crítico — Detectar Errores y Sesgos
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **evaluar** (Evaluar) críticamente los outputs de IA generativa, identificando alucinaciones, sesgos, omisiones y limitaciones, y tomando decisiones informadas sobre qué usar, qué corregir y qué descartar.
 
-**Concepto central:** El módulo más importante del curso. La competencia #1 de un directivo que usa IA no es saber pedir — es saber desconfiar con método.
+**Concepto central:** El nivel más importante del curso. La competencia #1 de un directivo que usa IA no es saber pedir — es saber desconfiar con método.
 
 **Analogía clave — Alucinaciones:**
 > 🔑 **Una alucinación de IA es como un subordinado que, en vez de decir "no tengo ese dato", inventa una cifra con total confianza.** La IA nunca dice "no sé". Siempre genera una respuesta, aunque sea falsa. Y lo peor: las respuestas falsas suenan EXACTAMENTE igual que las verdaderas. No tartamudea, no duda, no pone asteriscos. Por eso, el directivo que confía ciegamente en IA es más peligroso que el que no la usa.
@@ -190,7 +190,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 
 ---
 
-#### MÓDULO 6: Flujos de Trabajo Reales con IA
+#### NIVEL 6: Flujos de Trabajo Reales con IA
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **diseñar** (Crear) un flujo de trabajo completo que integre IA en un proceso real de su área, identificando las fases donde IA agrega valor, las fases donde el humano es insustituible y los puntos de verificación necesarios.
@@ -198,7 +198,7 @@ NIVEL 3: AGENCIA (Módulos 7-8)
 **Concepto central:** La IA no reemplaza un proceso — se inserta en fases específicas. El directivo decide DÓNDE y con qué supervisión.
 
 **Analogía clave:**
-> 🔑 **Integrar IA en tu trabajo es como tener un copiloto, no un piloto automático.** El copiloto puede encargarse de tareas rutinarias (borradores, resúmenes, análisis preliminares), pero el piloto (tú) decide el rumbo, verifica los instrumentos y toma las decisiones críticas. La pregunta no es "¿puede la IA hacer esto?" sino "¿en qué parte de MI proceso la IA me ahorra más tiempo sin comprometer la calidad?"
+> 🔑 **Integrar IA en su trabajo es como tener un copiloto, no un piloto automático.** El copiloto puede encargarse de tareas rutinarias (borradores, resúmenes, análisis preliminares), pero el piloto (usted) decide el rumbo, verifica los instrumentos y toma las decisiones críticas. La pregunta no es "¿puede la IA hacer esto?" sino "¿en qué parte de MI proceso la IA me ahorra más tiempo sin comprometer la calidad?"
 
 **Mapa de integración enseñado:**
 
@@ -227,21 +227,21 @@ PROCESO TÍPICO DE UN DIRECTIVO:
 
 ---
 
-#### MÓDULO 7: Agentes y Automatización para Directivos
+#### NIVEL 7: Agentes y Automatización para Directivos
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **configurar** (Crear) un agente especializado en Amazon Quick para una tarea recurrente de su área, y **explicar** a su equipo cómo usarlo de forma segura y efectiva.
 
-**Concepto central:** Un agente es una IA con instrucciones permanentes y acceso a tus documentos. No es un chat genérico — es una herramienta diseñada para UNA función específica de tu área.
+**Concepto central:** Un agente es una IA con instrucciones permanentes y acceso a sus documentos. No es un chat genérico — es una herramienta diseñada para UNA función específica de su área.
 
 **Analogía clave — Agentes:**
-> 🔑 **Un agente de IA es como tener un puesto especializado que nunca se va de vacaciones.** Imagina que pudieras clonar a tu mejor analista, darle acceso solo a los documentos que necesita, instruirlo exactamente sobre cómo quieres los reportes, y que estuviera disponible 24/7. Eso es un agente. No reemplaza personas — reemplaza las tareas repetitivas que consumen el tiempo de tus personas.
+> 🔑 **Un agente de IA es como tener un puesto especializado que nunca se va de vacaciones.** Imagine que pudiera clonar a su mejor analista, darle acceso solo a los documentos que necesita, instruirlo exactamente sobre cómo quiere los reportes, y que estuviera disponible 24/7. Eso es un agente. No reemplaza personas — reemplaza las tareas repetitivas que consumen el tiempo de sus personas.
 
 **Actividad práctica (25 min):**
 - Identificar UNA tarea recurrente en su área (ej: "responder preguntas frecuentes sobre el proceso de inscripción", "generar borradores de minutas de reunión", "analizar reportes mensuales de indicadores")
 - Crear un agente en Amazon Quick con:
   - Nombre descriptivo
-  - Instrucciones específicas (basadas en el marco RCTE del Módulo 3)
+  - Instrucciones específicas (basadas en el marco RCTF del Nivel 3)
   - Documentos de referencia subidos
 - Probar el agente con 3 preguntas reales
 - Evaluar: ¿responde bien? ¿Qué le falta? Iterar instrucciones.
@@ -251,7 +251,7 @@ PROCESO TÍPICO DE UN DIRECTIVO:
 
 ---
 
-#### MÓDULO 8: Estrategia de IA para Tu Área — Plan de Adopción
+#### NIVEL 8: Estrategia de IA para Tu Área — Plan de Adopción
 
 **Objetivo de aprendizaje (Bloom adaptado a IA):**
 > El participante será capaz de **diseñar** (Crear) un plan de adopción de IA para su área que incluya casos de uso priorizados, política de uso responsable, gestión del cambio con su equipo y métricas de impacto.
@@ -259,14 +259,14 @@ PROCESO TÍPICO DE UN DIRECTIVO:
 **Concepto central:** La IA no se adopta por decreto. Se adopta por valor demostrado, reglas claras y acompañamiento. El directivo es el catalizador.
 
 **Analogía clave:**
-> 🔑 **Adoptar IA en tu área es como implementar un nuevo sistema: si no capacitas, no regulas y no mides, fracasa.** La diferencia es que la IA es más fácil de usar... y por eso es más fácil de usar MAL. Tu rol como directivo no es solo usar IA — es definir las reglas del juego para tu equipo.
+> 🔑 **Adoptar IA en su área es como implementar un nuevo sistema: si no capacita, no regula y no mide, fracasa.** La diferencia es que la IA es más fácil de usar... y por eso es más fácil de usar MAL. Su rol como directivo no es solo usar IA — es definir las reglas del juego para su equipo.
 
 **Actividad práctica (30 min) — "Plan de 90 días":**
 - Usando una plantilla guiada, diseñar:
 
 | Elemento | Contenido |
 |----------|-----------|
-| **3 Quick Wins** | Tareas de su área que IA resuelve en < 5 min (identificadas en módulos anteriores) |
+| **3 Quick Wins** | Tareas de su área que IA resuelve en < 5 min (identificadas en niveles anteriores) |
 | **Política de uso** | Qué SÍ se puede hacer con IA, qué NO, qué requiere supervisión |
 | **Riesgos** | Top 3 riesgos específicos de usar IA en su área + mitigación |
 | **Capacitación** | Cómo enseñará a su equipo (puede reusar el curso) |
@@ -283,26 +283,26 @@ PROCESO TÍPICO DE UN DIRECTIVO:
 ### De "nunca he usado IA" a "orquesto agentes en mi área"
 
 ```
-SEMANA/MÓDULO    MENTALIDAD DEL DIRECTIVO              CAPACIDAD ADQUIRIDA
+SEMANA/NIVEL    MENTALIDAD DEL DIRECTIVO              CAPACIDAD ADQUIRIDA
 ─────────────    ──────────────────────────────         ──────────────────────────
-Módulo 1         "¿Esto no es ciencia ficción?"    →   Sabe qué es y qué NO es IA
-Módulo 2         "OK, déjame intentarlo..."        →   Puede generar un output útil
-Módulo 3         "Ahora sí me salió bien"          →   Sabe pedir con estructura
-Módulo 4         "¡Analizó MI reporte!"            →   Usa IA con sus documentos
-Módulo 5         "Momento... esto está mal"        →   Detecta errores y sesgos
-Módulo 6         "Esto me ahorra 2 horas"          →   Integra IA en su flujo real
-Módulo 7         "Mi equipo ya lo está usando"     →   Crea agentes para su área
-Módulo 8         "Tengo un plan completo"          →   Lidera adopción institucional
+Nivel 1         "¿Esto no es ciencia ficción?"    →   Sabe qué es y qué NO es IA
+Nivel 2         "OK, déjame intentarlo..."        →   Puede generar un output útil
+Nivel 3         "Ahora sí me salió bien"          →   Sabe pedir con estructura
+Nivel 4         "¡Analizó MI reporte!"            →   Usa IA con sus documentos
+Nivel 5         "Momento... esto está mal"        →   Detecta errores y sesgos
+Nivel 6         "Esto me ahorra 2 horas"          →   Integra IA en su flujo real
+Nivel 7         "Mi equipo ya lo está usando"     →   Crea agentes para su área
+Nivel 8         "Tengo un plan completo"          →   Lidera adopción institucional
 ```
 
 ### Principio de Andamiaje (Scaffolding)
 
-Cada módulo construye sobre el anterior. No hay saltos:
-- **Módulos 1-2**: La IA trabaja para ti (tú pides, ella genera)
-- **Módulo 3**: Tú aprendes a pedir mejor (mejora la calidad)
-- **Módulos 4-5**: Introduces TUS datos y aprendes a VERIFICAR (profundidad + criterio)
-- **Módulo 6**: Integras en tu flujo REAL (aplicación contextualizada)
-- **Módulos 7-8**: Tú diseñas y lideras (agencia plena)
+Cada nivel construye sobre el anterior. No hay saltos:
+- **Niveles 1-2**: La IA trabaja para ti (tú pides, ella genera)
+- **Nivel 3**: Tú aprendes a pedir mejor (mejora la calidad)
+- **Niveles 4-5**: Introduce SUS datos y aprende a VERIFICAR (profundidad + criterio)
+- **Nivel 6**: Integra en su flujo REAL (aplicación contextualizada)
+- **Niveles 7-8**: Tú diseñas y lideras (agencia plena)
 
 ### Curva de Autonomía
 
@@ -322,26 +322,26 @@ Mod 7-8:  [██████████]  Autónomo + líder
 
 | Concepto técnico | Analogía para directivos | Cuándo usarla |
 |-----------------|--------------------------|---------------|
-| **LLM (Large Language Model)** | "Un becario que leyó toda la biblioteca pero no tiene experiencia laboral" | Módulo 1 — para explicar capacidades y limitaciones |
-| **Tokens** | "Las unidades de lectura de la IA — como cuántas páginas puede tener abiertas al mismo tiempo" | Módulo 4 — cuando suben documentos largos |
-| **Prompt** | "Un memo de encargo: entre más preciso, mejor resultado" | Módulo 2-3 — toda la sección de prompts |
-| **Temperatura** | "El dial entre contador (conservador) y creativo (arriesgado)" | Módulo 5 — cuando eligen tipo de tarea |
-| **Alucinación** | "El subordinado que inventa datos en vez de decir 'no sé'" | Módulo 5 — pensamiento crítico |
-| **RAG** | "Darle una carpeta de documentos al asistente ANTES de que redacte" | Módulo 4 — trabajo con documentos propios |
-| **Agente** | "Un puesto especializado que nunca se va de vacaciones" | Módulo 7 — creación de agentes |
-| **Sesgo / Bias** | "La IA tiene los prejuicios de todo lo que leyó en internet" | Módulo 5 — evaluación crítica |
-| **Fine-tuning** | "Entrenar al becario específicamente para tu departamento" | Módulo 7 — para diferenciar de agentes |
-| **Contexto / Context window** | "La memoria de corto plazo de la IA — solo recuerda lo de ESTA conversación" | Módulo 2 — cuando la IA "olvida" algo |
-| **Grounding** | "Anclar la IA a hechos verificables, no a su imaginación" | Módulo 4-5 — verificación de outputs |
-| **Iteración** | "Revisar y corregir el borrador — igual que con cualquier subordinado" | Módulo 2-3 — ciclo de mejora del output |
+| **LLM (Large Language Model)** | "Un becario que leyó toda la biblioteca pero no tiene experiencia laboral" | Nivel 1 — para explicar capacidades y limitaciones |
+| **Tokens** | "Las unidades de lectura de la IA — como cuántas páginas puede tener abiertas al mismo tiempo" | Nivel 4 — cuando suben documentos largos |
+| **Prompt** | "Un memo de encargo: entre más preciso, mejor resultado" | Nivel 2-3 — toda la sección de prompts |
+| **Temperatura** | "El dial entre contador (conservador) y creativo (arriesgado)" | Nivel 5 — cuando eligen tipo de tarea |
+| **Alucinación** | "El subordinado que inventa datos en vez de decir 'no sé'" | Nivel 5 — pensamiento crítico |
+| **RAG** | "Darle una carpeta de documentos al asistente ANTES de que redacte" | Nivel 4 — trabajo con documentos propios |
+| **Agente** | "Un puesto especializado que nunca se va de vacaciones" | Nivel 7 — creación de agentes |
+| **Sesgo / Bias** | "La IA tiene los prejuicios de todo lo que leyó en internet" | Nivel 5 — evaluación crítica |
+| **Fine-tuning** | "Entrenar al becario específicamente para su departamento" | Nivel 7 — para diferenciar de agentes |
+| **Contexto / Context window** | "La memoria de corto plazo de la IA — solo recuerda lo de ESTA conversación" | Nivel 2 — cuando la IA "olvida" algo |
+| **Grounding** | "Anclar la IA a hechos verificables, no a su imaginación" | Nivel 4-5 — verificación de outputs |
+| **Iteración** | "Revisar y corregir el borrador — igual que con cualquier subordinado" | Nivel 2-3 — ciclo de mejora del output |
 
 ---
 
-## 6. Ética Transversal — Presente en CADA Módulo
+## 6. Ética Transversal — Presente en CADA Nivel
 
-La ética no es un módulo aparte. Es una capa que atraviesa todo el curso:
+La ética no es un nivel aparte. Es una capa que atraviesa todo el curso:
 
-| Módulo | Dimensión ética integrada |
+| Nivel | Dimensión ética integrada |
 |--------|--------------------------|
 | 1 | **Mitos y responsabilidad**: La IA no piensa, no decide, no tiene opinión. La responsabilidad SIEMPRE es del directivo que firma |
 | 2 | **Privacidad desde el primer uso**: ¿Qué datos puedo poner en la IA? ¿Datos de alumnos? ¿Información financiera? Regla: si no lo pondrías en un email a un desconocido, no lo pongas en ChatGPT público |

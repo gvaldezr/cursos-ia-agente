@@ -1,4 +1,4 @@
-# 🛠️ Herramientas de IA por Módulo — IA Práctica para Líderes Anáhuac Mayab
+# 🛠️ Herramientas de IA por Nivel — IA Práctica para Líderes Anáhuac Mayab
 
 > **Investigación realizada:** septiembre 2026  
 > **Criterio de selección:** Herramientas que un directivo puede usar HOY, sin conocimiento técnico. Se priorizan opciones con plan gratuito o trial disponible.  
@@ -20,14 +20,14 @@
 
 ---
 
-## Módulo 1: Conceptos Fundamentales de IA Generativa
+## Nivel 1: Conceptos Fundamentales de IA Generativa
 
-**Objetivo del módulo:** Entender qué es la IA generativa, cómo funciona, y sus capacidades y limitaciones.
+**Objetivo del nivel:** Entender qué es la IA generativa, cómo funciona, y sus capacidades y limitaciones.
 
 ### Herramienta Principal: Amazon Quick (Free)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Plan Free $0 — incluye chat con asistente IA, creación de agentes personalizados, investigación en profundidad, flujos automatizados, y app de escritorio.
-- **Caso de uso del módulo:** Exploración guiada de capacidades de IA. Los participantes interactúan directamente con Amazon Quick para experimentar generación de texto, análisis de datos, y automatización. Ideal para demostrar el espectro completo de la IA generativa en un solo entorno.
+- **Caso de uso del nivel:** Exploración guiada de capacidades de IA. Los participantes interactúan directamente con Amazon Quick para experimentar generación de texto, análisis de datos, y automatización. Ideal para demostrar el espectro completo de la IA generativa en un solo entorno.
 - **Ventaja diferencial:** Integra chat, investigación profunda (Quick Research), creación de agentes, y conexión con herramientas de trabajo (Slack, M365, Google) en una sola plataforma — no requiere cuenta AWS para el plan Free.
 
 ### Alternativa 1: ChatGPT (Free/Plus)
@@ -40,19 +40,19 @@
 - **Costo:** Gratuito con cuenta Google; Gemini for Education gratuito para instituciones acreditadas
 - **Caso de uso:** Demostrar IA multimodal (texto, imágenes, audio, video). Integración nativa con Google Workspace que muchas universidades ya usan. Más de 1,000 instituciones de educación superior ya lo utilizan, alcanzando 10 millones de estudiantes (Google Blog, marzo 2026).
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Amazon Quick Free** — Ofrece la experiencia más completa para explorar las capacidades de IA generativa en un solo lugar. ChatGPT es la mejor alternativa por su reconocimiento y facilidad de uso para primeras experiencias.
 
 ---
 
-## Módulo 2: Frameworks de Prompts
+## Nivel 2: Frameworks de Prompts
 
-**Objetivo del módulo:** Dominar técnicas estructuradas para comunicarse efectivamente con la IA.
+**Objetivo del nivel:** Dominar técnicas estructuradas para comunicarse efectivamente con la IA.
 
 ### Herramienta Principal: Amazon Quick (Free/Plus)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Free $0 / Plus $20/mes (más capacidad)
-- **Caso de uso del módulo:** Practicar frameworks RISE, CO-STAR, CRISPE y Chain-of-Thought directamente. La función de agentes personalizados permite crear "perfiles de prompt" reutilizables. Quick Research permite demostrar prompts complejos de investigación con resultados profesionales.
+- **Caso de uso del nivel:** Practicar frameworks RISE, CO-STAR, CRISPE y Chain-of-Thought directamente. La función de agentes personalizados permite crear "perfiles de prompt" reutilizables. Quick Research permite demostrar prompts complejos de investigación con resultados profesionales.
 
 ### Alternativa 1: ChatGPT (Free/Plus)
 - **URL:** [chatgpt.com](https://chatgpt.com)
@@ -64,19 +64,19 @@
 - **Costo:** Free (limitado) / Pro $20/mes
 - **Caso de uso:** Ideal para practicar prompts largos y complejos. Claude destaca en seguimiento de instrucciones detalladas y razonamiento extendido. La función "Projects" permite adjuntar documentos de contexto — perfecto para demostrar el componente "Input/Context" de los frameworks.
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Amazon Quick + ChatGPT** (combinación). Amazon Quick para ejercicios de agentes y research; ChatGPT para iteración rápida de prompts y Custom GPTs como plantillas de frameworks.
 
 ---
 
-## Módulo 3: Uso en Email y Comunicados
+## Nivel 3: Uso en Email y Comunicados
 
-**Objetivo del módulo:** Redactar emails profesionales, comunicados institucionales y contenido para stakeholders con asistencia de IA.
+**Objetivo del nivel:** Redactar emails profesionales, comunicados institucionales y contenido para stakeholders con asistencia de IA.
 
 ### Herramienta Principal: Amazon Quick (Free/Plus)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Free $0 / Plus $20/mes
-- **Caso de uso del módulo:** Redacción de comunicados institucionales, emails a padres de familia, y reportes para Rectoría. Amazon Quick se conecta directamente con Microsoft 365 y Gmail, permitiendo generar borradores contextualizados. La función "Turn conversations into deliverables in Microsoft 365" permite pasar de chat a documento Word/email directamente.
+- **Caso de uso del nivel:** Redacción de comunicados institucionales, emails a padres de familia, y reportes para Rectoría. Amazon Quick se conecta directamente con Microsoft 365 y Gmail, permitiendo generar borradores contextualizados. La función "Turn conversations into deliverables in Microsoft 365" permite pasar de chat a documento Word/email directamente.
 - **Ventaja clave:** Integración bidireccional con Outlook y Gmail en el plan Plus.
 
 ### Alternativa 1: Microsoft Copilot (Copilot Chat Free / Edu $18/usuario/mes)
@@ -89,19 +89,19 @@
 - **Costo:** Gemini básico gratuito en Workspace; AI Pro for Education $20/usuario/mes (anual)
 - **Caso de uso:** "Help me write" en Gmail y Google Docs. Si la universidad usa Google Workspace, permite generar borradores de email, ajustar formalidad, y resumir hilos de correo. Para instituciones que ya tienen Workspace for Education Fundamentals (gratuito), el acceso base a Gemini es sin costo adicional.
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Microsoft Copilot en Outlook** si la universidad usa M365. **Amazon Quick** como herramienta de redacción avanzada con exportación a M365. Gemini si usan Google Workspace.
 
 ---
 
-## Módulo 4: Análisis de Reportes con IA
+## Nivel 4: Análisis de Reportes con IA
 
-**Objetivo del módulo:** Usar IA para analizar documentos extensos, extraer insights clave, y generar resúmenes ejecutivos.
+**Objetivo del nivel:** Usar IA para analizar documentos extensos, extraer insights clave, y generar resúmenes ejecutivos.
 
 ### Herramienta Principal: Amazon Quick (Plus/Pro)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Plus $20/mes (10GB almacenamiento) / Pro AWS $20/usuario/mes (25GB)
-- **Caso de uso del módulo:** Subir reportes institucionales (PDFs, Excel, Word) y hacer preguntas directas. Quick Research genera análisis profundos con citas de las fuentes originales. La función de Spaces permite organizar documentos por proyecto/departamento. Los participantes pueden subir un reporte de matrícula o presupuesto y obtener resúmenes ejecutivos, tendencias, y alertas.
+- **Caso de uso del nivel:** Subir reportes institucionales (PDFs, Excel, Word) y hacer preguntas directas. Quick Research genera análisis profundos con citas de las fuentes originales. La función de Spaces permite organizar documentos por proyecto/departamento. Los participantes pueden subir un reporte de matrícula o presupuesto y obtener resúmenes ejecutivos, tendencias, y alertas.
 - **Ventaja diferencial:** Quick Sight integrado permite crear dashboards y visualizaciones directamente desde los datos analizados.
 
 ### Alternativa 1: ChatGPT (Plus $20/mes)
@@ -114,19 +114,19 @@
 - **Costo:** Gratuito para instituciones educativas con Gemini for Education
 - **Caso de uso:** Cargar múltiples documentos y hacer preguntas cruzadas con citas automáticas de las fuentes. Genera audio overviews (podcasts) del contenido. Ideal para analizar múltiples reportes simultáneamente con trazabilidad de fuente. Forrester reporta que el personal no docente ahorra más de 3 horas semanales y el 78% dice que mejoró resultados estudiantiles (Forrester TEI, abril 2026).
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Amazon Quick** para análisis profundo con visualización integrada. **NotebookLM** como alternativa gratuita ideal para análisis multi-documento con citas. ChatGPT Plus para análisis de datos numéricos.
 
 ---
 
-## Módulo 5: Automatización de Reportes
+## Nivel 5: Automatización de Reportes
 
-**Objetivo del módulo:** Crear flujos automáticos que generen reportes periódicos sin intervención manual.
+**Objetivo del nivel:** Crear flujos automáticos que generen reportes periódicos sin intervención manual.
 
 ### Herramienta Principal: Amazon Quick (Plus/Pro)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Plus $20/mes / Pro AWS $20/usuario/mes
-- **Caso de uso del módulo:** **Quick Flows** permite crear automatizaciones de "daily busywork" — reportes que se generan automáticamente con datos actualizados. **Quick Automate** (plan Pro) permite workflows multi-paso desplegados. Los participantes pueden crear un flujo que: extraiga datos de un dashboard → genere un resumen ejecutivo → lo envíe por email cada lunes.
+- **Caso de uso del nivel:** **Quick Flows** permite crear automatizaciones de "daily busywork" — reportes que se generan automáticamente con datos actualizados. **Quick Automate** (plan Pro) permite workflows multi-paso desplegados. Los participantes pueden crear un flujo que: extraiga datos de un dashboard → genere un resumen ejecutivo → lo envíe por email cada lunes.
 - **Ventaja diferencial:** Única herramienta que combina IA generativa + BI (Quick Sight) + automatización en una sola plataforma. Cada usuario Pro tiene 2 horas/mes de agentes + 2 horas de Research incluidas.
 
 ### Alternativa 1: Notion AI (Business $20/usuario/mes)
@@ -139,19 +139,19 @@
 - **Costo:** M365 Copilot Edu $18/usuario/mes + Power Automate (incluido en M365)
 - **Caso de uso:** Flujos de Power Automate que generan reportes Excel automáticos y los distribuyen. Copilot en Excel puede crear resúmenes y gráficos con lenguaje natural. Copilot para PowerPoint genera presentaciones de reportes automáticamente desde datos en Excel.
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Amazon Quick** por su combinación única de IA + BI + automatización. Notion AI para equipos pequeños que necesitan bases de datos inteligentes. Copilot + Power Automate si ya se usa el ecosistema Microsoft.
 
 ---
 
-## Módulo 6: Atención a Alumnos y Stakeholders
+## Nivel 6: Atención a Alumnos y Stakeholders
 
-**Objetivo del módulo:** Crear chatbots y sistemas de respuesta inteligente para consultas frecuentes de alumnos, padres y comunidad.
+**Objetivo del nivel:** Crear chatbots y sistemas de respuesta inteligente para consultas frecuentes de alumnos, padres y comunidad.
 
 ### Herramienta Principal: Amazon Quick (Plus/Pro)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Plus $20/mes / Pro AWS $20/usuario/mes
-- **Caso de uso del módulo:** Crear agentes personalizados entrenados con información institucional (reglamentos, calendarios, FAQs) que respondan consultas de alumnos 24/7. Se pueden compartir agentes con el equipo. Los Spaces permiten cargar documentos institucionales como base de conocimiento del chatbot.
+- **Caso de uso del nivel:** Crear agentes personalizados entrenados con información institucional (reglamentos, calendarios, FAQs) que respondan consultas de alumnos 24/7. Se pueden compartir agentes con el equipo. Los Spaces permiten cargar documentos institucionales como base de conocimiento del chatbot.
 - **Caso de referencia:** Georgia State University redujo "summer melt" en 22% con su chatbot Pounce que respondía preguntas de alumnos entrantes (GSU, 2016-2026). Amazon Quick permite replicar este concepto sin desarrollo de software.
 
 ### Alternativa 1: ChatGPT (Team $25/usuario/mes / Edu)
@@ -164,19 +164,19 @@
 - **Costo:** Gemini for Education gratuito; Workspace Studio como servicio core para diseñar agentes IA
 - **Caso de uso:** Google Workspace Studio permite diseñar y compartir agentes IA personalizados dentro del ecosistema educativo. Integración con Google Classroom para atención contextualizada. Más de 1,000 universidades ya lo usan (Google Blog, 2026).
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Amazon Quick** por la facilidad de crear agentes con base de conocimiento institucional. ChatGPT Edu para universidades con presupuesto para licencias institucionales. Gemini como opción gratuita si ya usan Google Workspace.
 
 ---
 
-## Módulo 7: Gestión de Proyectos con IA
+## Nivel 7: Gestión de Proyectos con IA
 
-**Objetivo del módulo:** Planificar, dar seguimiento y reportar proyectos institucionales con asistencia de IA.
+**Objetivo del nivel:** Planificar, dar seguimiento y reportar proyectos institucionales con asistencia de IA.
 
 ### Herramienta Principal: Amazon Quick (Plus/Pro)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Plus $20/mes / Pro AWS $20/usuario/mes
-- **Caso de uso del módulo:** Crear agentes especializados en gestión de proyectos que ayuden con: descomposición de trabajo (WBS), análisis de riesgos, generación de minutas de reunión, y seguimiento de entregables. Quick Research para benchmarking y análisis de mejores prácticas. Quick Flows para automatizar reportes de avance semanales.
+- **Caso de uso del nivel:** Crear agentes especializados en gestión de proyectos que ayuden con: descomposición de trabajo (WBS), análisis de riesgos, generación de minutas de reunión, y seguimiento de entregables. Quick Research para benchmarking y análisis de mejores prácticas. Quick Flows para automatizar reportes de avance semanales.
 
 ### Alternativa 1: Notion AI (Business $20/usuario/mes)
 - **URL:** [notion.com](https://www.notion.com/pricing)
@@ -189,19 +189,19 @@
 - **Costo:** Plus $20/mes / Team $25/usuario/mes
 - **Caso de uso:** Planificación de proyectos con análisis de datos. Subir cronogramas en Excel para análisis de ruta crítica, generar presentaciones de avance, crear frameworks de evaluación de riesgo. La función de Canvas permite co-crear documentos de proyecto de forma colaborativa.
 
-### 🏆 Mejor opción para este módulo
+### 🏆 Mejor opción para este nivel
 **Notion AI** como plataforma de gestión de proyectos con IA integrada. **Amazon Quick** como herramienta de análisis, planificación y automatización de reportes de proyecto. ChatGPT para análisis ad-hoc.
 
 ---
 
-## Módulo 8: Flujos con Agentes y Trabajo en Equipo
+## Nivel 8: Flujos con Agentes y Trabajo en Equipo
 
-**Objetivo del módulo:** Diseñar flujos multi-agente donde distintas IAs colaboran para completar tareas complejas.
+**Objetivo del nivel:** Diseñar flujos multi-agente donde distintas IAs colaboran para completar tareas complejas.
 
 ### Herramienta Principal: Amazon Quick (Pro/Enterprise)
 - **URL:** [amazon.com/quick](https://aws.amazon.com/quick/pricing/)
 - **Costo:** Pro AWS $20/usuario/mes / Enterprise $40/usuario/mes
-- **Caso de uso del módulo:** El módulo más avanzado y donde Amazon Quick es más diferenciado:
+- **Caso de uso del nivel:** El nivel más avanzado y donde Amazon Quick es más diferenciado:
   - **Quick Flows** para automatizaciones diarias con IA
   - **Quick Automate** para workflows multi-paso desplegados en producción
   - **Agentes compartidos** en Spaces para que todo el equipo use los mismos asistentes
@@ -219,14 +219,14 @@
 - **Costo:** Business $20/usuario/mes / Enterprise cotización
 - **Caso de uso:** Custom Agents que se ejecutan en schedules, conectados con Slack, Salesforce y otros. Workflows automatizados con triggers. Ideal para equipos que necesitan un "hub" centralizado donde los agentes leen y escriben información del equipo.
 
-### 🏆 Mejor opción para este módulo
-**Amazon Quick Pro/Enterprise** — la plataforma más completa para flujos multi-agente con BI, automatización, y gobernanza empresarial integrada. Es la única que combina todos los elementos del módulo en una sola solución.
+### 🏆 Mejor opción para este nivel
+**Amazon Quick Pro/Enterprise** — la plataforma más completa para flujos multi-agente con BI, automatización, y gobernanza empresarial integrada. Es la única que combina todos los elementos del nivel en una sola solución.
 
 ---
 
-## Resumen: Mapa de Herramientas Recomendadas por Módulo
+## Resumen: Mapa de Herramientas Recomendadas por Nivel
 
-| Módulo | Herramienta Principal | Mejor Alternativa | Plan Mínimo Recomendado |
+| Nivel | Herramienta Principal | Mejor Alternativa | Plan Mínimo Recomendado |
 |---|---|---|---|
 | 1. Conceptos IA | Amazon Quick | ChatGPT | Free |
 | 2. Frameworks Prompts | Amazon Quick + ChatGPT | Claude | Free/Plus |

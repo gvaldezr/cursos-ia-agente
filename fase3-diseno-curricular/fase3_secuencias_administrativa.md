@@ -13,20 +13,20 @@
 
 ## Principios DUA transversales a todas las secuencias
 
-| Principio DUA | Implementación en cada módulo |
+| Principio DUA | Implementación en cada nivel |
 |---|---|
 | **I. Múltiples formas de representación** | Cada concepto se presenta con: (a) analogía de gestión para directivos, (b) demostración visual paso a paso en Amazon Quick, (c) esquema/resumen descargable. |
 | **II. Múltiples formas de acción y expresión** | El participante elige: (a) usar sus datos reales, (b) usar datos de práctica provistos, (c) dictar el prompt por voz si prefiere. El producto admite formatos variados. |
-| **III. Múltiples formas de implicación** | Cada módulo abre con un «dolor operativo» del directivo administrativo, incluye quick win en <10 min, y cierra con conexión a su siguiente tarea laboral. |
+| **III. Múltiples formas de implicación** | Cada nivel abre con un «dolor operativo» del directivo administrativo, incluye quick win en <10 min, y cierra con conexión a su siguiente tarea laboral. |
 
 ---
 
-# MÓDULO 1 · Fundamentos de IA Generativa
+# NIVEL 1 · Fundamentos de IA Generativa
 ## «Qué es, qué puede, qué no puede — y por qué le importa a usted»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Comprende qué es la IA generativa, identifica sus capacidades y limitaciones, y reconoce oportunidades concretas de aplicación en la gestión administrativa universitaria. |
+| **Competencia del nivel** | Comprende qué es la IA generativa, identifica sus capacidades y limitaciones, y reconoce oportunidades concretas de aplicación en la gestión administrativa universitaria. |
 | **Nivel Bloom** | Recordar / Comprender |
 | **Duración total** | 40–45 minutos |
 | **Prerrequisito** | Ninguno |
@@ -40,7 +40,7 @@
 > *«Usted llega el lunes y tiene: un reporte presupuestal que Finanzas necesita para el miércoles, un correo de seguimiento a 3 proveedores con entregas atrasadas, la minuta de la junta directiva del viernes que sigue en sus notas de cuaderno, y un comunicado para su equipo sobre el nuevo proceso de compras. Son las 8:00 AM. ¿Por dónde empieza? Hoy va a descubrir que una herramienta puede ayudarle con al menos 3 de esas tareas — y va a comprobarlo usted mismo en los próximos 7 minutos.»*
 
 **Objetivo explícito (1 min):**
-> Al terminar este módulo, usted habrá: (1) generado su primer borrador profesional con IA, (2) entendido qué puede y qué NO puede hacer la IA, y (3) identificado 5 tareas de su semana donde la IA le ahorra tiempo.
+> Al terminar este nivel, usted habrá: (1) generado su primer borrador profesional con IA, (2) entendido qué puede y qué NO puede hacer la IA, y (3) identificado 5 tareas de su semana donde la IA le ahorra tiempo.
 
 **Anticipo del output (1 min):**
 > El producto que se lleva hoy: un comunicado interno profesional para su equipo, generado en menos de 2 minutos.
@@ -96,7 +96,7 @@ Incluya:
   por el sistema SAP en lugar de formato impreso
 - Descripción del cambio y beneficios
 - Fecha de entrada en vigor: 1 de noviembre de 2026
-- Acciones del equipo: registrarse en el módulo antes del 25 de octubre
+- Acciones del equipo: registrarse en el nivel antes del 25 de octubre
 - Contacto: María López, ext. 1234
 - Tono institucional, claro y directo
 
@@ -168,8 +168,8 @@ Mini-diagnóstico personal — 5 tareas administrativas que podrían beneficiars
 | 4 | | |
 | 5 | | |
 
-**Conexión con el siguiente módulo (2 min):**
-> *«Hoy comprobó que la IA genera resultados útiles. En el Módulo 2, va a aprender 3 frameworks para que SIEMPRE obtenga resultados de alta calidad.»*
+**Conexión con el siguiente nivel (2 min):**
+> *«Hoy comprobó que la IA genera resultados útiles. En el Nivel 2, va a aprender 3 frameworks para que SIEMPRE obtenga resultados de alta calidad.»*
 
 **Tarea:** Use Amazon Quick para generar UN comunicado o correo pendiente esta semana.
 
@@ -178,15 +178,15 @@ Mini-diagnóstico personal — 5 tareas administrativas que podrían beneficiars
 
 ---
 
-# MÓDULO 2 · Frameworks de Prompts
+# NIVEL 2 · Frameworks de Prompts
 ## «La diferencia entre "preguntarle algo" y "obtener exactamente lo que necesita"»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Domina 3 frameworks de prompting (RTF, RISE, CO-STAR) y transforma cualquier tarea administrativa en un prompt efectivo. |
+| **Competencia del nivel** | Domina 3 frameworks de prompting (RCTF, RISE, CO-STAR) y transforma cualquier tarea administrativa en un prompt efectivo. |
 | **Nivel Bloom** | Comprender / Aplicar |
 | **Duración total** | 45–50 minutos |
-| **Prerrequisito** | Módulo 1 completado |
+| **Prerrequisito** | Nivel 1 completado |
 | **Producto integrador** | 3 prompts maestros para sus tareas más frecuentes, usando los frameworks aprendidos. |
 
 ---
@@ -206,12 +206,12 @@ Mini-diagnóstico personal — 5 tareas administrativas que podrían beneficiars
 
 ### 🔵 DESARROLLO (30–35 minutos)
 
-#### Bloque 1 — Framework RTF: Rol + Tarea + Formato (7 min)
+#### Bloque 1 — Framework RCTF: Rol + Contexto + Tarea + Formato (7 min)
 
 **Analogía:**
 > *«Si le dice a su analista "hazme un reporte", le dará cualquier cosa. Pero si dice "eres un analista financiero (Rol), necesito un análisis de variaciones presupuestales (Tarea), en formato de tabla ejecutiva para Finanzas (Formato)", el resultado es otro.»*
 
-**Prompt RTF para reporte presupuestal:**
+**Prompt RCTF para reporte presupuestal:**
 ```
 ROL: Actúe como analista financiero administrativo de universidad privada.
 
@@ -240,7 +240,7 @@ FORMATO: Profesional, con tablas y viñetas, listo para presentar a Finanzas.
 #### Bloque 2 — Framework RISE: Rol + Input + Steps + Expectation (8 min)
 
 **Analogía:**
-> *«RTF es la receta rápida. RISE es cuando necesita controlar el PROCESO: qué datos usar, qué pasos seguir, cómo debe verse el resultado. Como darle a su analista un protocolo paso a paso.»*
+> *«RCTF es la receta rápida. RISE es cuando necesita controlar el PROCESO: qué datos usar, qué pasos seguir, cómo debe verse el resultado. Como darle a su analista un protocolo paso a paso.»*
 
 **Prompt RISE para evaluación de proveedores:**
 ```
@@ -299,7 +299,7 @@ Firmado por [SU NOMBRE], [CARGO].
 
 | ✅ Haga esto | ❌ Evite esto |
 |---|---|
-| Empiece con RTF; migre a RISE/CO-STAR cuando necesite más control | Memorizar todo a la vez |
+| Empiece con RCTF; migre a RISE/CO-STAR cuando necesite más control | Memorizar todo a la vez |
 | Guarde sus mejores prompts | Crear cada prompt desde cero |
 | Itere 2–3 veces | Aceptar el primer resultado sin revisión |
 
@@ -311,25 +311,25 @@ Firmado por [SU NOMBRE], [CARGO].
 
 | # | Tarea frecuente | Framework | Prompt completo |
 |---|---|---|---|
-| 1 | Reporte presupuestal | RTF | [Escrito] |
+| 1 | Reporte presupuestal | RCTF | [Escrito] |
 | 2 | Evaluación de proveedores | RISE | [Escrito] |
 | 3 | Correo a stakeholders | CO-STAR | [Escrito] |
 
-**Conexión:** *«En el Módulo 3 va a usar estos frameworks para los 3 dolores de comunicación más frecuentes: reportes de RH, correos a proveedores y evaluaciones de desempeño.»*
+**Conexión:** *«En el Nivel 3 va a usar estos frameworks para los 3 dolores de comunicación más frecuentes: reportes de RH, correos a proveedores y evaluaciones de desempeño.»*
 
-**Tarea:** Use RTF para al menos 3 tareas reales esta semana.
+**Tarea:** Use RCTF para al menos 3 tareas reales esta semana.
 
 ---
 
-# MÓDULO 3 · Email y Comunicados Institucionales
+# NIVEL 3 · Email y Comunicados Institucionales
 ## «Nunca más empiece un correo mirando la pantalla en blanco»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Usa IA para redactar, revisar y mejorar comunicación institucional administrativa. |
+| **Competencia del nivel** | Usa IA para redactar, revisar y mejorar comunicación institucional administrativa. |
 | **Nivel Bloom** | Aplicar |
 | **Duración total** | 45–50 minutos |
-| **Prerrequisito** | Módulo 2 completado |
+| **Prerrequisito** | Nivel 2 completado |
 | **Producto integrador** | 5 templates de correo/comunicado para: equipo interno, proveedores, RH, dirección y emergencias operativas. |
 
 ---
@@ -443,19 +443,19 @@ Redacte una respuesta que:
 | 4 | Reporte/solicitud | Dirección/Vicerrectoría | ✅ |
 | 5 | Aviso urgente | Comunidad institucional | ✅ |
 
-**Conexión:** *«En el Módulo 4, va a analizar reportes financieros y operativos con IA — y a descubrir que la IA puede leer las 50 páginas que usted no tiene tiempo de leer.»*
+**Conexión:** *«En el Nivel 4, va a analizar reportes financieros y operativos con IA — y a descubrir que la IA puede leer las 50 páginas que usted no tiene tiempo de leer.»*
 
 ---
 
-# MÓDULO 4 · Análisis de Reportes con IA
+# NIVEL 4 · Análisis de Reportes con IA
 ## «Deje que la IA lea las 50 páginas — usted tome las decisiones»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Usa IA para extraer insights de reportes financieros y operativos, con verificación crítica de datos numéricos. |
+| **Competencia del nivel** | Usa IA para extraer insights de reportes financieros y operativos, con verificación crítica de datos numéricos. |
 | **Nivel Bloom** | Analizar |
 | **Duración total** | 45–50 minutos |
-| **Prerrequisito** | Módulo 3 completado |
+| **Prerrequisito** | Nivel 3 completado |
 | **Producto integrador** | Análisis ejecutivo real: resumen de 1 página de un reporte financiero/operativo, generado con IA, revisado y validado. |
 
 ---
@@ -533,19 +533,19 @@ montos y comparativa con promedios del sector.
 
 **Producto tangible:** Análisis ejecutivo real de 1 página + prompt + checklist PAUS completado.
 
-**Conexión:** *«En el Módulo 5, va a diseñar el flujo para que su reporte operativo mensual se genere automáticamente.»*
+**Conexión:** *«En el Nivel 5, va a diseñar el flujo para que su reporte operativo mensual se genere automáticamente.»*
 
 ---
 
-# MÓDULO 5 · Automatización de Reportes
+# NIVEL 5 · Automatización de Reportes
 ## «Del copy-paste mensual al flujo que se genera solo»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Diseña y documenta un flujo para generar su reporte operativo principal con IA, incluyendo un agente básico en Amazon Quick. |
+| **Competencia del nivel** | Diseña y documenta un flujo para generar su reporte operativo principal con IA, incluyendo un agente básico en Amazon Quick. |
 | **Nivel Bloom** | Analizar / Evaluar |
 | **Duración total** | 50–55 minutos |
-| **Prerrequisito** | Módulo 4 completado |
+| **Prerrequisito** | Nivel 4 completado |
 | **Producto integrador** | Flujo de reporte documentado: fuentes de datos, prompts exactos, formato de salida, checklist de revisión. ⭐ Entregable evaluable |
 
 ---
@@ -642,19 +642,19 @@ correctivas para métricas en rojo.
 **Producto tangible — Flujo documentado:**
 > Mi flujo: nombre del reporte, fuentes, prompts de análisis y formato, agente creado, checklist, tiempo estimado con IA vs. sin IA.
 
-**Conexión:** *«En el Módulo 6 aplica la misma lógica a la atención a stakeholders: proveedores, colaboradores, auditorías.»*
+**Conexión:** *«En el Nivel 6 aplica la misma lógica a la atención a stakeholders: proveedores, colaboradores, auditorías.»*
 
 ---
 
-# MÓDULO 6 · Atención a Stakeholders con IA
+# NIVEL 6 · Atención a Stakeholders con IA
 ## «Respuestas consistentes, profesionales y en minutos — no en días»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Usa IA para gestionar comunicación de alto volumen con proveedores, colaboradores y stakeholders externos, con protocolos de cuándo NO usar IA. |
+| **Competencia del nivel** | Usa IA para gestionar comunicación de alto volumen con proveedores, colaboradores y stakeholders externos, con protocolos de cuándo NO usar IA. |
 | **Nivel Bloom** | Aplicar / Evaluar |
 | **Duración total** | 45–50 minutos |
-| **Prerrequisito** | Módulo 5 completado |
+| **Prerrequisito** | Nivel 5 completado |
 | **Producto integrador** | Kit de atención: 10 respuestas maestras para stakeholders + protocolo de uso ético. |
 
 ---
@@ -732,19 +732,19 @@ DELEGO (a otra área), ESCALO (a mi director):
 
 **Producto tangible:** Kit de 10 respuestas maestras + protocolo 🟢🟡🔴.
 
-**Conexión:** *«En el Módulo 7, gestión de proyectos: de la junta al tablero de seguimiento en 15 minutos.»*
+**Conexión:** *«En el Nivel 7, gestión de proyectos: de la junta al tablero de seguimiento en 15 minutos.»*
 
 ---
 
-# MÓDULO 7 · Gestión de Proyectos con IA
+# NIVEL 7 · Gestión de Proyectos con IA
 ## «De la junta de planeación al tablero de seguimiento en 15 minutos»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Usa IA para planear, estructurar, dar seguimiento y reportar avance de proyectos institucionales. |
+| **Competencia del nivel** | Usa IA para planear, estructurar, dar seguimiento y reportar avance de proyectos institucionales. |
 | **Nivel Bloom** | Evaluar / Crear |
 | **Duración total** | 45–50 minutos |
-| **Prerrequisito** | Módulo 6 completado |
+| **Prerrequisito** | Nivel 6 completado |
 | **Producto integrador** | Plan de proyecto real: objetivos, WBS, cronograma, riesgos, template de minuta y reporte de avance. |
 
 ---
@@ -827,19 +827,19 @@ Formato: tabla de riesgos ejecutiva.
 
 **Producto tangible:** Plan de proyecto completo + WBS + cronograma + riesgos + templates de minuta y reporte.
 
-**Conexión:** *«En el Módulo 8 — el módulo final — crea su ecosistema personal de IA.»*
+**Conexión:** *«En el Nivel 8 — el nivel final — crea su ecosistema personal de IA.»*
 
 ---
 
-# MÓDULO 8 · Flujos con Agentes y Trabajo en Equipo Local
+# NIVEL 8 · Flujos con Agentes y Trabajo en Equipo Local
 ## «Su equipo de IA personalizado, listo para trabajar con usted»
 
 | Dato | Valor |
 |---|---|
-| **Competencia del módulo** | Configura agentes especializados, crea flujos multi-paso y establece prácticas de IA para su equipo. |
+| **Competencia del nivel** | Configura agentes especializados, crea flujos multi-paso y establece prácticas de IA para su equipo. |
 | **Nivel Bloom** | Crear |
 | **Duración total** | 50–55 minutos |
-| **Prerrequisito** | Módulo 7 completado |
+| **Prerrequisito** | Nivel 7 completado |
 | **Producto integrador** | Ecosistema de IA personal: 3 agentes + 1 flujo multi-paso + banco de 20+ prompts + plan de adopción. ⭐ Entregable final evaluable |
 
 ---
@@ -943,10 +943,10 @@ Mi criterio para evaluar si la IA me ayuda: ___________
 
 ## Resumen general — Secuencias Didácticas Versión Administrativa
 
-| Módulo | Título | Bloom | Duración | Producto integrador |
+| Nivel | Título | Bloom | Duración | Producto integrador |
 |---|---|---|---|---|
 | 1 | Fundamentos de IA Generativa | Recordar/Comprender | 40–45 min | Mini-diagnóstico personal (5 tareas) |
-| 2 | Frameworks de Prompts | Comprender/Aplicar | 45–50 min | 3 prompts maestros (RTF, RISE, CO-STAR) |
+| 2 | Frameworks de Prompts | Comprender/Aplicar | 45–50 min | 3 prompts maestros (RCTF, RISE, CO-STAR) |
 | 3 | Email y Comunicados Institucionales | Aplicar | 45–50 min | 5 templates de correo/comunicado |
 | 4 | Análisis de Reportes con IA | Analizar | 45–50 min | Análisis ejecutivo real (1 página + PAUS) |
 | 5 | Automatización de Reportes | Analizar/Evaluar | 50–55 min | Flujo de reporte documentado ⭐ |

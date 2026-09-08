@@ -31,10 +31,10 @@
 Curso:
   nombre: "IA Práctica para Líderes Anáhuac Mayab"
   código: "FC-IA-2026"
-  formato: Módulos (no semanas)
+  formato: Niveles (no semanas)
   navegación:
     - Inicio
-    - Módulos
+    - Niveles
     - Tareas
     - Calificaciones
     - Archivos
@@ -69,9 +69,9 @@ Elementos de la página de inicio:
    - Indicador visual de avance del participante
 
 3. Mapa de badges (4 insignias)
-   - 🟢 Fundamentos IA (Módulos 1-3)
-   - 🔵 IA Aplicada (Módulos 4-6)
-   - 🟣 Líder IA (Módulos 7-8)
+   - 🟢 Explorador IA (Niveles 1-3)
+   - 🔵 Estratega IA (Niveles 4-6)
+   - 🟣 Líder IA (Niveles 7-8)
    - 🏆 Líder Digital Anáhuac (Integrador)
 
 4. Enlace al mini sitio HTML (LTI 1.3)
@@ -83,11 +83,11 @@ Elementos de la página de inicio:
    - Contacto del facilitador
 ```
 
-### 1.3 Mapa de Módulos Detallado
+### 1.3 Mapa de Niveles Detallado
 
 ---
 
-#### Módulo 1 — Fundamentos de IA Generativa
+#### Nivel 1 — Fundamentos de IA Generativa
 
 | Campo | Detalle |
 |-------|---------|
@@ -98,47 +98,47 @@ Elementos de la página de inicio:
 | **Competencia** | CE-1: Comprende fundamentos, capacidades y limitaciones de IA generativa |
 | **Nivel Bloom** | Recordar / Comprender |
 | **Fecha de disponibilidad** | Día 1 del programa |
-| **Criterio de completamiento** | Completar todos los items del módulo |
+| **Criterio de completamiento** | Completar todos los items del nivel |
 
-**Contenido del módulo (items en Canvas):**
+**Contenido del nivel (items en Canvas):**
 
 | # | Tipo | Nombre del item | Descripción |
 |---|------|-----------------|-------------|
-| 1.1 | Página | Bienvenida al Nivel 1 | Hook narrativo: "El lunes del directivo". Objetivos del módulo. |
+| 1.1 | Página | Bienvenida al Nivel 1 | Hook narrativo: "El lunes del directivo". Objetivos del nivel. |
 | 1.2 | Página | ¿Qué es la IA generativa? | Concepto con analogía del asistente de recién ingreso. Infografía "IA en 60 segundos". |
 | 1.3 | Página | Demostración guiada | Video/screencast: prompt vago vs. prompt estructurado en Amazon Quick. |
 | 1.4 | Tarea | Ejercicio: Mi primer comunicado con IA | Práctica guiada con datos reales. Entrega: captura del prompt y output. |
-| 1.5 | Página | Tips y anti-patrones | Tabla de do's & don'ts del Módulo 1. |
+| 1.5 | Página | Tips y anti-patrones | Tabla de do's & don'ts del Nivel 1. |
 | 1.6 | Tarea | **Producto integrador: Mini-diagnóstico personal** | Lista de 5 tareas + reflexión escrita (3 oraciones). **Evaluable (5%).** |
 | 1.7 | Página | Momento ético | Reflexión: ¿Presenta el comunicado como suyo o menciona que usó IA? |
-| 1.8 | Página | Conexión con el siguiente nivel | Puente narrativo al Módulo 2. |
+| 1.8 | Página | Conexión con el siguiente nivel | Puente narrativo al Nivel 2. |
 | 1.9 | Quiz | Autodiagnóstico M1 (no calificable) | 5 preguntas de autorreflexión (no opción múltiple). |
 
-**Archivos del módulo:**
+**Archivos del nivel:**
 - `infografia_ia_60_segundos.pdf`
 - `plantilla_mini_diagnostico.docx`
 - `guia_rapida_amazon_quick.pdf`
 
 ---
 
-#### Módulo 2 — Frameworks de Prompts
+#### Nivel 2 — Frameworks de Prompts
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 2. Diseño de Instrucciones Efectivas |
-| **Descripción** | Domine 3 frameworks de prompting (RTF, RISE, CO-STAR) para obtener resultados consistentes y de alta calidad con IA. |
-| **Prerequisito** | Módulo 1 completado |
+| **Descripción** | Domine 3 frameworks de prompting (RCTF, RISE, CO-STAR) para obtener resultados consistentes y de alta calidad con IA. |
+| **Prerequisito** | Nivel 1 completado |
 | **Horas estimadas** | 15 h (5 contacto + 10 independiente) |
 | **Competencia** | CE-2: Estructura instrucciones efectivas usando frameworks probados |
 | **Nivel Bloom** | Comprender / Aplicar |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
 | 2.1 | Página | Bienvenida al Nivel 2 |
-| 2.2 | Página | Framework RTF: Rol + Tarea + Formato |
-| 2.3 | Tarea | Ejercicio: Prompt RTF para mi tarea más frecuente |
+| 2.2 | Página | Framework RCTF: Rol + Contexto + Tarea + Formato |
+| 2.3 | Tarea | Ejercicio: Prompt RCTF para mi tarea más frecuente |
 | 2.4 | Página | Framework RISE: Rol + Input + Steps + Expectation |
 | 2.5 | Tarea | Ejercicio: Prompt RISE para análisis |
 | 2.6 | Página | Framework CO-STAR: Context + Objective + Style + Tone + Audience + Response |
@@ -149,17 +149,17 @@ Elementos de la página de inicio:
 
 ---
 
-#### Módulo 3 — Email y Comunicados Institucionales
+#### Nivel 3 — Email y Comunicados Institucionales
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 3. IA para la Comunicación Institucional |
-| **Prerequisito** | Módulo 2 completado |
+| **Prerequisito** | Nivel 2 completado |
 | **Horas estimadas** | 15 h (5 contacto + 10 independiente) |
 | **Competencia** | CE-3: Produce comunicación institucional profesional con asistencia de IA |
 | **Nivel Bloom** | Aplicar |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
@@ -174,21 +174,21 @@ Elementos de la página de inicio:
 | 3.9 | Tarea | **Producto integrador: Kit de 5 templates** — *Evaluable OF (15%), Badge 1* |
 | 3.10 | Página | Conexión con el siguiente nivel |
 
-> **📌 Badge trigger:** Al completar M3 con ≥70% → emitir Badge 🟢 Fundamentos IA.
+> **📌 Badge trigger:** Al completar M3 con ≥70% → emitir Badge 🟢 Explorador IA.
 
 ---
 
-#### Módulo 4 — Análisis de Reportes con IA
+#### Nivel 4 — Análisis de Reportes con IA
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 4. IA para el Análisis y la Síntesis |
-| **Prerequisito** | Módulo 3 completado |
+| **Prerequisito** | Nivel 3 completado |
 | **Horas estimadas** | 15 h (5 contacto + 10 independiente) |
 | **Competencia** | CE-4: Analiza reportes extrayendo insights y generando resúmenes ejecutivos verificados |
 | **Nivel Bloom** | Analizar |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
@@ -204,17 +204,17 @@ Elementos de la página de inicio:
 
 ---
 
-#### Módulo 5 — Automatización de Reportes
+#### Nivel 5 — Automatización de Reportes
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 5. Automatización de Procesos Directivos |
-| **Prerequisito** | Módulo 4 completado |
+| **Prerequisito** | Nivel 4 completado |
 | **Horas estimadas** | 18 h (6 contacto + 12 independiente) |
 | **Competencia** | CE-5: Diseña flujos de automatización para procesos recurrentes |
 | **Nivel Bloom** | Analizar / Evaluar |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
@@ -232,17 +232,17 @@ Elementos de la página de inicio:
 
 ---
 
-#### Módulo 6 — Atención a Stakeholders con IA
+#### Nivel 6 — Atención a Stakeholders con IA
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 6. Comunicación Estratégica con Stakeholders |
-| **Prerequisito** | Módulo 5 completado |
+| **Prerequisito** | Nivel 5 completado |
 | **Horas estimadas** | 15 h (5 contacto + 10 independiente) |
 | **Competencia** | CE-6 (parcial): Evalúa críticamente respuestas de IA |
 | **Nivel Bloom** | Aplicar / Evaluar |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
@@ -257,21 +257,21 @@ Elementos de la página de inicio:
 | 6.9 | Tarea | **Producto integrador: Kit de atención (10 respuestas + protocolo)** — *Evaluable OF (15%), Badge 2* |
 | 6.10 | Página | Conexión con el siguiente nivel |
 
-> **📌 Badge trigger:** Al completar M6 con ≥70% en Bloque 2 + flujo de reporte ⭐ "Competente" → emitir Badge 🔵 IA Aplicada.
+> **📌 Badge trigger:** Al completar M6 con ≥70% en Bloque 2 + flujo de reporte ⭐ "Competente" → emitir Badge 🔵 Estratega IA.
 
 ---
 
-#### Módulo 7 — Gestión de Proyectos con IA
+#### Nivel 7 — Gestión de Proyectos con IA
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 7. Gestión de Proyectos con IA |
-| **Prerequisito** | Módulo 6 completado |
+| **Prerequisito** | Nivel 6 completado |
 | **Horas estimadas** | 15 h (5 contacto + 10 independiente) |
 | **Competencia** | CE-7: Gestiona proyectos con asistencia de IA |
 | **Nivel Bloom** | Evaluar / Crear |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
@@ -288,17 +288,17 @@ Elementos de la página de inicio:
 
 ---
 
-#### Módulo 8 — Agentes y Trabajo en Equipo Local
+#### Nivel 8 — Agentes y Trabajo en Equipo Local
 
 | Campo | Detalle |
 |-------|---------|
 | **Nombre en Canvas** | Nivel 8. Su Ecosistema de IA Personal |
-| **Prerequisito** | Módulo 7 completado |
+| **Prerequisito** | Nivel 7 completado |
 | **Horas estimadas** | 18 h (6 contacto + 12 independiente) |
 | **Competencia** | CE-8: Crea ecosistema personalizado de agentes y lidera adopción |
 | **Nivel Bloom** | Crear |
 
-**Contenido del módulo:**
+**Contenido del nivel:**
 
 | # | Tipo | Nombre del item |
 |---|------|-----------------|
@@ -324,7 +324,7 @@ Elementos de la página de inicio:
 
 | Canvas | Moodle 4.x equivalente |
 |--------|------------------------|
-| Módulos | Secciones con restricciones de acceso |
+| Niveles | Secciones con restricciones de acceso |
 | Páginas | Etiquetas o recursos Página |
 | Tareas | Actividad Tarea con rúbrica |
 | Foros de discusión | Actividad Foro |
@@ -343,7 +343,7 @@ Elementos de la página de inicio:
 
 ```markdown
 # [NOMBRE DEL EJERCICIO]
-## Módulo [N] · [Título del módulo]
+## Nivel [N] · [Título del nivel]
 
 ### 🎯 Objetivo
 [Descripción breve de qué competencia se practica]
@@ -379,14 +379,14 @@ Elementos de la página de inicio:
 
 | Criterio | Básico | Competente | Destacado |
 |----------|--------|------------|-----------|
-| Estructura del prompt | Falta contexto o especificaciones | RCTE completo, variables personalizadas | RCTE + iteración documentada + anti-hallucination cues |
+| Estructura del prompt | Falta contexto o especificaciones | RCTF completo, variables personalizadas | RCTF + iteración documentada + anti-hallucination cues |
 | Calidad del output | Genérico, requiere edición mayor | Funcional, edición menor | Profesional, listo para usar |
 | Reflexión | Sin reflexión o genérica | Identifica 1 ajuste específico | Documenta proceso de iteración completo |
 
 ### ⚠️ Notas importantes
 - Use datos reales siempre que sea posible.
 - NUNCA envíe un output de IA sin revisarlo.
-- Guarde sus mejores prompts — los reutilizará en módulos posteriores.
+- Guarde sus mejores prompts — los reutilizará en niveles posteriores.
 
 ### 🔗 Diferencia por versión
 - 🎓 **Académica:** [Contexto académico del ejercicio]
@@ -399,7 +399,7 @@ Elementos de la página de inicio:
 
 ```markdown
 # [TÍTULO DEL FORO]
-## Módulo [N] · Discusión
+## Nivel [N] · Discusión
 
 ### 📌 Prompt de apertura
 
@@ -411,12 +411,12 @@ Elementos de la página de inicio:
 1. **Publicación inicial** (obligatoria):
    - Extensión: 150-300 palabras
    - Debe incluir un ejemplo REAL de su experiencia
-   - Plazo: dentro de los primeros 7 días del módulo
+   - Plazo: dentro de los primeros 7 días del nivel
 
 2. **Respuesta a un compañero** (obligatoria):
    - Extensión: 75-150 palabras
    - Debe aportar una perspectiva diferente o complementaria
-   - Plazo: dentro de los primeros 10 días del módulo
+   - Plazo: dentro de los primeros 10 días del nivel
 
 3. **Tono:** formal (usted), respetuoso, constructivo
 4. **Confidencialidad:** NO incluir nombres reales de alumnos, docentes o colaboradores
@@ -436,11 +436,11 @@ Elementos de la página de inicio:
 
 ```markdown
 # [NOMBRE DEL PRODUCTO INTEGRADOR]
-## Módulo [N] · Entregable [formativo/evaluable]
+## Nivel [N] · Entregable [formativo/evaluable]
 
 ### 🎯 Descripción
 [Párrafo que describe el producto, su propósito y cómo se conecta
-con la competencia del módulo]
+con la competencia del nivel]
 
 ### 📋 Brief del entregable
 
@@ -449,12 +449,12 @@ con la competencia del módulo]
 | **Qué entregar** | [Descripción concisa] |
 | **Formato** | Word, PDF o Markdown |
 | **Extensión** | [Especificar] |
-| **Plazo** | [N] días desde la liberación del módulo |
+| **Plazo** | [N] días desde la liberación del nivel |
 | **Reenvío** | 1 reenvío dentro de 7 días adicionales |
 | **Peso** | [N]% de la calificación final |
 
 ### 📐 Rúbrica de evaluación
-[Rúbrica completa del módulo correspondiente — ver Sección 3]
+[Rúbrica completa del nivel correspondiente — ver Sección 3]
 
 ### 📎 Componentes del entregable
 1. [Componente 1 con instrucciones específicas]
@@ -486,7 +486,7 @@ El participante puede entregar en cualquiera de estos formatos:
 ### 2.4 Template: Quiz de Autodiagnóstico
 
 ```markdown
-# Autodiagnóstico · Módulo [N]
+# Autodiagnóstico · Nivel [N]
 ## (No calificable — Assessment AS Learning)
 
 ### 📌 Propósito
@@ -497,7 +497,7 @@ avanzar al siguiente nivel. No tiene calificación ni afecta su nota.
 
 ### Preguntas modelo
 
-P1. Después de completar este módulo, ¿qué tan confiado se siente para
+P1. Después de completar este nivel, ¿qué tan confiado se siente para
 [COMPETENCIA DEL MÓDULO] sin ayuda adicional? (1-5)
 
 P2. ¿Podría explicar a un colega [CONCEPTO CLAVE] en sus propias palabras? (1-5)
@@ -505,7 +505,7 @@ P2. ¿Podría explicar a un colega [CONCEPTO CLAVE] en sus propias palabras? (1-
 P3. ¿Ha aplicado lo aprendido en una tarea REAL de su trabajo esta semana?
 - Sí, con buen resultado / Sí, con resultado parcial / No, sin oportunidad / No, no preparado
 
-P4-P5. [Preguntas específicas del módulo]
+P4-P5. [Preguntas específicas del nivel]
 
 P6 (abierta). ¿Qué le gustaría entender mejor antes de avanzar? (máx. 100 palabras)
 
@@ -515,7 +515,7 @@ P6 (abierta). ¿Qué le gustaría entender mejor antes de avanzar? (máx. 100 pa
 |---------|---------|
 | 4.0-5.0 | "Excelente. Está listo para avanzar al siguiente nivel." |
 | 3.0-3.9 | "Buen progreso. Considere repasar [sección específica]." |
-| 1.0-2.9 | "Le sugerimos revisar el módulo nuevamente. Contacte al facilitador." |
+| 1.0-2.9 | "Le sugerimos revisar el nivel nuevamente. Contacte al facilitador." |
 ```
 
 > **Nota Moodle:** Configurar como Cuestionario con calificación oculta, retroalimentación inmediata, intentos ilimitados.
@@ -536,7 +536,7 @@ Canvas permite importar rúbricas vía API o manualmente. Escala: 3 niveles — 
 |----------|------|-------------|-----------------|-----------------|
 | **Identificación de oportunidades** | 40% | 5 tareas genéricas sin conexión con su rol | 5 tareas específicas de su cargo, ≥3 viables con IA | 5 tareas priorizadas por impacto + estimación de tiempo |
 | **Comprensión capacidades/limitaciones** | 35% | Menciona capacidades pero no limitaciones concretas | Distingue claramente con riesgo específico de su área | Matiz: capacidades con condiciones + consecuencia institucional |
-| **Calidad de la reflexión** | 25% | 3 oraciones vagas o repetitivas | 3 oraciones específicas con comprensión aplicada | Pensamiento crítico más allá del módulo; insight original |
+| **Calidad de la reflexión** | 25% | 3 oraciones vagas o repetitivas | 3 oraciones específicas con comprensión aplicada | Pensamiento crítico más allá del nivel; insight original |
 
 ---
 
@@ -544,7 +544,7 @@ Canvas permite importar rúbricas vía API o manualmente. Escala: 3 niveles — 
 
 | Criterio | Peso | Básico (50) | Competente (80) | Destacado (100) |
 |----------|------|-------------|-----------------|-----------------|
-| ⚡ **Estructura RCTE** | 35% | Sin estructura; faltan 2+ elementos | Los 3 incluyen 4 elementos RCTE; tarea clara | Refinamiento avanzado: restricciones, anti-hallucination, few-shot |
+| ⚡ **Estructura RCTF** | 35% | Sin estructura; faltan 2+ elementos | Los 3 incluyen 4 elementos RCTF; tarea clara | Refinamiento avanzado: restricciones, anti-hallucination, few-shot |
 | **Relevancia contextual** | 30% | Genéricos, de cualquier persona | Específicos del cargo y área con datos reales | Listos para producción; explica cuándo/con quién usar |
 | **Calidad del output** | 20% | Genéricos; sin edición posterior | Funcionales con edición menor; identifica qué cambiaría | Directamente usables; iteraciones documentadas (mín. 2) |
 | **Autocrítica** | 15% | Calificación inconsistente con calidad real | Razonable, justificada; 1 aspecto a mejorar por prompt | Coincide con evaluador (±1); plan de mejora específico |
@@ -579,7 +579,7 @@ Canvas permite importar rúbricas vía API o manualmente. Escala: 3 niveles — 
 |----------|------|-------------|-----------------|-----------------|
 | **Juicio ético** | 25% | Inconsistente o sin justificación | Coherente; difiere de IA en ≥2 escenarios con argumento | Criterio institucional maduro; zonas grises con matiz |
 | ⚡ **Diseño del flujo** | 35% | <3 pasos o vagos | 5-6 pasos claros; prompts exactos; checklist humano | Replicable por tercero; diagrama visual; manejo excepciones |
-| **Prompts del flujo** | 20% | Genéricos, sin frameworks | RCTE secuenciados; output alimenta siguiente paso | Cadena optimizada; prompts de verificación incluidos |
+| **Prompts del flujo** | 20% | Genéricos, sin frameworks | RCTF secuenciados; output alimenta siguiente paso | Cadena optimizada; prompts de verificación incluidos |
 | **Checklist** | 20% | Genérico ("revisar") | ≥5 puntos específicos al contexto del reporte | Calibrado con errores reales encontrados; preventivo |
 
 ---
@@ -599,7 +599,7 @@ Canvas permite importar rúbricas vía API o manualmente. Escala: 3 niveles — 
 
 | Criterio | Peso | Básico (50) | Competente (80) | Destacado (100) |
 |----------|------|-------------|-----------------|-----------------|
-| ⚡ **Agente funcional** | 30% | Instrucciones genéricas; sin documentos; no probado | Nombre descriptivo, RCTE, ≥1 documento, probado con 3 consultas | Optimizado tras iteración; limitaciones documentadas |
+| ⚡ **Agente funcional** | 30% | Instrucciones genéricas; sin documentos; no probado | Nombre descriptivo, RCTF, ≥1 documento, probado con 3 consultas | Optimizado tras iteración; limitaciones documentadas |
 | **Ficha técnica** | 25% | Sin ficha o párrafo vago | Nombre, propósito, instrucciones, docs, ≥3 limitaciones, protocolo | Manual completo: ejemplos que funcionan/no, mantenimiento |
 | **Plan de proyecto** | 25% | Genérico sin fechas ni responsables | SMART, WBS ≥3 fases, responsables, calendario, ≥3 riesgos | Ejecutable; dependencias; template minuta; probado en reunión |
 | **Contexto institucional** | 20% | Sin perfil o copia sin personalizar | Cargo, área, poblaciones, estilo, prioridades; con/sin demo | Refinado y probado: múltiples contextos situacionales |
@@ -638,14 +638,14 @@ Canvas permite importar rúbricas vía API o manualmente. Escala: 3 niveles — 
 ```yaml
 Seriación: Obligatoria y lineal
 
-Módulo 1: disponible Día 1, prerequisito: ninguno
-Módulo 2: prerequisito: M1 completado al 100%
-Módulo 3: prerequisito: M2 completado al 100%
-Módulo 4: prerequisito: M3 completado al 100%
-Módulo 5: prerequisito: M4 completado al 100% [Entregable final #1]
-Módulo 6: prerequisito: M5 completado al 100%
-Módulo 7: prerequisito: M6 completado al 100%
-Módulo 8: prerequisito: M7 completado al 100% [Entregable final #2]
+Nivel 1: disponible Día 1, prerequisito: ninguno
+Nivel 2: prerequisito: M1 completado al 100%
+Nivel 3: prerequisito: M2 completado al 100%
+Nivel 4: prerequisito: M3 completado al 100%
+Nivel 5: prerequisito: M4 completado al 100% [Entregable final #1]
+Nivel 6: prerequisito: M5 completado al 100%
+Nivel 7: prerequisito: M6 completado al 100%
+Nivel 8: prerequisito: M7 completado al 100% [Entregable final #2]
 ```
 
 ### 4.2 Diferenciación Académica / Administrativa
@@ -657,7 +657,7 @@ Módulo 8: prerequisito: M7 completado al 100% [Entregable final #2]
 
 ```yaml
 Completamiento:
-  - Todos los módulos (1-8) completados
+  - Todos los niveles (1-8) completados
   - Calificación global ≥ 70%
   - Entregable final #1 (flujo): "Competente" o superior
   - Entregable final #2 (ecosistema): "Competente" o superior
@@ -665,7 +665,7 @@ Completamiento:
 Acreditación:
   - Constancia de Formación Continua con valor curricular
   - Universidad Anáhuac Mayab
-  - 7.5 créditos SATCA | 120 horas
+  - 6.5 créditos SATCA | 120 horas
 
 Niveles de logro:
   - Destacado: ≥ 90%
@@ -677,9 +677,9 @@ Niveles de logro:
 ### 4.4 Implementación Canvas
 
 ```
-Para cada módulo:
-1. Módulos → "..." → Edit
-2. Prerequisites: seleccionar módulo anterior
+Para cada nivel:
+1. Niveles → "..." → Edit
+2. Prerequisites: seleccionar nivel anterior
 3. Requirement: "Complete all requirements"
 4. Marcar: "Students must complete all requirements before unlock"
 ```
@@ -718,9 +718,9 @@ cmi.session_time = "PT45M30S"  // ISO 8601
 cmi.total_time = "PT3H15M"
 
 // Progreso
-cmi.progress_measure = 0.375  // 3 de 8 módulos
+cmi.progress_measure = 0.375  // 3 de 8 niveles
 
-// Objetivos por módulo
+// Objetivos por nivel
 cmi.objectives.0.id = "modulo_1"
 cmi.objectives.0.completion_status = "completed"
 cmi.objectives.0.score.scaled = 0.85
@@ -747,7 +747,7 @@ xAPI es la opción **recomendada** por su mayor granularidad. El mini sitio env�
 **Statements xAPI principales:**
 
 ```json
-// 1. Inició módulo
+// 1. Inició nivel
 {
   "actor": { "mbox": "mailto:participante@anahuac.mx" },
   "verb": { "id": "http://adlnet.gov/expapi/verbs/launched", "display": {"es": "inició"} },
@@ -760,7 +760,7 @@ xAPI es la opción **recomendada** por su mayor granularidad. El mini sitio env�
   "result": { "extensions": { "progress": 62 } }
 }
 
-// 3. Completó módulo
+// 3. Completó nivel
 {
   "verb": { "id": "http://adlnet.gov/expapi/verbs/completed" },
   "result": { "completion": true, "duration": "PT45M", "score": {"scaled": 0.85} }
@@ -775,7 +775,7 @@ xAPI es la opción **recomendada** por su mayor granularidad. El mini sitio env�
 // 5. Ejecutó prompt (engagement con IA)
 {
   "verb": { "id": "https://w3id.org/xapi/acrossx/verbs/composed", "display": {"es": "compuso instrucción"} },
-  "result": { "duration": "PT8M30S", "extensions": { "framework_used": "RTF", "iteration_count": 2 } }
+  "result": { "duration": "PT8M30S", "extensions": { "framework_used": "RCTF", "iteration_count": 2 } }
 }
 ```
 
@@ -797,7 +797,7 @@ Configuración LTI 1.3:
   servicios:
     - Assignment and Grade Services (AGS): calificaciones → gradebook
     - Names and Role Provisioning (NRPS): identificar participante y sección
-    - Deep Linking: insertar módulos específicos como tareas
+    - Deep Linking: insertar niveles específicos como tareas
   
   parámetros_custom:
     custom_version: "academica" | "administrativa"
@@ -816,11 +816,11 @@ Configuración LTI 1.3:
 
 | KPI | Definición | Meta | Fuente |
 |-----|-----------|------|--------|
-| **Completion rate** | % que completa los 8 módulos | ≥ 75% | Canvas |
-| **Time-on-task** | Tiempo promedio por módulo | Rango por módulo | xAPI |
+| **Completion rate** | % que completa los 8 niveles | ≥ 70% | Canvas |
+| **Time-on-task** | Tiempo promedio por nivel | Rango por nivel | xAPI |
 | **Engagement con prompts** | # de prompts ejecutados | ≥ 30 acumulados | xAPI |
 | **Tasa de iteración** | Promedio intentos por ejercicio | 2-3 | xAPI |
-| **Calificación promedio** | Puntaje medio de entregables | ≥ 75% | Canvas |
+| **Calificación promedio** | Puntaje medio de entregables | ≥ 70% | Canvas |
 | **Tasa de reenvío** | % entregables reenviados | < 20% | Canvas |
 | **NPS** | Net Promoter Score | ≥ 50 | Encuesta |
 | **Adopción real (30d)** | % usa IA ≥ 3x/semana | ≥ 60% | Encuesta |
@@ -832,15 +832,15 @@ Configuración LTI 1.3:
 | Alerta | Condición | Acción |
 |--------|-----------|--------|
 | 🔴 **Inactivo** | Sin acceso ≥7 días | Email + contacto facilitador |
-| 🟡 **Rezagado** | ≥2 módulos de retraso | Notificación + email motivación |
+| 🟡 **Rezagado** | ≥2 niveles de retraso | Notificación + email motivación |
 | 🟡 **Bajo engagement** | <5 prompts en M1-M3 | Tutoría individual sugerida |
 | 🔴 **Sin entrega** | Plazo vencido | Recordatorio + extensión 48h |
 | 🟡 **En Básico** | Dimensión ⚡ "Básico" | Retroalimentación + invitar reenvío |
-| 🟢 **Destacado** | ≥3 módulos "Destacado" | Candidato a mentor peer |
+| 🟢 **Destacado** | ≥3 niveles "Destacado" | Candidato a mentor peer |
 
 ### 6.3 Dashboard del Administrador
 
-**Vista 1 — Progreso Global (funnel de completamiento por módulo)**
+**Vista 1 — Progreso Global (funnel de completamiento por nivel)**
 **Vista 2 — Badges Emitidos (conteo y % por cada insignia)**
 **Vista 3 — Comparativa por Versión (Académica vs. Administrativa)**
 **Vista 4 — Alertas activas (participantes que requieren intervención)**
@@ -857,11 +857,11 @@ Configuración LTI 1.3:
 
 ### 7.1 Sistema de 4 Badges
 
-| Badge | Nombre | Módulos | Prerequisito | Vigencia |
+| Badge | Nombre | Niveles | Prerequisito | Vigencia |
 |-------|--------|---------|--------------|----------|
-| 🟢 | Fundamentos de IA para Gestión Universitaria | 1-3 | Ninguno | 3 años |
-| 🔵 | IA Aplicada a la Gestión Universitaria | 4-6 | Badge 🟢 | 3 años |
-| 🟣 | Líder de IA en Gestión Universitaria | 7-8 | Badge 🔵 | 3 años |
+| 🟢 | Explorador IA | 1-3 | Ninguno | 3 años |
+| 🔵 | Estratega IA | 4-6 | Badge 🟢 | 3 años |
+| 🟣 | Líder IA | 7-8 | Badge 🔵 | 3 años |
 | 🏆 | Líder Digital Anáhuac | 1-8 | 3 badges anteriores | 3 años |
 
 ### 7.2 Metadatos Open Badges v3 (JSON-LD)
@@ -874,7 +874,7 @@ Configuración LTI 1.3:
   ],
   "id": "urn:uuid:anahuac-mayab:ia-lideres:fundamentos-v1:2026-001",
   "type": ["VerifiableCredential", "OpenBadgeCredential"],
-  "name": "Fundamentos de IA para Gestión Universitaria",
+  "name": "Explorador IA",
   "issuer": {
     "id": "https://anahuacmayab.mx/credentials/issuer",
     "type": "Profile",
@@ -890,11 +890,11 @@ Configuración LTI 1.3:
     "achievement": {
       "id": "urn:uuid:anahuac-mayab:ia-lideres:fundamentos-v1",
       "type": "Achievement",
-      "name": "Fundamentos de IA para Gestión Universitaria",
-      "description": "El titular demuestra competencia en comprensión de IA generativa, prompting estructurado (RCTE), producción de comunicación institucional con IA, y conciencia de limitaciones. Programa de 9 horas con evaluación por desempeño auténtico.",
+      "name": "Explorador IA",
+      "description": "El titular demuestra competencia en comprensión de IA generativa, prompting estructurado (RCTF), producción de comunicación institucional con IA, y conciencia de limitaciones. Programa de 9 horas con evaluación por desempeño auténtico.",
       "criteria": {
         "id": "https://anahuacmayab.mx/credentials/criteria/fundamentos-ia",
-        "narrative": "Completar módulos 1-3 con ≥70% y entregables 'Competente' o superior en todas las dimensiones críticas."
+        "narrative": "Completar niveles 1-3 con ≥70% y entregables 'Competente' o superior en todas las dimensiones críticas."
       },
       "alignment": [
         {
@@ -935,7 +935,7 @@ Configuración LTI 1.3:
     {
       "id": "urn:uuid:evidence:portfolio-bloque1",
       "type": "Evidence",
-      "name": "Portafolio Bloque 1 — Fundamentos IA",
+      "name": "Portafolio Bloque 1 — Explorador IA",
       "description": "Mini-diagnóstico, 3 prompts maestros, 5 templates de comunicación, caso difícil resuelto."
     }
   ]
@@ -956,13 +956,13 @@ Configuración LTI 1.3:
 ```
                🏆 LÍDER DIGITAL ANÁHUAC
                Constancia de Formación Continua
-               7.5 créditos SATCA | 120 horas
+               6.5 créditos SATCA | 120 horas
                = 🟢 + 🔵 + 🟣 + 2 entregables ⭐
                           │
             ┌──────────────┼──────────────┐
             │              │              │
      🟢 FUNDAMENTOS   🔵 IA APLICADA   🟣 LÍDER IA
-     Módulos 1-3      Módulos 4-6      Módulos 7-8
+     Niveles 1-3      Niveles 4-6      Niveles 7-8
      DigComp 1-3      DigComp 1-4      DigComp 5
      SFIA Level 3     SFIA Level 4     SFIA Level 5
      
@@ -989,7 +989,7 @@ Configuración LTI 1.3:
 "Criterio","Básico (50)","Competente (80)","Destacado (100)"
 "Identificación de oportunidades (40%)","5 tareas genéricas","5 tareas específicas, ≥3 viables con IA","5 priorizadas + estimación tiempo"
 "Comprensión capacidades/limitaciones (35%)","Menciona capacidades, no limitaciones","Distingue con riesgo específico","Matiz + consecuencia institucional"
-"Calidad reflexión (25%)","Vagas o repetitivas","Específicas con comprensión aplicada","Insight original más allá del módulo"
+"Calidad reflexión (25%)","Vagas o repetitivas","Específicas con comprensión aplicada","Insight original más allá del nivel"
 ```
 
 ### 8.2 Checklist de Implementación
@@ -997,12 +997,12 @@ Configuración LTI 1.3:
 **Configuración del LMS:**
 - [ ] Curso creado con nombre y código correctos
 - [ ] 2 secciones configuradas (Académica / Administrativa)
-- [ ] 8 módulos creados con prerequisitos de seriación
+- [ ] 8 niveles creados con prerequisitos de seriación
 - [ ] Página de inicio con banner, mapa de badges y enlace al mini sitio
 - [ ] Navegación configurada
 
 **Contenido:**
-- [ ] Todas las páginas cargadas (8 módulos × ~10 items)
+- [ ] Todas las páginas cargadas (8 niveles × ~10 items)
 - [ ] Archivos descargables subidos
 - [ ] Imágenes hero con branding Anáhuac
 

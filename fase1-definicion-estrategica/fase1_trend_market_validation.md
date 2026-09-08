@@ -119,7 +119,7 @@ La **Encuesta Nacional sobre Usos y Percepciones de la IAG en la Educación Supe
 
 ### 2.2 Plataformas LATAM
 
-| Plataforma | Oferta relevante | Precio | Gap vs. tu curso |
+| Plataforma | Oferta relevante | Precio | Gap vs. nuestro curso |
 |------------|-----------------|--------|-------------------|
 | **Platzi** | "Estrategia y Liderazgo de Proyectos de Gen AI" + ruta "IA para Productividad" | ~$49 USD/mes (suscripción) | Corporativo, no para educación superior. Sin certificación universitaria |
 | **edX** | Cursos variados de AI Leadership (MIT, Harvard) | $50-300 USD por curso | En inglés, contexto anglosajón, no LATAM |

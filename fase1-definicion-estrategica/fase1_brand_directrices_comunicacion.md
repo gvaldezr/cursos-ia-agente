@@ -16,7 +16,7 @@ La audiencia son directores, coordinadores y jefes de departamento de la Univers
 | Títulos y encabezados | Impersonal o "usted" implícito | "Fundamentos de IA Generativa para la Toma de Decisiones" |
 | Instrucciones de ejercicio | "Usted" directo | "Redacte una instrucción que resuma el acta de su última junta directiva." |
 | Callouts y tips | "Usted" directo | "Recuerde que la claridad de su instrucción determina la calidad de la respuesta." |
-| Botones / CTAs | Infinitivo o "usted" implícito | "Iniciar módulo" · "Explorar ejemplos" · "Descargar guía" |
+| Botones / CTAs | Infinitivo o "usted" implícito | "Iniciar nivel" · "Explorar ejemplos" · "Descargar guía" |
 | Feedback del sistema | "Usted" directo | "Ha completado el Nivel 3. Su progreso ha sido registrado." |
 | Microcopy (tooltips) | Impersonal o "usted" | "Este recurso complementa el ejercicio anterior." |
 
@@ -57,10 +57,10 @@ El criterio rector es: **español preciso cuando existe término claro; anglicis
 
 ### 2.2 Regla de primera mención
 
-Cuando un anglicismo técnico sea inevitable, **la primera vez** que aparezca en cada módulo:
+Cuando un anglicismo técnico sea inevitable, **la primera vez** que aparezca en cada nivel:
 1. Se escribe en cursiva
 2. Se acompaña de su equivalente en español entre paréntesis
-3. En menciones posteriores del mismo módulo, puede usarse sin cursiva
+3. En menciones posteriores del mismo nivel, puede usarse sin cursiva
 
 **Ejemplo:**
 > "El concepto de *prompt* (instrucción estructurada para un modelo de IA) es la base del diseño de interacciones efectivas. En adelante, al referirnos a una instrucción dirigida al modelo, utilizaremos indistintamente 'instrucción' o *prompt*."
@@ -107,7 +107,7 @@ Esta combinación logra:
 
 ---
 
-## 4. Naming de Módulos (8 Niveles)
+## 4. Naming de Nivels (8 Niveles)
 
 ### 4.1 Nomenclatura
 
@@ -155,7 +155,7 @@ Títulos propuestos (adaptables al contenido real):
 | Título de sección (H2) | 8 palabras / 50 caracteres | "Diseño de Instrucciones Efectivas" |
 | Subtítulo (H3) | 12 palabras / 70 caracteres | "Cómo estructurar una instrucción clara para obtener mejores resultados" |
 | Párrafo | 3-4 líneas / 250 caracteres | Bloques cortos, escaneables |
-| Descripción de módulo | 2-3 oraciones / 200 caracteres | Objetivo + qué aprenderá + entregable |
+| Descripción de nivel | 2-3 oraciones / 200 caracteres | Objetivo + qué aprenderá + entregable |
 | Texto de botón (CTA) | 3-4 palabras / 25 caracteres | "Iniciar Nivel 3" · "Explorar ejemplos" |
 | Caption / nota al pie | 1-2 líneas / 120 caracteres | "Fuente: Informe McKinsey, 2025" |
 | Tooltip | 1 oración / 80 caracteres | "Este ejercicio requiere acceso a un modelo de IA generativa." |

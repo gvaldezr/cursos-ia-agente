@@ -18,7 +18,7 @@
 
 ### AC-01 · Comunicado formal a cuerpo docente
 **Caso de uso:** Informar a profesores sobre fechas, procesos o cambios relevantes del ciclo.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un redactor institucional de la Universidad Anáhuac Mayab.
@@ -48,7 +48,7 @@ Formato:
 
 ### AC-02 · Acta/minuta de reunión de academia
 **Caso de uso:** Convertir notas informales de una reunión en minuta formal con acuerdos numerados.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres el secretario de actas de una reunión de academia
@@ -322,7 +322,7 @@ Experiment: Dame 2 versiones:
 
 ### AC-09 · Comparativa semestral de indicadores académicos
 **Caso de uso:** Generar tabla comparativa de indicadores clave del programa entre dos semestres para consejo o informe de gestión.
-**Nivel:** 🟡 Intermedio · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟡 Intermedio · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un analista de indicadores de gestión académica.
@@ -488,7 +488,7 @@ Experiment: Genera 2 versiones:
 
 ### AC-13 · Calendario académico semestral personalizado
 **Caso de uso:** Generar el calendario de actividades clave del semestre para el programa, con fechas, responsables y entregables.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un coordinador académico que planifica el semestre.
@@ -612,7 +612,7 @@ riesgos + próximos pasos del mes siguiente.
 
 ### AC-16 · Respuesta a solicitud académica de estudiante
 **Caso de uso:** Responder formalmente a solicitudes de cambio de grupo, baja, equivalencia, reconsideración de calificación.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres el coordinador del programa de [LICENCIATURA] de la
@@ -728,7 +728,7 @@ Task: Después de la entrevista, genera:
 
 ### AC-19 · Derivación de caso a departamento de apoyo
 **Caso de uso:** Redactar la comunicación interna para derivar un caso estudiantil a tutoría, psicopedagogía, becas u otro departamento.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un coordinador académico que canaliza un caso estudiantil.
@@ -847,7 +847,7 @@ Expectation:
 
 ### AC-22 · Seguimiento de proyectos del programa — reporte de avance
 **Caso de uso:** Generar reporte de avance de los proyectos o iniciativas que gestiona la coordinación.
-**Nivel:** 🟡 Intermedio · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟡 Intermedio · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un project manager universitario.
@@ -1013,8 +1013,8 @@ Respuesta:
 | # | Prompt | Caso de uso | Nivel | Framework |
 |---|---|---|---|---|
 | **COMUNICACIÓN** | | | | |
-| AC-01 | Comunicado a docentes | Informar fechas/procesos al cuerpo docente | 🟢 | RTF |
-| AC-02 | Acta/minuta de reunión | Convertir notas en minuta formal | 🟢 | RTF |
+| AC-01 | Comunicado a docentes | Informar fechas/procesos al cuerpo docente | 🟢 | RCTF |
+| AC-02 | Acta/minuta de reunión | Convertir notas en minuta formal | 🟢 | RCTF |
 | AC-03 | Respuesta a padres de familia | Atender consultas respetando protección de datos | 🟡 | CO-STAR |
 | AC-04 | Carta institucional externa | Correspondencia con acreditadoras/aliados/gobierno | 🟡 | RISE |
 | AC-05 | Minuta ejecutiva de comité | Sintetizar reunión de consejo o comité | 🟡 | RISE |
@@ -1022,23 +1022,23 @@ Respuesta:
 | AC-06 | Análisis de matrícula | Semáforo de matrícula para rectoría | 🟡 | RISE |
 | AC-07 | Retención y deserción | Reporte de permanencia con plan de intervención | 🟡 | RISE |
 | AC-08 | Desempeño docente | Síntesis para retroalimentación constructiva | 🔴 | CRISPE |
-| AC-09 | Comparativa semestral | Tabla de indicadores entre dos ciclos | 🟡 | RTF |
+| AC-09 | Comparativa semestral | Tabla de indicadores entre dos ciclos | 🟡 | RCTF |
 | AC-10 | Indicadores de acreditación | Tablero con brecha y acciones correctivas | 🔴 | RISE |
 | **AUTOMATIZACIÓN** | | | | |
 | AC-11 | Reporte semanal del área | Borrador de reporte a jefe directo | 🟡 | RISE |
 | AC-12 | Dashboard narrativo de KPIs | Datos crudos → resumen ejecutivo con contexto | 🔴 | CRISPE |
-| AC-13 | Calendario semestral | Tabla de actividades, responsables y entregables | 🟢 | RTF |
+| AC-13 | Calendario semestral | Tabla de actividades, responsables y entregables | 🟢 | RCTF |
 | AC-14 | Síntesis de evaluaciones docentes | Consolidado con clasificación semáforo | 🔴 | RISE |
 | AC-15 | Seguimiento de acreditación | Reporte mensual con semáforo y riesgos | 🔴 | CoT |
 | **ATENCIÓN** | | | | |
-| AC-16 | Respuesta a solicitud de alumno | Atender trámites con empatía y normatividad | 🟢 | RTF |
+| AC-16 | Respuesta a solicitud de alumno | Atender trámites con empatía y normatividad | 🟢 | RCTF |
 | AC-17 | Banco de FAQs | 10 respuestas maestras personalizables | 🟡 | RISE |
 | AC-18 | Orientación a alumno en riesgo | Guión de intervención + mapa de canalización | 🔴 | CRIT |
-| AC-19 | Derivación de caso | Memorándum para canalizar a otro departamento | 🟢 | RTF |
+| AC-19 | Derivación de caso | Memorándum para canalizar a otro departamento | 🟢 | RCTF |
 | AC-20 | Comunicación de becas | Convocatoria clara con requisitos y proceso | 🟢 | CO-STAR |
 | **GESTIÓN** | | | | |
 | AC-21 | Plan de trabajo semestral | Objetivos, actividades, responsables y cronograma | 🟡 | RISE |
-| AC-22 | Seguimiento de proyectos | Reporte de avance con semáforo y decisiones | 🟡 | RTF |
+| AC-22 | Seguimiento de proyectos | Reporte de avance con semáforo y decisiones | 🟡 | RCTF |
 | AC-23 | Evaluación FODA del programa | Diagnóstico estratégico con acciones cruzadas | 🔴 | CoT |
 | AC-24 | Propuesta de mejora | Plan tabulado con indicadores y evidencias | 🟡 | RISE |
 | AC-25 | Coordinación inter-áreas | Solicitud de colaboración a otra área | 🟡 | CO-STAR |

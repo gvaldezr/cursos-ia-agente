@@ -91,7 +91,7 @@ Cada nivel sigue la estructura **Concepto → Demostración → Práctica → En
 - Cuándo usarlo: análisis, decisiones, evaluaciones
 - Ejemplo: evaluar si un programa académico cumple criterios de acreditación
 
-1. **Framework 3: Few-shot (Enseñar con ejemplos)** (5 min)- "Aquí tienes 2 ejemplos de lo que quiero. Ahora hazlo con estos datos"
+1. **Framework 3: Few-shot (Enseñar con ejemplos)** (5 min)- "Aquí tiene 2 ejemplos de lo que quiero. Ahora hágalo con estos datos"
 
 - Cuándo usarlo: formatos específicos, tono institucional, tablas
 - Ejemplo: generar retroalimentación a docentes con el tono Anáhuac

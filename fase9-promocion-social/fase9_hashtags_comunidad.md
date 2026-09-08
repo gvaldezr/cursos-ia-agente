@@ -164,9 +164,9 @@ Cuando un participante quiere compartir su logro en LinkedIn o Instagram, se le 
 
 > *Acabo de obtener mi badge de Explorador IA en el programa "IA Práctica para Líderes Anáhuac" de la Universidad Anáhuac Mayab.*
 >
-> *En 3 módulos aprendí a usar la IA generativa para resolver tareas reales de mi gestión como coordinadora académica: desde redactar comunicados hasta analizar indicadores de matrícula.*
+> *En 3 niveles aprendí a usar la IA generativa para resolver tareas reales de mi gestión como coordinadora académica: desde redactar comunicados hasta analizar indicadores de matrícula.*
 >
-> *Lo más valioso: no fue teoría. Cada módulo produjo un resultado que usé al día siguiente.*
+> *Lo más valioso: no fue teoría. Cada nivel produjo un resultado que usé al día siguiente.*
 >
 > *Siguiente meta: Estratega IA.* 🎯
 >
@@ -234,7 +234,7 @@ Use esta plantilla como punto de partida (personalícela con su experiencia real
 >
 > *8 niveles. 3 badges. Un banco de [X] prompts personalizados. Un flujo de reportes que me ahorra [X] horas a la semana.*
 >
-> *"IA Práctica para Líderes Anáhuac" no fue otro curso de tecnología. Fue la primera formación donde cada módulo resolvió un pendiente real de mi escritorio.*
+> *"IA Práctica para Líderes Anáhuac" no fue otro curso de tecnología. Fue la primera formación donde cada nivel resolvió un pendiente real de mi escritorio.*
 >
 > *Gracias a @Universidad Anáhuac Mayab por invertir en el desarrollo de sus líderes.*
 >
@@ -268,7 +268,7 @@ Use esta plantilla como punto de partida (personalícela con su experiencia real
 
 | ✅ Sí puede compartir | ❌ No debe compartir |
 |---|---|
-| Su experiencia personal con el programa | Contenido textual completo de los módulos |
+| Su experiencia personal con el programa | Contenido textual completo de los niveles |
 | Resultados genéricos (horas ahorradas, tareas resueltas) | Materiales protegidos del curso (PDFs, videos, ejercicios) |
 | Su badge y constancia | Prompts propiedad intelectual del programa (los genéricos sí) |
 | Reflexiones sobre IA en gestión universitaria | Datos confidenciales de la universidad procesados con IA |

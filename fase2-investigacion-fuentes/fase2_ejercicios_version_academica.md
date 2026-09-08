@@ -6,7 +6,7 @@
 
 ---
 
-## Módulo 1 · Fundamentos de IA Generativa
+## Nivel 1 · Fundamentos de IA Generativa
 ### "De la curiosidad al primer resultado útil"
 
 **Objetivo pedagógico:** Romper la barrera del primer uso. El participante descubre que puede obtener un borrador profesional en menos de 2 minutos sin conocimiento técnico.
@@ -61,7 +61,7 @@ Compare su comunicado habitual con el generado. Pregunte al grupo:
 
 ---
 
-## Módulo 2 · Anatomía de una Instrucción Efectiva
+## Nivel 2 · Anatomía de una Instrucción Efectiva
 ### "La diferencia entre un resultado mediocre y uno excelente"
 
 **Objetivo pedagógico:** El participante experimenta directamente cómo la estructura del prompt determina la calidad del resultado. Aprende el patrón Contexto + Rol + Tarea + Formato + Restricciones.
@@ -131,7 +131,7 @@ Use estos datos de práctica:
 
 ---
 
-## Módulo 3 · Casos de Uso en Gestión Académica
+## Nivel 3 · Casos de Uso en Gestión Académica
 ### "Tres problemas reales, tres soluciones en 30 minutos"
 
 **Objetivo pedagógico:** El participante aplica IA a tres escenarios de su realidad laboral diaria y sale con tres outputs directamente usables.
@@ -213,10 +213,10 @@ Use como motivo: "El padre pregunta por qué su hijo reprobó dos materias y si 
 
 ---
 
-## Módulo 4 · Evaluación Crítica de Resultados
+## Nivel 4 · Evaluación Crítica de Resultados
 ### "No todo lo que la IA genera es correcto — y usted debe saber distinguirlo"
 
-**Objetivo pedagógico:** El participante desarrolla criterio para evaluar, cuestionar y verificar lo que la IA produce. Este es el módulo más importante del curso: transforma usuarios pasivos en usuarios críticos.
+**Objetivo pedagógico:** El participante desarrolla criterio para evaluar, cuestionar y verificar lo que la IA produce. Este es el nivel más importante del curso: transforma usuarios pasivos en usuarios críticos.
 
 ---
 
@@ -275,7 +275,7 @@ Si alguien no conoce su organismo acreditador, pida que use "CACEI para Ingenier
 
 ---
 
-## Módulo 5 · Ética y Uso Responsable
+## Nivel 5 · Ética y Uso Responsable
 ### "Lo que puede hacer vs. lo que debe hacer"
 
 **Objetivo pedagógico:** El participante experimenta dilemas éticos reales de la gestión académica donde el uso de IA requiere juicio, no solo competencia técnica. Internaliza que "poder hacerlo" no significa "deber hacerlo".
@@ -338,7 +338,7 @@ Trabaje solo con los escenarios 1, 4, 5, 9 (los más contrastantes) si el tiempo
 
 ---
 
-## Módulo 6 · Flujos de Trabajo Integrados
+## Nivel 6 · Flujos de Trabajo Integrados
 ### "De la tarea suelta al proceso completo"
 
 **Objetivo pedagógico:** El participante aprende a encadenar múltiples interacciones con la IA para resolver un proceso completo de gestión, no solo tareas aisladas. Descubre que el verdadero poder está en la secuencia.
@@ -416,7 +416,7 @@ Haga solo los Pasos 1 y 2. El facilitador provee datos ficticios para todos los 
 
 ---
 
-## Módulo 7 · Personalización y Contexto Institucional
+## Nivel 7 · Personalización y Contexto Institucional
 ### "Hacer que la IA hable como Anáhuac"
 
 **Objetivo pedagógico:** El participante aprende a inyectar contexto institucional para que los resultados sean consistentes con la identidad, valores y estilo de la Universidad Anáhuac Mayab. Descubre que la personalización convierte una herramienta genérica en un asistente institucional.
@@ -491,7 +491,7 @@ El facilitador proyecta un contexto base pre-llenado y los participantes solo ca
 
 ---
 
-## Módulo 8 · Plan de Implementación Personal
+## Nivel 8 · Plan de Implementación Personal
 ### "De aquí a 30 días: su hoja de ruta personal"
 
 **Objetivo pedagógico:** El participante sale del curso con un plan concreto, personalizado y realista de implementación. No es un ejercicio teórico — es el entregable final que compromete acciones específicas con fechas.
@@ -580,7 +580,7 @@ Solo complete el Paso 1 con 3 tareas en lugar de 5. El facilitador provee ejempl
 
 ## Resumen de ejercicios — Versión Académica
 
-| Módulo | Ejercicio | Output del participante | Tiempo |
+| Nivel | Ejercicio | Output del participante | Tiempo |
 |--------|-----------|------------------------|--------|
 | 1 | Comunicado a docentes | Borrador de comunicado listo para enviar | 15 min |
 | 2 | Prompt vago vs. estructurado | Análisis de retención con datos propios | 20 min |

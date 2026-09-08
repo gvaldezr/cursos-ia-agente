@@ -13,10 +13,10 @@
 |---|---|
 | **Asunto** | 🏆 Felicidades, {{NOMBRE}} — Usted es Líder Digital Anáhuac |
 | **Asunto alternativo** | Ha completado «IA Práctica para Líderes» — Sus badges, su constancia y su siguiente paso |
-| **Pre-header** | 3 badges obtenidos, 8 módulos completados, y un ecosistema de IA listo para usar. |
+| **Pre-header** | 3 badges obtenidos, 8 niveles completados, y un ecosistema de IA listo para usar. |
 | **Remitente** | Dr. {{NOMBRE_RECTOR}} — Rector de la Universidad Anáhuac Mayab |
 | **Reply-to** | educacioncontinua@anahuac.mx |
-| **Audiencia** | Participantes que completaron los 8 módulos del programa |
+| **Audiencia** | Participantes que completaron los 8 niveles del programa |
 | **CTA principal** | Comparta su logro en LinkedIn |
 | **CTA secundario** | Complete la encuesta de satisfacción |
 | **Timing** | 3-5 días hábiles después de la fecha de cierre del programa |
@@ -50,8 +50,8 @@ logró.
               padding-bottom: 16px; border-bottom: 1px solid #e0d5eb;">
     <span style="font-size: 32px; margin-right: 16px;">🟢</span>
     <div>
-      <strong style="color: #432F64;">Fundamentos de IA para Gestión Universitaria</strong><br>
-      <small style="color: #666;">Módulos 1-3 · Comprensión, prompting y comunicación con IA</small>
+      <strong style="color: #432F64;">Explorador IA</strong><br>
+      <small style="color: #666;">Niveles 1-3 · Comprensión, prompting y comunicación con IA</small>
     </div>
   </div>
 
@@ -59,8 +59,8 @@ logró.
               padding-bottom: 16px; border-bottom: 1px solid #e0d5eb;">
     <span style="font-size: 32px; margin-right: 16px;">🔵</span>
     <div>
-      <strong style="color: #432F64;">IA Aplicada a la Gestión Universitaria</strong><br>
-      <small style="color: #666;">Módulos 4-6 · Análisis, automatización y ética</small>
+      <strong style="color: #432F64;">Estratega IA</strong><br>
+      <small style="color: #666;">Niveles 4-6 · Análisis, automatización y ética</small>
     </div>
   </div>
 
@@ -68,8 +68,8 @@ logró.
               padding-bottom: 16px; border-bottom: 1px solid #e0d5eb;">
     <span style="font-size: 32px; margin-right: 16px;">🟣</span>
     <div>
-      <strong style="color: #432F64;">Líder de IA en Gestión Universitaria</strong><br>
-      <small style="color: #666;">Módulos 7-8 · Agentes, proyectos y plan de adopción</small>
+      <strong style="color: #432F64;">Líder IA</strong><br>
+      <small style="color: #666;">Niveles 7-8 · Agentes, proyectos y plan de adopción</small>
     </div>
   </div>
 
@@ -78,7 +78,7 @@ logró.
     <span style="font-size: 32px; margin-right: 16px;">🏆</span>
     <div>
       <strong>Líder Digital Anáhuac — IA para Gestión Universitaria</strong><br>
-      <small style="opacity: 0.85;">Badge integrador · 8 módulos · 6.5 créditos SATCA · 120 horas</small>
+      <small style="opacity: 0.85;">Badge integrador · 8 niveles · 6.5 créditos SATCA · 120 horas</small>
     </div>
   </div>
 
@@ -113,7 +113,7 @@ logró.
 
 <table style="width: 100%; border-collapse: collapse; margin: 16px 0;">
   <tr style="border-bottom: 1px solid #eee;">
-    <td style="padding: 12px;"><strong>Módulos completados</strong></td>
+    <td style="padding: 12px;"><strong>Niveles completados</strong></td>
     <td style="padding: 12px; text-align: right; color: #FF5900; font-weight: bold;">
       8 de 8 ✓
     </td>
@@ -168,7 +168,7 @@ Le pedimos 5 minutos para completar la **encuesta de satisfacción**:
 
 La encuesta es **anónima** e incluye:
 - Evaluación general del programa (NPS)
-- Módulo más útil y módulo a mejorar
+- Nivel más útil y nivel a mejorar
 - Impacto percibido en su gestión diaria
 - Sugerencias para futuras cohortes
 - ¿Recomendaría el programa a un colega?
@@ -185,7 +185,7 @@ Sus 3 agentes, su flujo automatizado y su banco de prompts están
 listos. El lunes a las 9 AM, actívelos. No los deje «para después».
 
 **2. Comparta lo que aprendió con su equipo.**  
-Usted diseñó un plan de adopción de IA para su área en el Módulo 8.
+Usted diseñó un plan de adopción de IA para su área en el Nivel 8.
 Es momento de ejecutarlo. Empiece con los quick wins y vaya escalando.
 
 **3. Sea parte de la comunidad de Líderes Digitales Anáhuac.**  
@@ -304,7 +304,7 @@ Ingrese a {{URL_DESCARGA_BADGES}} y descargue los archivos
 Puede publicar su logro con un texto como:
 
 > *«Acabo de completar el programa "IA Práctica para Líderes" de la
-> @UniversidadAnáhuacMayab. 8 módulos, 3 agentes de IA configurados
+> @UniversidadAnáhuacMayab. 8 niveles, 3 agentes de IA configurados
 > para mi área, y un nuevo enfoque de liderazgo donde la experiencia
 > humana y la inteligencia artificial se potencian mutuamente.
 > #IAGenerativa #LiderazgoDigital #AnáhuacMayab»*
@@ -371,7 +371,7 @@ Universidad Anáhuac Mayab
 ## Notas de Implementación
 
 1. **Remitente del email principal:** El email de cierre debe venir firmado por el Rector (como la invitación inicial), cerrando el arco de comunicación institucional. Es una señal de que el programa tiene visibilidad al más alto nivel.
-2. **Condicional de completamiento:** Este email SOLO se envía a participantes que completaron los 8 módulos. Para participantes que completaron parcialmente, usar una variante (ver abajo).
+2. **Condicional de completamiento:** Este email SOLO se envía a participantes que completaron los 8 niveles. Para participantes que completaron parcialmente, usar una variante (ver abajo).
 3. **Timing de badges:** Los badges deben estar emitidos y descargables ANTES de enviar este email. No prometer algo que aún no está listo.
 4. **Encuesta NPS:** Incluir la pregunta NPS estándar: «En una escala del 0 al 10, ¿qué tan probable es que recomiende este programa a un colega?» + pregunta abierta de por qué.
 5. **Tracking:** UTM: `?utm_source=email&utm_medium=cierre_celebracion&utm_campaign=ia_lideres_cohorte1`.
@@ -379,7 +379,7 @@ Universidad Anáhuac Mayab
 
 ### Variante: Participante que No Completó el Programa
 
-Para participantes que completaron 1-7 módulos:
+Para participantes que completaron 1-7 niveles:
 
 | Campo | Valor |
 |---|---|
@@ -390,18 +390,18 @@ Para participantes que completaron 1-7 módulos:
 Estimado(a) {{NOMBRE_COMPLETO}}:
 
 El periodo estándar del programa «IA Práctica para Líderes Anáhuac»
-ha concluido. Vemos que completó **{{MODULOS_COMPLETADOS}} de 8 módulos**
+ha concluido. Vemos que completó **{{MODULOS_COMPLETADOS}} de 8 niveles**
 — lo cual ya representa un avance significativo.
 
 **Lo que ha logrado:**
-{{#IF_BADGE_1}} ✅ Badge «Fundamentos IA» 🟢 — obtenido {{/IF_BADGE_1}}
-{{#IF_NO_BADGE_1}} ⬜ Badge «Fundamentos IA» 🟢 — pendiente {{/IF_NO_BADGE_1}}
-{{#IF_BADGE_2}} ✅ Badge «IA Aplicada» 🔵 — obtenido {{/IF_BADGE_2}}
-{{#IF_NO_BADGE_2}} ⬜ Badge «IA Aplicada» 🔵 — pendiente {{/IF_NO_BADGE_2}}
+{{#IF_BADGE_1}} ✅ Badge «Explorador IA» 🟢 — obtenido {{/IF_BADGE_1}}
+{{#IF_NO_BADGE_1}} ⬜ Badge «Explorador IA» 🟢 — pendiente {{/IF_NO_BADGE_1}}
+{{#IF_BADGE_2}} ✅ Badge «Estratega IA» 🔵 — obtenido {{/IF_BADGE_2}}
+{{#IF_NO_BADGE_2}} ⬜ Badge «Estratega IA» 🔵 — pendiente {{/IF_NO_BADGE_2}}
 {{#IF_BADGE_3}} ✅ Badge «Líder IA» 🟣 — obtenido {{/IF_BADGE_3}}
 {{#IF_NO_BADGE_3}} ⬜ Badge «Líder IA» 🟣 — pendiente {{/IF_NO_BADGE_3}}
 
-**Le quedan {{MODULOS_RESTANTES}} módulos** para completar el programa
+**Le quedan {{MODULOS_RESTANTES}} niveles** para completar el programa
 y obtener la credencial completa de **Líder Digital Anáhuac 🏆**.
 
 Hemos extendido su acceso hasta el **{{FECHA_EXTENSION}}** para que
@@ -411,7 +411,7 @@ Le invitamos a retomar donde lo dejó:
 https://cursos.memovaldez.com
 
 Si hay algo que podamos hacer para ayudarle a completar, no dude
-en escribirnos. Cada módulo que complete tiene valor propio — y
+en escribirnos. Cada nivel que complete tiene valor propio — y
 los badges parciales también son compartibles en LinkedIn.
 
 Atentamente,

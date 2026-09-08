@@ -105,7 +105,7 @@ Se ejecutó una auditoría completa con 5 agentes:
 - Focus management real
 - Dark mode completado
 - Tokens semánticos de spacing
-- RCTF/RTF unificado
+- RCTF unificado
 - Pesos de evaluación estandarizados (35/25/25/15)
 - Tooltips, acordeones, skeleton, celebraciones, badges, easter egg implementados
 

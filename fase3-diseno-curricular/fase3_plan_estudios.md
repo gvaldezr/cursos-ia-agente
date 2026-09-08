@@ -271,13 +271,13 @@ La evaluación es **formativa continua** con **dos entregables sumativos finales
 | **En desarrollo** | 60-74% | Cumple parcialmente; requiere iteración en algunos entregables |
 | **No acreditado** | < 60% | No demuestra las competencias mínimas del programa |
 
-**Acreditación mínima:** 75% (nivel Competente), con ambos entregables finales aprobados.
+**Acreditación mínima:** 70% (nivel Competente), con ambos entregables finales aprobados.
 
 ### 9.5 Métricas de Impacto Post-Curso
 
 | Métrica | Target | Instrumento | Temporalidad |
 |---|---|---|---|
-| Tasa de completamiento | ≥ 75% | Tracking de plataforma | Al cierre |
+| Tasa de completamiento | ≥ 70% | Tracking de plataforma | Al cierre |
 | Adopción real (uso IA ≥ 3x/semana) | ≥ 60% | Encuesta de seguimiento | 30 días post-curso |
 | Horas semanales ahorradas | ≥ 3 hrs promedio | Encuesta de seguimiento | 30 y 60 días |
 | NPS del programa | ≥ 50 | Encuesta de satisfacción | Al cierre |

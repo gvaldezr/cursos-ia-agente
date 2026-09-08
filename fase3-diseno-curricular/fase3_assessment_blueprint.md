@@ -5,7 +5,7 @@
 > **Frameworks de referencia:** DigComp 2.2, SFIA 9, UNESCO ICT-CFT v3, Biggs (Alineación Constructiva)  
 > **Principio rector:** Assessment auténtico — el directivo demuestra competencia HACIENDO, no respondiendo preguntas teóricas.  
 > **Aplica a:** Versión Académica y Versión Administrativa (diferencias indicadas donde corresponde)  
-> **Nota v1.1:** Pesos de evaluación estandarizados a distribución canónica (35/25/25/15) conforme al plan de estudios. Escala de calificación alineada a umbral de acreditación 75%.
+> **Nota v1.1:** Pesos de evaluación estandarizados a distribución canónica (35/25/25/15) conforme al plan de estudios. Escala de calificación alineada a umbral de acreditación 70%.
 
 ---
 
@@ -39,18 +39,18 @@ Cada instrumento de evaluación cumple **las 5 condiciones de autenticidad**:
 | Función | Cuándo | Instrumento | Propósito |
 |---------|--------|-------------|-----------|
 | **Assessment OF Learning** (sumativo) | Al cierre de cada bloque (Mód 3, 6, 8) | Entregables evaluados con rúbrica | Certificar competencia; emitir micro-credencial |
-| **Assessment FOR Learning** (formativo) | Durante cada módulo | Retroalimentación inmediata del output | Guiar la mejora; ajustar instrucción |
+| **Assessment FOR Learning** (formativo) | Durante cada nivel | Retroalimentación inmediata del output | Guiar la mejora; ajustar instrucción |
 | **Assessment AS Learning** (autoregulación) | Reflexiones post-ejercicio | Autoevaluación con checklist + comparación | Desarrollar metacognición sobre uso de IA |
 
 ### 1.4 Alineación Constructiva (Biggs)
 
-Cada módulo está alineado en tres niveles:
+Cada nivel está alineado en tres niveles:
 
 ```
 Objetivo de Aprendizaje → Actividad de Aprendizaje → Instrumento de Evaluación
         (Bloom/IA)              (Ejercicio práctico)        (Rúbrica específica)
 
-Ejemplo Módulo 4:
+Ejemplo Nivel 4:
   OBJETIVO:  "Evaluar críticamente outputs de IA" (Bloom: Evaluar)
   ACTIVIDAD: Auditoría de reporte generado con semáforo verde/amarillo/rojo
   EVALUACIÓN: Rúbrica de "Dictamen de Confiabilidad" (4 dimensiones, 3 niveles)
@@ -58,21 +58,21 @@ Ejemplo Módulo 4:
 
 ---
 
-## 2. Mapa de Evaluación por Módulo
+## 2. Mapa de Evaluación por Nivel
 
 ### Resumen Ejecutivo
 
 | Mód | Título | Nivel Bloom/IA | Qué se evalúa | Instrumento | Tipo Assessment | Peso |
 |-----|--------|---------------|----------------|-------------|-----------------|------|
-| 1 | Fundamentos IA Generativa | Comprender | Identificación de capacidades/limitaciones y oportunidades en su rol | Mini-diagnóstico personal + reflexión escrita | FOR + AS | 4% |
-| 2 | Frameworks de Prompts | Aplicar | Dominio de RCTE; calidad del prompt vs. calidad del output | 3 prompts maestros con outputs comparados | FOR + AS | 4% |
+| 1 | Explorador IA Generativa | Comprender | Identificación de capacidades/limitaciones y oportunidades en su rol | Mini-diagnóstico personal + reflexión escrita | FOR + AS | 4% |
+| 2 | Frameworks de Prompts | Aplicar | Dominio de RCTF; calidad del prompt vs. calidad del output | 3 prompts maestros con outputs comparados | FOR + AS | 4% |
 | 3 | Email y Comunicados / Casos de Uso | Aplicar | Producción de comunicación institucional funcional con IA | 5 templates usables + caso difícil resuelto | **OF** (Badge 1) | 9% |
 | 4 | Análisis de Reportes / Evaluación Crítica | Evaluar | Pensamiento crítico ante outputs; verificación factual | Dictamen de confiabilidad con semáforo | FOR + AS | 6% |
 | 5 | Ética y Uso Responsable / Automatización | Evaluar + Crear | Juicio ético + diseño de flujo de reportes automatizado | Semáforo ético + **flujo de reportes automatizado** ⭐ | **OF** (Badge 2) | 25% |
 | 6 | Atención a Stakeholders / Flujos Integrados | Crear | Encadenamiento de prompts; proceso completo con IA | Kit de atención (10 respuestas) o informe de consejo | **OF** (Badge 2) | 7% |
 | 7 | Gestión de Proyectos / Personalización | Crear | Configuración de agentes; plan de proyecto estructurado | Agente funcional + ficha técnica + plan de proyecto | FOR + OF | 5% |
 | 8 | Agentes y Trabajo en Equipo / Plan de Adopción | Crear | Ecosistema de IA operativo; liderazgo de adopción | **Banco de prompts personalizado** ⭐ + Plan de adopción | **OF** (Badge 3) | 25% |
-| — | Participación y reflexiones éticas | Transversal | Engagement activo, reflexiones éticas por módulo, autoevaluaciones | Reflexiones escritas + autoevaluaciones + participación en foros | FOR + AS | 15% |
+| — | Participación y reflexiones éticas | Transversal | Engagement activo, reflexiones éticas por nivel, autoevaluaciones | Reflexiones escritas + autoevaluaciones + participación en foros | FOR + AS | 15% |
 
 **Total: 100%**
 
@@ -86,11 +86,11 @@ Ejemplo Módulo 4:
 
 ---
 
-### 2.1 Detalle por Módulo
+### 2.1 Detalle por Nivel
 
 ---
 
-#### MÓDULO 1: Fundamentos de IA Generativa
+#### NIVEL 1: Fundamentos de IA Generativa
 **Nivel Bloom/IA:** Comprender | **DigComp 2.2:** 1.1, 1.2
 
 | Elemento | Detalle |
@@ -109,22 +109,22 @@ Ejemplo Módulo 4:
 
 ---
 
-#### MÓDULO 2: Frameworks de Prompts
+#### NIVEL 2: Frameworks de Prompts
 **Nivel Bloom/IA:** Aplicar | **DigComp 2.2:** 2.1, 3.1
 
 | Elemento | Detalle |
 |----------|---------|
-| **Qué se evalúa** | Dominio de frameworks RCTE, Chain of Thought y Few-shot; capacidad de iterar y mejorar prompts |
+| **Qué se evalúa** | Dominio de frameworks RCTF, Chain of Thought y Few-shot; capacidad de iterar y mejorar prompts |
 | **Instrumento principal** | 3 prompts maestros: el participante crea 3 prompts para sus tareas más frecuentes usando los frameworks |
 | **Instrumento complementario** | Comparación antes/después: tabla de prompt vago vs. estructurado con diagnóstico |
-| **Evidencia requerida** | 3 prompts escritos en formato RCTE + outputs generados + calificación propia de utilidad (1-5) |
+| **Evidencia requerida** | 3 prompts escritos en formato RCTF + outputs generados + calificación propia de utilidad (1-5) |
 | **Tipo de assessment** | FOR learning (retroalimentación) + AS learning (autocrítica del output) |
-| **Criterios de suficiencia** | Los 3 prompts usan estructura RCTE, incluyen contexto real, y los outputs son funcionalmente usables |
+| **Criterios de suficiencia** | Los 3 prompts usan estructura RCTF, incluyen contexto real, y los outputs son funcionalmente usables |
 | **Peso** | 4% |
 
 ---
 
-#### MÓDULO 3: Email y Comunicados / Casos de Uso en Gestión
+#### NIVEL 3: Email y Comunicados / Casos de Uso en Gestión
 **Nivel Bloom/IA:** Aplicar | **DigComp 2.2:** 2.1, 3.1, 3.3
 
 | Elemento | Detalle |
@@ -133,7 +133,7 @@ Ejemplo Módulo 4:
 | **Instrumento principal** | Portafolio de comunicación: 5 templates de correo/comunicado adaptados al rol |
 | **Instrumento complementario** | Resolución de caso difícil (queja compleja, situación con padre de familia / proveedor) |
 | **Evidencia requerida** | 5 templates completos con prompts usados + 1 caso difícil resuelto con justificación de decisiones |
-| **Tipo de assessment** | **OF learning** — sumativo para Badge "Fundamentos IA" |
+| **Tipo de assessment** | **OF learning** — sumativo para Badge "Explorador IA" |
 | **Criterios de suficiencia** | Templates usables sin edición mayor; tono institucional correcto; caso difícil maneja empatía + normatividad |
 | **Peso** | 9% |
 
@@ -143,7 +143,7 @@ Ejemplo Módulo 4:
 
 ---
 
-#### MÓDULO 4: Análisis de Reportes / Evaluación Crítica
+#### NIVEL 4: Análisis de Reportes / Evaluación Crítica
 **Nivel Bloom/IA:** Evaluar | **DigComp 2.2:** 1.3, 2.4, 4.2
 
 | Elemento | Detalle |
@@ -156,11 +156,11 @@ Ejemplo Módulo 4:
 | **Criterios de suficiencia** | Identifica al menos 2 errores/alucinaciones reales; justificaciones son específicas y no genéricas |
 | **Peso** | 6% |
 
-**Elemento clave:** Este módulo es el único donde se evalúa la capacidad de RECHAZAR un output de IA. El participante que aprueba todo sin verificar no alcanza el nivel de competencia.
+**Elemento clave:** Este nivel es el único donde se evalúa la capacidad de RECHAZAR un output de IA. El participante que aprueba todo sin verificar no alcanza el nivel de competencia.
 
 ---
 
-#### MÓDULO 5: Ética + Automatización de Reportes
+#### NIVEL 5: Ética + Automatización de Reportes
 **Nivel Bloom/IA:** Evaluar + Crear | **DigComp 2.2:** 4.2, 4.4, 3.4
 
 | Elemento | Detalle |
@@ -169,13 +169,13 @@ Ejemplo Módulo 4:
 | **Instrumento 1** | Semáforo ético: clasificación de 10 escenarios con justificación |
 | **Instrumento 2** | **Flujo de reportes automatizado** ⭐ (entregable final #1): documento paso a paso de cómo generar su reporte principal con IA |
 | **Evidencia requerida** | Semáforo con justificaciones + flujo completo con: fuentes de datos, prompts exactos, formato de salida, checklist de revisión |
-| **Tipo de assessment** | **OF learning** — sumativo para Badge "IA Aplicada" |
+| **Tipo de assessment** | **OF learning** — sumativo para Badge "Estratega IA" |
 | **Criterios de suficiencia** | Semáforo: justificaciones demuestran comprensión de riesgos reales. Flujo: es replicable por un tercero |
 | **Peso** | 25% |
 
 ---
 
-#### MÓDULO 6: Atención a Stakeholders / Flujos Integrados
+#### NIVEL 6: Atención a Stakeholders / Flujos Integrados
 **Nivel Bloom/IA:** Crear | **DigComp 2.2:** 2.1, 3.1, 3.3, 3.4
 
 | Elemento | Detalle |
@@ -184,13 +184,13 @@ Ejemplo Módulo 4:
 | **Instrumento principal (Acad.)** | Informe de consejo académico generado en flujo de 4 pasos + kit de atención a alumnos |
 | **Instrumento principal (Admin.)** | Dashboard operativo generado en flujo multi-paso + kit de atención a stakeholders |
 | **Evidencia requerida** | Output del flujo completo + 10 respuestas maestras personalizables + protocolo de cuándo usar/no usar IA |
-| **Tipo de assessment** | **OF learning** — sumativo para Badge "IA Aplicada" |
+| **Tipo de assessment** | **OF learning** — sumativo para Badge "Estratega IA" |
 | **Criterios de suficiencia** | El flujo encadena mínimo 3 pasos; las respuestas son personalizables; el protocolo incluye límites éticos |
 | **Peso** | 7% |
 
 ---
 
-#### MÓDULO 7: Gestión de Proyectos / Personalización y Agentes
+#### NIVEL 7: Gestión de Proyectos / Personalización y Agentes
 **Nivel Bloom/IA:** Crear | **DigComp 2.2:** 3.4, 5.1, 5.3
 
 | Elemento | Detalle |
@@ -205,7 +205,7 @@ Ejemplo Módulo 4:
 
 ---
 
-#### MÓDULO 8: Ecosistema de IA Personal + Plan de Adopción
+#### NIVEL 8: Ecosistema de IA Personal + Plan de Adopción
 **Nivel Bloom/IA:** Crear (nivel más alto) | **DigComp 2.2:** 5.1, 5.2, 5.3, 5.4
 
 | Elemento | Detalle |
@@ -225,19 +225,19 @@ Ejemplo Módulo 4:
 ### 3.1 Estructura de Pesos
 
 ```
-BLOQUE 1 — FUNDAMENTOS IA (Módulos 1-3)                    17%
-├── Módulo 1: Mini-diagnóstico + reflexión                   4%
-├── Módulo 2: 3 prompts maestros                             4%
-└── Módulo 3: 5 templates + caso difícil                     9%
+BLOQUE 1 — FUNDAMENTOS IA (Niveles 1-3)                    17%
+├── Nivel 1: Mini-diagnóstico + reflexión                   4%
+├── Nivel 2: 3 prompts maestros                             4%
+└── Nivel 3: 5 templates + caso difícil                     9%
 
-BLOQUE 2 — IA APLICADA (Módulos 4-6)                        38%
-├── Módulo 4: Dictamen de confiabilidad                      6%
-├── Módulo 5: Semáforo ético + flujo de reportes ⭐         25%
-└── Módulo 6: Kit de atención + flujo integrado              7%
+BLOQUE 2 — IA APLICADA (Niveles 4-6)                        38%
+├── Nivel 4: Dictamen de confiabilidad                      6%
+├── Nivel 5: Semáforo ético + flujo de reportes ⭐         25%
+└── Nivel 6: Kit de atención + flujo integrado              7%
 
-BLOQUE 3 — LÍDER IA (Módulos 7-8)                           30%
-├── Módulo 7: Agente + ficha técnica + proyecto              5%
-└── Módulo 8: Banco de prompts personalizado ⭐ + adopción  25%
+BLOQUE 3 — LÍDER IA (Niveles 7-8)                           30%
+├── Nivel 7: Agente + ficha técnica + proyecto              5%
+└── Nivel 8: Banco de prompts personalizado ⭐ + adopción  25%
 
 TRANSVERSAL — PARTICIPACIÓN Y REFLEXIONES ÉTICAS            15%
     Reflexiones éticas, autoevaluaciones, participación
@@ -245,7 +245,7 @@ TRANSVERSAL — PARTICIPACIÓN Y REFLEXIONES ÉTICAS            15%
                                                     TOTAL: 100%
 ```
 
-> **Nota de coherencia (v1.1):** La distribución por módulo está alineada con la distribución canónica de 4 componentes del plan de estudios: Entregables intermedios 35% (M1-M4, M6-M7), Flujo de reportes automatizado 25% (M5), Banco de prompts personalizado 25% (M8), Participación y reflexiones éticas 15% (transversal).
+> **Nota de coherencia (v1.1):** La distribución por nivel está alineada con la distribución canónica de 4 componentes del plan de estudios: Entregables intermedios 35% (M1-M4, M6-M7), Flujo de reportes automatizado 25% (M5), Banco de prompts personalizado 25% (M8), Participación y reflexiones éticas 15% (transversal).
 
 ### 3.2 Escala de Evaluación
 
@@ -254,17 +254,17 @@ TRANSVERSAL — PARTICIPACIÓN Y REFLEXIONES ÉTICAS            15%
 | **Destacado** | 90-100% | Supera expectativas; output es directamente usable y demuestra criterio propio | Candidato a reconocimiento especial |
 | **Competente** | 75-89% | Cumple el estándar; output necesita ajustes menores; demuestra comprensión funcional | Aprobado; emite badge correspondiente |
 | **En desarrollo** | 60-74% | Intento válido pero el output necesita edición significativa; comprensión parcial | No emite badge; puede reenviar evidencia |
-| **No acreditado** | <60% | No completó la tarea o el output no es funcional | Debe repetir el módulo |
+| **No acreditado** | <60% | No completó la tarea o el output no es funcional | Debe repetir el nivel |
 
 ### 3.3 Criterios de Aprobación
 
 | Requisito | Condición |
 |-----------|-----------|
-| **Aprobación del curso** | ≥75% ponderado global |
+| **Aprobación del curso** | ≥70% ponderado global |
 | **Entregables obligatorios** | Los 2 entregables finales (⭐) deben tener mínimo "Competente" |
-| **Badge por bloque** | ≥75% en el bloque correspondiente + entregables del bloque con mínimo "Competente" |
+| **Badge por bloque** | ≥70% en el bloque correspondiente + entregables del bloque con mínimo "Competente" |
 | **Badge final "Líder Digital Anáhuac"** | 3 badges de bloque + ambos entregables finales en "Competente" o superior |
-| **Plazo de entrega** | Cada módulo tiene 14 días desde liberación; entregables finales tienen 21 días |
+| **Plazo de entrega** | Cada nivel tiene 14 días desde liberación; entregables finales tienen 21 días |
 | **Reenvío** | Máximo 1 reenvío por entregable, dentro de 7 días adicionales |
 
 ---
@@ -273,25 +273,25 @@ TRANSVERSAL — PARTICIPACIÓN Y REFLEXIONES ÉTICAS            15%
 
 ### 4.1 Assessment FOR Learning (Formativo)
 
-Integrado en cada módulo, no calificado numéricamente pero registrado:
+Integrado en cada nivel, no calificado numéricamente pero registrado:
 
 | Instrumento | Dónde se aplica | Cómo funciona |
 |-------------|-----------------|---------------|
 | **Momento de reflexión** | Final de cada ejercicio | 3-5 preguntas guía que el participante responde en su cuaderno/nota |
-| **Comparación antes/después** | Módulos 2, 7 | Output sin estructura vs. con framework; el participante diagnostica la diferencia |
-| **Retroalimentación del output** | Todos los módulos | El participante evalúa su propio output con la rúbrica antes de entregar |
-| **Checklist de verificación** | Módulos 4, 5, 6 | Lista de verificación que el participante aplica al output de IA antes de "aprobar" |
-| **Peer feedback** (si es grupal) | Módulos 3, 5, 8 | Revisión por pares usando la misma rúbrica; consenso sobre nivel alcanzado |
+| **Comparación antes/después** | Niveles 2, 7 | Output sin estructura vs. con framework; el participante diagnostica la diferencia |
+| **Retroalimentación del output** | Todos los niveles | El participante evalúa su propio output con la rúbrica antes de entregar |
+| **Checklist de verificación** | Niveles 4, 5, 6 | Lista de verificación que el participante aplica al output de IA antes de "aprobar" |
+| **Peer feedback** (si es grupal) | Niveles 3, 5, 8 | Revisión por pares usando la misma rúbrica; consenso sobre nivel alcanzado |
 
 ### 4.2 Assessment AS Learning (Autorregulación)
 
-| Instrumento | Módulo | Objetivo metacognitivo |
+| Instrumento | Nivel | Objetivo metacognitivo |
 |-------------|--------|----------------------|
 | **Registro de iteraciones** | 2, 3 | "¿Cuántos intentos necesité? ¿Qué cambié entre el primero y el último?" |
 | **Semáforo personal** | 4, 5 | "¿Puedo confiar en este output? ¿Qué verificaría antes de usarlo?" |
 | **Mapa de proceso IA-humano** | 6 | "¿Dónde agrega valor la IA y dónde soy insustituible?" |
 | **Autoevaluación con rúbrica** | Todos | El participante se autoevalúa ANTES de recibir la evaluación externa |
-| **Reflexión de cierre** | 8 | "¿Qué cambió en mi forma de trabajar desde el Módulo 1?" |
+| **Reflexión de cierre** | 8 | "¿Qué cambió en mi forma de trabajar desde el Nivel 1?" |
 
 ---
 
@@ -304,7 +304,7 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 ```
 📁 PORTAFOLIO DE EVIDENCIAS — [Nombre del Participante]
 │
-├── 📂 BLOQUE 1: Fundamentos IA (Módulos 1-3)
+├── 📂 BLOQUE 1: Explorador IA (Niveles 1-3)
 │   ├── Mini-diagnóstico personal (5 tareas identificadas)
 │   ├── Reflexión escrita (3 oraciones)
 │   ├── 3 prompts maestros con outputs
@@ -312,7 +312,7 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 │   ├── 5 templates de correo/comunicado
 │   └── Caso difícil resuelto
 │
-├── 📂 BLOQUE 2: IA Aplicada (Módulos 4-6)
+├── 📂 BLOQUE 2: Estratega IA (Niveles 4-6)
 │   ├── Dictamen de confiabilidad (semáforo 🟢🟡🔴)
 │   ├── Análisis ejecutivo real (1 página)
 │   ├── Semáforo ético (10 escenarios)
@@ -320,7 +320,7 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 │   ├── Kit de atención (10 respuestas maestras)
 │   └── Informe de consejo / dashboard operativo (flujo multi-paso)
 │
-├── 📂 BLOQUE 3: Líder IA (Módulos 7-8)
+├── 📂 BLOQUE 3: Líder IA (Niveles 7-8)
 │   ├── Perfil de contexto institucional
 │   ├── Plan de proyecto real
 │   ├── Agente funcional + ficha técnica
@@ -331,7 +331,7 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 │   └── Plan de adopción de IA (2 páginas)
 │
 └── 📂 REFLEXIONES TRANSVERSALES
-    ├── Autoevaluaciones por módulo
+    ├── Autoevaluaciones por nivel
     ├── Registros de iteración
     └── Reflexión de cierre del curso
 ```
@@ -376,7 +376,7 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 
 ## 7. Calendario de Evaluación (Versión Autogestiva)
 
-| Semana | Módulo(s) | Entregable(s) | Tipo | Deadline |
+| Semana | Nivel(es) | Entregable(s) | Tipo | Deadline |
 |--------|-----------|---------------|------|----------|
 | 1-2 | 1, 2 | Mini-diagnóstico + 3 prompts maestros | Formativo | Día 14 |
 | 3-4 | 3 | 5 templates + caso difícil | **Sumativo (Badge 1)** | Día 28 |
@@ -394,8 +394,8 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 
 | Evaluador | Qué evalúa | Instrumentos |
 |-----------|-----------|--------------|
-| **Autoevaluación** (participante) | Todos los módulos — primera capa | Checklist + rúbrica de autoevaluación |
-| **Par evaluador** (si formato grupal) | Módulos 3, 5, 8 — segunda capa | Misma rúbrica; retroalimentación escrita |
+| **Autoevaluación** (participante) | Todos los niveles — primera capa | Checklist + rúbrica de autoevaluación |
+| **Par evaluador** (si formato grupal) | Niveles 3, 5, 8 — segunda capa | Misma rúbrica; retroalimentación escrita |
 | **Facilitador/Evaluador** | Entregables sumativos — capa final | Rúbrica analítica completa (ver fase3_rubricas.md) |
 | **Verificación funcional** | Entregables finales ⭐ | ¿El agente funciona? ¿El flujo es replicable? ¿El plan es presentable? |
 
@@ -407,8 +407,8 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 3. [Opcional] Un par revisa con la misma rúbrica (Assessment FOR Learning)
 4. El facilitador evalúa con rúbrica analítica (Assessment OF Learning)
 5. Se emite calificación y retroalimentación
-6. Si < 75%, el participante tiene 7 días para reenviar con mejoras
-7. Al completar bloque con ≥ 75%, se emite badge correspondiente
+6. Si < 70%, el participante tiene 7 días para reenviar con mejoras
+7. Al completar bloque con ≥ 70%, se emite badge correspondiente
 ```
 
 ---
@@ -417,11 +417,11 @@ Cada participante acumula un portafolio progresivo que es la base para la emisi�
 
 (Detalle completo en `fase3_micro_credenciales.md`)
 
-| Badge | Módulos | Requisito mínimo | Competencias DigComp 2.2 certificadas |
+| Badge | Niveles | Requisito mínimo | Competencias DigComp 2.2 certificadas |
 |-------|---------|-------------------|--------------------------------------|
-| 🟢 **Fundamentos IA** | 1-3 | ≥75% en Bloque 1 + entregables M3 en "Competente" | 1.1, 1.2, 2.1, 3.1 |
-| 🔵 **IA Aplicada** | 4-6 | ≥75% en Bloque 2 + flujo de reportes ⭐ en "Competente" | 1.3, 2.4, 3.3, 3.4, 4.2, 4.4 |
-| 🟣 **Líder IA** | 7-8 | ≥75% en Bloque 3 + banco de prompts ⭐ en "Competente" | 5.1, 5.2, 5.3, 5.4 |
+| 🟢 **Explorador IA** | 1-3 | ≥70% en Bloque 1 + entregables M3 en "Competente" | 1.1, 1.2, 2.1, 3.1 |
+| 🔵 **Estratega IA** | 4-6 | ≥70% en Bloque 2 + flujo de reportes ⭐ en "Competente" | 1.3, 2.4, 3.3, 3.4, 4.2, 4.4 |
+| 🟣 **Líder IA** | 7-8 | ≥70% en Bloque 3 + banco de prompts ⭐ en "Competente" | 5.1, 5.2, 5.3, 5.4 |
 | 🏆 **Líder Digital Anáhuac** | 1-8 | 3 badges anteriores + ambos entregables ⭐ en "Competente" o superior | Todas las anteriores |
 
 ---

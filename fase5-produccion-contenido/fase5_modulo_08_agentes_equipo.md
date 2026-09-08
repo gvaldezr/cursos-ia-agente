@@ -98,7 +98,7 @@ Revise todas las instrucciones que ha creado a lo largo del curso y organícelas
 | # | Nivel de origen | Tarea | Marco usado | Instrucción completa |
 |---|---|---|---|---|
 | 1 | Nivel 2 | Análisis de retención | RISE | [instrucción guardada] |
-| 2 | Nivel 3 | Correo a docentes | RTF | [instrucción guardada] |
+| 2 | Nivel 3 | Correo a docentes | RCTF | [instrucción guardada] |
 | 3 | Nivel 3 | Respuesta a padre de familia | CO-STAR | [instrucción guardada] |
 | ... | ... | ... | ... | ... |
 | 20+ | Nivel 8 | Flujo de varios pasos | Agentes | [instrucción guardada] |

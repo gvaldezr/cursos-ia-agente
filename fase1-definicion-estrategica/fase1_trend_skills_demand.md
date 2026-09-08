@@ -245,7 +245,7 @@ MÓDULO 2: Usar la IA (Hacer — Productividad)
 └── Quick win 4: Presentaciones ejecutivas
 
 MÓDULO 3: Automatizar con IA (Hacer — Procesos)
-├── Identificar procesos automatizables en tu departamento
+├── Identificar procesos automatizables en su departamento
 ├── Flujos de trabajo con IA (automatización no-code)
 ├── Agentes de IA: configurar, supervisar, evaluar
 └── Casos de uso: inscripciones, horarios, seguimiento académico
@@ -255,11 +255,11 @@ MÓDULO 4: Liderar con IA (Ser — Gobernanza)
 ├── Gestionar el cambio: de la resistencia a la adopción
 ├── Ética y gobernanza: equidad, transparencia, privacidad
 ├── Evaluar ROI de iniciativas de IA
-└── Presentar un caso de uso a tu comité directivo
+└── Presentar un caso de uso a su comité directivo
 
 RESULTADO FINAL:
 → Plan de acción personalizado (30 días)
-→ Borrador de lineamientos de IA para tu departamento
+→ Borrador de lineamientos de IA para su departamento
 → Portfolio de prompts probados para gestión universitaria
 ```
 

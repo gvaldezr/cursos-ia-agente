@@ -14,7 +14,7 @@
 
 > **El egresado integra la inteligencia artificial generativa como herramienta estratégica en su gestión directiva universitaria**, comunicándose efectivamente con sistemas de IA, verificando críticamente sus outputs, diseñando flujos de trabajo automatizados y liderando la adopción ética y responsable en su equipo, con impacto medible en productividad y calidad de gestión.
 
-### 1.2 Árbol de Competencias: General → Módulo → Resultados de Aprendizaje
+### 1.2 Árbol de Competencias: General → Nivel → Resultados de Aprendizaje
 
 ```
 CGP: Integra IA generativa como herramienta estratégica en gestión directiva universitaria
@@ -78,13 +78,13 @@ CGP: Integra IA generativa como herramienta estratégica en gestión directiva u
 
 ## 2. Competencias Transversales
 
-Las competencias transversales se desarrollan progresivamente a lo largo de los 8 módulos. No tienen un módulo exclusivo; se integran como capa en cada uno.
+Las competencias transversales se desarrollan progresivamente a lo largo de los 8 niveles. No tienen un nivel exclusivo; se integran como capa en cada uno.
 
 ### CT-1: Pensamiento Crítico ante IA
 
 > **Evalúa la confiabilidad, pertinencia y precisión de outputs de IA antes de usarlos en decisiones institucionales.**
 
-| Módulo | Manifestación de CT-1 |
+| Nivel | Manifestación de CT-1 |
 |---|---|
 | M1 | Reconoce que la IA puede inventar ("alucinación"); identifica la diferencia entre "probable" y "verdadero" |
 | M2 | Evalúa la calidad del output de un prompt; califica utilidad 1-5 |
@@ -99,7 +99,7 @@ Las competencias transversales se desarrollan progresivamente a lo largo de los 
 
 > **Aplica principios de privacidad, confidencialidad, transparencia y responsabilidad en el uso de IA, identificando límites éticos y normativos.**
 
-| Módulo | Dimensión Ética Integrada |
+| Nivel | Dimensión Ética Integrada |
 |---|---|
 | M1 | Responsabilidad: La IA no piensa, no decide — la responsabilidad SIEMPRE es del directivo que firma |
 | M2 | Integridad: Si la IA escribió el comunicado, ¿debo decirlo? Límites entre "asistida" y "hecha por IA" |
@@ -114,7 +114,7 @@ Las competencias transversales se desarrollan progresivamente a lo largo de los 
 
 > **Se comunica con sistemas de IA de forma estructurada, iterativa y orientada a resultados, transfiriendo habilidades de delegación directiva al entorno digital.**
 
-| Módulo | Manifestación de CT-3 |
+| Nivel | Manifestación de CT-3 |
 |---|---|
 | M1 | Primera interacción guiada; descubre que la calidad del input determina la calidad del output |
 | M2 | **Énfasis:** Domina la estructura RCTF; analogía "memo de encargo" |
@@ -127,11 +127,11 @@ Las competencias transversales se desarrollan progresivamente a lo largo de los 
 
 ---
 
-## 3. Matriz de Alineación: Competencia ↔ Módulo ↔ Evidencia ↔ Instrumento
+## 3. Matriz de Alineación: Competencia ↔ Nivel ↔ Evidencia ↔ Instrumento
 
-### 3.1 Competencias de Módulo (CM) → Evidencias → Instrumentos
+### 3.1 Competencias de Nivel (CM) → Evidencias → Instrumentos
 
-| Competencia (CM) | Módulo | Evidencia de Aprendizaje | Instrumento de Evaluación | Momento |
+| Competencia (CM) | Nivel | Evidencia de Aprendizaje | Instrumento de Evaluación | Momento |
 |---|---|---|---|---|
 | CM-1: Comprende IA generativa, capacidades y limitaciones | M1 | Mini-diagnóstico personal (5 tareas) + reflexión ética (3 oraciones) | Lista comentada + formulario de reflexión | Formativa |
 | CM-2: Estructura instrucciones efectivas con 3 frameworks | M2 | 3 prompts maestros con outputs + ejercicio de iteración + matching framework-tarea | Banco de prompts + captura evolutiva + ejercicio de asociación | Formativa |
@@ -144,7 +144,7 @@ Las competencias transversales se desarrollan progresivamente a lo largo de los 
 
 ### 3.2 Competencias Transversales → Evidencias
 
-| Competencia Transversal | Evidencias a lo Largo del Programa | Módulos Clave |
+| Competencia Transversal | Evidencias a lo Largo del Programa | Niveles Clave |
 |---|---|---|
 | CT-1: Pensamiento Crítico ante IA | Tabla de verificación semáforo (M4); checklist de QA en reportes (M5); justificación de cuándo no usar IA (M6); validación de riesgos IA vs. experiencia (M7); protocolos de supervisión en plan de adopción (M8) | M4, M5, M6, M7, M8 |
 | CT-2: Ética Digital y Gobernanza | Reflexión ética en M1; discusión de transparencia en M2; regla de privacidad en M3; guía de confidencialidad en M4; gestión de transición laboral en M7; **política de uso ético en plan de adopción (M8)** | Todos, capstone en M8 |
@@ -152,11 +152,11 @@ Las competencias transversales se desarrollan progresivamente a lo largo de los 
 
 ---
 
-## 4. Progresión Taxonómica de Bloom (Módulos 1-8)
+## 4. Progresión Taxonómica de Bloom (Niveles 1-8)
 
-### 4.1 Nivel Bloom Predominante por Módulo
+### 4.1 Nivel Bloom Predominante por Nivel
 
-| Módulo | Nivel(es) Bloom Predominante | Verbos Principales | Justificación |
+| Nivel | Nivel(es) Bloom Predominante | Verbos Principales | Justificación |
 |---|---|---|---|
 | M1 | **Recordar (1) — Comprender (2)** | Describe, distingue, identifica | Primer contacto; el participante reconoce conceptos y diferencia capacidades de limitaciones |
 | M2 | **Comprender (2) — Aplicar (3)** | Explica, aplica, selecciona, itera | Comprende frameworks y comienza a aplicarlos en tareas reales |
@@ -185,7 +185,7 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 
 ### 4.3 Curva de Autonomía del Participante
 
-| Módulos | Nivel de Autonomía | Descripción |
+| Niveles | Nivel de Autonomía | Descripción |
 |---|---|---|
 | M1-M2 | 🟡 Guiado paso a paso | El participante sigue instrucciones exactas; se familiariza con la herramienta |
 | M3 | 🟡🟢 Guiado con estructura | Usa frameworks aprendidos con ejemplos propios; requiere templates |
@@ -201,13 +201,13 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 
 #### Nivel 1 — Recordar
 
-| RA | Módulo | Descripción |
+| RA | Nivel | Descripción |
 |---|---|---|
 | RA 1.1 | M1 | **Describe** principios básicos de IA generativa usando lenguaje no técnico |
 
 #### Nivel 2 — Comprender
 
-| RA | Módulo | Descripción |
+| RA | Nivel | Descripción |
 |---|---|---|
 | RA 1.2 | M1 | **Distingue** 3 capacidades reales y 3 limitaciones/mitos |
 | RA 1.3 | M1 | **Identifica** 5 tareas beneficiables con IA |
@@ -215,7 +215,7 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 
 #### Nivel 3 — Aplicar
 
-| RA | Módulo | Descripción |
+| RA | Nivel | Descripción |
 |---|---|---|
 | RA 2.2 | M2 | **Aplica** framework RCTF a tareas reales |
 | RA 2.4 | M2 | **Itera** prompts sistemáticamente |
@@ -230,7 +230,7 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 
 #### Nivel 4 — Analizar
 
-| RA | Módulo | Descripción |
+| RA | Nivel | Descripción |
 |---|---|---|
 | RA 2.3 | M2 | **Selecciona** framework óptimo según tipo de tarea |
 | RA 4.2 | M4 | **Analiza** datos tabulares identificando tendencias/anomalías |
@@ -242,14 +242,14 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 
 #### Nivel 5 — Evaluar
 
-| RA | Módulo | Descripción |
+| RA | Nivel | Descripción |
 |---|---|---|
 | RA 6.3 | M6 | **Evalúa** cuándo usar IA y cuándo atención humana directa |
 | RA 7.3 | M7 | **Evalúa** riesgos identificados por IA, validando con experiencia |
 
 #### Nivel 6 — Crear
 
-| RA | Módulo | Descripción |
+| RA | Nivel | Descripción |
 |---|---|---|
 | RA 5.2 | M5 | **Diseña** flujo de 6 fases con asistencia de IA |
 | RA 6.2 | M6 | **Crea** respuestas maestras personalizables |
@@ -261,7 +261,7 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 
 ### 5.2 Distribución Cuantitativa por Nivel
 
-| Nivel Bloom | # de RAs | % del Total | Módulos |
+| Nivel Bloom | # de RAs | % del Total | Niveles |
 |---|---|---|---|
 | Recordar (1) | 1 | 3% | M1 |
 | Comprender (2) | 3 | 10% | M1, M2 |
@@ -271,13 +271,13 @@ Progresión:    ▓▓░░  ▓▓▓░  ▓▓▓░  ▓▓▓▓  ▓▓�
 | Crear (6) | 7 | 23% | M5, M6, M8 |
 | **Total** | **30** | **100%** | |
 
-> **Nota:** La distribución refleja un programa orientado a la acción (Aplicar: 33%) con progresión hacia pensamiento de orden superior (Analizar + Evaluar + Crear: 53%). Los niveles inferiores (Recordar + Comprender: 13%) se concentran estratégicamente en el módulo de entrada.
+> **Nota:** La distribución refleja un programa orientado a la acción (Aplicar: 33%) con progresión hacia pensamiento de orden superior (Analizar + Evaluar + Crear: 53%). Los niveles inferiores (Recordar + Comprender: 13%) se concentran estratégicamente en el nivel de entrada.
 
 ---
 
-## 6. Matriz Cruzada: Competencias Transversales × Módulos
+## 6. Matriz Cruzada: Competencias Transversales × Niveles
 
-La siguiente matriz indica el **nivel de contribución** de cada módulo a cada competencia transversal:
+La siguiente matriz indica el **nivel de contribución** de cada nivel a cada competencia transversal:
 
 | | M1 | M2 | M3 | M4 | M5 | M6 | M7 | M8 |
 |---|---|---|---|---|---|---|---|---|
@@ -291,7 +291,7 @@ La siguiente matriz indica el **nivel de contribución** de cada módulo a cada 
 
 ## 7. Alineación Competencias ↔ Marcos de AI Literacy
 
-| Marco de Referencia | Dimensiones que Cubre este Programa | Módulos Principales |
+| Marco de Referencia | Dimensiones que Cubre este Programa | Niveles Principales |
 |---|---|---|
 | **UNESCO AI Competency Framework (2024)** | | |
 | — Mentalidad humana (Human-centred mindset) | CT-2: Ética Digital | M1, M6, M7, M8 |
@@ -312,7 +312,7 @@ La siguiente matriz indica el **nivel de contribución** de cada módulo a cada 
 
 ## 8. Mapa de Entregables Acumulativos
 
-El banco de prompts y el portafolio del participante se construyen progresivamente. Cada módulo aporta artefactos que se integran en los entregables finales.
+El banco de prompts y el portafolio del participante se construyen progresivamente. Cada nivel aporta artefactos que se integran en los entregables finales.
 
 ```
 M1: Mini-diagnóstico personal (5 tareas) ─────────────────────────────────┐
@@ -329,7 +329,7 @@ M7: Plan de proyecto real ──────────────────
 M8: ⭐ ENTREGABLE FINAL 2 ──── Ecosistema de IA personal                │
     ├── 3 agentes funcionales                                             │
     ├── 1 flujo multi-paso                                                │
-    ├── Banco de 20+ prompts ←── Consolidación de todos los módulos ──────┘
+    ├── Banco de 20+ prompts ←── Consolidación de todos los niveles ──────┘
     └── Plan de adopción 90 días
 ```
 
@@ -337,9 +337,9 @@ M8: ⭐ ENTREGABLE FINAL 2 ──── Ecosistema de IA personal               
 
 ## 9. Coherencia Vertical y Horizontal
 
-### 9.1 Coherencia Vertical (Progresión entre módulos)
+### 9.1 Coherencia Vertical (Progresión entre niveles)
 
-La coherencia vertical garantiza que cada módulo construye sobre el anterior sin redundancia:
+La coherencia vertical garantiza que cada nivel construye sobre el anterior sin redundancia:
 
 | Transición | Qué se Hereda | Qué se Agrega |
 |---|---|---|
@@ -351,19 +351,19 @@ La coherencia vertical garantiza que cada módulo construye sobre el anterior si
 | M6 → M7 | Todas las habilidades anteriores | Aplicación a gestión de proyectos completos |
 | M7 → M8 | Gestión de proyectos con IA | Ecosistema completo + liderazgo de adopción institucional |
 
-### 9.2 Coherencia Horizontal (Alineación dentro de cada módulo)
+### 9.2 Coherencia Horizontal (Alineación dentro de cada nivel)
 
-Cada módulo mantiene alineamiento constructivo interno:
+Cada nivel mantiene alineamiento constructivo interno:
 
 ```
-Competencia del Módulo ← (define) → Resultados de Aprendizaje
+Competencia del Nivel ← (define) → Resultados de Aprendizaje
          ↓                                    ↓
     Evaluación ← (mide exactamente) → Actividades de Aprendizaje
          ↓                                    ↓
-    Evidencias ← (demuestran) ──────→ Entregables del Módulo
+    Evidencias ← (demuestran) ──────→ Entregables del Nivel
 ```
 
-**Principio de backward design aplicado:** En cada módulo, primero se definió la competencia (¿qué debe poder hacer?), luego la evidencia (¿cómo lo demuestra?), y finalmente las actividades (¿cómo lo aprende?). Las actividades no existen si no hay una competencia que las requiera y una evidencia que las mida.
+**Principio de backward design aplicado:** En cada nivel, primero se definió la competencia (¿qué debe poder hacer?), luego la evidencia (¿cómo lo demuestra?), y finalmente las actividades (¿cómo lo aprende?). Las actividades no existen si no hay una competencia que las requiera y una evidencia que las mida.
 
 ---
 
@@ -372,9 +372,9 @@ Competencia del Módulo ← (define) → Resultados de Aprendizaje
 | Dimensión | Valor |
 |---|---|
 | **Competencia General** | 1 (CGP) |
-| **Competencias de Módulo** | 8 (CM-1 a CM-8) |
+| **Competencias de Nivel** | 8 (CM-1 a CM-8) |
 | **Competencias Transversales** | 3 (CT-1 a CT-3) |
-| **Resultados de Aprendizaje** | 30 (distribuidos en 8 módulos) |
+| **Resultados de Aprendizaje** | 30 (distribuidos en 8 niveles) |
 | **Entregables Intermedios** | 6 (M1-M4, M6-M7) |
 | **Entregables Finales** | 2 (M5 y M8) |
 | **Niveles Bloom cubiertos** | 6/6 (Recordar → Crear) |

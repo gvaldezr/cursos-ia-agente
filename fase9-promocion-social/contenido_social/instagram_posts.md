@@ -44,8 +44,8 @@
 > 🔶 **La fórmula de los 3 bloques:**
 >
 > 1️⃣ **CONTEXTO** — ¿Quién eres y para quién trabajas?
-> 2️⃣ **TAREA** — ¿Qué necesitas exactamente?
-> 3️⃣ **FORMATO** — ¿Cómo lo quieres entregado?
+> 2️⃣ **TAREA** — ¿Qué necesita exactamente?
+> 3️⃣ **FORMATO** — ¿Cómo lo quiere entregado?
 
 **Slide 5 — Ejemplo real:**
 > **Ejemplo para un coordinador académico:**

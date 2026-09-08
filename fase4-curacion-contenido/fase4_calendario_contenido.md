@@ -1,6 +1,6 @@
 # Calendario de Producción de Contenido
 ## Curso: IA Práctica para Líderes Anáhuac Mayab
-### Fase 4 · Plan de Producción por Módulo
+### Fase 4 · Plan de Producción por Nivel
 
 > **Versión:** 1.0 | **Fecha:** 5 de septiembre de 2026
 > **Formato de entrega:** Mini sitio HTML autocontenido
@@ -12,16 +12,16 @@
 
 ## Resumen Ejecutivo de Producción
 
-| Módulo | Piezas a producir | Piezas a curar | Prioridad | Dependencias |
+| Nivel | Piezas a producir | Piezas a curar | Prioridad | Dependencias |
 |---|---|---|---|---|
 | 1 · Conceptos de IA | 8 | 4 | 🔴 Crítica (Sprint 1) | Ninguna |
-| 2 · Frameworks de prompts | 10 | 3 | 🔴 Crítica (Sprint 1) | Módulo 1 |
-| 3 · Email y comunicados | 9 | 3 | 🟡 Alta (Sprint 2) | Módulo 2 |
-| 4 · Análisis de reportes | 9 | 4 | 🟡 Alta (Sprint 2) | Módulo 3 |
-| 5 · Automatización de reportes | 11 | 3 | 🟡 Alta (Sprint 3) | Módulo 4 |
-| 6 · Atención a stakeholders | 10 | 3 | 🟢 Media (Sprint 3) | Módulo 5 |
-| 7 · Gestión de proyectos | 10 | 4 | 🟢 Media (Sprint 4) | Módulo 6 |
-| 8 · Agentes y equipo local | 12 | 4 | 🟢 Media (Sprint 4) | Módulo 7 |
+| 2 · Frameworks de prompts | 10 | 3 | 🔴 Crítica (Sprint 1) | Nivel 1 |
+| 3 · Email y comunicados | 9 | 3 | 🟡 Alta (Sprint 2) | Nivel 2 |
+| 4 · Análisis de reportes | 9 | 4 | 🟡 Alta (Sprint 2) | Nivel 3 |
+| 5 · Automatización de reportes | 11 | 3 | 🟡 Alta (Sprint 3) | Nivel 4 |
+| 6 · Atención a stakeholders | 10 | 3 | 🟢 Media (Sprint 3) | Nivel 5 |
+| 7 · Gestión de proyectos | 10 | 4 | 🟢 Media (Sprint 4) | Nivel 6 |
+| 8 · Agentes y equipo local | 12 | 4 | 🟢 Media (Sprint 4) | Nivel 7 |
 
 **Total estimado:** 79 piezas internas + 28 piezas curadas = **107 piezas de contenido**
 
@@ -30,18 +30,18 @@
 ## Calendario de Sprints de Producción
 
 ```
-Sprint 1 (Semanas 1–2) ──── Módulos 1 y 2 ──── Fundamentos + Frameworks
-Sprint 2 (Semanas 3–4) ──── Módulos 3 y 4 ──── Comunicación + Análisis
-Sprint 3 (Semanas 5–6) ──── Módulos 5 y 6 ──── Automatización + Stakeholders
-Sprint 4 (Semanas 7–8) ──── Módulos 7 y 8 ──── Proyectos + Ecosistema
+Sprint 1 (Semanas 1–2) ──── Niveles 1 y 2 ──── Fundamentos + Frameworks
+Sprint 2 (Semanas 3–4) ──── Niveles 3 y 4 ──── Comunicación + Análisis
+Sprint 3 (Semanas 5–6) ──── Niveles 5 y 6 ──── Automatización + Stakeholders
+Sprint 4 (Semanas 7–8) ──── Niveles 7 y 8 ──── Proyectos + Ecosistema
 Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, pruebas de usuario
 ```
 
-**Dependencia transversal:** El glosario visual de IA para directivos (Módulo 1) se reutiliza como tooltip system en todos los módulos. Debe completarse en Sprint 1.
+**Dependencia transversal:** El glosario visual de IA para directivos (Nivel 1) se reutiliza como tooltip system en todos los niveles. Debe completarse en Sprint 1.
 
 ---
 
-## Módulo 1 · Conceptos de IA Generativa
+## Nivel 1 · Conceptos de IA Generativa
 ### Fase I — ENTENDER | Duración en sitio: 40–45 min | Prioridad: 🔴 Sprint 1
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -55,7 +55,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 1.5 | **Template: Mini-diagnóstico personal** | Formulario/tabla descargable | Tabla de 5 filas + instrucciones (100 palabras) | Columnas: tarea, tipo (comunicación/análisis/organización), prioridad. |
 | 1.6 | **Reflexión ética: 3 oraciones** | Formulario estructurado | 80 palabras de instrucción + 3 campos | «La IA puede ayudarme en ___. No debo confiar en ella para ___. El riesgo más grande sería ___.» |
 | 1.7 | **Tabla comparativa de herramientas** | Tabla HTML responsiva | 4 columnas × 6 filas (200 palabras) | Amazon Quick, ChatGPT, Gemini, Claude. Criterios: costo, privacidad, idioma, archivos. |
-| 1.8 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 5 items por columna (120 palabras) | «Haga esto / Evite esto» con ejemplos del contexto universitario. |
+| 1.8 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 5 items por columna (120 palabras) | «Haga esto / Evite esto» con ejemplos del contexto universitario. |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -68,7 +68,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 2 · Frameworks de Prompts
+## Nivel 2 · Frameworks de Prompts
 ### Fase I — ENTENDER | Duración en sitio: 45–50 min | Prioridad: 🔴 Sprint 1
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -80,11 +80,11 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 2.3 | **Prompt template RCTF** | Plantilla interactiva con campos | 120 palabras + 4 campos rellenables | Template reutilizable con instrucciones por campo. |
 | 2.4 | **Prompt template RISE (Rol-Input-Steps-Expectation)** | Plantilla interactiva con campos | 120 palabras + 4 campos rellenables | Ejemplo pre-cargado: seguimiento de acreditación. |
 | 2.5 | **Prompt template CO-STAR (Context-Objective-Style-Tone-Audience-Response)** | Plantilla interactiva con campos | 150 palabras + 6 campos rellenables | Ejemplo pre-cargado: comunicado a padres de familia. |
-| 2.6 | **Demo comparativa: 3 frameworks en acción** | Texto con 3 outputs anotados | 450 palabras (150 por framework) | Misma tarea resuelta con RTF, RISE y CO-STAR. Anotaciones sobre cuándo usar cada uno. |
+| 2.6 | **Demo comparativa: 3 frameworks en acción** | Texto con 3 outputs anotados | 450 palabras (150 por framework) | Misma tarea resuelta con RCTF, RISE y CO-STAR. Anotaciones sobre cuándo usar cada uno. |
 | 2.7 | **Ejercicio: «Del memo vago al memo preciso»** | Ejercicio paso a paso | 200 palabras + 3 prompts antes/después | El participante mejora 3 prompts reales usando RCTF. |
 | 2.8 | **Guía: Técnicas de iteración (refina, critica, varía)** | Texto con ejemplos | 200 palabras + 3 mini-ejemplos | Cada técnica con frase exacta que usar en Amazon Quick. |
 | 2.9 | **Template: Banco de prompts maestros** | Tabla descargable | 3 filas × 4 columnas (80 palabras de instrucción) | Columnas: tarea, framework, prompt completo, output. |
-| 2.10 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «Empiece con RTF; guarde sus prompts; itere siempre.» |
+| 2.10 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «Empiece con RCTF; guarde sus prompts; itere siempre.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -96,7 +96,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 3 · Email y Comunicados Institucionales
+## Nivel 3 · Email y Comunicados Institucionales
 ### Fase II — USAR | Duración en sitio: 45–50 min | Prioridad: 🟡 Sprint 2
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -111,7 +111,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 3.6 | **Guía de tono institucional Anáhuac** | Tabla de 3 niveles de tono | 200 palabras + tabla 3×4 | Formal / semi-formal / cercano-institucional con ejemplos de saludo, cuerpo y cierre. |
 | 3.7 | **Checklist de calidad de comunicación** | Lista verificable | 8 items (100 palabras) | Antes de enviar: ¿mensaje claro en 2 líneas? ¿Tono correcto? ¿Acción explícita? ¿Extensión adecuada? |
 | 3.8 | **Template: Kit de 5 comunicados** | 5 plantillas con variables | 500 palabras total (100 por template) | a docentes, a estudiantes, a padres, a rectoría, de emergencia. |
-| 3.9 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «Genere con IA, edite con criterio; no envíe sin leer.» |
+| 3.9 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «Genere con IA, edite con criterio; no envíe sin leer.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -123,7 +123,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 4 · Análisis de Reportes con IA
+## Nivel 4 · Análisis de Reportes con IA
 ### Fase II — USAR | Duración en sitio: 45–50 min | Prioridad: 🟡 Sprint 2
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -138,7 +138,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 4.6 | **Infografía: Protocolo PAUS de verificación** | Infografía (SVG/PNG) | 1 panel, 4 pasos | P=Procedencia, A=Actualidad, U=Unicidad, S=Sesgo. Con preguntas guía por paso. |
 | 4.7 | **Ejercicio: tabla semáforo de verificación** | Template de ejercicio | Tabla 5 filas × 3 columnas (100 palabras instrucción) | 5 afirmaciones de IA → veredicto (✅ correcto / ⚠️ parcial / 🔴 inventado) + evidencia. |
 | 4.8 | **Template: resumen ejecutivo con prompt documentado** | Template descargable | 1 página + sección de prompt | Formato: párrafo ejecutivo + hallazgos + recomendaciones + prompt usado. |
-| 4.9 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «Suba el documento; verifique cada dato; use PAUS.» |
+| 4.9 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «Suba el documento; verifique cada dato; use PAUS.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -151,7 +151,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 5 · Automatización de Reportes
+## Nivel 5 · Automatización de Reportes
 ### Fase III — ACELERAR | Duración en sitio: 50–55 min | Prioridad: 🟡 Sprint 3 | ⭐ ENTREGABLE FINAL 1
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -168,7 +168,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 5.8 | **Checklist de control de calidad para reportes** | Lista verificable | 8 items + campo «qué hacer si falla» (150 palabras) | Números cuadran, porcentajes suman, no hay datos inventados, formato correcto, etc. |
 | 5.9 | **Template de flujo de reporte documentado (Entregable Final 1)** | Template estructurado de 2-3 páginas | 6 secciones (300 palabras de instrucción) | Ficha del reporte + 6 pasos + prompts + agente + checklist + comparativa tiempo. |
 | 5.10 | **Case study card: flujo completo ejecutado** | Caso práctico demostrado | 400 palabras | Ejemplo completo: datos → análisis → formato → revisión → output final. |
-| 5.11 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 5 items por columna (120 palabras) | Énfasis: «Nunca enviar reporte sin revisión humana.» |
+| 5.11 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 5 items por columna (120 palabras) | Énfasis: «Nunca enviar reporte sin revisión humana.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -180,7 +180,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 6 · Atención a Stakeholders con IA
+## Nivel 6 · Atención a Stakeholders con IA
 ### Fase III — ACELERAR | Duración en sitio: 45–50 min | Prioridad: 🟢 Sprint 3
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -196,7 +196,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 6.7 | **Ejercicio: clasificación de solicitudes (resuelvo/delego/escalo)** | Ejercicio con 10 casos | 10 mini-casos × 30 palabras + tabla de clasificación | El participante clasifica y justifica. |
 | 6.8 | **Template: Kit de 10 respuestas maestras** | Tabla con campos | 10 filas × 5 columnas (200 palabras instrucción) | Pregunta, respuesta base, variables, cuándo usar, cuándo NO usar. |
 | 6.9 | **Template: Protocolo de uso IA en atención** | Documento estructurado | 1 página (250 palabras) | Cuándo sí, cuándo con precaución, cuándo nunca. Con 3 casos límite. |
-| 6.10 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «La IA no responde crisis emocionales.» |
+| 6.10 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «La IA no responde crisis emocionales.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -208,7 +208,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 7 · Gestión de Proyectos con IA
+## Nivel 7 · Gestión de Proyectos con IA
 ### Fase IV — INTEGRAR | Duración en sitio: 45–50 min | Prioridad: 🟢 Sprint 4
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -224,7 +224,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 7.7 | **Demo: proyecto completo generado con IA** | Caso completo con outputs | 500 palabras | Plan + WBS + riesgos + minuta + reporte. Todo encadenado. |
 | 7.8 | **Ejercicio: análisis de riesgos validado** | Ejercicio con tabla | 5 riesgos × 4 columnas + validación humana (150 palabras) | IA propone → participante valida → agrega riesgo que IA no identificó. |
 | 7.9 | **Template: plan de proyecto real (Producto Integrador 7)** | Template de 3-4 páginas | 6 secciones (350 palabras instrucción) | Objetivos SMART, WBS, cronograma, riesgos, template minuta, template avance. |
-| 7.10 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «IA propone, humano dispone. Siempre valide riesgos con su experiencia.» |
+| 7.10 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 4 items por columna (100 palabras) | Énfasis: «IA propone, humano dispone. Siempre valide riesgos con su experiencia.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -237,7 +237,7 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Módulo 8 · Agentes y Trabajo en Equipo Local
+## Nivel 8 · Agentes y Trabajo en Equipo Local
 ### Fase IV — INTEGRAR | Duración en sitio: 50–55 min | Prioridad: 🟢 Sprint 4 | ⭐ ENTREGABLE FINAL 2
 
 ### 🏭 Contenido a PRODUCIR internamente
@@ -251,11 +251,11 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 | 8.5 | **Demo: flujo multi-paso (Agente A → Agente B → Agente C)** | Caso completo documentado | 500 palabras | Datos → Análisis (Agente 1) → Formato (Agente 2) → Comunicado (Agente 3). |
 | 8.6 | **Prompt template: instrucciones para 3 agentes modelo** | 3 prompts de instrucciones | 200 palabras cada uno (600 total) | Versión académica: Analista Académico, Comunicador, Asistente de Acreditación. Versión administrativa: Analista de Gestión, Comunicador Institucional, Project Manager. |
 | 8.7 | **Template: flujo multi-paso documentado** | Template con diagrama | Diagrama + 3 secciones × 120 palabras | Paso → prompt exacto → output esperado → punto de intervención humana. |
-| 8.8 | **Checklist de consolidación del banco de prompts** | Lista de verificación | 20 categorías × criterios (150 palabras) | Organizado por módulo y por tipo de tarea. Marco de referencia para los 20+ prompts acumulados. |
+| 8.8 | **Checklist de consolidación del banco de prompts** | Lista de verificación | 20 categorías × criterios (150 palabras) | Organizado por nivel y por tipo de tarea. Marco de referencia para los 20+ prompts acumulados. |
 | 8.9 | **Template: Plan de adopción de IA a 90 días** | Documento ejecutivo de 2 páginas | 4 semanas × 3 columnas + secciones (400 palabras) | Quick wins, política de uso, riesgos, capacitación, métricas, gobernanza. |
 | 8.10 | **Guía de gobernanza de IA para áreas universitarias** | Documento de referencia | 350 palabras | Política de uso, responsabilidades, auditoría, escalamiento. |
 | 8.11 | **Reflexión final del curso** | Formulario estructurado | 150 palabras + 4 campos | «Lo más valioso fue ___. Lo aplicaré en ___. Mi primer compromiso es ___. Necesito apoyo en ___.» |
-| 8.12 | **Tips y anti-patrones del módulo** | Tabla ✅/❌ | 5 items por columna (120 palabras) | Énfasis: «La IA se adopta por valor, no por decreto.» |
+| 8.12 | **Tips y anti-patrones del nivel** | Tabla ✅/❌ | 5 items por columna (120 palabras) | Énfasis: «La IA se adopta por valor, no por decreto.» |
 
 ### 🔗 Contenido a CURAR externamente
 
@@ -268,16 +268,16 @@ Sprint 5 (Semana 9)    ──── QA, integración final en mini sitio, prueba
 
 ---
 
-## Piezas Transversales (producir en Sprint 1, usar en todos los módulos)
+## Piezas Transversales (producir en Sprint 1, usar en todos los niveles)
 
 | # | Pieza | Formato | Extensión | Sprint |
 |---|---|---|---|---|
 | T.1 | **Glosario visual de IA para directivos** | Tooltip system + glosario descargable | 25 términos × 20 palabras | Sprint 1 |
 | T.2 | **Barra de progreso del curso** | Componente HTML | N/A (diseño UI) | Sprint 1 |
-| T.3 | **Template estándar del banco de prompts** | Tabla reutilizable | Formato unificado para los 8 módulos | Sprint 1 |
-| T.4 | **Momento ético (cierre de cada módulo)** | Microcopy de reflexión | 8 reflexiones × 50 palabras | Sprints 1–4 |
-| T.5 | **Transiciones entre módulos** | Microcopy de conexión | 7 transiciones × 80 palabras | Sprints 1–4 |
-| T.6 | **Datos de práctica por módulo (versión académica + administrativa)** | Archivos de ejemplo | Variable por módulo | Sprints 1–4 |
+| T.3 | **Template estándar del banco de prompts** | Tabla reutilizable | Formato unificado para los 8 niveles | Sprint 1 |
+| T.4 | **Momento ético (cierre de cada nivel)** | Microcopy de reflexión | 8 reflexiones × 50 palabras | Sprints 1–4 |
+| T.5 | **Transiciones entre niveles** | Microcopy de conexión | 7 transiciones × 80 palabras | Sprints 1–4 |
+| T.6 | **Datos de práctica por nivel (versión académica + administrativa)** | Archivos de ejemplo | Variable por nivel | Sprints 1–4 |
 
 ---
 

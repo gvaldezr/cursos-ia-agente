@@ -1599,6 +1599,35 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 }
 
 /* ══════════════════════════════════════════
+   DIAGRAM FIGURES — Conceptual images in content
+   ══════════════════════════════════════════ */
+.ana-diagram-figure {
+  margin: var(--ana-space-6, 1.5rem) 0;
+  text-align: center;
+}
+
+.ana-diagram-img {
+  max-width: 100%;
+  width: 680px;
+  height: auto;
+  border-radius: var(--ana-radius-lg, 12px);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ana-diagram-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.ana-diagram-caption {
+  margin-top: var(--ana-space-2, 0.5rem);
+  font-size: var(--ana-fs-sm, 0.875rem);
+  color: var(--ana-text-secondary, #6b7280);
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════
    PRINT STYLES
    ══════════════════════════════════════════ */
 @media print {

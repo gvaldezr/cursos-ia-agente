@@ -141,7 +141,7 @@ Keywords de cola larga con menor volumen pero mayor especificidad e intención d
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IA Práctica para Líderes Anáhuac — Curso de IA Generativa para Directivos">
-<meta name="twitter:description" content="120 horas · 8 niveles · 3 Open Badges · 6.5 créditos SATCA. Formación en IA generativa para directivos universitarios. Resultados desde el módulo 1.">
+<meta name="twitter:description" content="120 horas · 8 niveles · 3 Open Badges · 6.5 créditos SATCA. Formación en IA generativa para directivos universitarios. Resultados desde el nivel 1.">
 <meta name="twitter:image" content="https://cursos.memovaldez.com/assets/og-image-ia-lideres-anahuac.jpg">
 <meta name="twitter:image:alt" content="Programa IA Práctica para Líderes — Universidad Anáhuac Mayab">
 ```
@@ -196,7 +196,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
   "@type": "Course",
   "name": "IA Práctica para Líderes Anáhuac",
   "alternateName": "Programa de Formación en IA Generativa para Directivos Universitarios",
-  "description": "Programa de 120 horas que transforma a directivos universitarios en usuarios estratégicos de inteligencia artificial generativa, con resultados medibles desde el primer módulo y aplicación directa a la gestión diaria. Incluye versión académica y administrativa con casos de uso diferenciados.",
+  "description": "Programa de 120 horas que transforma a directivos universitarios en usuarios estratégicos de inteligencia artificial generativa, con resultados medibles desde el primer nivel y aplicación directa a la gestión diaria. Incluye versión académica y administrativa con casos de uso diferenciados.",
   "url": "https://cursos.memovaldez.com",
   "provider": {
     "@type": "EducationalOrganization",
@@ -307,7 +307,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
     },
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "Badge Estratega IA — IA Aplicada",
+      "name": "Badge Estratega IA",
       "credentialCategory": "Open Badge",
       "description": "Acredita competencia en aplicación de IA a comunicación, análisis y automatización"
     },
@@ -424,7 +424,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
       "name": "¿Qué es el programa IA Práctica para Líderes Anáhuac?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Es un programa de formación continua de 120 horas diseñado para directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab. Enseña a integrar la inteligencia artificial generativa como herramienta estratégica en la gestión directiva universitaria, con resultados medibles desde el primer módulo."
+        "text": "Es un programa de formación continua de 120 horas diseñado para directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab. Enseña a integrar la inteligencia artificial generativa como herramienta estratégica en la gestión directiva universitaria, con resultados medibles desde el primer nivel."
       }
     },
     {
@@ -456,7 +456,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
       "name": "¿Cuánto tiempo debo dedicar por semana?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "El programa requiere entre 3 y 5 horas semanales durante 8 semanas. Cada módulo está diseñado en formato de micro-módulos de 20-30 minutos que se pueden completar entre reuniones. La modalidad es en línea y autogestiva, con sesiones sincrónicas opcionales de acompañamiento."
+        "text": "El programa requiere entre 3 y 5 horas semanales durante 8 semanas. Cada nivel está diseñado en formato de micro-módulos de 20-30 minutos que se pueden completar entre reuniones. La modalidad es en línea y autogestiva, con sesiones sincrónicas opcionales de acompañamiento."
       }
     }
   ]

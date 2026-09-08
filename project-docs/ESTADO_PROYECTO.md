@@ -26,23 +26,23 @@
 
 ### Fase 1 — Definición Estratégica
 - `fase1_pm_product_brief.md` — Brief del producto (personas, propuesta de valor, métricas)
-- `fase1_pm_estructura_modular.md` — Estructura de 8 módulos (editado por usuario)
+- `fase1_pm_estructura_modular.md` — Estructura de 8 niveles (editado por usuario)
 - `fase1_pm_entregables_participante.md` — Banco de prompts + flujo de reportes
 - `fase1_trend_market_validation.md` — Validación de mercado LATAM/MX
 - `fase1_trend_skills_demand.md` — Skills en demanda WEF + quick wins
 - `fase1_coach_framework_pedagogico.md` — Framework UNESCO/Stanford/RAIL-Ed
-- `fase1_coach_diferenciacion_versiones.md` — Tabla acad vs admin por módulo
+- `fase1_coach_diferenciacion_versiones.md` — Tabla acad vs admin por nivel
 - `fase1_coach_principios_diseno.md` — Principios para enseñar a directivos
 - `fase1_brand_directrices_comunicacion.md` — Tono, vocabulario, naming
 - `fase1_brand_visual_guidelines.md` — Paleta, tipografía, componentes
 
 ### Fase 2 — Investigación & Fuentes
-- `fase2_fuentes_modulo_1_4.md` — Fuentes verificadas módulos 1-4
-- `fase2_fuentes_modulo_5_8.md` — Fuentes verificadas módulos 5-8
+- `fase2_fuentes_modulo_1_4.md` — Fuentes verificadas niveles 1-4
+- `fase2_fuentes_modulo_5_8.md` — Fuentes verificadas niveles 5-8
 - `fase2_bibliografia_anotada.md` — Bibliografía completa con calificaciones
-- `fase2_herramientas_por_modulo.md` — Herramientas comparadas por módulo
+- `fase2_herramientas_por_modulo.md` — Herramientas comparadas por nivel
 - `fase2_casos_exito.md` — Casos reales de universidades con IA
-- `fase2_frameworks_prompts.md` — RISE, CRISPE, RTF, etc.
+- `fase2_frameworks_prompts.md` — RISE, CRISPE, RCTF, etc.
 - `fase2_ejercicios_version_academica.md` — Ejercicios versión académica
 - `fase2_ejercicios_version_administrativa.md` — Ejercicios versión administrativa
 - `fase2_banco_prompts_base.md` — 40 prompts base (20 acad + 20 admin)
@@ -53,9 +53,9 @@
 - `fase3_mapa_competencias.md` — Matriz PLO→CLO→evidencia→instrumento
 - `fase3_secuencias_academica.md` — Secuencias didácticas versión académica
 - `fase3_secuencias_administrativa.md` — Secuencias didácticas versión administrativa
-- `fase3_productos_integradores.md` — Producto integrador por módulo
+- `fase3_productos_integradores.md` — Producto integrador por nivel
 - `fase3_assessment_blueprint.md` — Blueprint de evaluación OF/FOR/AS
-- `fase3_rubricas.md` — Rúbricas analíticas ×8 módulos
+- `fase3_rubricas.md` — Rúbricas analíticas ×8 niveles
 - `fase3_micro_credenciales.md` — Open Badges stackables
 
 ### Fase 4 — Curación de Contenido
@@ -66,14 +66,14 @@
 - `fase4_guia_estilo_contenido.md` — Guía de estilo completa + glosario
 
 ### Fase 5 — Producción de Contenido
-- `fase5_modulo_01_conceptos.md` — Módulo 1: Conceptos Fundamentales
-- `fase5_modulo_02_frameworks_prompts.md` — Módulo 2: Frameworks de Prompts
-- `fase5_modulo_03_email_comunicados.md` — Módulo 3: Email y Comunicados
-- `fase5_modulo_04_analisis_reportes.md` — Módulo 4: Análisis de Reportes
-- `fase5_modulo_05_automatizacion_reportes.md` — Módulo 5: Automatización
-- `fase5_modulo_06_atencion_stakeholders.md` — Módulo 6: Atención a Stakeholders
-- `fase5_modulo_07_gestion_proyectos.md` — Módulo 7: Gestión de Proyectos
-- `fase5_modulo_08_agentes_equipo.md` — Módulo 8: Agentes y Equipo Local
+- `fase5_modulo_01_conceptos.md` — Nivel 1: Conceptos Fundamentales
+- `fase5_modulo_02_frameworks_prompts.md` — Nivel 2: Frameworks de Prompts
+- `fase5_modulo_03_email_comunicados.md` — Nivel 3: Email y Comunicados
+- `fase5_modulo_04_analisis_reportes.md` — Nivel 4: Análisis de Reportes
+- `fase5_modulo_05_automatizacion_reportes.md` — Nivel 5: Automatización
+- `fase5_modulo_06_atencion_stakeholders.md` — Nivel 6: Atención a Stakeholders
+- `fase5_modulo_07_gestion_proyectos.md` — Nivel 7: Gestión de Proyectos
+- `fase5_modulo_08_agentes_equipo.md` — Nivel 8: Agentes y Equipo Local
 - `fase5_tutorial_amazon_quick.md` — Tutorial de Amazon Quick
 - `fase5_tutorial_prompts_avanzados.md` — Guía de prompts avanzados
 - `fase5_tutorial_agentes_flujos.md` — Guía de agentes y flujos
@@ -100,7 +100,7 @@
 - (Pendientes para Fases 6-9): Brand Guardian, UI Designer, Visual Storyteller, Whimsy Injector, EdTech LMS Specialist, Frontend Developer, DevOps Automator, Code Reviewer, Growth Hacker, Email Marketing Strategist, Ad Creative Strategist, Social Media Strategist, SEO Specialist
 
 ### Nota importante:
-Todos los agentes están como **borradores locales** (no publicados). Para usarlos en otra Mac, necesitas **publicarlos** primero.
+Todos los agentes están como **borradores locales** (no publicados). Para usarlos en otra Mac, necesita **publicarlos** primero.
 
 ---
 

@@ -25,7 +25,7 @@
               │                      │                      │
    ┌──────────▼─────────┐ ┌─────────▼──────────┐ ┌────────▼──────────┐
    │  🟢 FUNDAMENTOS IA  │ │  🔵 IA APLICADA     │ │  🟣 LÍDER IA       │
-   │   Módulos 1-3       │ │   Módulos 4-6       │ │   Módulos 7-8      │
+   │   Niveles 1-3       │ │   Niveles 4-6       │ │   Niveles 7-8      │
    │   Consciencia        │ │   Competencia        │ │   Agencia           │
    └─────────────────────┘ └──────────────────────┘ └────────────────────┘
 ```
@@ -41,17 +41,17 @@
 
 ---
 
-## 2. Badge 1: Fundamentos IA 🟢
+## 2. Badge 1: Explorador IA 🟢
 
 ### 2.1 Metadatos del Badge
 
 | Campo | Valor |
 |-------|-------|
-| **Nombre** | Fundamentos de IA para Gestión Universitaria |
-| **Nombre corto** | Fundamentos IA |
+| **Nombre** | Explorador IA |
+| **Nombre corto** | Explorador IA |
 | **Emisor** | Universidad Anáhuac Mayab — Centro de Educación Continua |
 | **Nivel** | Introductorio (DigComp 2.2 Nivel 2-3: Básico-Intermedio) |
-| **Módulos cubiertos** | 1. Fundamentos de IA Generativa · 2. Frameworks de Prompts · 3. Email/Comunicados/Casos de Uso |
+| **Niveles cubiertos** | 1. Fundamentos de IA Generativa · 2. Frameworks de Prompts · 3. Email/Comunicados/Casos de Uso |
 | **Horas de aprendizaje** | 6-8 horas (contenido + práctica) |
 | **Vigencia** | 3 años |
 | **Identificador** | `urn:uuid:anahuac-mayab:ia-lideres:fundamentos-v1` |
@@ -61,7 +61,7 @@
 | # | Competencia | Descriptor | Alineación DigComp 2.2 | Alineación SFIA 9 | Nivel UNESCO ICT-CFT |
 |---|-------------|-----------|------------------------|-------------------|---------------------|
 | F1 | **Comprensión de IA Generativa** | Distingue qué puede y qué no puede hacer la IA generativa; identifica oportunidades y riesgos en su contexto directivo | 1.1 Navegación, búsqueda y filtrado de datos | AUTY Level 3 | Adquisición de conocimiento |
-| F2 | **Prompting estructurado** | Construye instrucciones efectivas para IA usando el marco Rol-Contexto-Tarea-Especificaciones (RCTE) y técnicas de iteración | 2.1 Interacción a través de tecnologías digitales | ISCO-3 AI User | Aplicación |
+| F2 | **Prompting estructurado** | Construye instrucciones efectivas para IA usando el marco Rol-Contexto-Tarea-Formato (RCTF) y técnicas de iteración | 2.1 Interacción a través de tecnologías digitales | ISCO-3 AI User | Aplicación |
 | F3 | **Comunicación institucional con IA** | Produce comunicación formal (correos, comunicados, convocatorias) con tono institucional apropiado y manejo de casos sensibles | 3.1 Desarrollo de contenidos digitales | ISCO-3 AI User | Aplicación |
 | F4 | **Conciencia de limitaciones** | Reconoce que la IA puede generar información falsa (alucinaciones) y mantiene actitud de verificación ante todo output | 1.2 Evaluación de datos, información y contenidos | AUTY Level 3 | Conocimiento ético |
 
@@ -70,19 +70,19 @@
 | Evidencia | Criterio mínimo | Verificación |
 |-----------|-----------------|--------------|
 | Mini-diagnóstico personal | 5 tareas reales identificadas con viabilidad IA | Evaluador verifica especificidad |
-| 3 prompts maestros | Estructura RCTE en los 3; outputs funcionales | Evaluador verifica estructura y output |
-| 5 templates de comunicación | Específicos del contexto institucional; tono correcto | Evaluador aplica rúbrica Módulo 3 |
+| 3 prompts maestros | Estructura RCTF en los 3; outputs funcionales | Evaluador verifica estructura y output |
+| 5 templates de comunicación | Específicos del contexto institucional; tono correcto | Evaluador aplica rúbrica Nivel 3 |
 | Caso difícil resuelto | Equilibrio empatía-normatividad; edición humana visible | Evaluador verifica edición del output IA |
 | **Puntaje mínimo Bloque 1** | **≥70% ponderado** | Cálculo automático |
 
 ### 2.4 Criterios de Emisión
 
 ```
-EMITIR Badge "Fundamentos IA" cuando:
-  ✅ Módulos 1, 2 y 3 completados con todos los entregables
+EMITIR Badge "Explorador IA" cuando:
+  ✅ Niveles 1, 2 y 3 completados con todos los entregables
   ✅ Puntaje ponderado del Bloque 1 ≥ 70%
-  ✅ Ninguna dimensión ⚡ (crítica) en Módulo 3 quedó en "Básico"
-  ✅ Los 5 templates del Módulo 3 son funcionales (evaluación "Competente" o superior)
+  ✅ Ninguna dimensión ⚡ (crítica) en Nivel 3 quedó en "Básico"
+  ✅ Los 5 templates del Nivel 3 son funcionales (evaluación "Competente" o superior)
 ```
 
 ### 2.5 Alineación DigComp 2.2 Detallada
@@ -91,23 +91,23 @@ EMITIR Badge "Fundamentos IA" cuando:
 |-------------|----------------------|-----------------|-------------------|
 | **1. Información y alfabetización informacional** | 1.1 Navegación, búsqueda y filtrado | Nivel 3 (Intermedio) | Identificación de cuándo IA sirve vs. cuándo buscar en fuentes reales |
 | | 1.2 Evaluación de datos | Nivel 2 (Básico) | Reconocimiento de alucinaciones en primer nivel |
-| **2. Comunicación y colaboración** | 2.1 Interacción a través de tecnologías | Nivel 3 (Intermedio) | Uso de IA conversacional con estructura RCTE |
+| **2. Comunicación y colaboración** | 2.1 Interacción a través de tecnologías | Nivel 3 (Intermedio) | Uso de IA conversacional con estructura RCTF |
 | **3. Creación de contenido digital** | 3.1 Desarrollo de contenidos | Nivel 3 (Intermedio) | Producción de comunicación institucional con IA |
 
 ---
 
-## 3. Badge 2: IA Aplicada 🔵
+## 3. Badge 2: Estratega IA 🔵
 
 ### 3.1 Metadatos del Badge
 
 | Campo | Valor |
 |-------|-------|
-| **Nombre** | IA Aplicada a la Gestión Universitaria |
-| **Nombre corto** | IA Aplicada |
+| **Nombre** | Estratega IA |
+| **Nombre corto** | Estratega IA |
 | **Emisor** | Universidad Anáhuac Mayab — Centro de Educación Continua |
 | **Nivel** | Intermedio (DigComp 2.2 Nivel 4-5: Intermedio-Avanzado) |
-| **Prerequisito** | Badge "Fundamentos IA" 🟢 |
-| **Módulos cubiertos** | 4. Análisis de Reportes/Evaluación Crítica · 5. Ética + Automatización · 6. Stakeholders/Flujos Integrados |
+| **Prerequisito** | Badge "Explorador IA" 🟢 |
+| **Niveles cubiertos** | 4. Análisis de Reportes/Evaluación Crítica · 5. Ética + Automatización · 6. Stakeholders/Flujos Integrados |
 | **Horas de aprendizaje** | 8-10 horas (contenido + práctica) |
 | **Vigencia** | 3 años |
 | **Identificador** | `urn:uuid:anahuac-mayab:ia-lideres:aplicada-v1` |
@@ -136,9 +136,9 @@ EMITIR Badge "Fundamentos IA" cuando:
 ### 3.4 Criterios de Emisión
 
 ```
-EMITIR Badge "IA Aplicada" cuando:
-  ✅ Badge "Fundamentos IA" 🟢 ya emitido
-  ✅ Módulos 4, 5 y 6 completados con todos los entregables
+EMITIR Badge "Estratega IA" cuando:
+  ✅ Badge "Explorador IA" 🟢 ya emitido
+  ✅ Niveles 4, 5 y 6 completados con todos los entregables
   ✅ Puntaje ponderado del Bloque 2 ≥ 70%
   ✅ Flujo de reporte ⭐ evaluado como "Competente" o superior en TODAS las dimensiones ⚡
   ✅ Kit de atención incluye protocolo de límites éticos funcional
@@ -163,12 +163,12 @@ EMITIR Badge "IA Aplicada" cuando:
 
 | Campo | Valor |
 |-------|-------|
-| **Nombre** | Líder de IA en Gestión Universitaria |
+| **Nombre** | Líder IA |
 | **Nombre corto** | Líder IA |
 | **Emisor** | Universidad Anáhuac Mayab — Centro de Educación Continua |
 | **Nivel** | Avanzado (DigComp 2.2 Nivel 5-6: Avanzado-Altamente especializado) |
-| **Prerequisito** | Badge "IA Aplicada" 🔵 |
-| **Módulos cubiertos** | 7. Gestión de Proyectos/Agentes · 8. Ecosistema IA + Plan de Adopción |
+| **Prerequisito** | Badge "Estratega IA" 🔵 |
+| **Niveles cubiertos** | 7. Gestión de Proyectos/Agentes · 8. Ecosistema IA + Plan de Adopción |
 | **Horas de aprendizaje** | 8-10 horas (contenido + práctica) |
 | **Vigencia** | 3 años |
 | **Identificador** | `urn:uuid:anahuac-mayab:ia-lideres:lider-v1` |
@@ -177,7 +177,7 @@ EMITIR Badge "IA Aplicada" cuando:
 
 | # | Competencia | Descriptor | Alineación DigComp 2.2 | Alineación SFIA 9 | Nivel UNESCO ICT-CFT |
 |---|-------------|-----------|------------------------|-------------------|---------------------|
-| L1 | **Configuración de agentes IA** | Crea, configura y prueba agentes especializados en Amazon Quick con instrucciones RCTE, documentos de referencia y protocolo de uso | 5.1 Resolución de problemas técnicos | AUTY Level 5 | Creación avanzada |
+| L1 | **Configuración de agentes IA** | Crea, configura y prueba agentes especializados en Amazon Quick con instrucciones RCTF, documentos de referencia y protocolo de uso | 5.1 Resolución de problemas técnicos | AUTY Level 5 | Creación avanzada |
 | L2 | **Orquestación de flujos multi-agente** | Diseña y ejecuta flujos donde el output de un agente alimenta el input de otro para resolver procesos complejos | 5.3 Uso creativo de tecnologías digitales | AUTY Level 5 | Integración |
 | L3 | **Gestión de portafolio de prompts** | Organiza, mantiene y evoluciona un banco de 20+ prompts como herramienta operativa de su cargo | 5.2 Identificación de necesidades y respuestas tecnológicas | ISCO-4 AI Manager | Gestión |
 | L4 | **Liderazgo de adopción de IA** | Diseña un plan de adopción de IA para su área con política de uso, gestión de riesgos, capacitación y métricas de impacto | 5.4 Identificación de brechas en competencia digital | STPL Level 4 | Liderazgo |
@@ -198,8 +198,8 @@ EMITIR Badge "IA Aplicada" cuando:
 
 ```
 EMITIR Badge "Líder IA" cuando:
-  ✅ Badge "IA Aplicada" 🔵 ya emitido
-  ✅ Módulos 7 y 8 completados con todos los entregables
+  ✅ Badge "Estratega IA" 🔵 ya emitido
+  ✅ Niveles 7 y 8 completados con todos los entregables
   ✅ Puntaje ponderado del Bloque 3 ≥ 70%
   ✅ Ecosistema ⭐ evaluado como "Competente" o superior en TODAS las dimensiones ⚡
   ✅ Plan de adopción es presentable a un superior (evaluación "Competente" o superior)
@@ -227,7 +227,7 @@ EMITIR Badge "Líder IA" cuando:
 | **Emisor** | Universidad Anáhuac Mayab — Centro de Educación Continua |
 | **Nivel** | Avanzado-Integral (DigComp 2.2 Nivel 5-6 en áreas 1-5) |
 | **Prerequisito** | Los 3 badges anteriores (🟢🔵🟣) |
-| **Módulos cubiertos** | Los 8 módulos completos del curso |
+| **Niveles cubiertos** | Los 8 niveles completos del curso |
 | **Horas de aprendizaje** | 22-28 horas totales |
 | **Vigencia** | 3 años |
 | **Identificador** | `urn:uuid:anahuac-mayab:ia-lideres:lider-digital-v1` |
@@ -245,7 +245,7 @@ EMITIR Badge "Líder IA" cuando:
 
 | # | Competencia integradora | Descriptor | Evidencia |
 |---|------------------------|-----------|-----------|
-| I1 | **Alfabetización integral en IA para gestión** | Comprende, usa, evalúa críticamente y orquesta IA generativa como herramienta directiva | Completitud del portafolio (8 módulos) |
+| I1 | **Alfabetización integral en IA para gestión** | Comprende, usa, evalúa críticamente y orquesta IA generativa como herramienta directiva | Completitud del portafolio (8 niveles) |
 | I2 | **Automatización responsable de procesos** | Ha diseñado y ejecutado al menos un flujo automatizado real con controles de calidad y ética | Flujo de reporte ⭐ funcionando |
 | I3 | **Ecosistema de productividad con IA** | Tiene un sistema operativo de IA personal: agentes, prompts y flujos integrados y documentados | Ecosistema ⭐ completo y funcional |
 | I4 | **Liderazgo de transformación digital** | Ha diseñado un plan de adopción de IA para su área con política, métricas y gobernanza | Plan de adopción presentable |
@@ -255,8 +255,8 @@ EMITIR Badge "Líder IA" cuando:
 
 ```
 EMITIR Badge "Líder Digital Anáhuac" cuando:
-  ✅ Badge "Fundamentos IA" 🟢 emitido
-  ✅ Badge "IA Aplicada" 🔵 emitido  
+  ✅ Badge "Explorador IA" 🟢 emitido
+  ✅ Badge "Estratega IA" 🔵 emitido  
   ✅ Badge "Líder IA" 🟣 emitido
   ✅ Flujo de reporte ⭐ evaluado como "Competente" o superior
   ✅ Ecosistema de IA ⭐ evaluado como "Competente" o superior
@@ -302,10 +302,10 @@ EMITIR Badge "Líder Digital Anáhuac" cuando:
     "achievement": {
       "id": "urn:uuid:anahuac-mayab:ia-lideres:fundamentos-v1",
       "type": "Achievement",
-      "name": "Fundamentos de IA para Gestión Universitaria",
-      "description": "El titular demuestra competencia en comprensión de IA generativa, prompting estructurado (RCTE), producción de comunicación institucional con IA, y conciencia de limitaciones y riesgos.",
+      "name": "Explorador IA",
+      "description": "El titular demuestra competencia en comprensión de IA generativa, prompting estructurado (RCTF), producción de comunicación institucional con IA, y conciencia de limitaciones y riesgos.",
       "criteria": {
-        "narrative": "Completar módulos 1-3 del curso 'IA Práctica para Líderes' con ≥70% y entregables evaluados como 'Competente' o superior."
+        "narrative": "Completar niveles 1-3 del curso 'IA Práctica para Líderes' con ≥70% y entregables evaluados como 'Competente' o superior."
       },
       "alignment": [
         {
@@ -328,7 +328,7 @@ EMITIR Badge "Líder Digital Anáhuac" cuando:
     {
       "id": "urn:uuid:evidence:portfolio-bloque1",
       "type": "Evidence",
-      "name": "Portafolio Bloque 1 — Fundamentos IA",
+      "name": "Portafolio Bloque 1 — Explorador IA",
       "description": "Mini-diagnóstico, 3 prompts maestros, 5 templates de comunicación, caso difícil resuelto"
     }
   ]
@@ -407,8 +407,8 @@ Además del badge digital, se emite un certificado en PDF con:
 
 | Badge | Vigencia | Renovación |
 |-------|----------|-----------|
-| 🟢 Fundamentos IA | 3 años | Evidencia de uso continuo (mínimo 5 prompts nuevos documentados) |
-| 🔵 IA Aplicada | 3 años | Evidencia de flujo actualizado + 1 nuevo flujo diseñado |
+| 🟢 Explorador IA | 3 años | Evidencia de uso continuo (mínimo 5 prompts nuevos documentados) |
+| 🔵 Estratega IA | 3 años | Evidencia de flujo actualizado + 1 nuevo flujo diseñado |
 | 🟣 Líder IA | 3 años | Evidencia de ecosistema actualizado + capacitación a 1+ persona |
 | 🏆 Líder Digital Anáhuac | 3 años | Renovación de los 3 badges componentes |
 
@@ -432,12 +432,12 @@ Para renovar cualquier badge:
 
 ---
 
-## 9. Mapa Resumen: Badges × Módulos × Competencias × DigComp
+## 9. Mapa Resumen: Badges × Niveles × Competencias × DigComp
 
 | | Mód 1 | Mód 2 | Mód 3 | Mód 4 | Mód 5 | Mód 6 | Mód 7 | Mód 8 |
 |---|---|---|---|---|---|---|---|---|
 | 🟢 **Fundamentos** | ✅ | ✅ | ✅ | | | | | |
-| 🔵 **IA Aplicada** | | | | ✅ | ✅ | ✅ | | |
+| 🔵 **Estratega IA** | | | | ✅ | ✅ | ✅ | | |
 | 🟣 **Líder IA** | | | | | | | ✅ | ✅ |
 | 🏆 **Líder Digital** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | | | | | | | | | |
@@ -469,7 +469,7 @@ Para renovar cualquier badge:
 Al inicio del curso, el participante recibe:
 - Mapa visual de los 4 badges (como el diagrama de la sección 1.1)
 - Criterios de emisión de cada badge (transparencia total)
-- Rúbricas de evaluación (ANTES de empezar los módulos)
+- Rúbricas de evaluación (ANTES de empezar los niveles)
 - Instrucciones de qué es un Open Badge y cómo compartirlo
 - Link a tutorial de LinkedIn Credentials
 

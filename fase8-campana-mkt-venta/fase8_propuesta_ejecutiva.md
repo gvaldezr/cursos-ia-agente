@@ -11,7 +11,7 @@
 
 ## 1. Resumen Ejecutivo
 
-Los directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab dedican entre el 60% y 70% de su jornada a tareas que la inteligencia artificial generativa podría acelerar de manera significativa — redactar comunicados, analizar reportes de matrícula, responder correos repetitivos, consolidar indicadores y preparar informes para acreditaciones. Sin embargo, el 85% de estos líderes no ha incorporado IA en su flujo de trabajo, y quienes lo han intentado lo hacen sin método ni marco institucional. **"IA Práctica para Líderes Anáhuac"** es un programa de formación continua, diseñado internamente, que transforma a nuestros directivos en usuarios estratégicos de IA generativa a través de 8 módulos progresivos con aplicación inmediata a su gestión real. El impacto estimado es una reducción de **5+ horas semanales por directivo** en tareas operativas, con un costo marginal mínimo dado que el contenido, la plataforma y el mini sitio ya están desarrollados.
+Los directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab dedican entre el 60% y 70% de su jornada a tareas que la inteligencia artificial generativa podría acelerar de manera significativa — redactar comunicados, analizar reportes de matrícula, responder correos repetitivos, consolidar indicadores y preparar informes para acreditaciones. Sin embargo, el 85% de estos líderes no ha incorporado IA en su flujo de trabajo, y quienes lo han intentado lo hacen sin método ni marco institucional. **"IA Práctica para Líderes Anáhuac"** es un programa de formación continua, diseñado internamente, que transforma a nuestros directivos en usuarios estratégicos de IA generativa a través de 8 niveles progresivos con aplicación inmediata a su gestión real. El impacto estimado es una reducción de **5+ horas semanales por directivo** en tareas operativas, con un costo marginal mínimo dado que el contenido, la plataforma y el mini sitio ya están desarrollados.
 
 ---
 
@@ -58,22 +58,22 @@ Si no actuamos en este ciclo, los directivos seguirán operando con herramientas
 | **Acreditación** | Constancia de Formación Continua con valor curricular, Universidad Anáhuac Mayab |
 | **Mini sitio** | [cursos.memovaldez.com](https://cursos.memovaldez.com) — plataforma autocontenida, responsive, con tracking de progreso |
 
-### 3.2 Estructura: 8 Módulos en 4 Fases
+### 3.2 Estructura: 8 Niveles en 4 Fases
 
 ```
-FASE I — ENTENDER (Módulos 1-2)        "Qué es y cómo le hablo"
+FASE I — ENTENDER (Niveles 1-2)        "Qué es y cómo le hablo"
   ├── M1: Conceptos de IA Generativa
   └── M2: Frameworks de Prompts
 
-FASE II — USAR (Módulos 3-4)           "Lo aplico a mis tareas"
+FASE II — USAR (Niveles 3-4)           "Lo aplico a mis tareas"
   ├── M3: Email y Comunicados Institucionales
   └── M4: Análisis de Reportes con IA
 
-FASE III — ACELERAR (Módulos 5-6)      "Automatizo lo repetitivo"
+FASE III — ACELERAR (Niveles 5-6)      "Automatizo lo repetitivo"
   ├── M5: Automatización de Reportes
   └── M6: Atención a Stakeholders con IA
 
-FASE IV — INTEGRAR (Módulos 7-8)       "Lo incorporo a mi gestión"
+FASE IV — INTEGRAR (Niveles 7-8)       "Lo incorporo a mi gestión"
   ├── M7: Gestión de Proyectos con IA
   └── M8: Agentes y Trabajo en Equipo Local
 ```
@@ -93,10 +93,10 @@ El programa ofrece **dos versiones con estructura idéntica** pero con contextos
 
 Los participantes obtienen credenciales verificables conforme avanzan, compartibles en LinkedIn:
 
-| Badge | Módulos | Nivel |
+| Badge | Niveles | Nivel |
 |---|---|---|
-| 🟢 **Fundamentos IA** | M1–M3 | Introductorio |
-| 🔵 **IA Aplicada** | M4–M6 | Intermedio |
+| 🟢 **Explorador IA** | M1–M3 | Introductorio |
+| 🔵 **Estratega IA** | M4–M6 | Intermedio |
 | 🟣 **Líder IA** | M7–M8 | Avanzado |
 | 🏆 **Líder Digital Anáhuac** | M1–M8 (integrador) | Avanzado-Integral |
 
@@ -164,13 +164,13 @@ El curso utiliza **Amazon Quick** como herramienta central de práctica: workspa
 | **Estándar** | 8 semanas | 3–5 horas/semana | Directivos con agenda fragmentada |
 | **Intensiva** | 4 semanas | 6–10 horas/semana | Directivos con disponibilidad concentrada |
 
-La seriación es obligatoria (cada módulo construye sobre el anterior), pero el participante avanza a su propio ritmo dentro del período.
+La seriación es obligatoria (cada nivel construye sobre el anterior), pero el participante avanza a su propio ritmo dentro del período.
 
 ### 5.3 Recursos Necesarios
 
 | Recurso | Estado | Acción requerida |
 |---|---|---|
-| Contenido de 8 módulos (2 versiones) | ✅ Desarrollado | Ninguna |
+| Contenido de 8 niveles (2 versiones) | ✅ Desarrollado | Ninguna |
 | Mini sitio web con tracking | ✅ Desarrollado | Ninguna |
 | Rúbricas y sistema de evaluación | ✅ Desarrollado | Ninguna |
 | Sistema de Open Badges | ⬜ Pendiente | Configurar plataforma de emisión (Badgr/Credly) |
@@ -212,7 +212,7 @@ Dado que el contenido, la plataforma y los instrumentos de evaluación ya están
 |---|---|
 | S1 (oct) | Designación de facilitador. Selección de 30–40 directivos para piloto. Comunicación de Rectoría. |
 | S2 (oct) | Onboarding: sesión introductoria (60 min). Configuración de cuentas Amazon Quick. |
-| S3–S6 (oct–nov) | Ejecución del programa (ritmo estándar: 2 módulos/semana). Sesiones sincrónicas opcionales por fase. |
+| S3–S6 (oct–nov) | Ejecución del programa (ritmo estándar: 2 niveles/semana). Sesiones sincrónicas opcionales por fase. |
 | S7 (nov) | Cierre y evaluación. Emisión de badges. Encuesta de satisfacción y NPS. |
 | S8 (nov) | Análisis de resultados del piloto. Informe a Rectoría. |
 
@@ -248,7 +248,7 @@ Se solicita a Rectoría / Vicerrectoría la autorización para:
 
 | Métrica | Target |
 |---|---|
-| Tasa de completamiento | ≥ 75% |
+| Tasa de completamiento | ≥ 70% |
 | Adopción real post-curso (uso IA ≥ 3x/semana a 30 días) | ≥ 60% |
 | NPS del programa | ≥ 50 |
 | Horas semanales ahorradas por participante | ≥ 3 hrs promedio |

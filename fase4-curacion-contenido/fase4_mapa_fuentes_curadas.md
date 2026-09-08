@@ -1,4 +1,4 @@
-# Fase 4 — Mapa Definitivo de Fuentes Curadas por Módulo
+# Fase 4 — Mapa Definitivo de Fuentes Curadas por Nivel
 ## IA Práctica para Líderes Anáhuac Mayab
 
 **Fecha de curación final:** Septiembre 2026  
@@ -8,7 +8,7 @@
 
 ---
 
-## MÓDULO 1: Conceptos Fundamentales de IA Generativa
+## NIVEL 1: Conceptos Fundamentales de IA Generativa
 
 ### 📖 Lecturas Principales
 
@@ -63,7 +63,7 @@
 
 ---
 
-## MÓDULO 2: Frameworks de Prompts (Estructura, Técnicas, Iteración)
+## NIVEL 2: Frameworks de Prompts (Estructura, Técnicas, Iteración)
 
 ### 📖 Lecturas Principales
 
@@ -117,7 +117,7 @@
 
 ---
 
-## MÓDULO 3: Email y Comunicados Institucionales
+## NIVEL 3: Email y Comunicados Institucionales
 
 ### 📖 Lecturas Principales
 
@@ -144,7 +144,7 @@
 **1. Microsoft 365 Copilot — 30-Day AI Productivity Journey**
 - **Plataforma:** Microsoft | **URL:** https://www.microsoft.com/en-us/microsoft-365-copilot/learn-copilot-today ✅
 - **Duración:** Módulos de 5-10 min (email y comunicación: ~15 min relevantes) | **Nivel:** Introductorio
-- **Descripción:** Programa paso a paso de productividad con Copilot. Los módulos de email y comunicación muestran flujos reales de redacción asistida en Outlook/Teams.
+- **Descripción:** Programa paso a paso de productividad con Copilot. Los niveles de email y comunicación muestran flujos reales de redacción asistida en Outlook/Teams.
 
 **2. Should You Use AI to Write Work Emails? — University of Florida (resumen de estudio)**
 - **Plataforma:** UF News | **URL:** https://news.ufl.edu/2024/02/ai-work-emails/ ✅
@@ -168,11 +168,11 @@
 | Grammarly | https://www.grammarly.com ✅ | 🟡 Sí (básico) | Revisión de tono y gramática post-IA |
 
 ### ⚠️ Gap Flag
-**Gap menor.** Buena evidencia general sobre escritura asistida por IA, pero escasez de estudios específicos sobre comunicados institucionales en universidades latinoamericanas. El paper de URJC es la excepción más cercana. **Recomendación:** el módulo debe generar su propio caso de estudio interno con comunicados reales de Anáhuac Mayab.
+**Gap menor.** Buena evidencia general sobre escritura asistida por IA, pero escasez de estudios específicos sobre comunicados institucionales en universidades latinoamericanas. El paper de URJC es la excepción más cercana. **Recomendación:** el nivel debe generar su propio caso de estudio interno con comunicados reales de Anáhuac Mayab.
 
 ---
 
-## MÓDULO 4: Análisis de Reportes con IA
+## NIVEL 4: Análisis de Reportes con IA
 
 ### 📖 Lecturas Principales
 
@@ -227,7 +227,7 @@
 
 ---
 
-## MÓDULO 5: Automatización de Reportes
+## NIVEL 5: Automatización de Reportes
 
 ### 📖 Lecturas Principales
 
@@ -272,11 +272,11 @@
 | NotebookLM | https://notebooklm.google.com ✅ | 🟢 Sí | Crear asistente de reportes con documentos fuente |
 
 ### ⚠️ Gap Flag
-**Gap significativo.** La automatización de reportes con IA generativa es un área emergente con poca investigación peer-reviewed específica. La evidencia viene predominantemente de reportes corporativos (Microsoft, UK Government), no de contexto universitario. **No se encontraron estudios específicos sobre automatización de reportes en universidades latinoamericanas.** **Recomendación:** el módulo debe incluir un ejercicio práctico donde los participantes automatizan un reporte real de la universidad — esto generará evidencia interna y compensará el gap.
+**Gap significativo.** La automatización de reportes con IA generativa es un área emergente con poca investigación peer-reviewed específica. La evidencia viene predominantemente de reportes corporativos (Microsoft, UK Government), no de contexto universitario. **No se encontraron estudios específicos sobre automatización de reportes en universidades latinoamericanas.** **Recomendación:** el nivel debe incluir un ejercicio práctico donde los participantes automatizan un reporte real de la universidad — esto generará evidencia interna y compensará el gap.
 
 ---
 
-## MÓDULO 6: Atención a Alumnos/Stakeholders con IA
+## NIVEL 6: Atención a Alumnos/Stakeholders con IA
 
 ### 📖 Lecturas Principales
 
@@ -331,7 +331,7 @@
 
 ---
 
-## MÓDULO 7: Gestión de Proyectos con IA
+## NIVEL 7: Gestión de Proyectos con IA
 
 ### 📖 Lecturas Principales
 
@@ -376,11 +376,11 @@
 | ChatGPT | https://chat.openai.com ✅ | 🟡 Sí | Generación de planes, WBS, análisis de riesgos |
 
 ### ⚠️ Gap Flag
-**Gap significativo.** Este módulo tiene la evidencia más débil del curso. Hay muchas revisiones de herramientas (calidad B) pero pocos estudios peer-reviewed sobre eficacia de IA en gestión de proyectos, especialmente en educación superior. **No se encontraron estudios académicos sobre IA para gestión de proyectos en universidades.** La evidencia es mayoritariamente corporativa. **Recomendación:** (1) Enfocarse en ejercicio práctico donde los directivos gestionen un mini-proyecto real con herramientas de IA; (2) Considerar invitar a un directivo de otra universidad que ya use IA en gestión de proyectos como speaker.
+**Gap significativo.** Este nivel tiene la evidencia más débil del curso. Hay muchas revisiones de herramientas (calidad B) pero pocos estudios peer-reviewed sobre eficacia de IA en gestión de proyectos, especialmente en educación superior. **No se encontraron estudios académicos sobre IA para gestión de proyectos en universidades.** La evidencia es mayoritariamente corporativa. **Recomendación:** (1) Enfocarse en ejercicio práctico donde los directivos gestionen un mini-proyecto real con herramientas de IA; (2) Considerar invitar a un directivo de otra universidad que ya use IA en gestión de proyectos como speaker.
 
 ---
 
-## MÓDULO 8: Flujos con Agentes y Trabajo en Equipo Local
+## NIVEL 8: Flujos con Agentes y Trabajo en Equipo Local
 
 ### 📖 Lecturas Principales
 
@@ -431,13 +431,13 @@
 | NotebookLM | https://notebooklm.google.com ✅ | 🟢 Sí | Crear asistente especializado con documentos |
 
 ### ⚠️ Gap Flag
-**Gap significativo (el mayor del curso).** Los sistemas multi-agente son tecnología 2025–2026 con evolución muy rápida. **No hay estudios peer-reviewed sobre uso de agentes en educación superior o gestión universitaria.** La literatura es predominantemente técnica (arXiv) o corporativa (IBM, Microsoft). **Recomendación:** (1) Enfocar como módulo "horizonte" — comprensión conceptual + demostración práctica, no implementación profunda; (2) La tecnología está cambiando demasiado rápido para fijar un stack específico; enseñar principios de diseño, no herramientas concretas.
+**Gap significativo (el mayor del curso).** Los sistemas multi-agente son tecnología 2025–2026 con evolución muy rápida. **No hay estudios peer-reviewed sobre uso de agentes en educación superior o gestión universitaria.** La literatura es predominantemente técnica (arXiv) o corporativa (IBM, Microsoft). **Recomendación:** (1) Enfocar como nivel "horizonte" — comprensión conceptual + demostración práctica, no implementación profunda; (2) La tecnología está cambiando demasiado rápido para fijar un stack específico; enseñar principios de diseño, no herramientas concretas.
 
 ---
 
 ## RESUMEN DE GAPS Y CALIDAD POR MÓDULO
 
-| Módulo | Calidad de Fuentes | Gap | Acción Recomendada |
+| Nivel | Calidad de Fuentes | Gap | Acción Recomendada |
 |---|---|---|---|
 | 1 - Conceptos IA | 🟢 Excelente | Ninguno | — |
 | 2 - Frameworks de Prompts | 🟢 Buena | Menor: falta evidencia peer-reviewed de frameworks nombrados | Usar Schulhoff como base teórica |
@@ -458,7 +458,7 @@
 | **Fuentes calidad A incluidas** | 16 (73%) |
 | **Fuentes calidad B incluidas** | 6 (27%) |
 | **Videos/recursos multimedia** | 14 |
-| **Casos de estudio** | 8 (uno por módulo) |
+| **Casos de estudio** | 8 (uno por nivel) |
 | **Herramientas para práctica** | 16 (todas con plan gratuito o freemium) |
 | **URLs verificadas** | 100% (todas verificadas con url_fetch sept. 2026) |
 | **Fuentes en español** | 4 (UNESCO, ENIAG, UNAM, URJC) |

@@ -36,7 +36,7 @@ No es que los directivos "no sepan de IA". El problema es que **no tienen un pue
 
 ### Declaración general
 
-> **"IA Práctica para Líderes Anáhuac"** transforma a directivos universitarios de consumidores pasivos de tecnología en usuarios estratégicos de IA generativa, con resultados medibles desde el primer módulo y aplicación directa al día siguiente.
+> **"IA Práctica para Líderes Anáhuac"** transforma a directivos universitarios de consumidores pasivos de tecnología en usuarios estratégicos de IA generativa, con resultados medibles desde el primer nivel y aplicación directa al día siguiente.
 
 ### Propuesta de valor por versión
 
@@ -128,7 +128,7 @@ No es que los directivos "no sepan de IA". El problema es que **no tienen un pue
 
 | Métrica | Target | Cómo se mide |
 |---|---|---|
-| **Time-to-first-value** | ≤ Módulo 2 (el participante usa IA en algo real) | Encuesta rápida post-Nivel 2 |
+| **Time-to-first-value** | ≤ Nivel 2 (el participante usa IA en algo real) | Encuesta rápida post-Nivel 2 |
 | **Banco de prompts completado** | ≥ 80% entrega banco con 20+ prompts | Revisión de entregable |
 | **Flujo de reporte funcional** | ≥ 70% entrega flujo documentado | Revisión de entregable |
 | **Horas ahorradas reportadas** | ≥ 3 hrs/semana promedio | Encuesta a 30 y 60 días |
@@ -182,12 +182,12 @@ No es que los directivos "no sepan de IA". El problema es que **no tienen un pue
 
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |---|---|---|---|
-| Baja tasa de completamiento ("no tengo tiempo") | Alta | Alto | Módulos de máx. 30 min. Entregables que resuelven tareas reales pendientes. Notificaciones de progreso. |
+| Baja tasa de completamiento ("no tengo tiempo") | Alta | Alto | Niveles de máx. 30 min. Entregables que resuelven tareas reales pendientes. Notificaciones de progreso. |
 | "Esto no aplica a mi área" | Media | Alto | Dos versiones diferenciadas. Ejemplos hiper-específicos del contexto Anáhuac. |
 | Resistencia al cambio ("yo hago mis cosas como siempre") | Media | Medio | Quick wins en Nivel 1-2. Testimonios de early adopters. Apoyo visible de Rectoría. |
 | Dependencia de una sola herramienta (Amazon Quick) | Baja | Medio | Incluir referencias a ChatGPT/Gemini como alternativas. Enseñar principios transferibles. |
 | Obsolescencia rápida del contenido | Media | Medio | Arquitectura modular que permite actualizar niveles individuales sin rehacer todo. |
-| Preocupaciones de privacidad/datos | Media | Alto | Módulo de buenas prácticas: qué datos NO compartir con IA. Políticas institucionales claras. |
+| Preocupaciones de privacidad/datos | Media | Alto | Nivel de buenas prácticas: qué datos NO compartir con IA. Políticas institucionales claras. |
 
 ---
 

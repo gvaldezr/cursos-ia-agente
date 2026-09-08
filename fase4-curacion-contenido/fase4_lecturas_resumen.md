@@ -1,14 +1,14 @@
 # Fase 4 — Resúmenes Ejecutivos de Lecturas Principales
 ## IA Práctica para Líderes Anáhuac Mayab
 
-**Propósito:** Material de preparación para cada módulo. Cada resumen está diseñado para leerse en 2 minutos y responder: *¿Por qué me importa como directivo? ¿Qué puedo hacer con esto mañana?*
+**Propósito:** Material de preparación para cada nivel. Cada resumen está diseñado para leerse en 2 minutos y responder: *¿Por qué me importa como directivo? ¿Qué puedo hacer con esto mañana?*
 
 **Tono:** Ejecutivo, pragmático, sin tecnicismos innecesarios.  
 **Convención:** Los resúmenes siguen el orden del mapa de fuentes curadas (fase4_mapa_fuentes_curadas.md).
 
 ---
 
-## MÓDULO 1: Conceptos Fundamentales de IA Generativa
+## NIVEL 1: Conceptos Fundamentales de IA Generativa
 
 ### Lectura 1.1 — Guía UNESCO: IA generativa en educación e investigación
 
@@ -34,7 +34,7 @@ Para un directivo de una universidad mexicana, este estudio es un espejo. Si la 
 
 ---
 
-## MÓDULO 2: Frameworks de Prompts
+## NIVEL 2: Frameworks de Prompts
 
 ### Lectura 2.1 — The Prompt Report: A Systematic Survey of Prompt Engineering Techniques
 
@@ -60,13 +60,13 @@ Para un directivo, el valor está en la progresión: empezar con prompts simples
 
 ---
 
-## MÓDULO 3: Email y Comunicados Institucionales
+## NIVEL 3: Email y Comunicados Institucionales
 
 ### Lectura 3.1 — Optimizing University Admin Services with GenAI: Email Inquiry Reduction (Univ. Rey Juan Carlos)
 
 Una universidad española implementó asistentes de IA (NotebookLM y Gem AI) entrenados con reglamentos y planes de estudio para responder consultas de email de estudiantes de maestría. Los resultados documentados: reducción medible de carga administrativa, mejora de tiempos de respuesta, y mayor precisión — porque las respuestas estaban fundamentadas en documentos institucionales reales, no inventadas.
 
-Para un directivo de Anáhuac Mayab, este es el caso más directamente transferible del módulo: una universidad hispanohablante, programa de maestría, consultas de alumnos sobre normatividad. Si ellos lo hicieron con NotebookLM (gratuito), usted puede prototiparlo mañana: suba los reglamentos de su área a NotebookLM y pruebe respondiendo las 5 preguntas más frecuentes que recibe por email.
+Para un directivo de Anáhuac Mayab, este es el caso más directamente transferible del nivel: una universidad hispanohablante, programa de maestría, consultas de alumnos sobre normatividad. Si ellos lo hicieron con NotebookLM (gratuito), usted puede prototiparlo mañana: suba los reglamentos de su área a NotebookLM y pruebe respondiendo las 5 preguntas más frecuentes que recibe por email.
 
 ---
 
@@ -86,7 +86,7 @@ Para un directivo, el hallazgo es una señal de precaución: usar IA para emails
 
 ---
 
-## MÓDULO 4: Análisis de Reportes con IA
+## NIVEL 4: Análisis de Reportes con IA
 
 ### Lectura 4.1 — Generative AI in Real-World Workplaces (Microsoft Research)
 
@@ -112,7 +112,7 @@ Para un directivo, esto redefine la prioridad: antes de comprar herramientas o c
 
 ---
 
-## MÓDULO 5: Automatización de Reportes
+## NIVEL 5: Automatización de Reportes
 
 ### Lectura 5.1 — M365 Copilot Experiment: Cross-Government Findings Report (UK GDS)
 
@@ -130,7 +130,7 @@ Para un directivo, el principio es claro: automatice lo que domina, no lo que no
 
 ---
 
-## MÓDULO 6: Atención a Stakeholders con IA
+## NIVEL 6: Atención a Stakeholders con IA
 
 ### Lectura 6.1 — A Review of University Chatbots for Student Support: FAQs and Beyond
 
@@ -156,7 +156,7 @@ Para un directivo, este es el antídoto contra el optimismo tecnológico: no bas
 
 ---
 
-## MÓDULO 7: Gestión de Proyectos con IA
+## NIVEL 7: Gestión de Proyectos con IA
 
 ### Lectura 7.1 — Shifting Work Patterns with Generative AI
 
@@ -174,7 +174,7 @@ Para un directivo, esto calibra expectativas: la IA no gestionará sus proyectos
 
 ---
 
-## MÓDULO 8: Agentes y Trabajo en Equipo Local
+## NIVEL 8: Agentes y Trabajo en Equipo Local
 
 ### Lectura 8.1 — Managing Multi-Agent AI Systems — IBM CIO Playbook
 
@@ -186,7 +186,7 @@ Para un directivo, esto es la vacuna contra el entusiasmo sin precaución. Antes
 
 ### Lectura 8.2 — Agentic AI, Explained — MIT Sloan
 
-MIT explica la evolución de IA generativa (que responde preguntas) a IA agéntica (que ejecuta tareas). Un agente de IA no solo sugiere — percibe, razona y actúa. Esto es el siguiente paso: de "pídele a ChatGPT que te escriba un email" a "configura un agente que monitoree tus KPIs y te alerte cuando algo cambie". El artículo contextualiza tanto las oportunidades como los riesgos de delegar autonomía a sistemas de IA.
+MIT explica la evolución de IA generativa (que responde preguntas) a IA agéntica (que ejecuta tareas). Un agente de IA no solo sugiere — percibe, razona y actúa. Esto es el siguiente paso: de "pídele a ChatGPT que le escriba un email" a "configura un agente que monitoree sus KPIs y le alerte cuando algo cambie". El artículo contextualiza tanto las oportunidades como los riesgos de delegar autonomía a sistemas de IA.
 
 Para un directivo, la distinción es práctica: usted ya usa IA como herramienta (le pide algo, recibe respuesta). El futuro cercano es IA como colaborador (le delega una función, recibe resultados). Mañana puede preguntarse: ¿qué función repetitiva de mi equipo podría delegarse a un agente? La respuesta probablemente sea algo como "monitorear matrícula" o "consolidar indicadores semanales" — tareas con reglas claras y baja ambigüedad.
 
@@ -196,7 +196,7 @@ Para un directivo, la distinción es práctica: usted ya usa IA como herramienta
 
 Microsoft explica por qué el modelo de "un agente que hace todo" colapsa en organizaciones reales. La alternativa: agentes especializados que coordinan como equipos humanos. Cada agente tiene: un modelo de lenguaje, herramientas específicas, y memoria a corto y largo plazo. La magia no es la inteligencia individual — es la coordinación emergente cuando muchos agentes comparten contexto y dividen trabajo.
 
-Para un directivo, la analogía es poderosa: así como usted no tiene un solo empleado que haga todo, no debería tener un solo agente de IA que haga todo. El futuro es un "Analista Académico" + un "Comunicador" + un "Asistente de Acreditación", cada uno con su función definida. Mañana puede hacer un ejercicio mental: si pudiera clonar 3 funciones de su equipo en agentes especializados, ¿cuáles serían? Esas son sus primeras configuraciones para el módulo 8.
+Para un directivo, la analogía es poderosa: así como usted no tiene un solo empleado que haga todo, no debería tener un solo agente de IA que haga todo. El futuro es un "Analista Académico" + un "Comunicador" + un "Asistente de Acreditación", cada uno con su función definida. Mañana puede hacer un ejercicio mental: si pudiera clonar 3 funciones de su equipo en agentes especializados, ¿cuáles serían? Esas son sus primeras configuraciones para el nivel 8.
 
 ---
 
@@ -204,7 +204,7 @@ Para un directivo, la analogía es poderosa: así como usted no tiene un solo em
 
 ### Criterios aplicados
 1. **Rastreo al origen:** Cada claim de los resúmenes fue verificado contra la fuente primaria, no citado de segunda mano.
-2. **Nivel de confianza declarado:** Los módulos con gaps (5, 7, 8) lo declaran explícitamente en sus resúmenes.
+2. **Nivel de confianza declarado:** Los niveles con gaps (5, 7, 8) lo declaran explícitamente en sus resúmenes.
 3. **Sin inflación de certeza:** Los resúmenes preservan matices ("pero solo para quienes ya eran competentes", "hallazgo clave: la interacción es altamente desigual").
 4. **Actionability:** Cada resumen termina con una acción concreta para el día siguiente.
 5. **Independencia de fuentes verificada:** No hay caso de citación circular — cada fuente aporta evidencia independiente.

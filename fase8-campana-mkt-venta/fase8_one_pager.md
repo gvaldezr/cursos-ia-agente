@@ -75,7 +75,7 @@
 
 Programa institucional de **120 horas** diseñado para que los directivos de la Universidad Anáhuac Mayab integren la inteligencia artificial generativa como herramienta estratégica en su gestión diaria.
 
-No es teoría sobre IA. Es **implementación guiada**: cada módulo se resuelve con sus documentos reales, sus correos pendientes y sus reportes de área. Disponible en dos versiones — **Académica** (🎓) y **Administrativa** (🏢) — con casos de uso diferenciados para cada contexto.
+No es teoría sobre IA. Es **implementación guiada**: cada nivel se resuelve con sus documentos reales, sus correos pendientes y sus reportes de área. Disponible en dos versiones — **Académica** (🎓) y **Administrativa** (🏢) — con casos de uso diferenciados para cada contexto.
 
 ---
 
@@ -110,7 +110,7 @@ No es teoría sobre IA. Es **implementación guiada**: cada módulo se resuelve 
 Reduzca 5+ horas semanales en tareas operativas que hoy consumen su agenda directiva.
 
 🎯 **Resultados desde el día 1**
-Cada módulo produce un entregable que usted usa al día siguiente en su gestión real.
+Cada nivel produce un entregable que usted usa al día siguiente en su gestión real.
 
 🛡️ **Criterio, no dependencia**
 Aprenda cuándo confiar en la IA, cuándo verificar y cuándo decidir que el humano es insustituible.
@@ -136,11 +136,11 @@ Obtenga hasta 3 Open Badges verificables + Constancia de Formación Continua An�
 |:---:|:---:|:---:|:---:|:---:|
 | **Ícono** | 📅 | 💻 | 🤖 | 🎖️ |
 | **Dato** | 120 horas totales | En línea, autogestiva | Amazon Quick | 6.5 créditos SATCA |
-| **Detalle** | 8 módulos · 3-5 hrs/semana | Con acompañamiento sincrónico opcional | Workspace local con agentes, archivos y flujos | 3 Open Badges + Constancia Anáhuac |
+| **Detalle** | 8 niveles · 3-5 hrs/semana | Con acompañamiento sincrónico opcional | Workspace local con agentes, archivos y flujos | 3 Open Badges + Constancia Anáhuac |
 
 <!-- [Layout alternativo si el espacio es limitado — formato horizontal compacto:]
 
-     📅 120 horas (8 módulos) · 💻 En línea, autogestiva · 🤖 Amazon Quick · 🎖️ 6.5 créditos SATCA, 3 Open Badges
+     📅 120 horas (8 niveles) · 💻 En línea, autogestiva · 🤖 Amazon Quick · 🎖️ 6.5 créditos SATCA, 3 Open Badges
 -->
 
 ---
@@ -153,8 +153,8 @@ Obtenga hasta 3 Open Badges verificables + Constancia de Formación Continua An�
      Debajo de los tres: badge dorado integrador "Líder Digital Anáhuac".] -->
 
 ```
-  🟢 Fundamentos IA    →    🔵 IA Aplicada    →    🟣 Líder IA
-    (Módulos 1-3)            (Módulos 4-6)          (Módulos 7-8)
+  🟢 Explorador IA    →    🔵 Estratega IA    →    🟣 Líder IA
+    (Niveles 1-3)            (Niveles 4-6)          (Niveles 7-8)
                               
                     🏆 Líder Digital Anáhuac
                       (Badge integrador final)

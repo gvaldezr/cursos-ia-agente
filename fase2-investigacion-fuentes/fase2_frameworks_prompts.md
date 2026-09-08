@@ -1,7 +1,7 @@
 # 🧠 Frameworks de Prompts para Directivos Universitarios
 
 > **Investigación realizada:** septiembre 2026  
-> **Módulo del curso:** Módulo 2 — Frameworks de Prompts  
+> **Nivel del curso:** Nivel 2 — Frameworks de Prompts  
 > **Audiencia:** Directivos y líderes de gestión universitaria (no técnicos)  
 > **Nota:** Cada framework incluye un ejemplo específico de gestión universitaria para Anáhuac Mayab
 
@@ -13,7 +13,7 @@
 |---|---|---|---|---|
 | 1 | **RISE** | Role, Input, Steps, Expectation | Tareas estructuradas paso a paso | ⭐⭐ Media |
 | 2 | **CO-STAR** | Context, Objective, Style, Tone, Audience, Response | Comunicación profesional consistente | ⭐⭐ Media |
-| 3 | **RTF** | Role, Task, Format | Solicitudes rápidas y directas | ⭐ Baja |
+| 3 | **RCTF** | Role, Context, Task, Format | Solicitudes rápidas y directas | ⭐ Baja |
 | 4 | **CRISPE** | Capacity/Role, Insight, Statement, Personality, Experiment | Análisis detallado con variaciones | ⭐⭐⭐ Alta |
 | 5 | **Chain-of-Thought (CoT)** | "Piensa paso a paso" | Razonamiento complejo y análisis | ⭐⭐ Media |
 | 6 | **BAB** | Before, After, Bridge | Narrativas de cambio y estrategia | ⭐ Baja |
@@ -73,7 +73,7 @@ EXPECTATION: Entrega un reporte ejecutivo de máximo 2 páginas con:
 
 ### Cuándo Usar RISE
 - Tareas con proceso claro paso a paso
-- Cuando necesitas controlar la secuencia del análisis
+- Cuando necesita controlar la secuencia del análisis
 - Reportes que requieren formato específico
 - Ideal para: análisis de datos, generación de reportes, planificación de proyectos
 
@@ -141,7 +141,7 @@ RESPONSE: Comunicado de máximo 500 palabras con:
 
 ---
 
-## Framework 3: RTF — Role, Task, Format
+## Framework 3: RCTF — Role, Context, Task, Format
 
 ### Origen y Fuente
 Es el framework más simple y ampliamente enseñado. Documentado como estándar básico en múltiples guías, incluyendo KnowledgeHut, ChatGPT AI Hub, y Virtasant. La versión técnica avanzada (Read, Think, Formulate) es diferente y se usa en investigación de IA; aquí nos referimos a la versión ejecutiva.
@@ -174,9 +174,9 @@ FORMAT: Tabla con columnas: Punto de Agenda | Preguntas Estratégicas |
 Datos de Benchmark. Máximo 1 página.
 ```
 
-### Cuándo Usar RTF
+### Cuándo Usar RCTF
 - Solicitudes rápidas y directas
-- Cuando no necesitas controlar el proceso intermedio
+- Cuando no necesita controlar el proceso intermedio
 - Tareas simples de una sola iteración
 - Ideal para: borradores rápidos, resúmenes, traducciones, preguntas puntuales
 - **Recomendación:** Es el framework "de entrada" perfecto para principiantes. Una vez dominado, migrar a RISE o CO-STAR.
@@ -237,9 +237,9 @@ a 3 y 6 meses.
 ```
 
 ### Cuándo Usar CRISPE
-- Cuando necesitas análisis profundo con contexto de negocio específico
+- Cuando necesita análisis profundo con contexto de negocio específico
 - Tareas de marketing, estrategia o consultoría
-- Cuando quieres explorar múltiples opciones antes de decidir
+- Cuando quiere explorar múltiples opciones antes de decidir
 - Ideal para: estrategia, campañas, propuestas de valor, análisis competitivo
 
 ---
@@ -293,7 +293,7 @@ a la conclusión.
 ### Cuándo Usar Chain-of-Thought
 - Decisiones complejas con múltiples variables
 - Análisis financiero o presupuestal
-- Resolución de problemas donde quieres ver "el razonamiento"
+- Resolución de problemas donde quiere ver "el razonamiento"
 - Cuando la respuesta directa podría estar equivocada o ser superficial
 - **Dato clave:** Las investigaciones muestran que prompts con CoT pueden mejorar la precisión del modelo entre un **20-50%** en tareas de razonamiento (Taskade, 2026; Wei et al., 2022)
 
@@ -402,8 +402,8 @@ justificación, y plan de validación de mercado en 90 días.
 
 ### Cuándo Usar CRIT
 - Decisiones ejecutivas complejas donde faltan datos
-- Cuando quieres que la IA sea tu "sparring partner"
-- Sesiones de estrategia donde la IA te ayuda a pensar mejor
+- Cuando quiere que la IA sea su "sparring partner"
+- Sesiones de estrategia donde la IA le ayuda a pensar mejor
 - Ideal para: decisiones de alta dirección, planificación estratégica, evaluación de opciones complejas
 - **Insight de Woods:** "No se trata de pedirle respuestas a la IA, sino de que la IA te haga las preguntas correctas." (Virtasant)
 
@@ -413,7 +413,7 @@ justificación, y plan de validación de mercado en 90 días.
 
 | Situación | Framework Recomendado | Razón |
 |---|---|---|
-| Necesito algo rápido | **RTF** | 3 componentes, resultados inmediatos |
+| Necesito algo rápido | **RCTF** | 3 componentes, resultados inmediatos |
 | Escribo un comunicado o email | **CO-STAR** | Controla audiencia, tono y formato |
 | Analizo datos o reportes | **RISE** | Proceso paso a paso controlado |
 | Necesito opciones de estrategia | **CRISPE** | Genera variaciones y explora opciones |
@@ -427,7 +427,7 @@ justificación, y plan de validación de mercado en 90 días.
 
 Para tareas críticas, se pueden combinar frameworks. Ejemplo:
 
-1. **Empieza con CRIT** → la IA te entrevista para entender bien
+1. **Empieza con CRIT** → la IA le entrevista para entender bien
 2. **Agrega Chain-of-Thought** → razonamiento paso a paso
 3. **Cierra con CO-STAR** → el deliverable final con tono y formato preciso
 

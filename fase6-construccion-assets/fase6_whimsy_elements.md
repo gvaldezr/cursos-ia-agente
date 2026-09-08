@@ -451,7 +451,7 @@ document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
 
 | Propiedad | Valor |
 |---|---|
-| **Trigger** | Contenido de módulo en proceso de carga |
+| **Trigger** | Contenido de nivel en proceso de carga |
 | **Acción** | Placeholders con gradiente que se desplaza suavemente de izquierda a derecha |
 | **Feedback visual** | Indica que hay contenido por llegar — reduce ansiedad de espera. Forma de los placeholders refleja la estructura real. |
 | **Duración** | Ciclo del gradiente: 1500ms linear infinite. Desaparición al cargar: 200ms fade-out. |
@@ -600,7 +600,7 @@ Intensidad de celebración:
   │  ╱              ╱              ╱
   │ ╱   ★ M2      ╱   ★ M4      ╱   ★ M8
   │╱    (dominio) ╱   (midpoint)╱   (CLIMAX)
-  ★ M1──────────╱──────────────╱───────────────→ Módulos
+  ★ M1──────────╱──────────────╱───────────────→ Niveles
   (sorpresa)
 ```
 
@@ -652,7 +652,7 @@ Intensidad de celebración:
 | Elemento | Nivel 5 (Crisis) | Nivel 6 |
 |---|---|---|
 | **Animación** | Checkmark con color verde que transiciona lentamente (reflejando que la confianza se reconstruye) | Checkmark + barra al 75% |
-| **Duración** | 500ms (más lento que los anteriores — intencional, refleja la gravedad del módulo) | 400ms |
+| **Duración** | 500ms (más lento que los anteriores — intencional, refleja la gravedad del nivel) | 400ms |
 | **Mensaje** | "Ha completado el Nivel 5. La confianza calibrada es más valiosa que la confianza ciega." | "Ha completado el Nivel 6. Sabe cuándo usar la IA — y cuándo la respuesta debe ser humana." |
 
 #### Badge de Acto II: "Estratega IA" (al completar Nivel 6)
@@ -742,8 +742,8 @@ Cinco sorpresas ocultas que recompensan la curiosidad. Cada una es relevante al 
 
 | Propiedad | Detalle |
 |---|---|
-| **Ubicación** | Módulo 1, en el bloque de texto que menciona "la primera instrucción" |
-| **Trigger** | Hacer clic 3 veces en la palabra "instrucción" en el epígrafe del módulo |
+| **Ubicación** | Nivel 1, en el bloque de texto que menciona "la primera instrucción" |
+| **Trigger** | Hacer clic 3 veces en la palabra "instrucción" en el epígrafe del nivel |
 | **Revelación** | Aparece una card con fondo púrpura suave que contiene un dato histórico: |
 | **Contenido** | *"En 1966, Joseph Weizenbaum creó ELIZA — el primer programa que simuló una conversación. Su 'prompt' era simplemente escribir como usted le habla a un terapeuta. 60 años después, la diferencia es que ahora la máquina sí entiende lo que usted dice."* |
 | **Cierre** | Botón "Entendido" para cerrar la card. |
@@ -764,7 +764,7 @@ Cinco sorpresas ocultas que recompensan la curiosidad. Cada una es relevante al 
 
 | Propiedad | Detalle |
 |---|---|
-| **Ubicación** | Módulo 2, dentro del banco de prompts base |
+| **Ubicación** | Nivel 2, dentro del banco de prompts base |
 | **Trigger** | Copiar exactamente 5 prompts del banco (el botón "Copiar" lleva un contador interno) |
 | **Revelación** | Al copiar el quinto, aparece una notificación discreta en la esquina inferior: |
 | **Contenido** | *"Cinco instrucciones copiadas. ¿Sabía que las organizaciones con bancos de instrucciones estandarizados reportan un 40% menos de variabilidad en los resultados de IA? Usted está construyendo el suyo."* |
@@ -774,7 +774,7 @@ Cinco sorpresas ocultas que recompensan la curiosidad. Cada una es relevante al 
 
 | Propiedad | Detalle |
 |---|---|
-| **Ubicación** | Módulo 5, en la sección de automatización de reportes |
+| **Ubicación** | Nivel 5, en la sección de automatización de reportes |
 | **Trigger** | Hover prolongado (3 segundos) sobre la ilustración o diagrama del flujo de reportes |
 | **Revelación** | El diagrama muestra brevemente un "nodo fantasma" con línea punteada que dice: |
 | **Contenido** | *"Paso secreto: Validación humana. El 100% de los flujos exitosos de IA en organizaciones serias incluyen este paso. Los que no lo tienen... ya no son organizaciones serias."* |
@@ -818,7 +818,7 @@ function triggerEasterEgg(id, content, duration = 5000) {
 
 ### 5.1 Análisis para la audiencia
 
-El arquetipo de la "Directora Martínez" ya funciona como hilo conductor narrativo en los textos del curso (su voz interna abre cada módulo). La pregunta es: ¿debe tener presencia VISUAL en la interfaz?
+El arquetipo de la "Directora Martínez" ya funciona como hilo conductor narrativo en los textos del curso (su voz interna abre cada nivel). La pregunta es: ¿debe tener presencia VISUAL en la interfaz?
 
 ### 5.2 Evaluación
 
@@ -835,7 +835,7 @@ El arquetipo de la "Directora Martínez" ya funciona como hilo conductor narrati
 
 **Alternativa implementada: "La voz de la experiencia"**
 
-Cada módulo incluye un callout especial con borde izquierdo púrpura y fondo `--ana-bg-theory` que contiene la reflexión de la Directora Martínez. Este elemento:
+Cada nivel incluye un callout especial con borde izquierdo púrpura y fondo `--ana-bg-theory` que contiene la reflexión de la Directora Martínez. Este elemento:
 
 - **Tiene un estilo visual distintivo** (diferente de los callouts teóricos normales — usa comillas tipográficas y formato de cita)
 - **No tiene avatar ni ilustración** — solo texto con tipografía cuidada
@@ -918,11 +918,11 @@ Cada actividad muestra un estimado de duración. Al completarla, se registra el 
 
 **Justificación:** Los directivos de 40-55 años no necesitan (ni desean) que un curso les diga cuántos días seguidos han entrado. Pero un dato sutil puede reforzar el hábito sin presionar.
 
-#### GS-04 · Mini-achievements por Módulo
+#### GS-04 · Mini-achievements por Nivel
 
-Cada módulo tiene 1 "logro" desbloqueado al completar el entregable del módulo. No son "trofeos" — son reconocimientos funcionales:
+Cada nivel tiene 1 "logro" desbloqueado al completar el entregable del nivel. No son "trofeos" — son reconocimientos funcionales:
 
-| Módulo | Logro | Formato visual |
+| Nivel | Logro | Formato visual |
 |---|---|---|
 | M1 | "5 tareas identificadas" | Texto + ícono check |
 | M2 | "3 instrucciones maestras creadas" | Texto + ícono check |

@@ -28,7 +28,7 @@ Cada ejercicio debe sentirse **"esto es exactamente lo que hago en mi trabajo"**
 
 ---
 
-### MÓDULO 2: Tu Primera Conversación Útil con IA
+### MÓDULO 2: Su Primera Conversación Útil con IA
 
 | Dimensión | Versión ACADÉMICA | Versión ADMINISTRATIVA |
 |-----------|-------------------|----------------------|
@@ -50,7 +50,7 @@ Cada ejercicio debe sentirse **"esto es exactamente lo que hago en mi trabajo"**
 
 ---
 
-### MÓDULO 4: IA con Tus Propios Documentos
+### MÓDULO 4: IA con Sus Propios Documentos
 
 | Dimensión | Versión ACADÉMICA | Versión ADMINISTRATIVA |
 |-----------|-------------------|----------------------|
@@ -97,7 +97,7 @@ Cada ejercicio debe sentirse **"esto es exactamente lo que hago en mi trabajo"**
 
 ---
 
-### MÓDULO 8: Estrategia de IA para Tu Área — Plan de Adopción
+### MÓDULO 8: Estrategia de IA para Su Área — Plan de Adopción
 
 | Dimensión | Versión ACADÉMICA | Versión ADMINISTRATIVA |
 |-----------|-------------------|----------------------|
@@ -117,7 +117,7 @@ Cada ejercicio debe sentirse **"esto es exactamente lo que hago en mi trabajo"**
 PANTALLA DE INICIO
        │
        ▼
-  ¿Cuál es tu rol?
+  ¿Cuál es su rol?
   ┌──────────────────────┐
   │  🎓 Gestión          │
   │     Académica        │

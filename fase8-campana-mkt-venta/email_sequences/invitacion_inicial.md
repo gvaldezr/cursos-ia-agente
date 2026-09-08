@@ -74,7 +74,7 @@ Al completar el programa, usted contará con:
 ✅ **Un banco de 20+ instrucciones** listas para usar en su gestión diaria  
 ✅ **Criterio profesional** para saber cuándo confiar en la IA, cuándo
 verificar y cuándo decir «esto lo hago yo»  
-✅ **3 Open Badges verificables** (Fundamentos IA 🟢, IA Aplicada 🔵,
+✅ **3 Open Badges verificables** (Explorador IA 🟢, Estratega IA 🔵,
 Líder IA 🟣) + el badge integrador **Líder Digital Anáhuac 🏆**  
 ✅ **Constancia con valor curricular** — 6.5 créditos SATCA
 
@@ -85,7 +85,7 @@ Líder IA 🟣) + el badge integrador **Líder Digital Anáhuac 🏆**
 | | |
 |---|---|
 | **Formato** | En línea, autogestivo, con acompañamiento opcional |
-| **Duración** | 8 módulos — puede avanzar a su ritmo (8 semanas estándar) |
+| **Duración** | 8 niveles — puede avanzar a su ritmo (8 semanas estándar) |
 | **Dedicación semanal** | 3 a 5 horas por semana |
 | **Versiones** | 🎓 Académica (directores de escuela, coordinadores) |
 | | 🏢 Administrativa (directores de área, jefes de departamento) |
@@ -98,13 +98,13 @@ Líder IA 🟣) + el badge integrador **Líder Digital Anáhuac 🏆**
 ### Lo que hace diferente a este programa
 
 No le vamos a enseñar teoría sobre inteligencia artificial. Desde el
-**primer módulo**, usted va a producir un entregable útil con sus datos
-reales. Cada módulo resuelve un problema concreto de su gestión diaria:
+**primer nivel**, usted va a producir un entregable útil con sus datos
+reales. Cada nivel resuelve un problema concreto de su gestión diaria:
 
-- **Módulo 1-2:** Entender la IA y dominar los frameworks de instrucciones
-- **Módulo 3-4:** Resolver sus correos y analizar sus reportes con IA
-- **Módulo 5-6:** Automatizar reportes recurrentes y atender stakeholders
-- **Módulo 7-8:** Gestionar proyectos y crear su ecosistema de agentes
+- **Nivel 1-2:** Entender la IA y dominar los frameworks de instrucciones
+- **Nivel 3-4:** Resolver sus correos y analizar sus reportes con IA
+- **Nivel 5-6:** Automatizar reportes recurrentes y atender stakeholders
+- **Nivel 7-8:** Gestionar proyectos y crear su ecosistema de agentes
 
 Un curso que no cambia lo que usted hace el lunes siguiente es
 entretenimiento, no formación. **Este programa cambia su lunes.**

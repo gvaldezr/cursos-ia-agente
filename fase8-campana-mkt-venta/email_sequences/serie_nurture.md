@@ -24,7 +24,7 @@
 ```
 Semana 1: DATO + URGENCIA     → "El mundo ya cambió. Usted puede ponerse al día."
 Semana 2: STORYTELLING         → "Un directivo como usted ya lo hizo. Así le fue."
-Semana 3: PREVIEW DE CONTENIDO → "Esto es lo que va a aprender. Módulo por módulo."
+Semana 3: PREVIEW DE CONTENIDO → "Esto es lo que va a aprender. Nivel por nivel."
 Semana 4: RECORDATORIO + PROOF → "Empieza la próxima semana. Esto dicen quienes ya probaron."
 ```
 
@@ -83,7 +83,7 @@ a su equipo, y fortalecimiento de sus programas.
 ### El programa ya está diseñado para usted
 
 **«IA Práctica para Líderes Anáhuac»** no es un webinar genérico sobre
-«el futuro de la IA». Es un programa de 8 módulos donde usted va a
+«el futuro de la IA». Es un programa de 8 niveles donde usted va a
 trabajar con **sus documentos reales**, en **su contexto específico**,
 y va a salir con herramientas que usa **el lunes siguiente**.
 
@@ -205,12 +205,12 @@ similares — con sus datos, en su contexto, para sus reportes.
 <div style="text-align: center; margin: 32px 0; padding: 16px;
             background-color: #f0f7f0; border-radius: 8px;">
   ✅ <strong>Su lugar está reservado.</strong><br>
-  En el próximo email le mostraré exactamente qué cubrirá cada módulo.
+  En el próximo email le mostraré exactamente qué cubrirá cada nivel.
 </div>
 {{/IF_CONFIRMADO}}
 
 La próxima semana le enviaré el mapa completo del programa:
-qué va a aprender en cada uno de los 8 módulos.
+qué va a aprender en cada uno de los 8 niveles.
 
 Atentamente,
 
@@ -235,9 +235,9 @@ El caso debe ser **verificable** o declarado como «caso representativo basado e
 
 | Campo | Valor |
 |---|---|
-| **Asunto** | Su mapa completo: qué aprenderá en cada módulo del programa de IA |
-| **Asunto alternativo** | De «nunca he usado IA» a «tengo 3 agentes trabajando para mi área» — en 8 módulos |
-| **Pre-header** | 8 módulos prácticos. Cada uno resuelve un problema real de su gestión diaria. |
+| **Asunto** | Su mapa completo: qué aprenderá en cada nivel del programa de IA |
+| **Asunto alternativo** | De «nunca he usado IA» a «tengo 3 agentes trabajando para mi área» — en 8 niveles |
+| **Pre-header** | 8 niveles prácticos. Cada uno resuelve un problema real de su gestión diaria. |
 | **Semana de envío** | Semana 3 (2 semanas antes del inicio) |
 
 ### Cuerpo del Email
@@ -246,11 +246,11 @@ El caso debe ser **verificable** o declarado como «caso representativo basado e
 Estimado(a) {{NOMBRE_COMPLETO}}:
 
 Esta semana quiero mostrarle exactamente qué va a aprender — y
-más importante, qué va a PRODUCIR — en cada módulo del programa.
+más importante, qué va a PRODUCIR — en cada nivel del programa.
 
 ---
 
-### Su recorrido en 8 módulos
+### Su recorrido en 8 niveles
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr style="background-color: #432F64; color: white;">
@@ -260,7 +260,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 1
+      Nivel 1
     </td>
     <td style="padding: 12px;">
       <strong>«El lunes a las 8 AM»</strong><br>
@@ -272,7 +272,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 2
+      Nivel 2
     </td>
     <td style="padding: 12px;">
       <strong>«Las tres recetas»</strong><br>
@@ -290,7 +290,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 3
+      Nivel 3
     </td>
     <td style="padding: 12px;">
       <strong>«Nunca más la pantalla en blanco»</strong><br>
@@ -302,7 +302,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 4
+      Nivel 4
     </td>
     <td style="padding: 12px;">
       <strong>«Las 50 páginas que nadie lee»</strong><br>
@@ -320,7 +320,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 5
+      Nivel 5
     </td>
     <td style="padding: 12px;">
       <strong>«El dato que la IA inventó»</strong><br>
@@ -332,7 +332,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 6
+      Nivel 6
     </td>
     <td style="padding: 12px;">
       <strong>«La línea que no se cruza»</strong><br>
@@ -350,7 +350,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 7
+      Nivel 7
     </td>
     <td style="padding: 12px;">
       <strong>«De la junta al tablero en 15 min»</strong><br>
@@ -362,7 +362,7 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
   </tr>
   <tr style="border-bottom: 1px solid #eee;">
     <td style="padding: 12px; font-weight: bold; color: #FF5900;">
-      Módulo 8
+      Nivel 8
     </td>
     <td style="padding: 12px;">
       <strong>«Su equipo invisible»</strong><br>
@@ -378,10 +378,10 @@ más importante, qué va a PRODUCIR — en cada módulo del programa.
 
 ### Lo que obtiene al completar
 
-🟢 **Badge Fundamentos IA** — al completar módulos 1-3  
-🔵 **Badge IA Aplicada** — al completar módulos 4-6  
-🟣 **Badge Líder IA** — al completar módulos 7-8  
-🏆 **Badge Líder Digital Anáhuac** — al completar los 8 módulos  
+🟢 **Badge Explorador IA** — al completar niveles 1-3  
+🔵 **Badge Estratega IA** — al completar niveles 4-6  
+🟣 **Badge Líder IA** — al completar niveles 7-8  
+🏆 **Badge Líder Digital Anáhuac** — al completar los 8 niveles  
 
 Cada badge es una micro-credencial verificable bajo el estándar Open Badges 3.0,
 compartible en LinkedIn y con valor curricular institucional.
@@ -392,7 +392,7 @@ compartible en LinkedIn y con valor curricular institucional.
 
 ### Formato diseñado para su agenda
 
-- ⏱️ Módulos de 20-35 minutos de contenido + práctica
+- ⏱️ Niveles de 20-35 minutos de contenido + práctica
 - 📱 Accesible desde cualquier dispositivo
 - 🎯 Avance a su ritmo — sin horarios fijos
 - 💬 Sesiones sincrónicas opcionales de resolución de dudas
@@ -455,31 +455,31 @@ El programa **«IA Práctica para Líderes Anáhuac»** inicia el
 - [ ] **Acceso confirmado** a su cuenta de Amazon Quick
   (si aún no la tiene, contacte a {{EMAIL_SOPORTE_TECNICO}})
 - [ ] **Computadora con navegador** actualizado (Chrome, Edge o Firefox)
-- [ ] **30-45 minutos disponibles** para completar el Módulo 1 en su
+- [ ] **30-45 minutos disponibles** para completar el Nivel 1 en su
   primera sesión
 - [ ] **Un documento real de su área** que quiera usar como primer
   ejercicio (comunicado, correo pendiente, o reporte)
 
-> **💡 Tip:** Traiga al Módulo 1 ese correo que tiene pendiente de
+> **💡 Tip:** Traiga al Nivel 1 ese correo que tiene pendiente de
 > redactar. Al terminar la sesión, lo tendrá listo para enviar.
 
 ---
 
 ### 📅 Calendario del programa
 
-| Semana | Módulos | Lo que produce |
+| Semana | Niveles | Lo que produce |
 |---|---|---|
-| Semana 1-2 | Módulos 1 y 2 | Primer output + 3 prompts maestros |
-| Semana 3-4 | Módulos 3 y 4 | 5 templates de comunicación + resumen ejecutivo |
-| Semana 5-6 | Módulos 5 y 6 | ⭐ Flujo automatizado + kit de atención |
-| Semana 7-8 | Módulos 7 y 8 | Plan de proyecto + ⭐ Ecosistema completo |
+| Semana 1-2 | Niveles 1 y 2 | Primer output + 3 prompts maestros |
+| Semana 3-4 | Niveles 3 y 4 | 5 templates de comunicación + resumen ejecutivo |
+| Semana 5-6 | Niveles 5 y 6 | ⭐ Flujo automatizado + kit de atención |
+| Semana 7-8 | Niveles 7 y 8 | Plan de proyecto + ⭐ Ecosistema completo |
 
 ---
 
 ### 🗣️ Lo que dicen quienes ya probaron el programa
 
 > *«Entré pensando que iba a ser otro curso de tecnología que no
-> iba a terminar. Al final del Módulo 2 ya estaba usando lo aprendido
+> iba a terminar. Al final del Nivel 2 ya estaba usando lo aprendido
 > para mis correos del día. Eso nunca me había pasado con una
 > capacitación.»*  
 > — **Participante del piloto, {{CARGO_PILOTO_1}}**
@@ -541,7 +541,7 @@ El mini sitio del programa estará disponible a partir del
 </div>
 {{/IF_CONFIRMADO}}
 
-Nos vemos en el Módulo 1.
+Nos vemos en el Nivel 1.
 
 Atentamente,
 

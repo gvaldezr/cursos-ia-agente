@@ -15,7 +15,7 @@ Amazon Quick es una aplicación de escritorio que funciona como un asistente de 
 
 Lo que distingue a Amazon Quick de herramientas como ChatGPT o Gemini es su enfoque integral. No se limita a responder preguntas: puede conectar con Outlook, Gmail y Slack para sintetizar su actividad; puede crear documentos de Word, presentaciones de PowerPoint y hojas de cálculo; y le permite construir *agentes* (asistentes especializados) que ya conocen el contexto de su área y pueden ejecutar tareas de manera recurrente sin intervención manual.
 
-Para el contexto de este curso, Amazon Quick será su herramienta principal de trabajo. El plan gratuito (*Free*) incluye todo lo necesario para los primeros seis módulos: chat con el asistente de IA, creación de agentes personalizados, búsqueda en la web, análisis de archivos y generación de documentos. No requiere cuenta de Amazon Web Services para comenzar. Los módulos avanzados (7 y 8) aprovechan funciones del plan Plus ($20 USD/mes), como mayor capacidad de almacenamiento y automatización de flujos.
+Para el contexto de este curso, Amazon Quick será su herramienta principal de trabajo. El plan gratuito (*Free*) incluye todo lo necesario para los primeros seis niveles: chat con el asistente de IA, creación de agentes personalizados, búsqueda en la web, análisis de archivos y generación de documentos. No requiere cuenta de Amazon Web Services para comenzar. Los niveles avanzados (7 y 8) aprovechan funciones del plan Plus ($20 USD/mes), como mayor capacidad de almacenamiento y automatización de flujos.
 
 ---
 
@@ -66,7 +66,7 @@ Para que Amazon Quick pueda leer y analizar sus documentos, necesita indicarle c
 3. Seleccione «Conectar» y complete el proceso de autorización.
 4. Una vez conectado, Amazon Quick podrá leer su correo, buscar mensajes y redactar borradores.
 
-> **Nota:** La conexión de correo es opcional para los primeros módulos. Se vuelve especialmente útil a partir del Nivel 3 (Email y comunicados institucionales).
+> **Nota:** La conexión de correo es opcional para los primeros niveles. Se vuelve especialmente útil a partir del Nivel 3 (Email y comunicados institucionales).
 
 ### Paso 5 — Activar la memoria del asistente
 

@@ -6,7 +6,7 @@
 
 ---
 
-## Módulo 1 · Fundamentos de IA Generativa
+## Nivel 1 · Fundamentos de IA Generativa
 ### "De la curiosidad al primer resultado útil"
 
 **Objetivo pedagógico:** Romper la barrera del primer uso. El participante descubre que puede obtener un borrador profesional en menos de 2 minutos sin conocimiento técnico.
@@ -62,7 +62,7 @@ Compare su comunicado habitual con el generado. Pregunte al grupo:
 
 ---
 
-## Módulo 2 · Anatomía de una Instrucción Efectiva
+## Nivel 2 · Anatomía de una Instrucción Efectiva
 ### "La diferencia entre un resultado mediocre y uno excelente"
 
 **Objetivo pedagógico:** El participante experimenta directamente cómo la estructura del prompt determina la calidad del resultado. Aprende el patrón Contexto + Rol + Tarea + Formato + Restricciones.
@@ -137,7 +137,7 @@ Use estos datos de práctica:
 
 ---
 
-## Módulo 3 · Casos de Uso en Gestión Administrativa
+## Nivel 3 · Casos de Uso en Gestión Administrativa
 ### "Tres problemas reales, tres soluciones en 30 minutos"
 
 **Objetivo pedagógico:** El participante aplica IA a tres escenarios de su realidad laboral diaria y sale con tres outputs directamente usables.
@@ -230,10 +230,10 @@ Use como concepto: "Entrega de 50 sillas para aulas del edificio B, con 15 días
 
 ---
 
-## Módulo 4 · Evaluación Crítica de Resultados
+## Nivel 4 · Evaluación Crítica de Resultados
 ### "No todo lo que la IA genera es correcto — y usted debe saber distinguirlo"
 
-**Objetivo pedagógico:** El participante desarrolla criterio para evaluar, cuestionar y verificar lo que la IA produce. Este es el módulo más importante del curso: transforma usuarios pasivos en usuarios críticos.
+**Objetivo pedagógico:** El participante desarrolla criterio para evaluar, cuestionar y verificar lo que la IA produce. Este es el nivel más importante del curso: transforma usuarios pasivos en usuarios críticos.
 
 ---
 
@@ -297,7 +297,7 @@ Concéntrese solo en verificar que los porcentajes sumen 100% y que los montos e
 
 ---
 
-## Módulo 5 · Ética y Uso Responsable
+## Nivel 5 · Ética y Uso Responsable
 ### "Lo que puede hacer vs. lo que debe hacer"
 
 **Objetivo pedagógico:** El participante experimenta dilemas éticos reales de la gestión administrativa donde el uso de IA requiere juicio, no solo competencia técnica.
@@ -360,7 +360,7 @@ Trabaje solo con los escenarios 1, 4, 5, 9 (los más contrastantes).
 
 ---
 
-## Módulo 6 · Flujos de Trabajo Integrados
+## Nivel 6 · Flujos de Trabajo Integrados
 ### "De la tarea suelta al proceso completo"
 
 **Objetivo pedagógico:** El participante aprende a encadenar múltiples interacciones con la IA para resolver un proceso administrativo completo, no solo tareas aisladas.
@@ -448,7 +448,7 @@ Haga solo los Pasos 1 y 2. El facilitador provee un caso de ejemplo: "Implementa
 
 ---
 
-## Módulo 7 · Personalización y Contexto Institucional
+## Nivel 7 · Personalización y Contexto Institucional
 ### "Hacer que la IA hable como Anáhuac"
 
 **Objetivo pedagógico:** El participante aprende a inyectar contexto institucional para que los resultados sean consistentes con la identidad y procesos de la Universidad Anáhuac Mayab.
@@ -525,7 +525,7 @@ El facilitador proyecta un contexto pre-llenado. Los participantes solo cambian 
 
 ---
 
-## Módulo 8 · Plan de Implementación Personal
+## Nivel 8 · Plan de Implementación Personal
 ### "De aquí a 30 días: su hoja de ruta personal"
 
 **Objetivo pedagógico:** El participante sale del curso con un plan concreto, personalizado y realista de implementación. No es un ejercicio teórico — es el entregable final que compromete acciones específicas.
@@ -614,7 +614,7 @@ Solo complete Paso 1 con 3 tareas. El facilitador provee ejemplos de tareas comu
 
 ## Resumen de ejercicios — Versión Administrativa
 
-| Módulo | Ejercicio | Output del participante | Tiempo |
+| Nivel | Ejercicio | Output del participante | Tiempo |
 |--------|-----------|------------------------|--------|
 | 1 | Comunicado interno al equipo | Borrador de comunicado listo para distribuir | 15 min |
 | 2 | Prompt vago vs. estructurado (presupuesto) | Reporte presupuestal con datos propios | 20 min |

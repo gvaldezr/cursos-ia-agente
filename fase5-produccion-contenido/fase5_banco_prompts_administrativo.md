@@ -147,7 +147,7 @@ Expectation:
 
 ### AD-04 · Cotización comparativa de proveedores
 **Caso de uso:** Estructurar la comparación de cotizaciones recibidas para tomar decisión de compra.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un analista de compras institucionales.
@@ -239,7 +239,7 @@ Formato:
 
 ### AD-06 · Descriptivo de puesto para nueva contratación
 **Caso de uso:** Crear o actualizar la descripción de un puesto antes de lanzar la convocatoria.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un especialista en recursos humanos de una universidad
@@ -360,7 +360,7 @@ Expectation:
 
 ### AD-09 · Respuesta a solicitud de colaborador (RH)
 **Caso de uso:** Responder formalmente a solicitudes de empleados: vacaciones, permisos, constancias, cambio de horario, plantear situación personal.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres el director/jefe de área de [ÁREA/DEPARTAMENTO] en la
@@ -518,7 +518,7 @@ Experiment: Dame 2 versiones:
 
 ### AD-13 · Solicitud de mantenimiento o servicio correctivo
 **Caso de uso:** Redactar la solicitud formal de servicio de mantenimiento (correctivo o preventivo) con todos los datos para que el proveedor o el área de mantenimiento actúe.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres el responsable administrativo del área de
@@ -599,7 +599,7 @@ Expectation:
 
 ### AD-15 · Reporte de avance de proyectos con semáforo
 **Caso de uso:** Generar reporte mensual de avance de los proyectos bajo su responsabilidad para presentar a dirección.
-**Nivel:** 🟡 Intermedio · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟡 Intermedio · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres un project manager universitario.
@@ -802,7 +802,7 @@ Expectation:
 
 ### AD-20 · Acta de comité o junta administrativa
 **Caso de uso:** Convertir notas de reunión administrativa en acta formal para archivo y seguimiento.
-**Nivel:** 🟢 Básico · **Framework:** RTF (Rol-Tarea-Formato)
+**Nivel:** 🟢 Básico · **Framework:** RCTF (Rol-Contexto-Tarea-Formato)
 
 ```
 Rol: Eres el secretario de actas de un comité administrativo
@@ -1064,26 +1064,26 @@ a dirección. Incluir tabla antes/después.
 | AD-01 | Variación presupuestal | Comparar presupuesto vs. gasto real | 🟡 | RISE |
 | AD-02 | Partida extraordinaria | Justificar gasto no programado | 🟡 | CO-STAR |
 | AD-03 | Reporte financiero trimestral | Informe completo para Vicerrectoría | 🔴 | RISE |
-| AD-04 | Cotización comparativa | Comparar proveedores para decisión de compra | 🟢 | RTF |
+| AD-04 | Cotización comparativa | Comparar proveedores para decisión de compra | 🟢 | RCTF |
 | AD-05 | Costo-beneficio de proyecto | Evaluar viabilidad financiera | 🔴 | CoT |
 | **RECURSOS HUMANOS** | | | | |
-| AD-06 | Descriptivo de puesto | Crear perfil para convocatoria | 🟢 | RTF |
+| AD-06 | Descriptivo de puesto | Crear perfil para convocatoria | 🟢 | RCTF |
 | AD-07 | Cambio organizacional | Comunicar al equipo un cambio estructural | 🟡 | CO-STAR |
 | AD-08 | Evaluación de desempeño | Retroalimentación constructiva a colaborador | 🟡 | RISE |
-| AD-09 | Respuesta a colaborador (RH) | Atender solicitudes de personal | 🟢 | RTF |
+| AD-09 | Respuesta a colaborador (RH) | Atender solicitudes de personal | 🟢 | RCTF |
 | AD-10 | Plan de inducción | Programa de 2 semanas para nuevo integrante | 🟡 | RISE |
 | **OPERACIONES Y PROYECTOS** | | | | |
 | AD-11 | Reporte semanal operativo | Borrador para jefe directo | 🟡 | RISE |
 | AD-12 | Plan de proyecto | Estructurar proyecto desde cero | 🔴 | CRISPE |
-| AD-13 | Solicitud de mantenimiento | Orden de servicio correctivo/preventivo | 🟢 | RTF |
+| AD-13 | Solicitud de mantenimiento | Orden de servicio correctivo/preventivo | 🟢 | RCTF |
 | AD-14 | Tabla de requisiciones | Documentar requisiciones de compra | 🟡 | RISE |
-| AD-15 | Avance de proyectos | Reporte mensual con semáforo | 🟡 | RTF |
+| AD-15 | Avance de proyectos | Reporte mensual con semáforo | 🟡 | RCTF |
 | **COMPLIANCE Y NORMATIVIDAD** | | | | |
 | AD-16 | Revisión de política | Mejorar documento normativo interno | 🟡 | RISE |
 | AD-17 | Respuesta a auditoría | Contestar hallazgos formalmente | 🔴 | CRISPE |
 | AD-18 | Cambio de normatividad | Comunicar nueva política/procedimiento | 🟢 | CO-STAR |
 | AD-19 | Checklist de cumplimiento | Verificación regulatoria del área | 🟡 | RISE |
-| AD-20 | Acta de comité administrativo | Notas informales → acta formal | 🟢 | RTF |
+| AD-20 | Acta de comité administrativo | Notas informales → acta formal | 🟢 | RCTF |
 | **COMUNICACIÓN Y GESTIÓN** | | | | |
 | AD-21 | Correo a alta dirección | Comunicación ejecutiva de alto impacto | 🟡 | CO-STAR |
 | AD-22 | Informe para Consejo | Informe periódico con KPIs y solicitudes | 🔴 | RISE |

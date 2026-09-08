@@ -47,7 +47,7 @@ El Tec de Monterrey desarrolló **TECgpt**, un ecosistema completo de herramient
 - Integración de IA en los **planes de estudio 2026** de toda la institución
 
 ### Relevancia para el Curso
-Es el caso más relevante para directivos de universidades mexicanas: demuestra que es posible construir un ecosistema IA institucional completo. Los "Skills" de Skill Studio son el ejemplo perfecto de cómo los frameworks de prompts (Módulo 2) se convierten en herramientas reutilizables para toda la organización.
+Es el caso más relevante para directivos de universidades mexicanas: demuestra que es posible construir un ecosistema IA institucional completo. Los "Skills" de Skill Studio son el ejemplo perfecto de cómo los frameworks de prompts (Nivel 2) se convierten en herramientas reutilizables para toda la organización.
 
 ### Fuentes
 - TECgpt Open Edition: [tec.mx/es/ia/tecgpt-open-edition](https://tec.mx/es/ia/tecgpt-open-edition) — Verificado sep 2026
@@ -113,7 +113,7 @@ Posteriormente expandieron a chatbots de aula (POLS Pounce y otros) que envían 
 - **$7.6 millones** otorgados por el Dept. de Educación de EE.UU. para estudiar beneficios del chatbot IA en aulas (GSU News, enero 2024)
 
 ### Relevancia para el Curso
-Caso perfecto para el Módulo 6 (Atención a Alumnos). Demuestra que un chatbot relativamente sencillo puede tener impacto masivo en métricas clave como retención y matrícula. Los directivos pueden replicar este concepto usando Amazon Quick o ChatGPT para crear agentes de soporte estudiantil.
+Caso perfecto para el Nivel 6 (Atención a Alumnos). Demuestra que un chatbot relativamente sencillo puede tener impacto masivo en métricas clave como retención y matrícula. Los directivos pueden replicar este concepto usando Amazon Quick o ChatGPT para crear agentes de soporte estudiantil.
 
 ### Fuentes
 - Reducción de summer melt: [success.gsu.edu](https://success.gsu.edu/reduction-of-summer-melt/) — Verificado sep 2026
@@ -142,7 +142,7 @@ Illinois Tech adoptó herramientas de IA y cloud (en AWS) para reinventar comple
 - Aplicaciones de posgrado **+58%** y admisiones de posgrado **+66%** interanual (IIT News, abril 2025)
 
 ### Relevancia para el Curso
-Caso ideal para el Módulo 5 (Automatización) y Módulo 8 (Flujos con Agentes). Demuestra ROI claro y medible de automatizar un proceso administrativo con IA. El impacto en matrícula tiene implicaciones financieras directas que cualquier Rector o VP puede cuantificar.
+Caso ideal para el Nivel 5 (Automatización) y Nivel 8 (Flujos con Agentes). Demuestra ROI claro y medible de automatizar un proceso administrativo con IA. El impacto en matrícula tiene implicaciones financieras directas que cualquier Rector o VP puede cuantificar.
 
 ### Fuentes
 - EDUCAUSE 2025: [events.educause.edu](https://events.educause.edu/annual-conference/2025/agenda/aipowered-admissions-transcript-processing-as-a-catalyst-for-data-transformation) — Oct 2025
@@ -171,7 +171,7 @@ El sistema CCC desplegó herramientas de IA para dos fines: (1) **detección de 
 - Despliegue de asistente IA de enseñanza con Nectir AI para los 116 colegios (BCG, marzo 2026)
 
 ### Relevancia para el Curso
-Caso para el Módulo 8 (Flujos y Agentes) — demuestra que la IA puede proteger recursos institucionales a escala masiva. También muestra el lado oscuro: los mismos "ghost students" usan IA para crear solicitudes falsas, lo que subraya la necesidad de entender la tecnología (Módulo 1).
+Caso para el Nivel 8 (Flujos y Agentes) — demuestra que la IA puede proteger recursos institucionales a escala masiva. También muestra el lado oscuro: los mismos "ghost students" usan IA para crear solicitudes falsas, lo que subraya la necesidad de entender la tecnología (Nivel 1).
 
 ### Fuentes
 - EdSource: [edsource.org](https://edsource.org/2025/california-colleges-ai-fraud-detection/739763) — Sep 2025
@@ -193,7 +193,7 @@ Ohio State lanzó la **AI Fluency Initiative**, un programa que garantiza que ca
 
 **Componentes clave:**
 - **AI(X) Hub:** Centro de excelencia que conecta 15 colleges para investigación colaborativa en IA
-- **Curso "Launch":** Seminario obligatorio para nuevos estudiantes con módulos de IA
+- **Curso "Launch":** Seminario obligatorio para nuevos estudiantes con niveles de IA
 - **Roadmaps por College:** Cada facultad desarrolló su propio camino para integrar fluidez IA en su currículo
 - **Faculty Council cross-college:** Consejo de docentes para desarrollar recursos y estrategia
 - **Modelo "train-the-trainer":** Identificación de champions facultativos para capacitación en cascada

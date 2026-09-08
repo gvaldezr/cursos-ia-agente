@@ -1,5 +1,5 @@
 # Rúbricas Analíticas: IA Práctica para Líderes Anáhuac Mayab
-## 8 Módulos + 2 Entregables Finales — Fase 3
+## 8 Niveles + 2 Entregables Finales — Fase 3
 
 > **Versión:** 1.0 | **Fecha:** 4 de septiembre de 2026  
 > **Principio:** Descriptores conductuales observables — cada celda describe lo que el evaluador VE, no lo que el participante "sabe".  
@@ -19,30 +19,30 @@
 
 ---
 
-## Módulo 1 — Fundamentos de IA Generativa
+## Nivel 1 — Fundamentos de IA Generativa
 ### Entregable: Mini-diagnóstico personal + reflexión escrita
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
 |-----------|-----------|----------------|---------------|------|
 | **Identificación de oportunidades** | Lista 5 tareas pero son **genéricas** (ej: "escribir correos", "hacer reportes") sin conexión explícita con su rol específico | Lista 5 tareas **específicas de su cargo y área** (ej: "consolidar calificaciones parciales de 8 grupos para el informe a Dirección de Escuela") con al menos 3 viables con IA | Lista 5 tareas **priorizadas por impacto**, explicando brevemente **por qué** cada una se beneficiaría de IA y **estimando tiempo ahorrado** | 40% |
 | **Comprensión de capacidades/limitaciones** | La reflexión menciona capacidades de IA pero **no identifica limitaciones concretas** o el riesgo está redactado de forma abstracta | La reflexión **distingue claramente** lo que IA puede hacer vs. lo que no, con un riesgo **específico de su área** (ej: "podría inventar datos de matrícula si no le doy los reales") | La reflexión demuestra **matiz**: capacidades con condiciones, limitaciones con soluciones parciales, y el riesgo incluye **consecuencia institucional concreta** | 35% |
-| **Calidad de la reflexión escrita** | Las 3 oraciones son **vagas o repetitivas**; no se evidencia pensamiento propio | Las 3 oraciones son **específicas, diferentes entre sí**, y reflejan comprensión aplicada al contexto | Las 3 oraciones demuestran **pensamiento crítico propio** que va más allá de lo presentado en el módulo; incluye una insight original | 25% |
+| **Calidad de la reflexión escrita** | Las 3 oraciones son **vagas o repetitivas**; no se evidencia pensamiento propio | Las 3 oraciones son **específicas, diferentes entre sí**, y reflejan comprensión aplicada al contexto | Las 3 oraciones demuestran **pensamiento crítico propio** que va más allá de lo presentado en el nivel; incluye una insight original | 25% |
 
 ---
 
-## Módulo 2 — Frameworks de Prompts
+## Nivel 2 — Frameworks de Prompts
 ### Entregable: 3 prompts maestros con outputs
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
 |-----------|-----------|----------------|---------------|------|
-| ⚡ **Estructura del prompt (RCTE)** | Los prompts **no siguen estructura** identificable; faltan 2+ elementos de RCTE; instrucciones vagas o incompletas | Los 3 prompts **incluyen los 4 elementos RCTE** (Rol, Contexto, Tarea, Especificaciones); la tarea es clara y el formato está definido | Los 3 prompts incluyen RCTE con **refinamiento avanzado**: restricciones de extensión, tono definido, anti-hallucination cues ("basándote solo en los datos proporcionados"), o ejemplos few-shot integrados | 35% |
+| ⚡ **Estructura del prompt (RCTF)** | Los prompts **no siguen estructura** identificable; faltan 2+ elementos de RCTF; instrucciones vagas o incompletas | Los 3 prompts **incluyen los 4 elementos RCTF** (Rol, Contexto, Tarea, Formato); la tarea es clara y el formato está definido | Los 3 prompts incluyen RCTF con **refinamiento avanzado**: restricciones de extensión, tono definido, anti-hallucination cues ("basándote solo en los datos proporcionados"), o ejemplos few-shot integrados | 35% |
 | **Relevancia contextual** | Los prompts son **genéricos** y podrían ser de cualquier persona en cualquier organización; no incluyen datos reales | Los prompts son **específicos del cargo y área** del participante; incluyen placeholders con datos reales o reales de práctica proporcionados | Los prompts están **listos para producción**: datos reales integrados, formatos institucionales correctos, y el participante explica **cuándo y con quién** usará cada uno | 30% |
 | **Calidad del output generado** | Los outputs son genéricos; el participante **no los editó ni evaluó** después de generarlos | Los outputs son **funcionales**: podrían usarse con edición menor; el participante **identifica qué cambiaría** | Los outputs son **directamente usables** con mínima edición; el participante **documentó las iteraciones** (mínimo 2 intentos) y explica qué mejoró en cada ciclo | 20% |
 | **Autocrítica (autoevaluación 1-5)** | La calificación propia es **inconsistente con la calidad real** (se pone 5/5 cuando el output es mediocre, o 1/5 sin justificación) | La calificación propia es **razonable y justificada**; identifica al menos 1 aspecto a mejorar por prompt | La calificación propia **coincide con la evaluación del facilitador** (±1 punto); incluye plan de mejora específico para cada prompt | 15% |
 
 ---
 
-## Módulo 3 — Email y Comunicados / Casos de Uso
+## Nivel 3 — Email y Comunicados / Casos de Uso
 ### Entregable: 5 templates + caso difícil resuelto
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
@@ -54,7 +54,7 @@
 
 ---
 
-## Módulo 4 — Análisis de Reportes / Evaluación Crítica
+## Nivel 4 — Análisis de Reportes / Evaluación Crítica
 ### Entregable: Dictamen de confiabilidad + análisis ejecutivo
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
@@ -66,19 +66,19 @@
 
 ---
 
-## Módulo 5 — Ética + Automatización de Reportes
+## Nivel 5 — Ética + Automatización de Reportes
 ### Entregable: Semáforo ético + flujo de reporte documentado ⭐
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
 |-----------|-----------|----------------|---------------|------|
 | **Juicio ético (semáforo)** | Las clasificaciones 🟢/🟡/🔴 son **inconsistentes o no justificadas**; el participante acepta la clasificación de la IA sin cuestionarla | Las clasificaciones son **coherentes y justificadas**; el participante **difiere de la IA** en al menos 2 escenarios con argumento propio; identifica riesgos de privacidad y responsabilidad | Las clasificaciones demuestran **criterio institucional maduro**: aplica principios de la normativa real de su institución, identifica zonas grises con matiz, y propone salvaguardas específicas para los escenarios 🟡 | 25% |
 | ⚡ **Diseño del flujo de reporte** | El flujo tiene **menos de 3 pasos** o los pasos son vagos ("usar IA para hacer el reporte"); no incluye prompts específicos | El flujo tiene **5-6 pasos claros** con: fuentes de datos identificadas, prompts exactos para cada paso, formato de salida definido, y checklist de verificación humana | El flujo es **replicable por un tercero sin guía adicional**: incluye diagrama visual, tiempos estimados por paso, puntos de decisión ("si el dato no cuadra, hacer X"), variantes por escenario, y el participante lo **probó con datos reales** | 35% |
-| **Prompts del flujo** | Los prompts del flujo son **genéricos** y no aprovechan los frameworks aprendidos | Los prompts del flujo usan **estructura RCTE**, están secuenciados lógicamente, y el output de cada paso alimenta al siguiente | Los prompts forman una **cadena optimizada**: incluyen instrucciones de formato específico para que el output de un paso sea input directo del siguiente; hay prompts de verificación ("revisa si los totales cuadran") | 20% |
+| **Prompts del flujo** | Los prompts del flujo son **genéricos** y no aprovechan los frameworks aprendidos | Los prompts del flujo usan **estructura RCTF**, están secuenciados lógicamente, y el output de cada paso alimenta al siguiente | Los prompts forman una **cadena optimizada**: incluyen instrucciones de formato específico para que el output de un paso sea input directo del siguiente; hay prompts de verificación ("revisa si los totales cuadran") | 20% |
 | **Checklist de verificación** | No hay checklist o es genérico ("revisar que esté bien") | El checklist tiene **al menos 5 puntos específicos**: números cuadran, fuentes correctas, formato adecuado, tono apropiado, no hay alucinaciones | El checklist está **calibrado con errores reales encontrados**: el participante muestra ejemplos de errores que IA cometió en su flujo y el checklist los previene específicamente | 20% |
 
 ---
 
-## Módulo 6 — Atención a Stakeholders / Flujos Integrados
+## Nivel 6 — Atención a Stakeholders / Flujos Integrados
 ### Entregable: Kit de atención + flujo integrado
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
@@ -90,19 +90,19 @@
 
 ---
 
-## Módulo 7 — Gestión de Proyectos / Personalización y Agentes
+## Nivel 7 — Gestión de Proyectos / Personalización y Agentes
 ### Entregable: Agente funcional + ficha técnica + plan de proyecto
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
 |-----------|-----------|----------------|---------------|------|
-| ⚡ **Agente funcional** | El agente tiene **nombre e instrucciones genéricas**; no incluye documentos de referencia; no fue probado con consultas reales | El agente tiene **nombre descriptivo, instrucciones específicas (RCTE), al menos 1 documento de referencia**, y fue probado con **3 consultas reales** con resultados aceptables | El agente está **optimizado**: instrucciones refinadas tras iteración, múltiples documentos de referencia, responde correctamente al 80%+ de consultas; la ficha técnica incluye **limitaciones conocidas** y protocolo de uso para el equipo | 30% |
+| ⚡ **Agente funcional** | El agente tiene **nombre e instrucciones genéricas**; no incluye documentos de referencia; no fue probado con consultas reales | El agente tiene **nombre descriptivo, instrucciones específicas (RCTF), al menos 1 documento de referencia**, y fue probado con **3 consultas reales** con resultados aceptables | El agente está **optimizado**: instrucciones refinadas tras iteración, múltiples documentos de referencia, responde correctamente al 80%+ de consultas; la ficha técnica incluye **limitaciones conocidas** y protocolo de uso para el equipo | 30% |
 | **Ficha técnica del agente** | No hay ficha técnica o es un párrafo vago; no documenta limitaciones | La ficha incluye: nombre, propósito, instrucciones resumidas, documentos de referencia listados, **al menos 3 limitaciones** identificadas, y protocolo de uso para terceros | La ficha es un **manual de usuario completo**: incluye ejemplos de consultas que funcionan y que no funcionan, instrucciones de mantenimiento (cuándo actualizar documentos), y escenarios de uso recomendados vs. contraindicados | 25% |
 | **Plan de proyecto real** | El plan de proyecto es **genérico** (objetivos vagos, sin fechas, sin responsables) o fue copiado del output de IA sin adaptación | El plan incluye **objetivos SMART, WBS con al menos 3 fases, responsables asignados, calendario realista, y al menos 3 riesgos identificados** con mitigación | El plan es **ejecutable a partir del lunes**: incluye WBS detallado, dependencias, template de minuta, formato de reporte de avance tipo semáforo, y el participante **validó la factibilidad** con su conocimiento del contexto | 25% |
-| **Contexto institucional (Módulo 7)** | No creó perfil de contexto institucional o es una copia sin personalización | El perfil incluye **cargo, área, poblaciones atendidas, estilo de comunicación, prioridades actuales**; demostró la diferencia con/sin contexto | El perfil está **refinado y probado**: incluye múltiples contextos situacionales (reunión formal vs. comunicado rápido), y el participante lo integró como base para todos sus agentes | 20% |
+| **Contexto institucional (Nivel 7)** | No creó perfil de contexto institucional o es una copia sin personalización | El perfil incluye **cargo, área, poblaciones atendidas, estilo de comunicación, prioridades actuales**; demostró la diferencia con/sin contexto | El perfil está **refinado y probado**: incluye múltiples contextos situacionales (reunión formal vs. comunicado rápido), y el participante lo integró como base para todos sus agentes | 20% |
 
 ---
 
-## Módulo 8 — Ecosistema de IA Personal + Plan de Adopción
+## Nivel 8 — Ecosistema de IA Personal + Plan de Adopción
 ### Entregable: Ecosistema completo ⭐ + plan de adopción
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
@@ -118,13 +118,13 @@
 
 ### Entregable Final #1: Banco de Prompts Completo
 
-> Esta rúbrica se aplica al banco de prompts como producto integrado final (no a los prompts individuales de cada módulo).
+> Esta rúbrica se aplica al banco de prompts como producto integrado final (no a los prompts individuales de cada nivel).
 
 | Dimensión | Básico (1) | Competente (2) | Destacado (3) | Peso |
 |-----------|-----------|----------------|---------------|------|
 | ⚡ **Completitud** | Menos de 15 prompts; faltan categorías completas (ej: no hay prompts de análisis o de ética); varios prompts son duplicados funcionales | **20+ prompts que cubren las 5 categorías** principales: comunicación institucional, análisis y reportes, diseño y planeación, gestión y coordinación, ética y gobernanza; sin duplicados funcionales | **25+ prompts** con cobertura exhaustiva del rol; incluye prompts para situaciones excepcionales (crisis, auditoría, caso legal); cada categoría tiene 4+ prompts; índice navegable | 30% |
 | ⚡ **Relevancia y personalización** | Los prompts son **copias del banco base** proporcionado en el curso, sin adaptación al rol/área del participante | Al menos **50% de los prompts están personalizados** con: nombre del cargo, área, institución, datos reales o realistas, procesos específicos del participante | **80%+ de los prompts están personalizados**; incluyen datos reales del área; cada prompt tiene nota de "cuándo usarlo" y "con quién/para qué"; el banco refleja **una semana real de trabajo** del participante | 30% |
-| **Calidad técnica de los prompts** | Los prompts **no usan frameworks** enseñados; faltan elementos RCTE; instrucciones ambiguas | Los prompts usan **estructura RCTE consistente**; especificaciones de formato y tono claras; incluyen restricciones de extensión donde corresponde | Los prompts demuestran **dominio avanzado**: uso de chain of thought donde aplica, few-shot con ejemplos, anti-hallucination cues, instrucciones condicionales ("si X entonces Y"), y variables claramente marcadas para reuso rápido | 20% |
+| **Calidad técnica de los prompts** | Los prompts **no usan frameworks** enseñados; faltan elementos RCTF; instrucciones ambiguas | Los prompts usan **estructura RCTF consistente**; especificaciones de formato y tono claras; incluyen restricciones de extensión donde corresponde | Los prompts demuestran **dominio avanzado**: uso de chain of thought donde aplica, few-shot con ejemplos, anti-hallucination cues, instrucciones condicionales ("si X entonces Y"), y variables claramente marcadas para reuso rápido | 20% |
 | **Organización y usabilidad** | Los prompts están en una **lista desordenada** sin categorías ni índice; difícil encontrar el prompt necesario | Los prompts están **organizados por categoría** con títulos descriptivos; cada prompt tiene: caso de uso, variables a reemplazar, y output esperado | El banco funciona como **manual de referencia del cargo**: índice clicable, etiquetas de frecuencia (diario/semanal/mensual/eventual), y notas de mejora continua basadas en la experiencia del participante | 20% |
 
 ---
@@ -175,7 +175,7 @@
 | Competente | 2 | 80% de la dimensión |
 | Destacado | 3 | 100% de la dimensión |
 
-**Ejemplo de cálculo — Módulo 3 (peso total: 15% del curso):**
+**Ejemplo de cálculo — Nivel 3 (peso total: 15% del curso):**
 
 | Dimensión | Peso dimensión | Nivel obtenido | Puntos | Ponderado |
 |-----------|---------------|----------------|--------|-----------|
@@ -183,7 +183,7 @@
 | Pertinencia del output | 25% | Destacado (3) | 100% | 25.0 |
 | Resolución caso difícil | 30% | Competente (2) | 80% | 24.0 |
 | Diversidad y completitud | 20% | Competente (2) | 80% | 16.0 |
-| **TOTAL MÓDULO 3** | 100% | | | **85.0%** |
+| **TOTAL NIVEL 3** | 100% | | | **85.0%** |
 | **Contribución al curso** | | | | **85% × 15% = 12.75%** |
 
 ---

@@ -59,7 +59,7 @@ La metáfora genera un léxico visual coherente que se usa en todo el mini sitio
 
 | Concepto del curso | Término visual | Aplicación |
 |---|---|---|
-| Nivel/módulo | Piso | "Piso 3: IA para el Análisis" (implícito en la numeración visual, no en el copy) |
+| Nivel | Piso | "Piso 3: IA para el Análisis" (implícito en la numeración visual, no en el copy) |
 | Progreso | Ascenso | Barra de progreso vertical en sidebar (no horizontal); avance de abajo hacia arriba |
 | Instrucción/prompt | Instrumento óptico | Los bloques de prompt se presentan como "lentes de precisión" — herramientas para ver mejor |
 | Verificación (PAUS) | Calibración | El protocolo PAUS se visualiza como calibrar un instrumento antes de confiar en su lectura |
@@ -101,7 +101,7 @@ El journey visual refleja la transformación de la Directora Martínez a lo larg
 | **Paleta emocional** | El naranja #FF5900 cobra protagonismo: CTAs, bordes de ejercicios, números de nivel, progress bar. El púrpura #432F64 aparece en callouts teóricos y conceptos clave. La proporción se acerca al 60-25-10-5 canónico. |
 | **Intensidad cromática** | 10% naranja, 5% púrpura, 85% neutros/texto. Más color = más confianza + más contenido denso. |
 | **Tipografía dominante** | Títulos más asertivos. H2 en púrpura (#432F64) para diferenciar secciones. Bloques de prompt en JetBrains Mono sobre fondo #F8F7F5. La tipografía monoespaciada marca "aquí es donde usted interactúa con la IA." |
-| **Iconografía** | Más rica. Iconos temáticos por módulo (ver sección III). Lucide Icons outline 2px. Iconos de estado: check-circle (completado), alert-triangle (precaución), lock (bloqueado). |
+| **Iconografía** | Más rica. Iconos temáticos por nivel (ver sección III). Lucide Icons outline 2px. Iconos de estado: check-circle (completado), alert-triangle (precaución), lock (bloqueado). |
 | **Animaciones** | Moderadas. Slide-up para cards al entrar a vista (200ms). Hover en cards con elevación sutil (translateY -2px, 200ms). Progress bar con fill animado (500ms ease-out). |
 | **Señales de progreso** | La barra de progreso cobra vida: 3, 4, 5 nodos verdes. El efecto acumulativo es motivacional — "ya llevo más de la mitad." |
 | **Momento de CRISIS (Nivel 5)** | El único momento donde el diseño visual cambia de tono. Cuando el directivo encuentra "el dato que la IA inventó", el callout de advertencia usa borde rojo (#DC2626) — nunca naranja. Es el único punto del curso con rojo. Transmite: "esto es serio." Después de la crisis, el color vuelve a naranja + púrpura — señal visual de que se superó el obstáculo. |
@@ -256,7 +256,7 @@ Todos los iconos comparten:
 |---|---|
 | **Nombre** | "La torre de instrumentos" |
 | **Posición** | Header del Acto II (visible al entrar a Niveles 3-6) |
-| **Composición** | La silueta del directivo en el centro de un espacio circular rodeado de instrumentos: un telescopio (análisis), engranajes conectados (automatización), un panel con gráficas (reportes), figuras humanas estilizadas (stakeholders). El directivo ya no está desorientado — está eligiendo qué instrumento usar. Uno de los instrumentos emite una señal roja pequeña (presagio de la crisis del Módulo 5). |
+| **Composición** | La silueta del directivo en el centro de un espacio circular rodeado de instrumentos: un telescopio (análisis), engranajes conectados (automatización), un panel con gráficas (reportes), figuras humanas estilizadas (stakeholders). El directivo ya no está desorientado — está eligiendo qué instrumento usar. Uno de los instrumentos emite una señal roja pequeña (presagio de la crisis del Nivel 5). |
 | **Paleta** | Naranja #FF5900 presente en múltiples instrumentos. Púrpura #432F64 en marcos y estructuras. Un toque de rojo #DC2626 en un indicador (la señal de alerta del dato inventado). |
 | **Mood** | Competencia, energía controlada, rigor. "Tengo herramientas y sé usarlas — pero debo mantener los ojos abiertos." |
 
@@ -308,7 +308,7 @@ Las transiciones entre niveles son **sutiles, funcionales y narrativas**. No son
 
 ### La voz interna de la Directora Martínez como transición
 
-Cada transición entre módulos incluye un bloque visual diferenciado: la **"voz interna"** de la Directora Martínez. Este bloque es una card especial que no se repite en ningún otro contexto:
+Cada transición entre niveles incluye un bloque visual diferenciado: la **"voz interna"** de la Directora Martínez. Este bloque es una card especial que no se repite en ningún otro contexto:
 
 ```css
 .voice-martinez {
@@ -476,9 +476,9 @@ La progresión de formas (círculo → hexágono → escudo) comunica visualment
 
 | Tomar | Evitar |
 |---|---|
-| Progress bar por módulo visible en todo momento. Estructura Semana→Módulo→Actividad clara. Indicador de duración estimada por actividad. Badges y certificados integrados. | El diseño visual es genérico — no tiene personalidad de marca. Las ilustraciones son stock y olvidables. El exceso de texto sin formato. |
+| Progress bar por nivel visible en todo momento. Estructura Semana→Nivel→Actividad clara. Indicador de duración estimada por actividad. Badges y certificados integrados. | El diseño visual es genérico — no tiene personalidad de marca. Las ilustraciones son stock y olvidables. El exceso de texto sin formato. |
 
-**Aplicación:** Referente funcional (no visual) para la estructura de módulo: progress bar + estimación de tiempo + entregable claro. Nosotros añadimos la identidad visual Anáhuac y el arco narrativo que Coursera no tiene.
+**Aplicación:** Referente funcional (no visual) para la estructura de nivel: progress bar + estimación de tiempo + entregable claro. Nosotros añadimos la identidad visual Anáhuac y el arco narrativo que Coursera no tiene.
 
 ### Síntesis del mood
 
@@ -491,7 +491,7 @@ La progresión de formas (círculo → hexágono → escudo) comunica visualment
 | **Navegación** | Apple Dev Docs | Sidebar + breadcrumbs + organización |
 | **Path de progresión** | Duolingo (concepto) | Nodos, estados, feedback — sin gamificación |
 | **Design system** | IBM Design Language | Tokens, grids, accesibilidad |
-| **Estructura de módulo** | Coursera | Progress bar, duración, entregables |
+| **Estructura de nivel** | Coursera | Progress bar, duración, entregables |
 
 ---
 

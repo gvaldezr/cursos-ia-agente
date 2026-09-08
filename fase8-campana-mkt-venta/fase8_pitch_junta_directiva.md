@@ -140,9 +140,9 @@
 
 ```
 FASE I: ENTENDER          FASE II: USAR            FASE III: ACELERAR       FASE IV: INTEGRAR
-(Módulos 1-2)             (Módulos 3-4)            (Módulos 5-6)           (Módulos 7-8)
+(Niveles 1-2)             (Niveles 3-4)            (Niveles 5-6)           (Niveles 7-8)
                 
-M1: Fundamentos IA        M3: Email y Comunicados   M5: Automatización       M7: Gestión de Proyectos
+M1: Explorador IA        M3: Email y Comunicados   M5: Automatización       M7: Gestión de Proyectos
 M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders M8: Agentes y Ecosistema IA
 
 🟢 Badge: Explorador IA   ─────────────────────────  🔵 Badge: Estratega IA    🟣 Badge: Líder IA
@@ -163,7 +163,7 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 
 #### Notas del presentador:
 
-> Les presento **"IA Práctica para Líderes Anáhuac"** — un programa de formación continua con 8 módulos progresivos, diseñado específicamente para nuestros directivos.
+> Les presento **"IA Práctica para Líderes Anáhuac"** — un programa de formación continua con 8 niveles progresivos, diseñado específicamente para nuestros directivos.
 >
 > La estructura es simple: 4 fases.
 > 1. **Entender** — ¿Qué es la IA generativa? ¿Cómo le hablo de forma efectiva?
@@ -183,13 +183,13 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 
 > *(Abrir el mini sitio en pantalla)*
 >
-> Este es **cursos.memovaldez.com**. Aquí está todo el contenido del programa: los 8 módulos, los ejercicios prácticos, los templates descargables. Es responsive — funciona en laptop, tablet y celular.
+> Este es **cursos.memovaldez.com**. Aquí está todo el contenido del programa: los 8 niveles, los ejercicios prácticos, los templates descargables. Es responsive — funciona en laptop, tablet y celular.
 >
 > *(Navegar por la página principal mostrando la estructura)*
 >
-> Cada módulo tiene la misma secuencia: concepto breve, demostración, práctica con tus propios documentos, y un entregable que usas al día siguiente en tu trabajo.
+> Cada nivel tiene la misma secuencia: concepto breve, demostración, práctica con sus propios documentos, y un entregable que usa al día siguiente en su trabajo.
 >
-> *(Mostrar un módulo de ejemplo si el sitio lo permite)*
+> *(Mostrar un nivel de ejemplo si el sitio lo permite)*
 >
 > El contenido ya está desarrollado. No estamos pidiendo aprobación para crear algo — **estamos pidiendo aprobación para lanzar algo que ya existe.**
 
@@ -222,7 +222,7 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 |---|---|
 | ⏰ **Horas ahorradas** | ≥ 5 horas/semana por directivo |
 | 📈 **Adopción real post-curso** | ≥ 60% usa IA 3+ veces por semana a los 30 días |
-| 🎯 **Completamiento** | ≥ 75% termina los 8 módulos |
+| 🎯 **Completamiento** | ≥ 70% termina los 8 niveles |
 | 💰 **ROI estimado** | 5 hrs/semana × 50 semanas × $200/hr = **$50,000 MXN/año por persona** |
 
 #### Notas del presentador:
@@ -276,7 +276,7 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 
 | Métrica del piloto | Meta |
 |---|---|
-| Completamiento | ≥ 75% termina los 8 módulos |
+| Completamiento | ≥ 70% termina los 8 niveles |
 | NPS | ≥ 50 |
 | Adopción a 30 días | ≥ 60% usa IA 3x/semana |
 | Recomendación interna | ≥ 40% recomienda activamente a colegas |
@@ -309,7 +309,7 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 
 | ✅ Ya está listo | 🔲 Se necesita |
 |---|---|
-| Contenido de los 8 módulos diseñado | Aprobación de Rectoría para el piloto |
+| Contenido de los 8 niveles diseñado | Aprobación de Rectoría para el piloto |
 | Plan de estudios con 6.5 créditos SATCA | Selección de 8-10 directivos participantes |
 | Sistema de evaluación y rúbricas | Cuenta institucional de Amazon Quick |
 | Sistema de micro-credenciales Open Badges | Fecha de inicio (octubre 2026 sugerido) |
@@ -332,7 +332,7 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 >
 > *(Señalar la columna izquierda)*
 >
-> **Todo el contenido ya está desarrollado.** Los 8 módulos, el plan de estudios formal con créditos SATCA, el sistema de evaluación, las rúbricas, los Open Badges, el mini sitio web, las dos versiones del programa. Esto no es una propuesta de algo que hay que crear — **es un programa funcional que necesita luz verde para arrancar.**
+> **Todo el contenido ya está desarrollado.** Los 8 niveles, el plan de estudios formal con créditos SATCA, el sistema de evaluación, las rúbricas, los Open Badges, el mini sitio web, las dos versiones del programa. Esto no es una propuesta de algo que hay que crear — **es un programa funcional que necesita luz verde para arrancar.**
 >
 > *(Señalar la columna derecha)*
 >
@@ -428,19 +428,19 @@ Preparación para las preguntas más probables de la Junta Directiva:
 
 ### P1: "¿Por qué Amazon Quick y no ChatGPT?"
 
-> **Respuesta sugerida:** Amazon Quick tiene tres ventajas para uso institucional: procesamiento local (los datos no salen de tu computadora), workspace con archivos conectados, y capacidad de crear agentes especializados. Dicho esto, el programa enseña principios transferibles — lo que aprenden funciona también en ChatGPT, Gemini o cualquier otra herramienta. No generamos dependencia de una sola plataforma.
+> **Respuesta sugerida:** Amazon Quick tiene tres ventajas para uso institucional: procesamiento local (los datos no salen de su computadora), workspace con archivos conectados, y capacidad de crear agentes especializados. Dicho esto, el programa enseña principios transferibles — lo que aprenden funciona también en ChatGPT, Gemini o cualquier otra herramienta. No generamos dependencia de una sola plataforma.
 
 ---
 
 ### P2: "¿Qué pasa con la privacidad de datos estudiantiles?"
 
-> **Respuesta sugerida:** Excelente pregunta, y está contemplado. El Módulo sobre ética y buenas prácticas aborda exactamente qué datos pueden y cuáles NO deben compartirse con IA. Amazon Quick procesa localmente, lo cual es una ventaja. Además, la competencia transversal de "Ética digital y gobernanza" se evalúa en cada módulo. Los participantes terminan con un protocolo claro de uso responsable.
+> **Respuesta sugerida:** Excelente pregunta, y está contemplado. El Nivel sobre ética y buenas prácticas aborda exactamente qué datos pueden y cuáles NO deben compartirse con IA. Amazon Quick procesa localmente, lo cual es una ventaja. Además, la competencia transversal de "Ética digital y gobernanza" se evalúa en cada nivel. Los participantes terminan con un protocolo claro de uso responsable.
 
 ---
 
 ### P3: "¿Los directivos van a tener tiempo para esto?"
 
-> **Respuesta sugerida:** Es la objeción número uno, y la diseñamos para resolverla. Los módulos son de 20-35 minutos. No hay horarios fijos — cada quien avanza a su ritmo. Y lo más importante: los ejercicios se hacen con las tareas reales que ya tienen pendientes. No es tiempo adicional — es hacer las mismas tareas de forma más eficiente. Desde el Módulo 2, ya están ahorrando tiempo.
+> **Respuesta sugerida:** Es la objeción número uno, y la diseñamos para resolverla. Los niveles son de 20-35 minutos. No hay horarios fijos — cada quien avanza a su ritmo. Y lo más importante: los ejercicios se hacen con las tareas reales que ya tienen pendientes. No es tiempo adicional — es hacer las mismas tareas de forma más eficiente. Desde el Nivel 2, ya están ahorrando tiempo.
 
 ---
 
@@ -458,13 +458,13 @@ Preparación para las preguntas más probables de la Junta Directiva:
 
 ### P6: "¿Se puede escalar a la Red Anáhuac?"
 
-> **Respuesta sugerida:** Absolutamente, y es parte de la visión. El programa tiene arquitectura modular — los módulos de la versión Anáhuac Mayab se pueden personalizar para cualquier campus. Estamos hablando de un potencial de $1.8 a $3 millones de pesos si se licencia a los 12 campus de la Red. Pero el primer paso es demostrar que funciona aquí.
+> **Respuesta sugerida:** Absolutamente, y es parte de la visión. El programa tiene arquitectura modular — los niveles de la versión Anáhuac Mayab se pueden personalizar para cualquier campus. Estamos hablando de un potencial de $1.8 a $3 millones de pesos si se licencia a los 12 campus de la Red. Pero el primer paso es demostrar que funciona aquí.
 
 ---
 
 ### P7: "¿Y si la tecnología cambia y el contenido queda obsoleto?"
 
-> **Respuesta sugerida:** El programa enseña principios, no botones. Los frameworks de prompting, el pensamiento crítico ante IA, la automatización de flujos — eso es transferible sin importar si la herramienta se llama Quick, ChatGPT o lo que venga después. Además, la arquitectura modular permite actualizar cualquier módulo individual sin rehacer el programa completo. Y los badges tienen vigencia de 3 años con renovación.
+> **Respuesta sugerida:** El programa enseña principios, no botones. Los frameworks de prompting, el pensamiento crítico ante IA, la automatización de flujos — eso es transferible sin importar si la herramienta se llama Quick, ChatGPT o lo que venga después. Además, la arquitectura modular permite actualizar cualquier nivel individual sin rehacer el programa completo. Y los badges tienen vigencia de 3 años con renovación.
 
 ---
 
@@ -489,7 +489,7 @@ Preparación para las preguntas más probables de la Junta Directiva:
 - ❌ No comparar negativamente con lo que ya hace la universidad — enmarcar como evolución, no como crítica.
 - ❌ No abrir el demo sin haberlo probado 5 minutos antes de la presentación.
 
-### Si solo tienes 5 minutos (versión express)
+### Si solo tiene 5 minutos (versión express)
 Usar slides 1 (apertura) → 4 (solución + demo rápida) → 5 (beneficios) → 8 (solicitud) → 9 (cierre).
 
 ---

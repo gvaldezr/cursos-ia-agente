@@ -1,4 +1,4 @@
-# Productos Integradores por Módulo
+# Productos Integradores por Nivel
 ## Curso: IA Práctica para Líderes Anáhuac Mayab
 ### Fase 3 · Progresión de complejidad y rúbricas de evaluación
 
@@ -12,14 +12,14 @@
 ## Mapa de Progresión de Complejidad
 
 ```
-Módulo 1 ─── SIMPLE ──────────────────── Resumen generado con IA
-Módulo 2 ─── SIMPLE+ ─────────────────── Prompts estructurados con frameworks
-Módulo 3 ─── INTERMEDIO ────────────────── Templates de comunicación personalizados
-Módulo 4 ─── INTERMEDIO+ ──────────────── Análisis verificado con protocolo PAUS
-Módulo 5 ─── AVANZADO ──────────────────── Flujo de reporte documentado ⭐
-Módulo 6 ─── AVANZADO ──────────────────── Kit de atención con protocolo ético
-Módulo 7 ─── AVANZADO+ ─────────────────── Plan de proyecto completo
-Módulo 8 ─── COMPLEJO ──────────────────── Ecosistema: agentes + flujo + banco de prompts ⭐
+Nivel 1 ─── SIMPLE ──────────────────── Resumen generado con IA
+Nivel 2 ─── SIMPLE+ ─────────────────── Prompts estructurados con frameworks
+Nivel 3 ─── INTERMEDIO ────────────────── Templates de comunicación personalizados
+Nivel 4 ─── INTERMEDIO+ ──────────────── Análisis verificado con protocolo PAUS
+Nivel 5 ─── AVANZADO ──────────────────── Flujo de reporte documentado ⭐
+Nivel 6 ─── AVANZADO ──────────────────── Kit de atención con protocolo ético
+Nivel 7 ─── AVANZADO+ ─────────────────── Plan de proyecto completo
+Nivel 8 ─── COMPLEJO ──────────────────── Ecosistema: agentes + flujo + banco de prompts ⭐
 ```
 
 **Progresión cognitiva (Bloom):**
@@ -31,7 +31,7 @@ Recordar → Comprender → Aplicar → Analizar → Evaluar → Crear
 ---
 
 ## Producto Integrador 1 — Mini-Diagnóstico Personal
-### Módulo 1 · Fundamentos de IA Generativa
+### Nivel 1 · Fundamentos de IA Generativa
 
 **Nivel de complejidad:** 🟢 Simple
 
@@ -64,12 +64,12 @@ El participante identifica 5 tareas de su semana laboral que podrían beneficiar
 | **Pertinencia de tareas** | Lista 5 tareas, pero al menos 2 son genéricas o no corresponden a su rol real (ej: «buscar información en internet»). | Las 5 tareas son reales y específicas de su cargo y área. Se nota que reflexionó sobre su semana típica. | Las 5 tareas son reales, específicas y están vinculadas a procesos recurrentes de su gestión. Incluye estimación de tiempo invertido actualmente. |
 | **Clasificación y priorización** | Las tareas están listadas sin clasificación clara o sin criterio de priorización explícito. | Las tareas están clasificadas por tipo y ordenadas con un criterio explícito (ej: tiempo de ahorro). | Clasificación precisa + priorización con doble criterio (impacto × frecuencia). Justifica por qué empezaría por la tarea #1. |
 | **Primer output con IA** | Incluye un output pero es genérico (no personalizó los datos) o tiene errores evidentes no corregidos. | Incluye un output personalizado con datos reales de su área. El resultado es usable con edición menor. | Output personalizado, revisado y editado. Incluye el prompt utilizado y señala qué ajustó del resultado original. |
-| **Reflexión** | Reflexión superficial: «La IA es útil» sin ejemplificar. | Reflexión específica: identifica al menos 1 capacidad y 1 limitación de la IA con ejemplo propio. | Reflexión profunda: identifica capacidades, limitaciones y riesgos. Incluye una pregunta o duda que quiere resolver en módulos siguientes. |
+| **Reflexión** | Reflexión superficial: «La IA es útil» sin ejemplificar. | Reflexión específica: identifica al menos 1 capacidad y 1 limitación de la IA con ejemplo propio. | Reflexión profunda: identifica capacidades, limitaciones y riesgos. Incluye una pregunta o duda que quiere resolver en niveles siguientes. |
 
 ---
 
 ## Producto Integrador 2 — 3 Prompts Maestros
-### Módulo 2 · Frameworks de Prompts
+### Nivel 2 · Frameworks de Prompts
 
 **Nivel de complejidad:** 🟢 Simple+
 
@@ -107,7 +107,7 @@ El participante crea 3 prompts reutilizables para sus tareas más frecuentes, ca
 ---
 
 ## Producto Integrador 3 — Kit de 5 Templates de Comunicación
-### Módulo 3 · Email y Comunicados Institucionales
+### Nivel 3 · Email y Comunicados Institucionales
 
 **Nivel de complejidad:** 🟡 Intermedio
 
@@ -145,7 +145,7 @@ El participante compila 5 plantillas de comunicación institucional para sus aud
 ---
 
 ## Producto Integrador 4 — Análisis Ejecutivo Real
-### Módulo 4 · Análisis de Reportes con IA
+### Nivel 4 · Análisis de Reportes con IA
 
 **Nivel de complejidad:** 🟡 Intermedio+
 
@@ -184,7 +184,7 @@ El participante genera un resumen ejecutivo de 1 página de un reporte REAL de s
 ---
 
 ## Producto Integrador 5 — Flujo de Reporte Documentado ⭐
-### Módulo 5 · Automatización de Reportes
+### Nivel 5 · Automatización de Reportes
 
 **Nivel de complejidad:** 🔴 Avanzado — ENTREGABLE EVALUABLE
 
@@ -227,7 +227,7 @@ Documento de 2–3 páginas con:
 ---
 
 ## Producto Integrador 6 — Kit de Atención a Stakeholders
-### Módulo 6 · Atención a Alumnos / Stakeholders con IA
+### Nivel 6 · Atención a Alumnos / Stakeholders con IA
 
 **Nivel de complejidad:** 🔴 Avanzado
 
@@ -265,7 +265,7 @@ El participante compila un kit de 10 respuestas maestras personalizables para la
 ---
 
 ## Producto Integrador 7 — Plan de Proyecto Real Estructurado
-### Módulo 7 · Gestión de Proyectos con IA
+### Nivel 7 · Gestión de Proyectos con IA
 
 **Nivel de complejidad:** 🔴 Avanzado+
 
@@ -309,14 +309,14 @@ El participante estructura un proyecto REAL de su área completamente con IA: ob
 ---
 
 ## Producto Integrador 8 — Ecosistema de IA Personal ⭐
-### Módulo 8 · Flujos con Agentes y Trabajo en Equipo Local
+### Nivel 8 · Flujos con Agentes y Trabajo en Equipo Local
 
 **Nivel de complejidad:** 🔴🔴 Complejo — ENTREGABLE FINAL EVALUABLE
 
 **Descripción:**
 El participante entrega un ecosistema completo de IA listo para usar: 3 agentes especializados configurados en Amazon Quick, 1 flujo multi-paso funcional documentado, un banco de prompts personalizado de 20+ prompts acumulados a lo largo del curso, y un plan de adopción personal de 30 días.
 
-**Este es el entregable final del curso. Integra todo lo aprendido en los 8 módulos.**
+**Este es el entregable final del curso. Integra todo lo aprendido en los 8 niveles.**
 
 **Formato de entrega:**
 1. **3 agentes configurados** — Para cada uno:
@@ -348,7 +348,7 @@ El participante entrega un ecosistema completo de IA listo para usar: 3 agentes 
 2. El flujo multi-paso funciona de principio a fin (evidencia de ejecución)
 3. El banco de prompts está organizado y es reutilizable
 4. El plan de adopción es realista y específico para su contexto
-5. El ecosistema completo demuestra integración de todos los módulos
+5. El ecosistema completo demuestra integración de todos los niveles
 6. Se incluye protocolo ético (cuándo sí, cuándo no, cuándo con cuidado)
 
 ---
@@ -361,7 +361,7 @@ El participante entrega un ecosistema completo de IA listo para usar: 3 agentes 
 | **Flujo multi-paso (1)** | El flujo existe en papel pero no se ejecutó o tiene pasos incompletos. | Flujo de 2–3 pasos ejecutado con éxito. Prompts exactos, outputs documentados, punto de intervención humana claro. | Flujo completo ejecutado Y refinado: incluye versión 1, ajustes realizados, y versión final optimizada. El output del flujo es un producto profesional listo para distribuir. |
 | **Banco de prompts (20+)** | Contiene 15–19 prompts, algunos duplicados o sin organización. | 20+ prompts organizados por categoría, cada uno con framework y audiencia identificados. | 20+ prompts impecables, organizados en sistema reutilizable (categoría + audiencia + framework + output esperado). Incluye índice de búsqueda rápida. |
 | **Plan de adopción** | Plan genérico: «Voy a usar IA para mis tareas». Sin fechas ni métricas. | Plan con 4 semanas detalladas, tareas específicas, criterios de éxito, y al menos 1 restricción ética identificada. | Plan profesional que el participante podría presentar a su director. Incluye: semanas detalladas + métricas + protocolo ético + plan de capacitación para su equipo. |
-| **Integración del curso** | El ecosistema se siente como 8 ejercicios separados, sin conexión. | Se nota una lógica de conjunto: los agentes se conectan con el flujo, los prompts alimentan a los agentes. | Ecosistema verdaderamente integrado: los agentes, flujo y prompts forman un sistema coherente donde cada pieza potencia a las demás. El participante puede explicar cómo cada módulo construyó hacia este resultado. |
+| **Integración del curso** | El ecosistema se siente como 8 ejercicios separados, sin conexión. | Se nota una lógica de conjunto: los agentes se conectan con el flujo, los prompts alimentan a los agentes. | Ecosistema verdaderamente integrado: los agentes, flujo y prompts forman un sistema coherente donde cada pieza potencia a las demás. El participante puede explicar cómo cada nivel construyó hacia este resultado. |
 
 ---
 
@@ -369,15 +369,15 @@ El participante entrega un ecosistema completo de IA listo para usar: 3 agentes 
 
 | Nivel de certificación | Requisito | Productos requeridos |
 |---|---|---|
-| **Participante** | Completa módulos 1–5 con evidencias | Productos 1–5 en nivel Básico o superior |
-| **Practitioner** | Completa módulos 1–7 con evidencias | Productos 1–7 en nivel Competente o superior |
-| **Leader** | Completa los 8 módulos. Ecosistema funcional. | Producto 8 en nivel Competente o superior. Al menos 4 productos en nivel Destacado. |
+| **Participante** | Completa niveles 1–5 con evidencias | Productos 1–5 en nivel Básico o superior |
+| **Practitioner** | Completa niveles 1–7 con evidencias | Productos 1–7 en nivel Competente o superior |
+| **Leader** | Completa los 8 niveles. Ecosistema funcional. | Producto 8 en nivel Competente o superior. Al menos 4 productos en nivel Destacado. |
 
 ---
 
 ## Resumen de Progresión
 
-| Módulo | Producto | Complejidad | Bloom | Evaluable |
+| Nivel | Producto | Complejidad | Bloom | Evaluable |
 |---|---|---|---|---|
 | 1 | Mini-diagnóstico personal | 🟢 Simple | Recordar/Comprender | Formativo |
 | 2 | 3 prompts maestros | 🟢 Simple+ | Comprender/Aplicar | Formativo |
@@ -388,7 +388,7 @@ El participante entrega un ecosistema completo de IA listo para usar: 3 agentes 
 | 7 | Plan de proyecto real | 🔴 Avanzado+ | Evaluar/Crear | Formativo |
 | 8 | Ecosistema de IA personal | 🔴🔴 Complejo | Crear | ⭐ Evaluable final |
 
-**Producto final del Módulo 8** = Flujo de reportes completo + Banco de prompts personalizado + 3 agentes + Plan de adopción
+**Producto final del Nivel 8** = Flujo de reportes completo + Banco de prompts personalizado + 3 agentes + Plan de adopción
 
 ---
 

@@ -2,7 +2,7 @@
 ## IA Práctica para Líderes Anáhuac Mayab
 
 **Fecha de curación:** Septiembre 2026  
-**Total de fuentes verificadas:** 40 (únicas, sin duplicados entre módulos)  
+**Total de fuentes verificadas:** 40 (únicas, sin duplicados entre niveles)  
 **Calificaciones:** A = 24 fuentes · B = 16 fuentes · C = 0  
 **URLs verificadas:** 40/40 (100%)  
 **Rango de fechas:** 2024–2026
@@ -12,15 +12,15 @@
 ## Resumen Ejecutivo de la Investigación
 
 ### Fortalezas del Cuerpo de Evidencia
-- **Módulos 1 y 6** tienen la evidencia más robusta: revisiones sistemáticas, casos de estudio longitudinales, y datos de contexto mexicano
+- **Niveles 1 y 6** tienen la evidencia más robusta: revisiones sistemáticas, casos de estudio longitudinales, y datos de contexto mexicano
 - Las fuentes UNESCO y SEP México proporcionan marco de política directamente aplicable
-- El caso de Georgia State (Módulo 6) es gold standard con evidencia de RCT y 10 años de operación
+- El caso de Georgia State (Nivel 6) es gold standard con evidencia de RCT y 10 años de operación
 - Hay buena diversidad geográfica: EE.UU., UK, España, Sudáfrica, México, Italia
 
 ### Debilidades y Gaps
-- **Módulo 7 (Gestión de Proyectos)** tiene la evidencia más débil: predominan revisiones de herramientas comerciales, no estudios académicos
-- **Módulo 8 (Agentes)** es tecnología tan reciente que no hay estudios peer-reviewed en contexto educativo
-- **Módulo 5 (Automatización de Reportes)** depende en exceso de evidencia corporativa (Microsoft, UK Government)
+- **Nivel 7 (Gestión de Proyectos)** tiene la evidencia más débil: predominan revisiones de herramientas comerciales, no estudios académicos
+- **Nivel 8 (Agentes)** es tecnología tan reciente que no hay estudios peer-reviewed en contexto educativo
+- **Nivel 5 (Automatización de Reportes)** depende en exceso de evidencia corporativa (Microsoft, UK Government)
 - Hay escasez generalizada de estudios en español de calidad A sobre IA generativa y productividad
 
 ### Lo que NO se Encontró
@@ -31,9 +31,9 @@
 
 ---
 
-## Bibliografía Completa por Módulo
+## Bibliografía Completa por Nivel
 
-### MÓDULO 1: Conceptos Fundamentales de IA Generativa
+### NIVEL 1: Conceptos Fundamentales de IA Generativa
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -47,7 +47,7 @@
 
 ---
 
-### MÓDULO 2: Frameworks de Prompts
+### NIVEL 2: Frameworks de Prompts
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -59,7 +59,7 @@
 
 ---
 
-### MÓDULO 3: Uso en Email y Comunicados Institucionales
+### NIVEL 3: Uso en Email y Comunicados Institucionales
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -72,7 +72,7 @@
 
 ---
 
-### MÓDULO 4: Análisis de Reportes con IA
+### NIVEL 4: Análisis de Reportes con IA
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -84,7 +84,7 @@
 
 ---
 
-### MÓDULO 5: Automatización de Reportes
+### NIVEL 5: Automatización de Reportes
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -96,7 +96,7 @@
 
 ---
 
-### MÓDULO 6: Atención a Alumnos/Stakeholders con IA
+### NIVEL 6: Atención a Alumnos/Stakeholders con IA
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -109,7 +109,7 @@
 
 ---
 
-### MÓDULO 7: Gestión de Proyectos con IA
+### NIVEL 7: Gestión de Proyectos con IA
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -121,7 +121,7 @@
 
 ---
 
-### MÓDULO 8: Flujos con Agentes y Trabajo en Equipo Local
+### NIVEL 8: Flujos con Agentes y Trabajo en Equipo Local
 
 | # | Título | Autor(es) | Fecha | Tipo | Calidad | URL |
 |---|--------|-----------|-------|------|---------|-----|
@@ -163,25 +163,25 @@
 | **Criterios de exclusión** | URLs rotas, fuentes sin autoría clara, contenido anterior a 2024, blogs sin respaldo institucional |
 | **Restricciones de búsqueda** | Solo fuentes accesibles via web (no bases de datos restringidas como Scopus directo); preferencia por Open Access |
 
-## Mapa de Dependencias entre Módulos
+## Mapa de Dependencias entre Niveles
 
-Varias fuentes son relevantes para múltiples módulos, indicando coherencia temática del curso:
+Varias fuentes son relevantes para múltiples niveles, indicando coherencia temática del curso:
 
 ```
-Fuente #17 (UK Copilot Trial)     → Módulos 3, 5
-Fuente #19 (MSR Workplaces)       → Módulos 4, 5
-Fuente #21 (Bacalso, Frontiers)   → Módulos 4, 5
-Fuente #20 (Analytics Dashboards) → Módulos 4, 5
-Fuente #22 (Makerere Review)      → Módulos 4, 7
-Fuente #13 (URJC Email)           → Módulos 3, 6
-ENIAG 2025 (#5)                   → Módulos 1, 6 (contexto)
+Fuente #17 (UK Copilot Trial)     → Niveles 3, 5
+Fuente #19 (MSR Workplaces)       → Niveles 4, 5
+Fuente #21 (Bacalso, Frontiers)   → Niveles 4, 5
+Fuente #20 (Analytics Dashboards) → Niveles 4, 5
+Fuente #22 (Makerere Review)      → Niveles 4, 7
+Fuente #13 (URJC Email)           → Niveles 3, 6
+ENIAG 2025 (#5)                   → Niveles 1, 6 (contexto)
 ```
 
 ## Recomendaciones para Gaps
 
-1. **Módulo 5 (Automatización):** Crear un ejercicio práctico que genere evidencia interna: los participantes automatizan un reporte real de la universidad durante el módulo
-2. **Módulo 7 (Gestión de Proyectos):** Invitar a un directivo de otra universidad que ya use IA en gestión de proyectos como speaker invitado
-3. **Módulo 8 (Agentes):** Diseñar como módulo "horizonte" — comprensión conceptual + demo, no implementación profunda. La tecnología está cambiando demasiado rápido para fijar un stack específico
+1. **Nivel 5 (Automatización):** Crear un ejercicio práctico que genere evidencia interna: los participantes automatizan un reporte real de la universidad durante el nivel
+2. **Nivel 7 (Gestión de Proyectos):** Invitar a un directivo de otra universidad que ya use IA en gestión de proyectos como speaker invitado
+3. **Nivel 8 (Agentes):** Diseñar como nivel "horizonte" — comprensión conceptual + demo, no implementación profunda. La tecnología está cambiando demasiado rápido para fijar un stack específico
 4. **General:** Generar un banco de prompts probados específico para Anáhuac Mayab como recurso complementario a la bibliografía
 
 ---
