@@ -732,6 +732,10 @@ a:hover { color: var(--ana-primary-hover); }
 .ana-hero {
   padding: var(--ana-space-20, 5rem) 0 var(--ana-space-12);
   text-align: center;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('../assets/images/hero-landing.png');
+  background-size: cover;
+  background-position: center;
+  color: var(--ana-white);
 }
 @media (max-width: 639px) {
   .ana-hero { padding: var(--ana-space-12) 0 var(--ana-space-8); }
@@ -741,7 +745,7 @@ a:hover { color: var(--ana-primary-hover); }
   margin-bottom: var(--ana-space-6);
   font-size: var(--ana-text-sm);
   letter-spacing: 0.05em;
-  color: var(--ana-gray);
+  color: rgba(255,255,255,0.7);
 }
 .ana-hero__title {
   margin: 0 auto var(--ana-space-8);
@@ -750,17 +754,26 @@ a:hover { color: var(--ana-primary-hover); }
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.02em;
-  color: var(--ana-dark);
+  color: var(--ana-white);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 .ana-hero__subtitle {
   margin: 0 auto var(--ana-space-8);
   max-width: 640px;
   font-size: var(--ana-text-lg);
   line-height: var(--ana-leading-relaxed);
-  color: var(--ana-gray);
+  color: rgba(255,255,255,0.85);
 }
 .ana-hero__actions   { display: flex; justify-content: center; gap: var(--ana-space-3); flex-wrap: wrap; }
 .ana-hero__progress  { max-width: 400px; margin: var(--ana-space-6) auto 0; }
+.ana-hero__progress .ana-body-sm { color: rgba(255,255,255,0.75); }
+.ana-hero .ana-progress-bar { background: rgba(255,255,255,0.15); }
+.ana-hero .ana-btn--secondary {
+  background: rgba(255,255,255,0.12);
+  border-color: rgba(255,255,255,0.3);
+  color: var(--ana-white);
+}
+.ana-hero .ana-btn--secondary:hover { background: rgba(255,255,255,0.2); }
 
 /* ══════════════════════════════════════════════════════════════════════════════
    LEVEL CARDS
@@ -1431,6 +1444,68 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
 .ana-skeleton-block           { height: 120px; margin-bottom: var(--ana-space-6); border-radius: var(--ana-radius-md); }
 @media (prefers-reduced-motion: reduce) {
   .ana-skeleton { animation: none; background: var(--ana-gray-light); }
+}
+
+/* ══════════════════════════════════════════
+   LEVEL HERO BANNER (image header per level)
+   ══════════════════════════════════════════ */
+.ana-level-hero {
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--ana-radius-lg);
+  padding: var(--ana-space-12) var(--ana-space-8);
+  margin-bottom: var(--ana-space-6);
+  color: var(--ana-white);
+  text-align: center;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.ana-level-hero__content {
+  max-width: 700px;
+  position: relative;
+  z-index: 1;
+}
+.ana-level-hero__overline {
+  font-size: var(--ana-text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: var(--ana-space-2);
+  font-weight: var(--ana-font-semibold);
+}
+.ana-level-hero__title {
+  font: 700 clamp(1.5rem, 4vw, 2.2rem)/1.2 var(--ana-font-display);
+  color: var(--ana-white);
+  margin-bottom: var(--ana-space-3);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.ana-level-hero__desc {
+  font-size: var(--ana-text-md);
+  color: rgba(255,255,255,0.85);
+  line-height: var(--ana-leading-relaxed);
+  margin-bottom: var(--ana-space-2);
+}
+.ana-level-hero__meta {
+  font-size: var(--ana-text-sm);
+  color: rgba(255,255,255,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--ana-space-1);
+}
+.ana-level-hero__meta svg { color: rgba(255,255,255,0.5); }
+
+@media (max-width: 639px) {
+  .ana-level-hero {
+    padding: var(--ana-space-8) var(--ana-space-4);
+    min-height: 160px;
+    border-radius: var(--ana-radius-md);
+  }
+  .ana-level-hero__title { font-size: clamp(1.2rem, 5vw, 1.6rem); }
 }
 
 /* ══════════════════════════════════════════

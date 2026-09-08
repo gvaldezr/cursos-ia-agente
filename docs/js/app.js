@@ -659,6 +659,21 @@
     html += '  <span class="ana-breadcrumbs__current" aria-current="page">Nivel ' + n + '. ' + level.title + '</span>';
     html += '</nav>';
 
+    /* Progreso del nivel dentro del acto */
+    var actName = level.act === 1 ? 'Acto I — Descubrimiento'
+                : level.act === 2 ? 'Acto II — Dominio'
+                : 'Acto III — Liderazgo';
+
+    /* Hero banner del nivel con imagen */
+    html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.6)), url(\'assets/images/nivel-' + n + '-hero.png\')">';
+    html += '  <div class="ana-level-hero__content">';
+    html += '    <p class="ana-level-hero__overline">NIVEL ' + n + ' · ' + actName + ' · Versión ' + versionLabel + '</p>';
+    html += '    <h1 class="ana-level-hero__title">' + level.title + '</h1>';
+    html += '    <p class="ana-level-hero__desc">' + level.desc + '</p>';
+    html += '    <p class="ana-level-hero__meta">' + svgIcon('icon-clock', 14) + ' Duración estimada: ' + level.duration + '</p>';
+    html += '  </div>';
+    html += '</div>';
+
     /* Layout con sidebar */
     html += '<div class="ana-level-layout">';
 
@@ -668,20 +683,6 @@
     /* Contenido principal */
     html += '<div class="ana-content">';
     html += '  <div class="ana-container">';
-
-    /* Encabezado del nivel */
-    html += '    <div class="ana-overline">NIVEL ' + n + ' · Versión ' + versionLabel + '</div>';
-    html += '    <h1 class="ana-h1">' + level.title + '</h1>';
-    html += '    <p class="ana-body-sm" style="margin-bottom:var(--ana-space-4)">' + svgIcon('icon-clock', 14) + ' Duración estimada: ' + level.duration + '</p>';
-
-    /* Progreso del nivel dentro del acto */
-    var actName = level.act === 1 ? 'Acto I — Descubrimiento'
-                : level.act === 2 ? 'Acto II — Dominio'
-                : 'Acto III — Liderazgo';
-    html += '    <div class="ana-callout ana-callout--theory" style="margin-bottom:var(--ana-space-8)">';
-    html += '      <p class="ana-callout__label">' + svgIcon('icon-telescope', 16) + ' ' + actName + '</p>';
-    html += '      <p class="ana-body-sm">' + level.desc + '</p>';
-    html += '    </div>';
 
     /* Preview compacto de la presentación */
     html += '    <div class="ana-pres-preview">';
@@ -775,6 +776,17 @@
     var done = getCompletedCount();
 
     var html = '';
+
+    /* Hero de cierre si completó todo */
+    if (pct >= 100) {
+      html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.55)), url(\'assets/images/hero-cierre.png\'); min-height:240px">';
+      html += '  <div class="ana-level-hero__content">';
+      html += '    <p class="ana-level-hero__overline">PROGRAMA COMPLETADO</p>';
+      html += '    <h1 class="ana-level-hero__title">¡Felicidades, Líder IA!</h1>';
+      html += '    <p class="ana-level-hero__desc">Ha completado los 8 niveles del programa. Su equipo invisible está listo.</p>';
+      html += '  </div>';
+      html += '</div>';
+    }
 
     html += '<section class="ana-section" aria-labelledby="progress-title">';
     html += '  <div class="ana-container">';
