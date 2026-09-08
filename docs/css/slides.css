@@ -694,6 +694,41 @@
 
 .ana-slide-viewer .slide__ethics-question {
   color: #a78bfa;
+
+/* ══════════════════════════════════════════
+   LOGO iA — Branding en slides
+   ══════════════════════════════════════════ */
+.ana-slide-logo {
+  position: absolute;
+  bottom: 60px;
+  right: 24px;
+  width: 56px;
+  height: auto;
+  opacity: 0.25;
+  z-index: 50;
+  pointer-events: none;
+  transition: opacity 300ms ease;
+  filter: drop-shadow(0 0 8px rgba(0,0,0,0.3));
+}
+
+/* En portada: logo más visible y más grande */
+.ana-slide-viewer .slide--cover ~ .ana-slide-logo,
+.ana-slide-stage:has(.slide--cover.active) ~ .ana-slide-logo {
+  opacity: 0.6;
+  width: 72px;
+}
+
+@media (max-width: 768px) {
+  .ana-slide-logo {
+    width: 40px;
+    bottom: 56px;
+    right: 16px;
+  }
+}
+
+@media print {
+  .ana-slide-logo { display: none; }
+}
   font-weight: 600;
   font-size: 1rem;
 }

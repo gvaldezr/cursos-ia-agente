@@ -175,6 +175,14 @@ window.SlideViewer = (function () {
     /* Scroll the active slide to top (overflow-y is on .slide now) */
     if (target) target.scrollTop = 0;
     if (stage)  stage.scrollTop  = 0;
+
+    /* Adjust logo opacity based on slide type */
+    var logo = document.querySelector('.ana-slide-logo');
+    if (logo) {
+      var isCover = target.classList.contains('slide--cover');
+      logo.style.opacity = isCover ? '0.6' : '0.25';
+      logo.style.width = isCover ? '72px' : '56px';
+    }
   }
 
   /* ─── NAVIGATION ─── */
