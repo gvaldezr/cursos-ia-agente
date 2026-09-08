@@ -11,14 +11,13 @@
   html, body, #deck {
     width: 100%; height: 100%;
     overflow: hidden;
-    background: #0a0a1a;
+    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%);
     font-family: 'Roboto', system-ui, sans-serif;
-    color: #e8e8f0;
+    color: #fff;
   }
 
-  /* ── Every slide: absolute fill, centered content ── */
-  .slide,
-  .slide[class] {
+  /* ── BASE: every slide fills viewport, centered ── */
+  .slide {
     position: absolute !important;
     inset: 0 !important;
     width: 100% !important;
@@ -33,41 +32,41 @@
     align-items: center !important;
     text-align: center;
     padding: 1.2rem 1.5rem;
-    background: #0a0a1a;
+    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
+    color: #fff !important;
   }
   .slide:first-child { display: flex !important; }
 
-  /* ── Cover: gradient fills everything ── */
-  .slide--cover,
-  .slide--cover[class] {
-    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
-    padding: 0 !important;
-  }
-
-  .slide--cover .slide__gradient,
-  .slide--cover > div:first-child {
-    position: absolute !important;
-    inset: 0 !important;
+  /* ── ALL inner wrappers: fill parent, flex center ── */
+  .slide__gradient,
+  .slide__content,
+  .slide > div {
     width: 100% !important;
     height: 100% !important;
     max-width: none !important;
     margin: 0 !important;
-    padding: 1.2rem 1.5rem !important;
+    padding: 1rem !important;
     border-radius: 0 !important;
     display: flex !important;
     flex-direction: column;
     justify-content: center !important;
     align-items: center !important;
-    background: linear-gradient(135deg, #FF5900 0%, #432F64 100%) !important;
+    background: transparent !important;
+    position: relative;
   }
 
-  /* ── Cover typography ── */
-  .slide--cover h1,
-  .slide--cover .ana-display,
-  .slide--cover .slide__title {
-    font-family: 'Manrope', sans-serif;
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    font-weight: 800;
+  /* Empty gradient divs (niveles 7-8) should not interfere */
+  .slide__gradient:empty,
+  .slide > div:empty {
+    position: absolute !important;
+    padding: 0 !important;
+  }
+
+  /* ── Typography: all white on gradient ── */
+  h1, .ana-display, .slide__title, .slide-title {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: clamp(1rem, 4vw, 1.5rem) !important;
+    font-weight: 800 !important;
     color: #fff !important;
     -webkit-text-fill-color: #fff !important;
     background: none !important;
@@ -75,45 +74,47 @@
     margin-bottom: 0.4rem;
   }
 
-  .slide--cover p {
-    color: rgba(255,255,255,0.8);
-    font-size: clamp(0.6rem, 1.8vw, 0.8rem);
+  p, span, em {
+    color: rgba(255,255,255,0.8) !important;
+    -webkit-text-fill-color: rgba(255,255,255,0.8) !important;
+    font-size: clamp(0.55rem, 1.8vw, 0.8rem);
     line-height: 1.4;
-    max-width: 85%;
   }
 
-  .slide--cover .ana-overline,
-  .slide--cover .slide__overline {
-    font-size: 0.5rem;
+  .ana-overline, .slide__overline, .slide__phase, .slide__badge {
+    font-size: 0.5rem !important;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: rgba(255,255,255,0.55);
+    color: rgba(255,255,255,0.55) !important;
+    -webkit-text-fill-color: rgba(255,255,255,0.55) !important;
     margin-bottom: 0.25rem;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
   }
 
-  .slide--cover div:last-child span {
-    font-size: 0.5rem;
-    color: rgba(255,255,255,0.45);
+  .slide__meta, .slide__meta div {
+    display: flex !important;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0.3rem;
+  }
+  .slide__meta span, .slide__meta-item {
+    font-size: 0.5rem !important;
+    color: rgba(255,255,255,0.45) !important;
+    -webkit-text-fill-color: rgba(255,255,255,0.45) !important;
   }
 
-  /* ── Non-cover typography ── */
-  .slide:not(.slide--cover) h2,
-  .slide:not(.slide--cover) .ana-h2,
-  .slide:not(.slide--cover) .slide__title {
-    font-family: 'Manrope', sans-serif;
-    font-size: clamp(0.85rem, 3vw, 1.2rem);
-    font-weight: 800;
-    background: linear-gradient(135deg, #FF5900, #432F64);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 0.5rem;
+  .slide__epigraph, .slide__narrative { 
+    max-width: 85%;
+    font-style: italic;
   }
 
-  /* ── Hide details in compact preview ── */
+  /* Hide non-essential elements */
   .slide__callout, .reflection, .slide__note,
   .slide__prompt, .slide__two-col, .grid-2, .grid-3,
   table, .slide__table, .content-box { display: none !important; }
-  .slide__body { font-size: 0.65rem; color: #c8c8d8; }
 </style>
 </head>
 <body>
@@ -133,7 +134,7 @@
       }
     })
     .catch(function() {
-      document.getElementById('deck').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#666">No disponible</div>';
+      document.getElementById('deck').innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:rgba(255,255,255,0.5)">No disponible</div>';
     });
 })();
 </script>

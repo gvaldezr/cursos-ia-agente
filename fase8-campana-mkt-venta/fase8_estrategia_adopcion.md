@@ -1,570 +1,348 @@
-# Estrategia de Adopción Interna
-## "IA Práctica para Líderes Anáhuac"
-### Fase 8 · Campaña, Marketing y Adopción Institucional
+# Estrategia de Adopción Interna — IA Práctica para Líderes Anáhuac
 
 > **Versión:** 1.0 | **Fecha:** septiembre 2026  
-> **Tipo de documento:** Plan de adopción interna — capacitación institucional  
-> **Audiencia del documento:** Rectoría, Dirección de Capital Humano, Dirección de Innovación Educativa  
-> **Audiencia del programa:** Directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab  
-> **Modelo:** Adopción institucional (la universidad ofrece el programa como formación interna, sin costo para el participante)  
-> **Referencia:** Product Brief (Fase 1), Plan de Estudios (Fase 3), Micro-credenciales Open Badges (Fase 3), Arco Narrativo (Fase 4)
-
----
-
-## Resumen Ejecutivo
-
-Este documento define la estrategia para lograr que los directivos de la Universidad Anáhuac Mayab adopten el programa "IA Práctica para Líderes Anáhuac" no como una obligación institucional, sino como una herramienta que resuelve problemas reales de su gestión diaria.
-
-La estrategia parte de un diagnóstico de madurez digital, segmenta a los directivos por disposición al cambio, diseña un funnel de adopción de cinco etapas, establece un plan de piloto con 8-10 participantes, define KPIs cuantificables y propone un cronograma de lanzamiento de seis semanas.
-
-**Premisa fundamental:** La adopción no se logra con mandatos jerárquicos. Se logra cuando el directivo experimenta, en los primeros 10 minutos, que la IA resuelve algo que tenía pendiente desde el lunes. Todo lo demás es consecuencia de ese primer momento.
+> **Responsable:** Coordinación del Programa | **Aprobación:** Rectoría  
+> **Alcance:** Directores, coordinadores y jefes de departamento — Universidad Anáhuac Mayab  
+> **Mini sitio del programa:** [cursos.memovaldez.com](https://cursos.memovaldez.com)
 
 ---
 
 ## 1. Diagnóstico de Madurez Digital
 
-### 1.1 Propósito
+Antes de inscribir a cualquier directivo, se aplica un cuestionario breve de **10 preguntas** diseñado para medir su nivel actual de familiaridad, uso y percepción de la IA generativa. El diagnóstico cumple tres funciones: (1) segmentar a los participantes por disposición al cambio, (2) personalizar la comunicación de invitación, y (3) establecer una línea base para medir el impacto del programa.
 
-Antes de lanzar el programa, es necesario conocer el punto de partida real de los directivos. El diagnóstico cumple tres funciones:
+### 1.1 Cuestionario de Madurez Digital con IA
 
-1. **Segmentar** a los participantes por nivel de familiaridad con IA (para personalizar mensajes de invitación).
-2. **Calibrar** expectativas institucionales (para que Rectoría tenga datos objetivos, no suposiciones).
-3. **Establecer línea base** (para medir avance post-curso con datos comparables).
+**Instrucciones para el directivo:** *Este cuestionario toma 5 minutos. No hay respuestas correctas o incorrectas. Sus respuestas son confidenciales y se usan exclusivamente para personalizar su experiencia en el programa.*
 
-### 1.2 Cuestionario de Madurez Digital — 10 Preguntas
-
-El cuestionario se envía por correo electrónico a todos los directivos elegibles, con un tiempo estimado de respuesta de 4-5 minutos. Formato recomendado: Google Forms o Microsoft Forms con enlace directo.
-
----
-
-**CUESTIONARIO: ¿Dónde está usted con la IA?**
-
-*Instrucciones: Responda con honestidad. No hay respuestas correctas ni incorrectas. Este cuestionario nos permite diseñar una experiencia de aprendizaje que realmente le sirva.*
-
----
-
-**Pregunta 1 — Familiaridad general**
-> En una escala del 1 al 5, ¿qué tan familiarizado(a) está con herramientas de inteligencia artificial generativa (ChatGPT, Gemini, Copilot, Amazon Quick u otras)?
-
-| 1 | 2 | 3 | 4 | 5 |
-|---|---|---|---|---|
-| Nunca he usado ninguna | He escuchado de ellas pero no las he probado | Las he probado 1-3 veces por curiosidad | Las uso ocasionalmente (1-2 veces al mes) | Las uso regularmente (al menos 1 vez por semana) |
-
----
-
-**Pregunta 2 — Uso actual en el trabajo**
-> ¿Ha utilizado alguna herramienta de IA generativa para alguna tarea de su puesto en los últimos 3 meses?
-
-- [ ] No, nunca
-- [ ] Sí, una vez para probar
-- [ ] Sí, 2-5 veces para tareas puntuales
-- [ ] Sí, regularmente para tareas específicas
-- [ ] Sí, es parte de mi flujo de trabajo habitual
-
----
-
-**Pregunta 3 — Tareas que consume más tiempo**
-> ¿Cuáles de las siguientes tareas le consumen más tiempo en su semana? (Seleccione hasta 3)
-
-- [ ] Redactar correos electrónicos y comunicados
-- [ ] Revisar y analizar reportes o documentos extensos
-- [ ] Preparar informes para Rectoría o superiores
-- [ ] Dar seguimiento a proyectos y acuerdos de juntas
-- [ ] Responder consultas repetitivas de alumnos, docentes o colaboradores
-- [ ] Preparar presentaciones o materiales para reuniones
-- [ ] Consolidar indicadores o datos de diversas fuentes
-- [ ] Otra: ___________
-
----
-
-**Pregunta 4 — Percepción de la IA**
-> ¿Cuál de las siguientes afirmaciones describe mejor su percepción actual sobre la IA generativa?
-
-- [ ] "No creo que sea relevante para mi trabajo"
-- [ ] "Sé que es importante, pero no sé cómo aplicarla a lo que hago"
-- [ ] "La he usado y funciona, pero no le he sacado todo el provecho"
-- [ ] "Ya la uso y me interesa profundizar"
-- [ ] "Creo que puede transformar la forma en que gestionamos la universidad"
-
----
-
-**Pregunta 5 — Barreras percibidas**
-> ¿Cuál es el principal obstáculo que le impide usar IA en su gestión diaria?
-
-- [ ] No sé por dónde empezar
-- [ ] No tengo tiempo para aprender una herramienta nueva
-- [ ] Me preocupa la confidencialidad de los datos institucionales
-- [ ] No creo que la IA pueda entender el contexto universitario
-- [ ] He probado y los resultados no fueron suficientemente buenos
-- [ ] No hay obstáculo — ya la uso o estoy listo(a) para empezar
-
----
-
-**Pregunta 6 — Disposición al aprendizaje**
-> Si existiera un programa de capacitación en IA diseñado específicamente para directivos universitarios como usted, con ejercicios basados en sus tareas reales, ¿qué tan dispuesto(a) estaría a participar?
-
-| 1 | 2 | 3 | 4 | 5 |
-|---|---|---|---|---|
-| Nada dispuesto(a) | Poco dispuesto(a) | Dispuesto(a) si es breve y práctico | Bastante dispuesto(a) | Totalmente dispuesto(a), incluso lo buscaría por mi cuenta |
-
----
-
-**Pregunta 7 — Formato preferido**
-> ¿Qué formato de aprendizaje prefiere? (Seleccione hasta 2)
-
-- [ ] Módulos en línea que pueda avanzar a mi ritmo (20-30 min cada uno)
-- [ ] Taller presencial con práctica en vivo
-- [ ] Sesiones grupales por videoconferencia con un facilitador
-- [ ] Tutoriales en video que pueda ver cuando tenga tiempo
-- [ ] Acompañamiento uno a uno (mentoría personalizada)
-
----
-
-**Pregunta 8 — Horas disponibles**
-> ¿Cuántas horas a la semana podría dedicar a una capacitación de este tipo?
-
-- [ ] Menos de 1 hora
-- [ ] 1-2 horas
-- [ ] 3-4 horas
-- [ ] 5 o más horas
-- [ ] Depende de si realmente me ahorra tiempo después
-
----
-
-**Pregunta 9 — Expectativa de resultado**
-> Si tomara un curso de IA aplicada a su gestión, ¿qué resultado esperaría al terminar?
-
-- [ ] Entender qué es la IA y para qué sirve (cultura general)
-- [ ] Poder usarla para tareas específicas (correos, reportes, comunicados)
-- [ ] Tener un sistema propio con herramientas de IA listas para mi área
-- [ ] Poder liderar la adopción de IA en mi equipo de trabajo
-- [ ] Otro: ___________
-
----
-
-**Pregunta 10 — Métrica personal de éxito**
-> ¿Cómo sabría usted que un curso de IA le fue realmente útil? (Respuesta abierta, 1-2 oraciones)
-
-_____________________________________________
-
----
-
-### 1.3 Criterios de Clasificación
-
-Los resultados del cuestionario generan una clasificación automática en tres niveles de madurez:
-
-| Nivel | Perfil | Criterios (basados en preguntas clave) | % estimado |
+| # | Pregunta | Opciones de respuesta | Dimensión que mide |
 |---|---|---|---|
-| **Nivel 1 — Explorador** | No ha usado IA o la ha probado 1-3 veces. Percibe barreras significativas. Disposición media-baja. | P1 ≤ 2, P2 = "No/Una vez", P5 ≠ "No hay obstáculo" | 40-50% |
-| **Nivel 2 — Practicante** | Ha usado IA ocasionalmente. Reconoce el valor pero no tiene método. Disposición media-alta. | P1 = 3-4, P2 = "2-5 veces/Regularmente", P4 = "La he usado…" | 30-40% |
-| **Nivel 3 — Integrador** | Usa IA con frecuencia. Quiere profundizar y/o liderar adopción en su equipo. | P1 ≥ 4, P2 = "Regularmente/Habitual", P4 = "Puede transformar…" | 10-20% |
+| 1 | ¿Con qué frecuencia utiliza alguna herramienta de IA generativa (ChatGPT, Gemini, Copilot, Amazon Quick u otra) en su trabajo? | (a) Nunca · (b) Lo he probado 1-2 veces · (c) Algunas veces al mes · (d) Varias veces por semana · (e) Diariamente | Frecuencia de uso |
+| 2 | Cuando necesita redactar un comunicado institucional extenso, ¿cuál es su proceso habitual? | (a) Lo escribo completo desde cero · (b) Uso una plantilla y la adapto manualmente · (c) Pido ayuda a un asistente o colega · (d) Uso IA para generar un borrador y lo edito · (e) Tengo un flujo con IA que me entrega borradores listos para revisión | Integración en flujo de trabajo |
+| 3 | Si le pidiera que explique qué es una "alucinación" de IA, ¿qué tan preparado se sentiría? | (a) No sé qué es · (b) He escuchado el término pero no podría explicarlo · (c) Puedo dar una idea general · (d) Puedo explicarlo con claridad · (e) Puedo explicarlo y dar ejemplos de mi contexto | Literacidad conceptual |
+| 4 | ¿Ha utilizado IA para analizar un documento, reporte o base de datos de su área? | (a) Nunca · (b) Lo intenté pero no obtuve resultados útiles · (c) Sí, una vez con resultados parciales · (d) Sí, varias veces con buenos resultados · (e) Es parte regular de mi proceso de análisis | Aplicación analítica |
+| 5 | En una escala del 1 al 5, ¿qué tan de acuerdo está con esta afirmación? *"La IA generativa puede ayudarme significativamente en mi trabajo diario como directivo."* | (1) Totalmente en desacuerdo · (2) En desacuerdo · (3) Neutral · (4) De acuerdo · (5) Totalmente de acuerdo | Percepción de utilidad |
+| 6 | ¿Cuál es su principal preocupación sobre el uso de IA en su gestión? | (a) No tengo preocupaciones · (b) Que cometa errores que yo no detecte · (c) Que comprometa datos confidenciales · (d) Que me quite tiempo en lugar de ahorrarlo · (e) Que reemplace funciones humanas importantes | Barreras percibidas |
+| 7 | Si tuviera 30 minutos libres hoy y acceso a una herramienta de IA, ¿qué haría primero? | (a) No sabría por dónde empezar · (b) Le pediría que me resuma algo · (c) Le pediría que redacte un correo · (d) Le pediría que analice un reporte pendiente · (e) Trabajaría en automatizar un proceso recurrente | Nivel de autonomía |
+| 8 | ¿Sabe qué es un "prompt" y ha escrito uno de más de 3 líneas? | (a) No sé qué es un prompt · (b) Sé qué es pero nunca he escrito uno · (c) He escrito prompts cortos (una frase) · (d) He escrito prompts estructurados de varias líneas · (e) Uso frameworks específicos para construir prompts | Habilidad técnica |
+| 9 | ¿Ha compartido con su equipo alguna práctica o herramienta de IA? | (a) No · (b) Lo he mencionado informalmente · (c) He mostrado algo en una reunión · (d) He recomendado herramientas específicas · (e) He implementado IA en algún proceso de mi área | Liderazgo en adopción |
+| 10 | Si este programa le garantizara ahorrar 5 horas a la semana en tareas operativas, ¿cuánto tiempo estaría dispuesto a invertir para lograrlo? | (a) Menos de 1 hora por semana · (b) 1-2 horas por semana · (c) 3-4 horas por semana · (d) 5 horas por semana · (e) Lo que sea necesario | Disposición a invertir tiempo |
 
-### 1.4 Uso de los Resultados
+### 1.2 Escala de Madurez e Interpretación
 
-| Resultado del diagnóstico | Acción |
-|---|---|
-| Distribución por nivel | Calibrar mensajes de invitación diferenciados por segmento |
-| Tareas que consumen más tiempo (P3) | Priorizar ejemplos y casos de uso en la comunicación de lanzamiento |
-| Barreras percibidas (P5) | Diseñar FAQs y objection handling para la campaña de inscripción |
-| Formato preferido (P7) | Ajustar la estrategia de acompañamiento sincrónico |
-| Métrica personal de éxito (P10) | Alimentar la encuesta post-curso con las expectativas reales |
+Cada respuesta se puntúa de 1 (opción a) a 5 (opción e). El puntaje total (10-50) clasifica al directivo en un nivel de madurez:
+
+| Nivel | Puntaje | Clasificación | Descripción | Acción recomendada |
+|---|---|---|---|---|
+| **Nivel 1** | 10-18 | **Explorador** | No ha usado IA de forma significativa. Curiosidad baja o neutra. Necesita motivación y quick wins. | Comunicación enfocada en beneficios tangibles inmediatos. Acompañamiento cercano en Módulos 1-2. |
+| **Nivel 2** | 19-26 | **Experimentador** | Ha probado IA de forma esporádica. Entiende el concepto pero no lo aplica con método. | Comunicación enfocada en "el puente entre lo que ya probaste y un uso real". Acceso directo al curso. |
+| **Nivel 3** | 27-34 | **Practicante** | Usa IA con cierta regularidad. Tiene nociones de prompting. Busca profundizar y sistematizar. | Comunicación de desafío ("lleva tu uso al siguiente nivel"). Candidato ideal para el piloto. |
+| **Nivel 4** | 35-42 | **Avanzado** | Usa IA frecuentemente con resultados consistentes. Puede ser mentor de otros. | Invitación como "embajador". Reto de crear flujos avanzados y liderar adopción en su equipo. |
+| **Nivel 5** | 43-50 | **Estratégico** | Integra IA como herramienta central de gestión. Ya lidera adopción informalmente. | Cocrear contenido. Participar como caso de éxito. Mentorear a participantes de niveles 1-2. |
+
+### 1.3 Uso del Diagnóstico
+
+- **Pre-inscripción:** Se envía por correo electrónico junto con la invitación informativa. Completarlo es requisito para formalizar la inscripción.
+- **Segmentación:** Los resultados alimentan la segmentación de directivos (Sección 3) y la asignación de apoyos diferenciados.
+- **Línea base:** Se aplica nuevamente al concluir el programa (post-test) para medir el desplazamiento en la escala de madurez.
+- **Formato:** Formulario digital (Google Forms o equivalente institucional), anónimo para fines de reporte agregado, identificado para fines de personalización individual.
 
 ---
 
 ## 2. Funnel de Adopción Interna
 
-### 2.1 Modelo de Cinco Etapas
+La adopción de un programa de formación interna no ocurre espontáneamente. Se requiere un funnel estructurado con tácticas diferenciadas por etapa, responsables claros y métricas de conversión entre cada fase.
 
-A diferencia de un funnel de venta comercial, el funnel de adopción interna opera dentro de una organización donde la participación puede ser alentada (pero no impuesta sin consecuencias negativas). El objetivo no es "convencer a un cliente" sino **reducir fricción hasta que participar sea más atractivo que no participar**.
+### 2.1 Modelo de Funnel: 5 Etapas
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   AWARENESS          INTERÉS          INSCRIPCIÓN                   │
-│   "Sé que existe"    "Me interesa"    "Me inscribí"                 │
-│                                                                     │
-│   ████████████████   ███████████████  ██████████████                │
-│   100% directivos    70-80%           60-70%                        │
-│                                                                     │
-│                                                                     │
-│   COMPLETAR                           EMBAJADOR                     │
-│   "Lo terminé"                        "Lo recomiendo activamente"   │
-│                                                                     │
-│   ███████████                         ████████                      │
-│   ≥75% de inscritos                   ≥25% de egresados             │
-│                                                                     │
+│                        AWARENESS (Conciencia)                       │
+│     "Existe un programa de IA para directivos y me concierne"       │
+│                      100% de directivos target                      │
+├─────────────────────────────────────────────────────────────────────┤
+│                        INTERÉS (Consideración)                      │
+│        "Quiero saber más, podría servirme en mi trabajo"            │
+│                   Target: ≥ 80% de awareness                        │
+├─────────────────────────────────────────────────────────────────────┤
+│                       INSCRIPCIÓN (Compromiso)                      │
+│           "Me inscribo y completo el diagnóstico inicial"           │
+│                    Target: ≥ 70% de interesados                     │
+├─────────────────────────────────────────────────────────────────────┤
+│                       COMPLETAR (Graduación)                        │
+│        "Termino los 8 módulos y entrego los 2 finales"              │
+│                    Target: ≥ 75% de inscritos                       │
+├─────────────────────────────────────────────────────────────────────┤
+│                      EMBAJADOR (Multiplicación)                     │
+│    "Recomiendo activamente y lidero la adopción en mi equipo"       │
+│                   Target: ≥ 30% de graduados                        │
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
 ### 2.2 Tácticas por Etapa
 
-#### Etapa 1 — AWARENESS: "Sé que existe"
+#### Etapa 1: Awareness (Semanas 1-2)
 
-**Objetivo:** Que el 100% de los directivos elegibles conozcan el programa, su propósito y su formato antes de la apertura de inscripciones.
+**Objetivo:** Que el 100% de los directivos target sepa que el programa existe, quién lo respalda y por qué es relevante.
 
-| Táctica | Descripción | Responsable | Timing |
+| Táctica | Canal | Responsable | Detalle |
 |---|---|---|---|
-| **Anuncio del Rector** | Comunicado formal de Rectoría presentando el programa como prioridad institucional. No como "obligatorio", sino como "inversión de la universidad en sus líderes". | Rectoría | Semana 1 |
-| **Demo en junta directiva** | Demostración en vivo de 10 minutos durante la junta de directores: el facilitador resuelve un problema real (ej: resume un reporte de 50 páginas en 2 minutos) usando Amazon Quick. | Facilitador del programa | Semana 1 |
-| **Mini sitio informativo** | Página en [cursos.memovaldez.com](https://cursos.memovaldez.com) con: descripción del programa, beneficios, testimonial del piloto, FAQs, y botón de inscripción. | Equipo de desarrollo | Semana 1 |
-| **Email informativo personalizado** | Correo individualizado al universo de directivos con: nombre, área, y 2-3 casos de uso relevantes para su función específica. | Capital Humano | Semana 1 |
-| **Infografía "5 cosas que la IA puede hacer por un directivo Anáhuac"** | Pieza visual de una página, imprimible, para distribución digital y física (ej: carpeta de junta directiva). | Comunicación institucional | Semana 1 |
+| Correo de Rectoría | Email institucional | Rector / Vicerrector | Comunicado formal anunciando el programa como prioridad institucional. Tono: "La universidad invierte en ustedes." No pedir inscripción aún — solo informar. |
+| Mención en Consejo Directivo | Reunión presencial | Rector | Presentación de 5 minutos: diagnóstico (85% no usa IA), oportunidad (5 hrs/semana recuperables), programa disponible. |
+| Teaser en canales internos | Intranet / Teams / WhatsApp directivo | Coordinación del programa | Pieza visual: "¿Cuántas horas a la semana dedicas a tareas que la IA podría hacer por ti?" con dato de impacto. |
+| One-pager ejecutivo | PDF / impreso | Coordinación del programa | Documento de 1 página: qué es, para quién, qué se gana, cuánto dura, cuánto cuesta (nada — inversión institucional). Distribución en buzones y por email. |
 
-#### Etapa 2 — INTERÉS: "Me interesa"
+**Métrica de conversión:** ≥ 95% de directivos reporta conocer la existencia del programa (encuesta rápida o confirmación de lectura del correo).
 
-**Objetivo:** Que el 70-80% de los directivos pase de "sé que existe" a "quiero saber más" en la primera semana.
+#### Etapa 2: Interés (Semanas 2-3)
 
-| Táctica | Descripción | Responsable | Timing |
+**Objetivo:** Que ≥ 80% de los directivos exprese curiosidad o haga una acción exploratoria (visitar el sitio, preguntar, asistir a una demo).
+
+| Táctica | Canal | Responsable | Detalle |
 |---|---|---|---|
-| **Testimonial del piloto** | Video breve (2-3 min) o cita textual de 2-3 participantes del piloto describiendo un resultado concreto: "Antes tardaba 4 horas en mi reporte mensual. Ahora lo hago en 45 minutos." | Equipo de desarrollo | Semana 2 |
-| **"Pruebe en 5 minutos"** | Invitación a una sesión de micro-demostración (15 min, sin compromiso) donde cada asistente escribe un prompt con un problema REAL de su semana y ve el resultado. | Facilitador | Semana 2 |
-| **FAQ de objeciones** | Documento que responde las 5 objeciones más comunes identificadas en el diagnóstico de madurez (P5). Se distribuye por correo y se publica en el mini sitio. | Equipo de desarrollo | Semana 2 |
-| **Endorsement de pares** | Dos o tres directivos del piloto comparten su experiencia informalmente en los pasillos, WhatsApp de directivos o reuniones de área. | Participantes del piloto | Semana 2-3 |
-| **Dato de impacto semanal** | Un dato enviado por correo o WhatsApp cada lunes: "¿Sabía que el 60-70% de su jornada se va en tareas que la IA puede acelerar?" | Capital Humano | Semana 2-3 |
+| Demo en vivo (30 min) | Sesión presencial o híbrida | Facilitador del programa | Demostración práctica: tomar un correo real de directivo, resolverlo con IA en 2 minutos. Sin teoría. Puro "antes vs. después". Dos sesiones (mañana y tarde) para cubrir agendas. |
+| Video teaser (90 seg) | Email + intranet | Coordinación del programa | Video corto: directivo real del piloto muestra cómo resolvió un reporte con IA. Subtexto: "Esto antes me tomaba 3 horas." |
+| Landing page del programa | [cursos.memovaldez.com](https://cursos.memovaldez.com) | Desarrollo web | Página con estructura del programa, Open Badges, testimonios del piloto, botón de "Quiero saber más" y enlace al diagnóstico. |
+| FAQ anticipado | PDF + web | Coordinación del programa | Respuestas a las 10 preguntas más frecuentes: ¿Me quita tiempo? ¿Es obligatorio? ¿Qué pasa si no sé nada de IA? ¿Mis datos están seguros? |
+| Conversaciones 1-a-1 con escépticos | Presencial / café | Director(a) patrocinador(a) | Identificar a los 5-8 directivos más resistentes y tener conversaciones informales. No vender — escuchar objeciones. |
 
-#### Etapa 3 — INSCRIPCIÓN: "Me inscribí"
+**Métrica de conversión:** ≥ 80% visita la landing page o asiste a la demo. Tracking: clicks en email + registro de asistencia.
 
-**Objetivo:** Lograr una tasa de inscripción del 60-70% del universo elegible en las primeras dos semanas de apertura.
+#### Etapa 3: Inscripción (Semanas 3-4)
 
-| Táctica | Descripción | Responsable | Timing |
+**Objetivo:** Que ≥ 70% de los interesados formalice su inscripción completando el diagnóstico de madurez digital.
+
+| Táctica | Canal | Responsable | Detalle |
 |---|---|---|---|
-| **Inscripción en un clic** | Formulario simplificado (nombre, correo institucional, área, versión académica/administrativa). Máximo 2 minutos. Sin burocracia. | Equipo técnico | Semana 3 |
-| **Ventana de inscripción definida** | Periodo de inscripción de 5 días hábiles con recordatorio a los 3 días. La escasez temporal genera acción. | Capital Humano | Semana 3 |
-| **Confirmación con "adelanto de valor"** | Al inscribirse, el participante recibe inmediatamente un PDF con "3 prompts que puede usar HOY" para resolver algo de su semana. Valor antes de empezar. | Equipo de desarrollo | Semana 3 |
-| **Mensaje de bienvenida del facilitador** | Correo personal del facilitador con: bienvenida, qué esperar, cómo prepararse (instalar Amazon Quick), y enlace al Módulo 1. | Facilitador | Semana 3 |
-| **Seguimiento a no inscritos** | Correo personalizado a quienes no se inscribieron tras la ventana: "Notamos que aún no se ha registrado. ¿Tiene alguna duda que podamos resolver?" Sin presión, con apertura. | Capital Humano | Semana 4 |
+| Invitación personalizada | Email directo | Coordinación del programa | Correo segmentado según nivel de madurez estimado (ver Sección 3). Mensaje diferenciado para innovadores, mayoría temprana y escépticos. |
+| Diagnóstico como puerta de entrada | Formulario digital | Coordinación del programa | Completar el cuestionario de 10 preguntas (Sección 1) formaliza la inscripción. Toma 5 minutos. Diseñado para ser interesante, no burocrático. |
+| Respaldo del jefe directo | Email del Vicerrector de área | Vicerrectores | Cada Vicerrector envía nota a sus directores: "Espero que participen. Yo también lo estoy tomando." (Si aplica.) |
+| Deadline claro con escasez real | Email + intranet | Coordinación del programa | "Cupo limitado a [X] participantes por versión. Cierre de inscripción: [fecha]." La escasez es real si se limita la primera cohorte. |
+| Garantía de tiempo protegido | Comunicado de Rectoría | Rector | "Los participantes tendrán 3-5 horas semanales de su jornada reconocidas para este programa durante 8 semanas." Elimina la objeción #1 ("no tengo tiempo"). |
 
-#### Etapa 4 — COMPLETAR: "Lo terminé"
+**Métrica de conversión:** ≥ 70% completa el diagnóstico y queda formalmente inscrito. Tracking: formularios completados.
 
-**Objetivo:** Tasa de completamiento ≥ 75% de los inscritos (los 8 niveles y ambos entregables finales).
+#### Etapa 4: Completar (Semanas 4-12)
 
-| Táctica | Descripción | Responsable | Timing |
+**Objetivo:** Que ≥ 75% de los inscritos complete los 8 módulos y entregue los 2 entregables finales (flujo de reportes + banco de prompts).
+
+| Táctica | Canal | Responsable | Detalle |
 |---|---|---|---|
-| **Micro-módulos de 20-30 min** | El formato del curso ya está diseñado para directivos sin tiempo. Cada módulo resuelve algo real en menos de 35 minutos. | Diseño del curso | Continuo |
-| **Notificaciones de progreso** | Correo semanal automático: "Lleva 3 de 8 módulos. Su próximo nivel: Análisis de Reportes con IA." Barra de progreso visual. | Plataforma | Semanal |
-| **Gamificación con badges** | 3 Open Badges (Fundamentos 🟢, IA Aplicada 🔵, Líder IA 🟣) + badge integrador final (Líder Digital Anáhuac 🏆). Compartibles en LinkedIn. | Sistema de badges | Por fase |
-| **Sesiones opcionales de acompañamiento** | 4 sesiones sincrónicas (1 por fase) para resolver dudas. No obligatorias, pero reducen deserción en módulos complejos (M5-M6). | Facilitador | Quincenal |
-| **Intervención anti-deserción** | Si un participante no avanza en 10 días, recibe un correo personalizado: "¿Todo bien? El Módulo [X] le tomará solo 25 minutos y le va a ayudar con [tarea específica de su área]." | Facilitador | Reactivo |
-| **Celebración de hitos** | Al obtener cada badge, el participante recibe reconocimiento público (mención en boletín interno o grupo de directivos). | Comunicación institucional | Por badge |
+| Onboarding presencial (1 hr) | Sesión inaugural | Facilitador + Rectoría | Sesión de arranque: bienvenida del Rector, activación de cuentas Amazon Quick, primer ejercicio práctico en vivo. El participante sale con su primera tarea resuelta con IA. |
+| Nudges semanales | Email + WhatsApp | Plataforma / Coordinación | Recordatorio semanal con micro-reto: "Esta semana, usa IA para resolver [tarea específica]." Tono motivacional, no punitivo. Incluye barra de progreso personalizada. |
+| Sesiones sincrónicas opcionales (4) | Zoom / presencial | Facilitador | Una sesión de 45 min por fase (Entender, Usar, Acelerar, Integrar). Para resolver dudas, compartir avances, mantener momentum grupal. |
+| Sistema de buddies | Parejas asignadas | Coordinación del programa | Emparejar participantes complementarios (avanzado + explorador). Check-in quincenal de 15 min entre buddies. |
+| Reconocimiento de progreso | Email + muro digital | Plataforma | Notificación al completar cada fase con Open Badge correspondiente. Publicación en canal interno: "🏅 [Nombre] completó la Fase II." |
+| Intervención temprana por drop-off | Llamada directa | Coordinación del programa | Si un participante no avanza en 7+ días, llamada de seguimiento no invasiva: "¿En qué te puedo ayudar? ¿Hay algún módulo donde te atoraste?" |
 
-#### Etapa 5 — EMBAJADOR: "Lo recomiendo activamente"
+**Métrica de conversión:** ≥ 75% completa los 8 módulos. Tracking: plataforma del mini sitio. Alerta si drop-off > 10% entre niveles consecutivos.
 
-**Objetivo:** Que ≥ 25% de los egresados recomiende activamente el programa a colegas y/o lidere la adopción de IA en su equipo.
+#### Etapa 5: Embajador (Post-curso, Semanas 12+)
 
-| Táctica | Descripción | Responsable | Timing |
+**Objetivo:** Que ≥ 30% de los graduados se convierta en promotor activo del programa y líder de adopción de IA en su equipo.
+
+| Táctica | Canal | Responsable | Detalle |
 |---|---|---|---|
-| **Showcase de egresados** | Sesión de 30 minutos donde 3-4 egresados presentan ante sus pares cómo la IA transformó un proceso de su área. | Facilitador + egresados | Post-curso |
-| **Certificado visible** | Constancia de Formación Continua con valor curricular + Open Badge en LinkedIn. Visibilidad profesional como incentivo. | Educación Continua | Al completar |
-| **Red de "Líderes Digitales"** | Grupo de WhatsApp o Teams exclusivo para egresados: comparten prompts, resuelven dudas, reportan casos de éxito. | Facilitador | Post-curso |
-| **Entregable del M8: Plan de Adopción** | El Módulo 8 ya incluye como entregable final un plan de adopción de IA para el equipo del participante. El embajador nace dentro del curso. | Diseño del curso | Módulo 8 |
-| **Reconocimiento institucional** | Mención en el informe de Rectoría: "X directivos completaron la formación en IA y están liderando la transformación digital de sus áreas." | Rectoría | Trimestral |
+| Ceremonia de cierre | Evento presencial | Rectoría + Coordinación | Entrega de constancias y Open Badges. Presentación de 3 casos de éxito. Presencia del Rector. |
+| Programa de embajadores | Invitación selectiva | Coordinación del programa | Invitar a los top 30% (por calidad de entregables + NPS + uso post-curso) como "Embajadores IA Anáhuac". Beneficio: mentoría, acceso anticipado a actualizaciones, reconocimiento. |
+| Showcase trimestral | Presentación interna | Embajadores | Espacio de 30 min cada trimestre para que embajadores presenten cómo están usando IA en su área. Inspira a la siguiente cohorte. |
+| Encuesta de seguimiento (30/60 días) | Email | Coordinación del programa | Medir uso real de IA post-curso, horas ahorradas, herramientas activas. Dato clave para demostrar ROI institucional. |
+| Contenido generado por graduados | Intranet / newsletter | Comunicación institucional | Publicar mini-casos de uso: "Cómo la Dra. [Nombre] redujo su reporte de acreditación de 8 horas a 2." |
+
+**Métrica de conversión:** ≥ 30% recomienda activamente a colegas Y reporta usar IA ≥ 3 veces por semana a los 30 días. Tracking: encuesta de seguimiento + NPS.
 
 ---
 
 ## 3. Segmentación de Directivos
 
-### 3.1 Modelo de Segmentación por Disposición al Cambio
+No todos los directivos responden igual ante un programa de adopción tecnológica. La segmentación basada en el modelo de difusión de innovaciones (Rogers, 2003), adaptada al contexto institucional, permite diseñar mensajes, incentivos y tácticas diferenciadas que maximicen la inscripción y el completamiento.
 
-Basado en el modelo de Difusión de Innovaciones (Rogers, 1962) adaptado al contexto institucional universitario, se identifican tres segmentos operativos:
+### 3.1 Perfiles por Disposición al Cambio
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│  🚀 INNOVADORES        📊 MAYORÍA TEMPRANA      🛡️ ESCÉPTICOS       │
-│  (15-20%)              (50-60%)                 (20-30%)             │
-│                                                                      │
-│  "Ya quiero              "Convénzanme con         "Esto es una       │
-│   empezar"                resultados"              moda pasajera"     │
-│                                                                      │
-│  Primer contacto:       Primer contacto:          Primer contacto:   │
-│  Invitación directa     Testimonial del piloto    Respeto a su       │
-│  al piloto              + demo en vivo            experiencia +      │
-│                                                   dato de impacto    │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
+| Segmento | % estimado | Puntaje diagnóstico | Perfil | Motivación principal | Objeción principal |
+|---|---|---|---|---|---|
+| **🚀 Innovadores** | 10-15% | 35-50 (Avanzado/Estratégico) | Ya usan IA con frecuencia. Buscan profundizar y sistematizar. Suelen ser los más jóvenes o los más expuestos a tecnología. | Ser referentes. Acceso a lo nuevo antes que nadie. Reconocimiento como expertos. | "¿Este curso me va a enseñar algo que yo no sepa?" |
+| **📈 Mayoría temprana** | 40-50% | 19-34 (Experimentador/Practicante) | Han probado IA, ven potencial, pero no tienen método. Esperan que alguien les muestre el camino con un marco claro. | Ahorrar tiempo en tareas operativas. No quedarse atrás. Ser más productivos. | "No tengo tiempo para un curso más. ¿Realmente me va a servir esta semana?" |
+| **⏳ Mayoría tardía** | 25-30% | 14-22 (Explorador alto / Experimentador bajo) | Cautelosos. No rechazan la IA pero esperan ver resultados en otros antes de moverse. Necesitan prueba social. | Seguridad de que funciona. No quedar mal frente a su equipo. Cumplir con la expectativa institucional. | "Mejor espero a ver qué dicen los que ya lo tomaron." |
+| **🛡️ Escépticos** | 10-20% | 10-18 (Explorador) | Resistencia activa o pasiva. Pueden creer que la IA es una moda, que no aplica a su área, o que amenaza su rol. Generalmente con más antigüedad o en áreas menos digitalizadas. | Validación de que su experiencia sigue siendo valiosa. Que no les impongan algo. Respeto a su trayectoria. | "Yo llevo 15 años haciendo esto bien sin IA." / "Eso no aplica a mi área." |
 
-### 3.2 Perfil Detallado y Mensajes Diferenciados
+### 3.2 Mensajes Diferenciados por Segmento
 
-#### 🚀 Segmento 1: INNOVADORES (15-20% del universo)
+#### 🚀 Para Innovadores
 
-| Dimensión | Detalle |
+| Elemento | Mensaje |
 |---|---|
-| **Perfil** | Ya ha probado ChatGPT, Gemini u otras herramientas por cuenta propia. Tiene curiosidad tecnológica. Probablemente menor de 45 años, aunque no exclusivamente. |
-| **Diagnóstico típico** | Nivel 2-3 en el cuestionario (Practicante o Integrador). P1 ≥ 4, P6 ≥ 4. |
-| **Motivación** | Quiere profundizar, obtener método, y diferenciarse profesionalmente. |
-| **Objeción** | "¿Me va a enseñar algo que no sepa?" / "¿No es para principiantes?" |
-| **Rol estratégico** | Son los candidatos ideales para el piloto. Su éxito temprano genera el testimonial que mueve a la mayoría. |
+| **Asunto de correo** | "Eres de los que ya usan IA — ahora te toca liderar" |
+| **Propuesta de valor** | "Este programa te da el framework que convierte tu experimentación individual en una estrategia para tu equipo. Tú ya sabes que funciona — ahora ayuda a que toda tu área lo adopte." |
+| **CTA** | "Sé parte del piloto como embajador fundador" |
+| **Incentivo** | Acceso anticipado, rol de mentor de buddies, reconocimiento público como embajador |
+| **Tono** | Desafiante, de par a par, reconociendo su expertise |
 
-**Mensaje clave para Innovadores:**
+#### 📈 Para Mayoría Temprana
 
-> *"Usted ya sabe que la IA funciona. Este programa le da el framework para pasar de usuario ocasional a líder digital: agentes especializados, flujos automatizados y un ecosistema completo para su área. Además, será de los primeros en obtener el badge 'Líder Digital Anáhuac' — verificable en LinkedIn."*
-
-**Tono:** Directo, aspiracional, orientado a diferenciación.
-
-**Canales:** Invitación personal del facilitador, email directo, enlace al mini sitio.
-
----
-
-#### 📊 Segmento 2: MAYORÍA TEMPRANA (50-60% del universo)
-
-| Dimensión | Detalle |
+| Elemento | Mensaje |
 |---|---|
-| **Perfil** | Sabe que la IA es importante pero no ha encontrado el puente entre la tecnología y su gestión diaria. Pragmático. Valora su tiempo. Necesita ver evidencia antes de invertir esfuerzo. |
-| **Diagnóstico típico** | Nivel 1-2 en el cuestionario (Explorador o Practicante). P4 = "Sé que es importante pero no sé cómo aplicarla". P5 = "No sé por dónde empezar". |
-| **Motivación** | Resolver problemas concretos. Ahorrar tiempo. No quedarse atrás respecto a colegas que ya están adoptando. |
-| **Objeción** | "No tengo tiempo para un curso más" / "Si no me sirve esta semana, no lo termino" / "Necesito algo concreto, no teoría" |
-| **Rol estratégico** | Son el volumen. Si la mayoría temprana adopta, el programa alcanza masa crítica y se convierte en norma institucional. |
+| **Asunto de correo** | "5 horas a la semana: eso es lo que puedes recuperar" |
+| **Propuesta de valor** | "Sabes que la IA puede ayudarte, pero no has tenido tiempo de sentarte a descubrirlo bien. Este programa está diseñado para que apliques lo aprendido a tu trabajo ESTA semana — no en abstracto, con tus correos reales, tus reportes reales, tus procesos reales." |
+| **CTA** | "Inscríbete y resuelve tu primer pendiente con IA en 30 minutos" |
+| **Incentivo** | Quick wins inmediatos, formato de micro-módulos de 20-30 min, tiempo protegido de 3-5 hrs/semana |
+| **Tono** | Práctico, concreto, enfocado en ROI personal de tiempo |
 
-**Mensaje clave para Mayoría Temprana:**
+#### ⏳ Para Mayoría Tardía
 
-> *"Este programa no le va a quitar tiempo — le va a devolver 5 horas a la semana. Cada módulo dura 25 minutos y resuelve algo que usted tiene pendiente hoy: ese reporte, esos correos, esa presentación. Sus colegas del piloto ya lo comprobaron: 'Antes tardaba 4 horas en mi reporte mensual. Ahora lo hago en 45 minutos.' Usted decide cuándo empezar."*
-
-**Tono:** Pragmático, basado en evidencia, sin presión.
-
-**Canales:** Testimonial del piloto, demo en junta directiva, email con casos de uso de su área específica.
-
----
-
-#### 🛡️ Segmento 3: ESCÉPTICOS (20-30% del universo)
-
-| Dimensión | Detalle |
+| Elemento | Mensaje |
 |---|---|
-| **Perfil** | Desconfianza hacia la tecnología, ya sea por experiencias previas negativas ("otro sistema más que nos cambian") o por creencias arraigadas ("mi experiencia vale más que cualquier máquina"). Frecuentemente mayores de 50, con amplia trayectoria institucional. |
-| **Diagnóstico típico** | Nivel 1 (Explorador). P1 ≤ 2, P4 = "No creo que sea relevante" o "Me preocupa la confidencialidad", P6 ≤ 2. |
-| **Motivación profunda** | No quieren quedar en ridículo. No quieren que la tecnología los rebase. En el fondo, temen que 20 años de experiencia se vuelvan irrelevantes. |
-| **Objeción** | "Ya he visto muchas modas tecnológicas ir y venir" / "Esto es para gente de sistemas" / "Prefiero hacer las cosas como siempre — me funcionan" |
-| **Rol estratégico** | Si un escéptico adopta, su testimonio vale más que el de diez innovadores. Son los "convertidos" más creíbles. No se les debe forzar — se les debe invitar con respeto y resultados. |
+| **Asunto de correo** | "Tus colegas ya empezaron — aquí está lo que están logrando" |
+| **Propuesta de valor** | "12 de tus colegas completaron el programa piloto. En promedio, reportan ahorrar 4 horas a la semana. No se trata de ser experto en tecnología — se trata de hacer tu trabajo con menos desgaste. El programa te lleva paso a paso." |
+| **CTA** | "Conoce los resultados del piloto y decide" |
+| **Incentivo** | Testimonios de colegas similares (mismo rol, misma antigüedad), garantía de acompañamiento personalizado, buddy asignado |
+| **Tono** | Empático, sin presión, con prueba social abundante |
 
-**Mensaje clave para Escépticos:**
+#### 🛡️ Para Escépticos
 
-> *"Sabemos que usted lleva [X] años liderando su área con resultados comprobados. Este programa no pretende reemplazar su experiencia — al contrario: descubrirá que sus 20 años de criterio profesional son exactamente lo que la IA necesita para funcionar bien. Sin su juicio, la IA es inútil. Con él, es una herramienta extraordinaria. El curso está diseñado para directivos como usted: sin tecnicismos, con ejercicios de su día a día, y en módulos de 25 minutos que puede avanzar a su ritmo."*
+| Elemento | Mensaje |
+|---|---|
+| **Asunto de correo** | "No es reemplazarte — es que tu experiencia rinda más" |
+| **Propuesta de valor** | "Nadie conoce tu área como tú. La IA no tiene tus 15 años de experiencia, tu criterio ni tu juicio profesional. Pero sí puede hacer en 3 minutos el borrador que tú perfeccionas en 10. Este programa no cambia lo que sabes — cambia cuánto tiempo pierdes en lo operativo." |
+| **CTA** | "Prueba el Módulo 1 sin compromiso — 30 minutos, sin tecnología complicada" |
+| **Incentivo** | Conversación 1-a-1 con el facilitador antes de inscribirse, opción de "probarlo sin inscripción formal" en Módulo 1, respaldo de Rectoría de que es desarrollo profesional (no evaluación de desempeño) |
+| **Tono** | Respetuoso de su trayectoria, sin condescendencia, pragmático |
 
-**Tono:** Respetuoso, validador de la experiencia, sin condescendencia.
+### 3.3 Estrategia de Conversión por Segmento
 
-**Canales:** Conversación personal (idealmente de su jefe directo o un par que completó el piloto), invitación a la sesión "Pruebe en 5 minutos" sin compromiso, testimonial de un directivo del mismo perfil demográfico.
-
-### 3.3 Estrategia Diferenciada por Segmento
-
-| Dimensión | 🚀 Innovadores | 📊 Mayoría Temprana | 🛡️ Escépticos |
+| Segmento | Probabilidad de inscripción espontánea | Esfuerzo requerido | Estrategia clave |
 |---|---|---|---|
-| **Cuándo se activan** | Semana 1 (piloto) | Semana 3-4 (post-piloto) | Semana 4-6 (con evidencia) |
-| **Quién los invita** | Facilitador directamente | Capital Humano + testimonial | Par de confianza o jefe directo |
-| **Argumento central** | "Lleve su uso al siguiente nivel" | "Ahorre 5 horas/semana desde el primer módulo" | "Su experiencia es lo que la IA necesita" |
-| **Evidencia que necesitan** | Contenido avanzado, no básico | Resultados concretos de colegas | Un solo resultado tangible en 5 minutos |
-| **Riesgo si no se atienden** | Se aburren y no completan | No se inscriben por falta de evidencia | Generan resistencia pasiva en sus equipos |
-| **Indicador de conversión** | Se inscriben al piloto sin fricción | Se inscriben tras ver testimonial/demo | Asisten a sesión de prueba y se inscriben |
+| **Innovadores** | Alta (90%+) | Bajo | Involucrarlos como cocreadores. Si sienten que el curso "está debajo de su nivel", se desmotivan. Asignar roles de liderazgo. |
+| **Mayoría temprana** | Media-alta (65-80%) | Medio | Quick wins y tiempo protegido. Es el segmento más grande y más convertible. Invertir el mayor esfuerzo de comunicación aquí. |
+| **Mayoría tardía** | Baja-media (30-50%) | Alto | Prueba social + acompañamiento. No lanzar el programa general hasta tener resultados del piloto que mostrarles. |
+| **Escépticos** | Baja (10-25%) | Muy alto | No forzar. Conversaciones individuales. Dejar que los resultados de otros hablen. Algunos se convertirán en la segunda o tercera cohorte. Aceptar que 100% no es el objetivo. |
 
 ---
 
 ## 4. Plan de Piloto
 
-### 4.1 Objetivo del Piloto
+El piloto precede al lanzamiento general y cumple cuatro funciones: validar el contenido con usuarios reales, generar testimonios y casos de éxito, identificar fricción logística y ajustar el programa antes de la escala.
 
-Validar el programa con un grupo reducido de directivos antes del lanzamiento general, generando:
-- Datos de completamiento, tiempos y satisfacción.
-- Testimoniales de participantes reales.
-- Feedback para ajustar contenido, ritmo y plataforma.
-- Embajadores internos para la fase de lanzamiento masivo.
+### 4.1 Diseño del Piloto
 
-### 4.2 Selección de Participantes
-
-| Criterio | Detalle |
+| Parámetro | Detalle |
 |---|---|
-| **Tamaño** | 8-10 directivos (4-5 versión académica + 4-5 versión administrativa) |
-| **Diversidad de perfil** | Al menos 2 Innovadores, 4-5 Mayoría Temprana, 1-2 Escépticos (buscando representatividad) |
-| **Diversidad de área** | Al menos 3 áreas académicas distintas y 3 áreas administrativas distintas |
-| **Disponibilidad** | Directivos que confirmen poder dedicar 3-5 horas/semana durante 4 semanas (ritmo intensivo) |
-| **Voluntariedad** | Participación voluntaria. Los mejores pilotos son quienes eligen participar, no quienes son asignados |
-| **Criterio de exclusión** | No incluir en el piloto a personas con conflictos de calendario evidentes o resistencia activa declarada |
-
-### 4.3 Proceso de Invitación al Piloto
-
-1. **Identificación:** El facilitador y Capital Humano seleccionan 12-15 candidatos que cumplan los criterios.
-2. **Invitación personal:** Correo firmado por el facilitador con copia al jefe directo, explicando el propósito del piloto.
-3. **Compromiso:** Los candidatos confirman participación y disponibilidad.
-4. **Onboarding:** Sesión de 30 minutos (presencial o virtual) para instalar Amazon Quick, conocer la plataforma y resolver dudas.
-
-### 4.4 Estructura del Piloto
-
-| Elemento | Detalle |
-|---|---|
+| **Nombre interno** | "Cohorte Fundadora — IA Práctica para Líderes" |
+| **Tamaño** | 8-10 directivos (4-5 por versión: Académica y Administrativa) |
 | **Duración** | 4 semanas (ritmo intensivo: 2 módulos por semana) |
-| **Formato** | Autogestivo vía mini sitio + 1 sesión sincrónica semanal de 45 min (dudas y feedback) |
-| **Entregables** | Los mismos del curso completo: banco de prompts, flujo de reporte, ecosistema de agentes |
-| **Feedback** | Encuesta breve post-cada-módulo (3 preguntas: utilidad, claridad, tiempo invertido) |
-| **Cierre** | Sesión de cierre con presentación de resultados + encuesta NPS + entrevistas cualitativas (15 min c/u) |
+| **Modalidad** | En línea autogestiva + 2 sesiones sincrónicas de retroalimentación (semana 2 y semana 4) |
+| **Herramienta** | Amazon Quick — cuentas activadas previo al inicio |
+| **Soporte** | Canal directo de WhatsApp/Teams con el facilitador para dudas en tiempo real |
+| **Compensación** | 5 horas semanales de jornada protegida (autorización de Rectoría) |
 
-### 4.5 KPIs del Piloto
+### 4.2 Criterios de Selección de Participantes del Piloto
 
-| KPI | Target | Cómo se mide |
+Se seleccionan directivos que maximicen la diversidad de perfiles y la capacidad de generar evidencia transferible:
+
+| Criterio | Detalle | Justificación |
 |---|---|---|
-| Tasa de completamiento | ≥ 80% completan los 8 módulos | Tracking de plataforma |
-| Tiempo promedio por módulo | 25-35 minutos | Tracking de plataforma |
-| Satisfacción (NPS) | ≥ 50 | Encuesta de cierre |
-| Utilidad percibida | ≥ 80% califica como "útil" o "muy útil" | Encuesta post-módulo |
-| Disposición a recomendar | ≥ 70% recomendaría a colegas | Encuesta de cierre |
-| Testimoniales obtenidos | ≥ 4 testimoniales en texto o video | Entrevistas de cierre |
-| Bugs o problemas técnicos | < 5 por participante en todo el piloto | Log de feedback |
+| **Representatividad de áreas** | Al menos 1 directivo de cada Vicerrectoría principal | Los resultados deben ser creíbles para todas las áreas |
+| **Diversidad de nivel de madurez** | Mínimo 2 innovadores, 4-5 mayoría temprana, 2 mayoría tardía | Validar que el programa funciona para distintos perfiles |
+| **Antigüedad variada** | Mezcla de directivos con 3-5 años y 10+ años en la institución | Demostrar que la antigüedad no es barrera |
+| **Disposición a dar retroalimentación** | Compromiso explícito de completar encuestas, participar en sesiones de feedback y ser citados como caso de éxito | Sin feedback detallado el piloto pierde su razón de ser |
+| **Influencia interna** | Al menos 3 participantes con alta visibilidad y credibilidad entre pares | Sus testimonios serán la herramienta de conversión más poderosa para la cohorte general |
+| **Voluntariedad** | Participación 100% voluntaria, sin mandato ni presión | Un piloto forzado genera resentimiento, no evidencia |
 
-### 4.6 Criterios de Go/No-Go Post-Piloto
+### 4.3 Cronograma del Piloto
 
-| Resultado | Decisión |
-|---|---|
-| **Todos los KPIs se cumplen** | Proceder a lanzamiento general según cronograma |
-| **NPS ≥ 50 pero completamiento < 80%** | Investigar puntos de deserción; ajustar módulos problemáticos; proceder con ajustes |
-| **NPS < 50** | Pausar lanzamiento. Realizar entrevistas cualitativas profundas. Rediseñar antes de escalar |
-| **Problemas técnicos significativos** | Resolver antes de escalar. Priorizar estabilidad sobre velocidad de lanzamiento |
+| Semana | Actividad | Entregable del piloto |
+|---|---|---|
+| **Pre-piloto (-1)** | Selección, invitación, diagnóstico de madurez, activación de cuentas | 8-10 diagnósticos completados, cuentas Amazon Quick activas |
+| **Semana 1** | Módulos 1-2 (Entender) | Entregables M1-M2 + encuesta rápida de experiencia |
+| **Semana 2** | Módulos 3-4 (Usar) + sesión sincrónica de retroalimentación #1 | Entregables M3-M4 + notas de sesión con fricciones detectadas |
+| **Semana 3** | Módulos 5-6 (Acelerar) | Entregable final 1 (flujo de reportes) + encuesta intermedia |
+| **Semana 4** | Módulos 7-8 (Integrar) + sesión sincrónica de retroalimentación #2 | Entregable final 2 (banco de prompts) + encuesta de cierre + NPS |
+| **Post-piloto (+1)** | Análisis de resultados, ajustes al programa, producción de testimonios | Reporte de piloto + 3-5 testimonios grabados + documento de ajustes |
+
+### 4.4 KPIs Específicos del Piloto
+
+| KPI | Target | Señal de alerta |
+|---|---|---|
+| Tasa de completamiento | ≥ 80% (≥ 7 de 8-10) | < 70% indica problemas de contenido o logística |
+| NPS | ≥ 60 | < 40 indica insatisfacción significativa |
+| Time-to-first-value | ≤ Módulo 2 | Si nadie reporta valor antes del Módulo 3, el inicio es demasiado teórico |
+| Calidad de entregables | ≥ 75% calificados como "Competente" o "Destacado" | < 60% indica desalineación entre instrucciones y expectativas |
+| Voluntad de recomendar | ≥ 90% "recomendaría a un colega" | < 70% indica que el programa no convenció ni a los voluntarios |
+| Horas ahorradas reportadas | ≥ 3 hrs/semana promedio | < 2 hrs indica que los casos de uso no conectaron con tareas reales |
 
 ---
 
-## 5. KPIs de Adopción
+## 5. KPIs de Adopción del Programa General
 
-### 5.1 Métricas Primarias (North Star)
+### 5.1 KPIs Primarios (North Star)
 
-| KPI | Target | Instrumento | Temporalidad |
-|---|---|---|---|
-| **Tasa de inscripción** | ≥ 65% del universo elegible | Registro en plataforma | Al cierre de inscripciones |
-| **Tasa de completamiento** | ≥ 75% de los inscritos completan los 8 módulos | Tracking de plataforma | Al cierre de la cohorte |
-| **NPS del programa** | ≥ 50 | Encuesta al finalizar (escala 0-10) | Al cierre de la cohorte |
-| **Adopción real post-curso (30 días)** | ≥ 60% reporta usar IA al menos 3x/semana | Encuesta de seguimiento | 30 días post-curso |
+| KPI | Definición operacional | Target | Fuente de datos | Frecuencia de medición |
+|---|---|---|---|---|
+| **% Inscripción** | Directivos inscritos / Total de directivos target × 100 | ≥ 70% en primera cohorte general | Registro de inscripciones + diagnóstico completado | Al cierre de inscripción |
+| **% Completamiento** | Directivos que finalizan 8 módulos / Directivos inscritos × 100 | ≥ 75% | Tracking de plataforma (mini sitio) | Semanal durante el programa |
+| **NPS del programa** | Net Promoter Score medido al cierre | ≥ 50 | Encuesta de cierre | Al finalizar cada cohorte |
+| **Open Badges obtenidos** | Promedio de badges por participante (máx. 3: Entender, Usar + Acelerar, Integrar) | ≥ 2.5 promedio | Sistema de badges | Al cierre |
+| **Uso post-curso** | % de graduados que reporta usar IA ≥ 3 veces/semana | ≥ 60% | Encuesta de seguimiento | 30 y 60 días post-curso |
 
-### 5.2 Métricas Secundarias
+### 5.2 KPIs Secundarios
 
-| KPI | Target | Instrumento | Temporalidad |
-|---|---|---|---|
-| **Time-to-first-value** | ≤ Módulo 2 (el participante usa IA en algo real) | Encuesta rápida post-Módulo 2 | Semana 2 del curso |
-| **Badges otorgados** | ≥ 80% obtiene al menos el Badge 1 (Fundamentos 🟢) | Plataforma de badges | Por fase |
-| **Badge integrador (Líder Digital 🏆)** | ≥ 65% de los inscritos obtiene el badge final | Plataforma de badges | Al cierre |
-| **Banco de prompts completado** | ≥ 80% entrega banco con 20+ prompts | Revisión de entregables | Módulo 8 |
-| **Flujo de reporte funcional** | ≥ 70% entrega flujo documentado y replicable | Revisión de entregables | Módulo 5 |
-| **Horas ahorradas reportadas** | ≥ 3 hrs/semana promedio | Encuesta de seguimiento | 30 y 60 días post-curso |
-| **Recomendación interna** | ≥ 40% recomienda activamente a colegas | Encuesta de seguimiento | 30 días post-curso |
-
-### 5.3 Métricas de Engagement (Alertas Tempranas)
-
-| KPI | Umbral de alerta | Acción si se activa |
+| KPI | Target | Fuente de datos |
 |---|---|---|
-| **Drop-off entre módulos** | > 15% entre Módulo X y X+1 | Revisar contenido del módulo. Enviar correo anti-deserción personalizado |
-| **Tiempo promedio por módulo** | > 45 min (demasiado denso) o < 15 min (demasiado superficial) | Ajustar extensión o profundidad del módulo problemático |
-| **Ejercicios completados** | < 85% de ejercicios prácticos realizados | Verificar claridad de instrucciones. Simplificar si necesario |
-| **Asistencia a sesiones sincrónicas** | < 30% de inscritos | Evaluar horario/formato. Considerar grabaciones como alternativa |
+| Drop-off entre módulos consecutivos | < 10% por transición | Tracking de plataforma |
+| Tiempo promedio por módulo | 25-35 minutos | Tracking de plataforma |
+| Entregables completados | ≥ 85% | Revisión de entregables |
+| Horas semanales ahorradas (auto-reporte) | ≥ 3 hrs/semana a los 30 días | Encuesta de seguimiento |
+| Banco de prompts completado (≥ 20 prompts) | ≥ 80% de graduados | Revisión de entregable final 2 |
+| Flujo de reportes funcional | ≥ 70% de graduados | Revisión de entregable final 1 |
+| Recomendación activa a colegas | ≥ 40% | Encuesta de seguimiento |
+| Directivos que replican IA con su equipo | ≥ 25% a los 60 días | Encuesta de seguimiento |
 
-### 5.4 Métricas de Impacto Institucional (Largo Plazo)
+### 5.3 Dashboard de Adopción
 
-| KPI | Target | Instrumento | Temporalidad |
-|---|---|---|---|
-| **Uso sostenido de IA (90 días)** | ≥ 50% sigue usando IA regularmente | Encuesta de seguimiento | 90 días post-curso |
-| **Cascada a equipos** | ≥ 30% ha capacitado o motivado a al menos 1 persona de su equipo | Encuesta de seguimiento | 90 días post-curso |
-| **Percepción institucional** | La IA deja de ser percibida como "moda" y se integra en el vocabulario directivo | Encuesta cualitativa + observación en juntas | 6 meses post-curso |
-| **Cohortes subsecuentes** | Al menos 2 cohortes adicionales solicitadas por demanda orgánica | Registro de solicitudes | 12 meses |
+Se recomienda un dashboard ejecutivo (actualización semanal) con los siguientes indicadores visuales:
 
-### 5.5 Dashboard de Seguimiento
-
-Se recomienda un dashboard en tiempo real (Google Sheets o Power BI) visible para el equipo del proyecto y Rectoría, con actualización semanal durante la cohorte activa:
-
-| Sección | Métricas incluidas |
-|---|---|
-| **Inscripción** | Total inscritos, % del universo, distribución por versión (académica/administrativa), distribución por segmento |
-| **Progreso** | Módulo actual promedio, % en cada módulo, tasa de avance semanal |
-| **Engagement** | Tiempo promedio por módulo, ejercicios completados, asistencia a sincrónicas |
-| **Calidad** | NPS parcial (post-módulo), satisfacción por módulo, incidencias técnicas |
-| **Badges** | Badges 🟢🔵🟣🏆 otorgados vs. esperados |
-| **Alertas** | Drop-off > 15%, módulos con baja satisfacción, participantes estancados > 10 días |
+| Indicador | Visualización | Semáforo |
+|---|---|---|
+| Inscripción acumulada | Barra de progreso vs. target | 🟢 ≥ 70% · 🟡 50-69% · 🔴 < 50% |
+| Completamiento por módulo | Funnel descendente | 🟢 Drop < 10% · 🟡 10-15% · 🔴 > 15% |
+| NPS corriente | Gauge (termómetro) | 🟢 ≥ 50 · 🟡 30-49 · 🔴 < 30 |
+| Badges emitidos | Contador acumulado | 🟢 ≥ 2.5 promedio · 🟡 2.0-2.4 · 🔴 < 2.0 |
+| Uso post-curso (30 días) | Barra vs. target | 🟢 ≥ 60% · 🟡 40-59% · 🔴 < 40% |
 
 ---
 
 ## 6. Cronograma de Lanzamiento
 
-### 6.1 Timeline de 6 Semanas
+El lanzamiento general se estructura en **6 semanas** desde el primer anuncio hasta el cierre de inscripción, seguido por las 8 semanas del programa y 4 semanas de seguimiento post-curso.
 
-El cronograma cubre desde el anuncio institucional hasta el cierre de la primera cohorte general. El piloto (4 semanas) se ejecuta antes de este cronograma.
+### 6.1 Cronograma Detallado — Pre-lanzamiento e Inscripción (6 semanas)
 
-```
-PRE-LANZAMIENTO (antes de Semana 1):
-  └── Piloto completado, testimoniales obtenidos, ajustes aplicados
+| Semana | Fase | Actividades clave | Responsable | Entregable / Hito |
+|---|---|---|---|---|
+| **Semana 1** | **Anuncio institucional** | • Correo de Rectoría anunciando el programa · • Mención en Consejo Directivo · • Publicación del one-pager ejecutivo · • Activación de la landing page | Rectoría + Coordinación | ✅ 100% de directivos informados |
+| **Semana 2** | **Generación de interés** | • Demo en vivo (2 sesiones: mañana y tarde) · • Envío de video teaser (90 seg) · • Publicación de FAQ · • Distribución de testimonios del piloto | Coordinación + Facilitador | ✅ ≥ 80% de directivos ha visitado la landing o asistido a demo |
+| **Semana 3** | **Apertura de inscripción** | • Envío de invitaciones segmentadas (mensajes por perfil) · • Apertura del formulario de diagnóstico/inscripción · • Correo de respaldo de Vicerrectores | Coordinación + Vicerrectores | ✅ Formulario activo, primeras inscripciones |
+| **Semana 4** | **Impulso de inscripción** | • Segundo correo a no inscritos con prueba social ("Ya se inscribieron X de tus colegas") · • Conversaciones 1-a-1 con escépticos identificados · • Reporte intermedio de inscripción a Rectoría | Coordinación + Director patrocinador | ✅ ≥ 50% de target inscrito |
+| **Semana 5** | **Cierre y preparación** | • Último recordatorio de inscripción ("quedan 5 días") · • Activación de cuentas Amazon Quick para inscritos · • Asignación de buddies · • Envío del kit de bienvenida (guía rápida + calendario) | Coordinación + Soporte técnico | ✅ ≥ 70% de target inscrito; cuentas activas |
+| **Semana 6** | **Onboarding** | • Sesión inaugural presencial (1 hr) con Rectoría · • Primer ejercicio práctico en vivo · • Apertura del Módulo 1 en plataforma · • Activación de canal de soporte | Facilitador + Rectoría | ✅ Programa iniciado; 100% de inscritos con acceso |
 
-SEMANA 1 ──── SEMANA 2 ──── SEMANA 3 ──── SEMANA 4 ──── SEMANA 5 ──── SEMANA 6
-Anuncio        Interés       Inscripción   Inicio        Módulos       Cierre
-                                            Módulos 1-2   3-6           7-8
-                                                                        + Badges
-```
+### 6.2 Cronograma del Programa Activo (8 semanas)
 
-### 6.2 Detalle Semanal
+| Semana | Módulos | Fase pedagógica | Sesión sincrónica | Badge |
+|---|---|---|---|---|
+| 7-8 | M1 + M2 | Fase I: Entender | — | 🏅 Badge 1: "Fundamentos IA" |
+| 9-10 | M3 + M4 | Fase II: Usar | Sesión opcional #1 (semana 10) | — |
+| 11-12 | M5 + M6 | Fase III: Acelerar | Sesión opcional #2 (semana 12) | 🏅 Badge 2: "Practicante IA" |
+| 13-14 | M7 + M8 | Fase IV: Integrar | Sesión de cierre (semana 14) | 🏅 Badge 3: "Líder IA Anáhuac" |
 
-#### Semana 1 — ANUNCIO INSTITUCIONAL
+### 6.3 Cronograma Post-Programa (4 semanas)
 
-| Día | Actividad | Responsable |
+| Semana | Actividad | Responsable |
 |---|---|---|
-| Lunes | Comunicado de Rectoría: email a todos los directivos anunciando el programa | Rectoría |
-| Lunes | Publicación del mini sitio informativo con toda la información del programa | Equipo de desarrollo |
-| Martes-Miércoles | Demo en vivo en junta directiva (10 min: un problema real resuelto con IA) | Facilitador |
-| Jueves | Email personalizado a cada directivo con casos de uso relevantes para su área | Capital Humano |
-| Viernes | Distribución de infografía "5 cosas que la IA puede hacer por un directivo Anáhuac" | Comunicación institucional |
-
-#### Semana 2 — GENERACIÓN DE INTERÉS
-
-| Día | Actividad | Responsable |
-|---|---|---|
-| Lunes | Envío del primer "dato de impacto" semanal por correo/WhatsApp | Capital Humano |
-| Martes | Publicación de testimoniales del piloto en mini sitio y correo electrónico | Equipo de desarrollo |
-| Miércoles | Sesión "Pruebe en 5 minutos" — micro-demostración abierta (15 min, sin compromiso) | Facilitador |
-| Jueves | Distribución de FAQ de objeciones (respondiendo las barreras del diagnóstico) | Capital Humano |
-| Viernes | Endorsement informal de directivos del piloto en reuniones de área | Participantes del piloto |
-
-#### Semana 3 — INSCRIPCIÓN
-
-| Día | Actividad | Responsable |
-|---|---|---|
-| Lunes | Apertura de inscripciones (formulario simplificado, 2 minutos) | Equipo técnico |
-| Lunes | Envío del "adelanto de valor" (PDF con 3 prompts útiles) a quienes se inscriban | Automatizado |
-| Miércoles | Recordatorio a mitad de periodo: "Quedan 3 días para inscribirse" | Capital Humano |
-| Viernes | Cierre de ventana de inscripción regular | Capital Humano |
-| Viernes | Envío de mensaje de bienvenida del facilitador a todos los inscritos | Facilitador |
-
-#### Semana 4 — INICIO DEL PROGRAMA (Módulos 1-2)
-
-| Día | Actividad | Responsable |
-|---|---|---|
-| Lunes | Habilitación de Módulos 1 y 2 en la plataforma | Equipo técnico |
-| Lunes | Email de arranque: "Su primer módulo está listo. Le tomará 25 minutos." | Automatizado |
-| Miércoles | Seguimiento a no inscritos: última invitación personalizada | Capital Humano |
-| Jueves | Primera sesión sincrónica opcional: resolución de dudas de Módulos 1-2 | Facilitador |
-| Viernes | Encuesta rápida post-Módulo 2: "¿Ya usó IA en algo real esta semana?" | Automatizado |
-
-#### Semana 5 — MÓDULOS 3-6 (Núcleo del Programa)
-
-| Día | Actividad | Responsable |
-|---|---|---|
-| Lunes | Habilitación progresiva de Módulos 3-6 (acceso secuencial por completamiento) | Plataforma |
-| Lunes | Envío del segundo "dato de impacto" semanal | Capital Humano |
-| Miércoles | Segunda sesión sincrónica opcional: enfoque en Módulos 4-5 (análisis + crisis del dato) | Facilitador |
-| Jueves | Intervención anti-deserción para participantes estancados > 7 días | Facilitador |
-| Viernes | Emisión de Badge 1 🟢 (Fundamentos) a quienes completaron M1-M3 | Plataforma de badges |
-| Viernes | Celebración: mención en boletín interno de los primeros badges otorgados | Comunicación institucional |
-
-#### Semana 6 — MÓDULOS 7-8 + CIERRE
-
-| Día | Actividad | Responsable |
-|---|---|---|
-| Lunes | Habilitación de Módulos 7-8. Emisión de Badge 2 🔵 (IA Aplicada) a elegibles | Plataforma |
-| Miércoles | Tercera sesión sincrónica: enfoque en Módulo 8 (agentes y ecosistema) | Facilitador |
-| Jueves | Fecha límite para entrega de entregables finales (flujo de reporte + ecosistema) | Participantes |
-| Viernes | Emisión de Badge 3 🟣 (Líder IA) y Badge integrador 🏆 (Líder Digital Anáhuac) | Plataforma de badges |
-| Viernes | Encuesta de cierre: NPS, satisfacción, horas ahorradas, disposición a recomendar | Automatizado |
-| Viernes | Comunicado de Rectoría: reconocimiento a la primera cohorte de egresados | Rectoría |
-
-### 6.3 Hitos Críticos
-
-| Hito | Fecha objetivo | Criterio de éxito |
-|---|---|---|
-| Diagnóstico de madurez completado | Antes de Semana 1 | ≥ 80% del universo respondió |
-| Piloto completado y evaluado | Antes de Semana 1 | Go/No-Go favorable |
-| Anuncio de Rectoría emitido | Semana 1, Lunes | 100% de directivos notificados |
-| Cierre de inscripciones | Semana 3, Viernes | ≥ 65% del universo inscrito |
-| Primer badge emitido | Semana 5 | ≥ 1 participante con Badge 🟢 |
-| Cierre de primera cohorte | Semana 6, Viernes | ≥ 75% de inscritos completaron |
-| Encuesta post-curso enviada | Semana 6, Viernes | NPS ≥ 50 |
+| 15 | Encuesta de cierre + NPS · Ceremonia de entrega de constancias y badges | Coordinación + Rectoría |
+| 16 | Análisis de resultados · Producción de reporte ejecutivo de impacto | Coordinación |
+| 17 | Encuesta de seguimiento a 30 días · Identificación de embajadores | Coordinación |
+| 18 | Presentación de resultados a Rectoría · Decisión sobre segunda cohorte · Lanzamiento del programa de embajadores | Coordinación + Rectoría |
 
 ---
 
@@ -572,103 +350,83 @@ Anuncio        Interés       Inscripción   Inicio        Módulos       Cierre
 
 ### 7.1 Matriz de Riesgos
 
-| # | Riesgo | Probabilidad | Impacto | Estrategia de Mitigación |
-|---|---|---|---|---|
-| R1 | **Resistencia al cambio:** "Esto no es para mí" / "Ya hago bien mi trabajo sin IA" | Alta | Alto | No imponer — invitar. Mensajes diferenciados por segmento (§3). Sesión "Pruebe en 5 min" sin compromiso. Testimonial de escéptico convertido. El arco narrativo del curso está diseñado para transformar esta creencia desde el Módulo 1. |
-| R2 | **Carga de trabajo:** "No tengo tiempo para otro curso" | Alta | Alto | Módulos de máx. 30 min que resuelven tareas pendientes reales (no agregan trabajo — lo sustituyen). Adelanto de valor al inscribirse. Flexibilidad total de horario. El ROI de tiempo se experimenta desde el Módulo 1. |
-| R3 | **Percepciones negativas sobre IA:** "La IA va a reemplazarnos" / "No es confiable" | Media | Alto | El arco narrativo aborda directamente el miedo al reemplazo. La idea controladora del curso: "La IA amplifica el liderazgo, no lo sustituye." El Módulo 5 ("El dato que la IA inventó") enseña verificación crítica, convirtiendo la desconfianza en competencia. |
-| R4 | **Falta de apoyo visible de Rectoría** | Media | Muy alto | El anuncio de Rectoría en Semana 1 es condición necesaria (no suficiente). Se requiere que Rectoría refuerce en al menos 2 momentos adicionales: cierre del piloto y cierre de la cohorte. Si Rectoría no prioriza visiblemente, los directivos interpretan que "no es importante". |
-| R5 | **Baja tasa de completamiento** (deserción después de los primeros módulos) | Media | Alto | Sistema de alertas tempranas (§5.3): intervención anti-deserción si no avanza en 10 días. Sesiones sincrónicas opcionales en módulos complejos (M5-M6). Gamificación con badges como incentivo de progresión. Celebración pública de hitos. |
-| R6 | **Problemas técnicos con Amazon Quick** (acceso, instalación, compatibilidad) | Media | Medio | Sesión de onboarding técnico antes del inicio. Canal de soporte técnico dedicado (email o chat). Guía de instalación paso a paso con capturas de pantalla. Alternativa: ejercicios realizables con ChatGPT si Amazon Quick no está disponible temporalmente. |
-| R7 | **Preocupaciones de privacidad y datos** ("¿Es seguro subir documentos institucionales a la IA?") | Media | Alto | El Módulo 5 incluye buenas prácticas de qué datos NO compartir con IA. Amazon Quick procesa localmente (ventaja sobre ChatGPT). Se requiere política institucional clara sobre uso de IA con información confidencial — idealmente emitida antes o durante el programa. |
-| R8 | **El programa se percibe como "una moda" que no tendrá continuidad** | Baja | Medio | Comunicar desde el inicio que es la primera cohorte de un programa permanente. Anunciar la Fase 2 (mercado abierto, Q1 2027) y la Fase 3 (Red Anáhuac) como señal de inversión a largo plazo. Vincular con el plan de desarrollo profesional del personal. |
-| R9 | **Desigualdad de avance: innovadores terminan en 2 semanas, escépticos en 8** | Baja | Bajo | El formato autogestivo ya contempla ritmos diferentes. Las sesiones sincrónicas permiten a los rezagados recuperar. Los badges se emiten por completamiento, no por velocidad. No hay "ranking" público de avance. |
-| R10 | **Los resultados del piloto no son suficientemente positivos para el lanzamiento** | Baja | Alto | Los criterios de Go/No-Go (§4.6) definen claramente qué resultados justifican proceder y cuáles requieren pausa. Mejor retrasar 2-3 semanas y ajustar que lanzar un programa con problemas conocidos. |
+| # | Riesgo | Probabilidad | Impacto | Nivel | Estrategia de mitigación |
+|---|---|---|---|---|---|
+| R1 | **Resistencia al cambio:** Directivos perciben el programa como imposición, no como oportunidad. Actitud de "yo no necesito esto" o "la IA es una moda." | Alta | Alto | 🔴 **Crítico** | • Participación 100% voluntaria (nunca mandatoria). · • Comunicación que respeta trayectoria: "Tu experiencia es irreemplazable; la IA amplifica tu impacto." · • Testimonios de pares de perfil similar (mismo rol, misma antigüedad). · • Respaldo visible de Rectoría como desarrollo profesional, no evaluación. · • Conversaciones 1-a-1 con escépticos clave antes de la inscripción. |
+| R2 | **Carga de trabajo:** Directivos no tienen 3-5 horas semanales disponibles. Percepción de "un curso más que no voy a terminar." | Alta | Alto | 🔴 **Crítico** | • Tiempo protegido formalmente autorizado por Rectoría (3-5 hrs/semana). · • Micro-módulos de 20-30 min que caben entre reuniones. · • Entregables diseñados para resolver tareas reales pendientes (el curso ES trabajo, no tarea extra). · • Formato asincrónico: avanza a tu ritmo dentro de la ventana semanal. · • Quick wins desde el Módulo 1: "Hoy ahorraste 40 minutos en ese correo." |
+| R3 | **Percepciones negativas sobre IA:** Miedo a ser reemplazados, desconfianza en la tecnología, preocupaciones éticas legítimas. | Media | Alto | 🟠 **Alto** | • Principio rector explícito: "No formamos ingenieros de IA. Formamos líderes que saben cuándo usar IA, cuándo desconfiar y cuándo prohibirla." · • Módulo de ética y gobernanza integrado transversalmente (no como add-on). · • Enseñar a detectar alucinaciones y errores de IA desde el Módulo 1. · • Política clara de datos: qué información NUNCA se comparte con IA. · • Amazon Quick con procesamiento local para datos sensibles. |
+| R4 | **Baja tasa de completamiento:** Directivos se inscriben pero abandonan entre módulos (especialmente después de la Fase I). | Media | Alto | 🟠 **Alto** | • Sistema de buddies para accountability social. · • Nudges semanales personalizados (no genéricos). · • Intervención temprana: llamada directa si no avanza en 7+ días. · • Reconocimiento público de avances (badges por fase). · • Sesiones sincrónicas opcionales para mantener momentum grupal. · • Alerta automática si drop-off > 10% entre módulos consecutivos. |
+| R5 | **Problemas técnicos con Amazon Quick:** Dificultades de acceso, curva de aprendizaje de la herramienta, problemas de conectividad. | Media | Medio | 🟡 **Medio** | • Activación y verificación de cuentas en la sesión inaugural (no por correo). · • Guía rápida de inicio con capturas de pantalla paso a paso. · • Canal de soporte técnico en tiempo real (WhatsApp/Teams). · • Sesión de troubleshooting en los primeros 3 días. · • Plan B: ejercicios que también funcionan con ChatGPT/Gemini si hay falla técnica. |
+| R6 | **Falta de respaldo institucional sostenido:** Rectoría anuncia el programa pero no lo prioriza operativamente. Los Vicerrectores no liberan tiempo. | Baja | Alto | 🟡 **Medio** | • Compromiso escrito de Rectoría (memorándum de tiempo protegido). · • Reporte semanal de avance a Rectoría (visibilidad permanente). · • Involucrar al Rector en la sesión inaugural y en la ceremonia de cierre. · • KPIs de adopción incluidos en el reporte trimestral institucional. |
+| R7 | **Expectativas desalineadas:** Participantes esperan un curso teórico tradicional y se frustran con el formato práctico, o viceversa. | Baja | Medio | 🟢 **Bajo** | • Comunicación previa ultra-clara: "Este NO es un curso de teoría de IA. Es un taller práctico donde resuelves tus pendientes reales con IA." · • FAQ que aborda formato, duración, tipo de actividades. · • Demo en vivo antes de la inscripción para mostrar exactamente cómo es. |
+| R8 | **Obsolescencia del contenido:** Las herramientas de IA evolucionan y el contenido queda desactualizado antes del lanzamiento general. | Media | Medio | 🟢 **Bajo** | • Arquitectura modular: cada módulo se actualiza independientemente. · • Enseñar principios transferibles (frameworks de prompting, verificación, flujos) más que features de una herramienta específica. · • Revisión semestral obligatoria del plan de estudios. · • Vigencia del plan: ciclo 2026-2027 con revisión anual explícita. |
 
-### 7.2 Plan de Contingencia por Escenario
+### 7.2 Plan de Escalamiento de Riesgos
 
-| Escenario | Indicador | Acción inmediata |
+| Nivel de riesgo | Acción | Responsable |
 |---|---|---|
-| **Inscripción < 50%** | Menos de la mitad del universo se inscribe en la ventana | Extender ventana 1 semana. Activar segunda ronda de endorsement de pares. Solicitar a Rectoría refuerzo directo. |
-| **Drop-off > 25% en Módulos 1-2** | 1 de cada 4 inscritos abandona antes de completar la Fase I | Análisis urgente de feedback. ¿El Módulo 1 cumple la promesa de "valor en 10 minutos"? Ajustar o simplificar. |
-| **NPS < 30 en encuesta parcial** | Insatisfacción significativa a mitad del programa | Pausar avance. Sesión extraordinaria de feedback. Identificar si el problema es contenido, formato o expectativas. |
-| **Menos de 3 testimoniales del piloto** | Los participantes del piloto no están dispuestos a recomendar | Red flag seria. Investigar causas. No lanzar sin testimoniales creíbles. |
+| 🟢 Bajo | Monitorear. Documentar si se materializa. | Coordinación del programa |
+| 🟡 Medio | Activar mitigación preventiva. Reportar en reunión semanal de seguimiento. | Coordinación + Facilitador |
+| 🟠 Alto | Activar mitigación inmediata. Escalar a Director patrocinador. Plan de acción en 48 horas. | Coordinación + Director patrocinador |
+| 🔴 Crítico | Activar mitigación de emergencia. Escalar a Rectoría. Decisión en 24 horas. Posible ajuste del cronograma. | Rectoría + Coordinación |
 
-### 7.3 Factores Críticos de Éxito
+### 7.3 Indicadores de Alerta Temprana
 
-Para que la estrategia de adopción funcione, los siguientes factores deben estar presentes simultáneamente:
-
-1. **Apoyo visible y sostenido de Rectoría** — No basta con un correo. Se requiere que el programa sea mencionado en al menos 3 contextos públicos por liderazgo senior.
-
-2. **Valor desde el minuto 1** — Si el participante no resuelve algo real en los primeros 10 minutos del Módulo 1, la promesa se rompe y la deserción es inevitable.
-
-3. **Testimoniales auténticos** — La mayoría temprana no se mueve por argumentos institucionales; se mueve por evidencia de pares. Los testimoniales del piloto son la pieza más importante de toda la campaña.
-
-4. **Cero fricción técnica** — Un directivo de 55 años que no puede instalar Amazon Quick en 5 minutos no va a completar 8 módulos. El onboarding técnico debe ser impecable.
-
-5. **Respeto por el tiempo del directivo** — Cada comunicación, cada módulo, cada sesión debe justificar el tiempo que pide. "Breve, práctico, aplicable hoy" no es un eslogan — es el estándar de calidad del programa.
-
----
-
-## Anexo A — Calendario Visual Resumen
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                  CRONOGRAMA DE ADOPCIÓN — VISTA EJECUTIVA               │
-├─────────┬─────────┬─────────┬─────────┬─────────┬─────────┬───────────┤
-│   PRE   │  SEM 1  │  SEM 2  │  SEM 3  │  SEM 4  │  SEM 5  │  SEM 6    │
-├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼───────────┤
-│Diagnós- │Anuncio  │Testimo- │Inscrip- │Módulos  │Módulos  │Módulos    │
-│tico +   │Rectoría │niales + │ciones + │1-2      │3-6      │7-8 +      │
-│Piloto   │+ Demo   │"Pruebe  │Bienve-  │+ Sesión │+ Badge  │Badges     │
-│(4 sem)  │en junta │en 5min" │nida     │sincrón. │🟢 +     │🔵🟣🏆 +  │
-│         │         │         │         │         │anti-    │NPS +      │
-│         │         │         │         │         │deserción│Cierre     │
-├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼───────────┤
-│AWARENESS│AWARENESS│INTERÉS  │INSCRIP- │COMPLETAR│COMPLETAR│COMPLETAR  │
-│         │         │         │CIÓN     │         │         │→EMBAJADOR │
-└─────────┴─────────┴─────────┴─────────┴─────────┴─────────┴───────────┘
-```
-
----
-
-## Anexo B — Mensajes Clave por Audiencia y Momento
-
-| Momento | Mensaje para Rectoría | Mensaje para Directivos |
+| Señal | Qué indica | Acción inmediata |
 |---|---|---|
-| **Anuncio** | "Estamos invirtiendo en que nuestros líderes dominen la herramienta más transformadora de la década. No es un gasto — es el mayor ROI en productividad directiva que podemos hacer este año." | "La universidad está invirtiendo en usted. Le ofrecemos un programa diseñado para su rol, con sus problemas reales, en módulos de 25 minutos. Sin teoría abstracta — pura aplicación." |
-| **Post-piloto** | "8 de 10 participantes del piloto completaron el programa. Reportan ahorrar 3-5 horas semanales. NPS de [X]. Testimoniales disponibles." | "Sus colegas del piloto ya lo comprobaron: [Testimonial]. El programa está abierto. Le tomará 25 minutos empezar." |
-| **Cierre** | "La primera cohorte de Líderes Digitales Anáhuac está formada. [X] directivos completaron el programa. Propuesta: segunda cohorte en [fecha]." | "Felicidades. Usted es parte de la primera generación de Líderes Digitales Anáhuac. Su badge está listo para compartir en LinkedIn." |
+| < 40% de inscripción en Semana 4 | La comunicación no conectó o hay resistencia activa no detectada | Activar conversaciones 1-a-1 con no inscritos. Revisar mensajes. Considerar extensión de plazo. |
+| > 15% de drop-off entre Módulos 1 y 2 | El inicio es demasiado teórico o la herramienta genera fricción | Intervención directa con desertores. Revisar Módulo 1. Ofrecer sesión de rescate. |
+| NPS del piloto < 40 | El programa no convenció ni a los voluntarios más dispuestos | Pausa antes del lanzamiento general. Rediseño basado en feedback del piloto. |
+| < 50% de asistencia a la sesión inaugural | Falta de engagement o conflicto de agenda | Programar segunda sesión. Enviar video de la sesión. Llamada de seguimiento individual. |
+| Quejas recurrentes sobre la herramienta (Amazon Quick) | Problemas técnicos no resueltos o curva de aprendizaje subestimada | Sesión de soporte técnico de emergencia. Activar plan B con ChatGPT/Gemini para módulos no dependientes. |
 
 ---
 
-## Anexo C — Checklist de Pre-Lanzamiento
+## 8. Resumen Ejecutivo para Rectoría
 
-Antes de ejecutar la Semana 1 del cronograma, verificar que los siguientes elementos estén completos:
+### Visión en una frase
 
-- [ ] Diagnóstico de madurez digital enviado y con ≥ 80% de respuesta
-- [ ] Piloto completado con resultados Go (según criterios §4.6)
-- [ ] Al menos 4 testimoniales del piloto listos (texto y/o video)
-- [ ] Mini sitio publicado y funcional en [cursos.memovaldez.com](https://cursos.memovaldez.com)
-- [ ] Comunicado de Rectoría redactado y aprobado
-- [ ] Formulario de inscripción configurado y probado
-- [ ] Amazon Quick disponible para todos los directivos elegibles
-- [ ] Guía de instalación paso a paso creada y probada con usuario no técnico
-- [ ] Sistema de badges configurado (Badgr o Credly)
-- [ ] Dashboard de seguimiento listo (Google Sheets o Power BI)
-- [ ] FAQ de objeciones redactado (basado en P5 del diagnóstico)
-- [ ] Correos automatizados configurados (bienvenida, progreso, anti-deserción)
-- [ ] PDF "3 prompts que puede usar HOY" creado
-- [ ] Infografía "5 cosas que la IA puede hacer" diseñada
-- [ ] Sesiones sincrónicas calendarizadas (4 sesiones, fechas y horarios)
-- [ ] Canal de soporte técnico definido y comunicado
+> Convertir a los directivos de la Universidad Anáhuac Mayab en líderes que integran la IA generativa como herramienta estratégica de gestión — con resultados medibles desde la primera semana.
+
+### Inversión requerida
+
+| Concepto | Estimación |
+|---|---|
+| Costo por participante (diseño + plataforma + soporte) | $2,500 - $3,500 MXN |
+| ROI estimado por participante (5 hrs/semana × 50 semanas × $200/hr) | $50,000 MXN/año |
+| Retorno: inversión recuperada en | < 4 semanas de uso |
+
+### Compromisos institucionales necesarios
+
+1. **Comunicación de Rectoría** — Correo de anuncio y presencia en sesión inaugural.
+2. **Tiempo protegido** — Autorización formal de 3-5 horas semanales durante 8 semanas.
+3. **Respaldo de Vicerrectores** — Envío de nota de apoyo a sus directores.
+4. **Infraestructura** — Cuentas Amazon Quick activadas para todos los participantes.
+5. **Seguimiento** — Inclusión de KPIs de adopción en el reporte trimestral institucional.
+
+### Timeline completo
+
+| Etapa | Duración | Periodo estimado |
+|---|---|---|
+| Piloto (Cohorte Fundadora) | 4 semanas | Semanas 1-4 |
+| Ajustes post-piloto | 1 semana | Semana 5 |
+| Pre-lanzamiento e inscripción (general) | 6 semanas | Semanas 6-11 |
+| Programa activo | 8 semanas | Semanas 12-19 |
+| Seguimiento y evaluación de impacto | 4 semanas | Semanas 20-23 |
+| **Total del ciclo** | **~23 semanas** | **~6 meses** |
+
+### Resultado esperado
+
+Al concluir el primer ciclo completo, la Universidad Anáhuac Mayab contará con:
+
+- **≥ 70%** de sus directivos capacitados en uso estratégico de IA generativa.
+- **≥ 75%** de tasa de completamiento del programa.
+- **NPS ≥ 50** de satisfacción.
+- **≥ 60%** de directivos usando IA al menos 3 veces por semana a los 30 días.
+- Un grupo de **embajadores** que lideren la adopción en sus equipos.
+- **3 Open Badges** y constancia de 6.5 créditos SATCA como evidencia formal.
+- Un modelo replicable para la Red Anáhuac (12 campus) con potencial de $1.8 - $3M MXN en licenciamiento.
 
 ---
 
-*"La adopción tecnológica en organizaciones no se mide por el número de licencias adquiridas, sino por el número de lunes a las 9 AM en los que alguien abre la herramienta por decisión propia."*
-
----
-
-*Documento generado como parte de la Fase 8 — Campaña, Marketing y Adopción del curso "IA Práctica para Líderes Anáhuac", Universidad Anáhuac Mayab.*  
-*Estrategia de adopción interna: diagnóstico → segmentación → funnel → piloto → KPIs → cronograma → riesgos.*  
-*Modelo: institucional. La universidad forma a sus líderes — no les vende un producto.*
+*"La adopción no se decreta — se diseña. Un programa que nadie toma es un PDF. Un programa que todos completan y aplican es una ventaja competitiva institucional."*
