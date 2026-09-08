@@ -73,7 +73,7 @@
 <!-- [Layout: Columna izquierda. Encabezado púrpura, número "1" en círculo naranja.
      Texto en 2-3 líneas máximo, Roboto Regular.] -->
 
-Programa institucional de **120 horas** diseñado para que los directivos de la Universidad Anáhuac Mayab integren la inteligencia artificial generativa como herramienta estratégica en su gestión diaria.
+Programa institucional de **12-16 horas de contenido interactivo** diseñado para que los directivos de la Universidad Anáhuac Mayab integren la inteligencia artificial generativa como herramienta estratégica en su gestión diaria.
 
 No es teoría sobre IA. Es **implementación guiada**: cada nivel se resuelve con sus documentos reales, sus correos pendientes y sus reportes de área. Disponible en dos versiones — **Académica** (🎓) y **Administrativa** (🏢) — con casos de uso diferenciados para cada contexto.
 
@@ -135,12 +135,12 @@ Obtenga hasta 3 Open Badges verificables + Constancia de Formación Continua An�
 | | **Duración** | **Modalidad** | **Herramienta** | **Certificación** |
 |:---:|:---:|:---:|:---:|:---:|
 | **Ícono** | 📅 | 💻 | 🤖 | 🎖️ |
-| **Dato** | 120 horas totales | En línea, autogestiva | Amazon Quick | 6.5 créditos SATCA |
+| **Dato** | 12-16 horas | En línea, autogestiva | Amazon Quick | 6.5 créditos SATCA |
 | **Detalle** | 8 niveles · 3-5 hrs/semana | Con acompañamiento sincrónico opcional | Workspace local con agentes, archivos y flujos | 3 Open Badges + Constancia Anáhuac |
 
 <!-- [Layout alternativo si el espacio es limitado — formato horizontal compacto:]
 
-     📅 120 horas (8 niveles) · 💻 En línea, autogestiva · 🤖 Amazon Quick · 🎖️ 6.5 créditos SATCA, 3 Open Badges
+     📅 12-16 horas (8 niveles) · 💻 En línea, autogestiva · 🤖 Amazon Quick · 🎖️ 6.5 créditos SATCA, 3 Open Badges
 -->
 
 ---
@@ -179,7 +179,7 @@ Obtenga hasta 3 Open Badges verificables + Constancia de Formación Continua An�
 ## Confirme su participación
 
 **Escriba a la Coordinación de Formación Continua:**
-📧 formacion.continua@anahuac.mx | 📞 Ext. 1000
+📧 guillermo.valdez@anahuac.mx | 📞 Ext. 1000
 
 ---
 

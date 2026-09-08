@@ -53,7 +53,7 @@ Si no actuamos en este ciclo, los directivos seguirán operando con herramientas
 | **Tipo** | Formación Continua — Actualización Profesional |
 | **Audiencia** | Directores, coordinadores y jefes de departamento |
 | **Modalidad** | En línea, autogestiva con acompañamiento sincrónico opcional |
-| **Duración** | 120 horas totales (40 de contacto + 80 de trabajo independiente) |
+| **Duración** | 12-16 horas de contenido interactivo · 8 semanas · 6.5 créditos SATCA |
 | **Créditos** | 6.5 créditos SATCA |
 | **Acreditación** | Constancia de Formación Continua con valor curricular, Universidad Anáhuac Mayab |
 | **Mini sitio** | [cursos.memovaldez.com](https://cursos.memovaldez.com) — plataforma autocontenida, responsive, con tracking de progreso |

@@ -521,7 +521,7 @@
 
     html += '      <div class="ana-callout ana-callout--exercise">';
     html += '        <p class="ana-callout__label">' + svgIcon('icon-clock', 16) + ' Duración</p>';
-    html += '        <p class="ana-body-sm">8 niveles · 12-16 horas en total · Autogestivo con acompañamiento opcional.</p>';
+    html += '        <p class="ana-body-sm">8 niveles · 12-16 horas de contenido interactivo · 6.5 créditos SATCA.</p>';
     html += '      </div>';
 
     html += '      <div class="ana-callout ana-callout--theory">';
@@ -814,8 +814,9 @@
       var nodeMod = st === 'complete' ? ' ana-progress-node--complete'
                   : st === 'current'  ? ' ana-progress-node--current'
                   : ' ana-progress-node--pending';
-      html += '      <a href="#nivel-' + level.id + '" class="ana-progress-node' + nodeMod + '" title="Nivel ' + level.id + ': ' + level.title + '">';
+      html += '      <a href="#nivel-' + level.id + '" class="ana-progress-node' + nodeMod + ' tooltip-trigger">';
       html += '        <span>' + level.id + '</span>';
+      html += '        <span class="tooltip">Nivel ' + level.id + ': ' + level.title + '</span>';
       html += '      </a>';
     });
     html += '    </div>';
@@ -830,13 +831,14 @@
     BADGES.forEach(function (badge) {
       var earned = isBadgeEarned(badge);
       var mod = earned ? ' ana-credential-badge--earned' : ' ana-credential-badge--locked';
-      html += '    <div class="ana-credential-card scroll-reveal">';
+      html += '    <div class="ana-credential-card scroll-reveal tooltip-trigger">';
       html += '      <div class="ana-credential-badge ' + badge.cssClass + mod + '">';
       html += '        ' + svgIcon('icon-trophy', 32);
       html += '      </div>';
       html += '      <p class="ana-credential-card__name">' + badge.name + '</p>';
       html += '      <p class="ana-credential-card__range">' + badge.range + '</p>';
       html += '      <p class="ana-credential-card__info">' + badge.desc + '</p>';
+      html += '      <span class="tooltip">Complete ' + badge.range + ' para obtener este badge</span>';
       if (earned) {
         html += '      <span class="ana-badge ana-badge--complete">' + svgIcon('icon-check', 14) + ' Obtenido</span>';
       } else {

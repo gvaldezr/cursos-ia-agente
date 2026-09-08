@@ -94,12 +94,12 @@ Keywords de cola larga con menor volumen pero mayor especificidad e intención d
 
 <title>Curso IA para Directivos Universitarios | IA Práctica para Líderes — Anáhuac Mayab</title>
 
-<meta name="description" content="Programa de 120 horas en IA generativa para directores y coordinadores universitarios. 8 niveles, 3 Open Badges, 6.5 créditos SATCA. Recupere 5+ horas semanales. Universidad Anáhuac Mayab.">
+<meta name="description" content="Programa de 12-16 horas en IA generativa para directores y coordinadores universitarios. 8 niveles, 3 Open Badges, 6.5 créditos SATCA. Recupere 5+ horas semanales. Universidad Anáhuac Mayab.">
 ```
 
 **Análisis Versión A:**
 - **Title (60 caracteres):** Incluye keyword primaria `curso IA para directivos` + modificador `universitarios` + nombre del programa + marca institucional.
-- **Description (159 caracteres):** Datos concretos (120 horas, 8 niveles, 3 badges, 6.5 SATCA) + beneficio cuantificado (5+ horas) + marca. Alta densidad informativa.
+- **Description (159 caracteres):** Datos concretos (12-16 horas, 8 niveles, 3 badges, 6.5 SATCA) + beneficio cuantificado (5+ horas) + marca. Alta densidad informativa.
 
 ### 2.2 Title Tag y Meta Description — Versión B (Problema + Transformación)
 
@@ -121,7 +121,7 @@ Keywords de cola larga con menor volumen pero mayor especificidad e intención d
 <!-- Open Graph — Para compartir en LinkedIn, Facebook, WhatsApp, Teams -->
 
 <meta property="og:title" content="IA Práctica para Líderes Anáhuac — Formación en IA Generativa para Directivos Universitarios">
-<meta property="og:description" content="Programa de 120 horas que transforma directivos universitarios en usuarios estratégicos de IA generativa. 8 niveles progresivos, 3 Open Badges, resultados desde el día 1.">
+<meta property="og:description" content="Programa de 12-16 horas que transforma directivos universitarios en usuarios estratégicos de IA generativa. 8 niveles progresivos, 3 Open Badges, resultados desde el día 1.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cursos.memovaldez.com">
 <meta property="og:image" content="https://cursos.memovaldez.com/assets/og-image-ia-lideres-anahuac.jpg">
@@ -141,7 +141,7 @@ Keywords de cola larga con menor volumen pero mayor especificidad e intención d
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="IA Práctica para Líderes Anáhuac — Curso de IA Generativa para Directivos">
-<meta name="twitter:description" content="120 horas · 8 niveles · 3 Open Badges · 6.5 créditos SATCA. Formación en IA generativa para directivos universitarios. Resultados desde el nivel 1.">
+<meta name="twitter:description" content="12-16 horas · 8 niveles · 3 Open Badges · 6.5 créditos SATCA. Formación en IA generativa para directivos universitarios. Resultados desde el nivel 1.">
 <meta name="twitter:image" content="https://cursos.memovaldez.com/assets/og-image-ia-lideres-anahuac.jpg">
 <meta name="twitter:image:alt" content="Programa IA Práctica para Líderes — Universidad Anáhuac Mayab">
 ```
@@ -196,7 +196,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
   "@type": "Course",
   "name": "IA Práctica para Líderes Anáhuac",
   "alternateName": "Programa de Formación en IA Generativa para Directivos Universitarios",
-  "description": "Programa de 120 horas que transforma a directivos universitarios en usuarios estratégicos de inteligencia artificial generativa, con resultados medibles desde el primer nivel y aplicación directa a la gestión diaria. Incluye versión académica y administrativa con casos de uso diferenciados.",
+  "description": "Programa de 12-16 horas que transforma a directivos universitarios en usuarios estratégicos de inteligencia artificial generativa, con resultados medibles desde el primer nivel y aplicación directa a la gestión diaria. Incluye versión académica y administrativa con casos de uso diferenciados.",
   "url": "https://cursos.memovaldez.com",
   "provider": {
     "@type": "EducationalOrganization",
@@ -216,7 +216,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "Educación Continua",
-      "email": "formacion.continua@anahuac.mx"
+      "email": "guillermo.valdez@anahuac.mx"
     }
   },
   "courseCode": "IAPLA-2026",
@@ -359,7 +359,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "Educación Continua",
-    "email": "formacion.continua@anahuac.mx",
+    "email": "guillermo.valdez@anahuac.mx",
     "telephone": "+52-999-XXX-XXXX",
     "availableLanguage": "es"
   },
@@ -424,7 +424,7 @@ Este es el markup más importante. Permite que Google muestre rich results con d
       "name": "¿Qué es el programa IA Práctica para Líderes Anáhuac?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Es un programa de formación continua de 120 horas diseñado para directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab. Enseña a integrar la inteligencia artificial generativa como herramienta estratégica en la gestión directiva universitaria, con resultados medibles desde el primer nivel."
+        "text": "Es un programa de formación continua de 12-16 horas diseñado para directores, coordinadores y jefes de departamento de la Universidad Anáhuac Mayab. Enseña a integrar la inteligencia artificial generativa como herramienta estratégica en la gestión directiva universitaria, con resultados medibles desde el primer nivel."
       }
     },
     {
@@ -791,7 +791,7 @@ Cada imagen del mini sitio debe tener un atributo `alt` descriptivo y con keywor
 | Ícono Badge Líder | `Open Badge Líder IA Anáhuac — Nivel integración y ecosistema de agentes de IA` |
 | Ícono versión Académica | `Versión Académica del programa — IA para coordinadores y directores de programa` |
 | Ícono versión Administrativa | `Versión Administrativa del programa — IA para directores de planeación y operaciones` |
-| Imagen OG (redes sociales) | `IA Práctica para Líderes Anáhuac — Programa de 120 horas de formación en IA generativa` |
+| Imagen OG (redes sociales) | `IA Práctica para Líderes Anáhuac — Programa de 12-16 horas de formación en IA generativa` |
 | QR Code | `Código QR para acceder al programa IA Práctica para Líderes en cursos.memovaldez.com` |
 
 ### 5.8 Checklist de Verificación Adicional
@@ -895,7 +895,7 @@ Cada imagen del mini sitio debe tener un atributo `alt` descriptivo y con keywor
 
 ```html
 <!-- Ejemplo: Tracking del CTA principal -->
-<a href="mailto:formacion.continua@anahuac.mx" 
+<a href="mailto:guillermo.valdez@anahuac.mx" 
    onclick="gtag('event', 'cta_click_inscripcion', {
      'event_category': 'conversion',
      'event_label': 'cta_principal_home',

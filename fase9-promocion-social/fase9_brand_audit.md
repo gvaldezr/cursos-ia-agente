@@ -105,7 +105,7 @@ Sin embargo, **todos los documentos de la Fase 8** usan "módulos" como unidad p
 | 9 | Tono | Uso de "usted" consistente — correcto ✅ | 🟢 | — |
 | 10 | Tipografía | Manrope + Roboto correctamente especificadas en tabla de tipografía ✅ | 🟢 | — |
 | 11 | CTA | "Confirme su participación" + correo institucional — apropiado ✅ | 🟢 | — |
-| 12 | Contacto | Email ficticio `formacion.continua@anahuac.mx` — verificar que es el correcto. Otros docs usan `educacioncontinua@anahuac.mx` | 🟡 | Unificar el email de contacto en todos los documentos |
+| 12 | Contacto | Email ficticio `guillermo.valdez@anahuac.mx` — verificar que es el correcto. Otros docs usan `educacioncontinua@anahuac.mx` | 🟡 | Unificar el email de contacto en todos los documentos |
 
 ---
 
@@ -244,7 +244,7 @@ Se identificaron **dos emails de contacto diferentes** usados a lo largo de los 
 
 | Email | Usado en |
 |---|---|
-| `formacion.continua@anahuac.mx` | `fase8_one_pager.md` |
+| `guillermo.valdez@anahuac.mx` | `fase8_one_pager.md` |
 | `educacioncontinua@anahuac.mx` | Todos los emails (`invitacion_inicial`, `bienvenida_curso`, `serie_nurture`, `seguimiento_semanal`, `cierre_celebracion`) y `fase8_estrategia_adopcion.md` |
 
 **Corrección:** Verificar cuál es el email real de la Coordinación de Educación/Formación Continua y unificar en todos los documentos.

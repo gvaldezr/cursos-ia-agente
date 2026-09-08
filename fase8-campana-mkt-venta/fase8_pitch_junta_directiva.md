@@ -154,7 +154,7 @@ M2: Frameworks de Prompts  M4: Análisis de Reportes  M6: Atención Stakeholders
 |---|---|---|---|
 | Progresión de fundamentos a ecosistema completo | 🎓 Académica / 🏢 Administrativa | Reconocimiento curricular formal | + 1 badge integrador: Líder Digital Anáhuac 🏆 |
 
-| 120 horas | Micro-módulos | Herramienta: Amazon Quick | Mini sitio web |
+| 12-16 horas | Micro-módulos | Herramienta: Amazon Quick | Mini sitio web |
 |---|---|---|---|
 | 40 contacto + 80 independiente | 20-35 min cada uno | Workspace local, agentes, archivos | cursos.memovaldez.com |
 

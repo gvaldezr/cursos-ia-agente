@@ -78,7 +78,7 @@ logró.
     <span style="font-size: 32px; margin-right: 16px;">🏆</span>
     <div>
       <strong>Líder Digital Anáhuac — IA para Gestión Universitaria</strong><br>
-      <small style="opacity: 0.85;">Badge integrador · 8 niveles · 6.5 créditos SATCA · 120 horas</small>
+      <small style="opacity: 0.85;">Badge integrador · 8 niveles · 6.5 créditos SATCA · 12-16 horas de contenido</small>
     </div>
   </div>
 

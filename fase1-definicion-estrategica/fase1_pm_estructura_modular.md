@@ -1,6 +1,6 @@
 # Estructura Modular Progresiva: IA Práctica para Líderes Anáhuac
 
-> **Versión:** 1.0 | **Fecha:** 4 de septiembre de 2026**Duración total estimada:** 12-16 horas (autogestivo)**Formato:** Mini sitio HTML, micro-módulos de 20-35 minutos**Progresión:** Cada nivel construye sobre el anterior. No se puede saltar niveles.
+> **Versión:** 1.0 | **Fecha:** 4 de septiembre de 2026 | **Duración total estimada:** 12-16 horas de contenido interactivo (6.5 créditos SATCA) | **Formato:** Mini sitio HTML, micro-módulos de 20-35 minutos | **Progresión:** Cada nivel construye sobre el anterior. No se puede saltar niveles.
 
 ---
 
