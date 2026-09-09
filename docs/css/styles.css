@@ -732,7 +732,7 @@ a:hover { color: var(--ana-primary-hover); }
 .ana-hero {
   padding: var(--ana-space-20, 5rem) 0 var(--ana-space-12);
   text-align: center;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('../assets/images/hero-landing.png');
+  background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.7)), url('../assets/images/hero-landing.png');
   background-size: cover;
   background-position: center;
   color: var(--ana-white);
@@ -745,7 +745,8 @@ a:hover { color: var(--ana-primary-hover); }
   margin-bottom: var(--ana-space-6);
   font-size: var(--ana-text-sm);
   letter-spacing: 0.05em;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .ana-hero__title {
   margin: 0 auto var(--ana-space-8);
@@ -754,15 +755,17 @@ a:hover { color: var(--ana-primary-hover); }
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.02em;
-  color: var(--ana-white);
-  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  color: #FFFFFF;
+  -webkit-text-fill-color: #FFFFFF;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7), 0 0 20px rgba(0,0,0,0.5);
 }
 .ana-hero__subtitle {
   margin: 0 auto var(--ana-space-8);
   max-width: 640px;
   font-size: var(--ana-text-lg);
   line-height: var(--ana-leading-relaxed);
-  color: rgba(255,255,255,0.85);
+  color: rgba(255,255,255,0.95);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 .ana-hero__actions   { display: flex; justify-content: center; gap: var(--ana-space-3); flex-wrap: wrap; }
 .ana-hero__progress  { max-width: 400px; margin: var(--ana-space-6) auto 0; }
