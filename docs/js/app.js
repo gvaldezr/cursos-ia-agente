@@ -697,7 +697,7 @@
                 : 'Acto III — Liderazgo';
 
     /* Hero banner del nivel con imagen */
-    html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.6)), url(\'' + IMAGES_PATH + 'nivel-' + n + '-hero.png\')">';
+    html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.7)), url(\'' + IMAGES_PATH + 'nivel-' + n + '-hero.png\')">';
     html += '  <div class="ana-level-hero__content">';
     html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" class="ana-level-hero__logo" loading="lazy">';
     html += '    <p class="ana-level-hero__overline">NIVEL ' + n + ' · ' + actName + ' · Versión ' + versionLabel + '</p>';
@@ -812,7 +812,7 @@
 
     /* Hero de cierre si completó todo */
     if (pct >= 100) {
-      html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.55)), url(\'' + IMAGES_PATH + 'hero-cierre.png\'); min-height:240px">';
+      html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.7)), url(\'' + IMAGES_PATH + 'hero-cierre.png\'); min-height:240px">';
       html += '  <div class="ana-level-hero__content">';
       html += '    <p class="ana-level-hero__overline">PROGRAMA COMPLETADO</p>';
       html += '    <h1 class="ana-level-hero__title">¡Felicidades, Líder IA!</h1>';

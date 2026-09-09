@@ -1481,31 +1481,35 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
   font-size: var(--ana-text-xs);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: rgba(255,255,255,0.7);
+  color: rgba(255,255,255,0.9);
   margin-bottom: var(--ana-space-2);
   font-weight: var(--ana-font-semibold);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .ana-level-hero__title {
   font: 700 clamp(1.5rem, 4vw, 2.2rem)/1.2 var(--ana-font-display);
-  color: var(--ana-white);
+  color: #FFFFFF;
+  -webkit-text-fill-color: #FFFFFF;
   margin-bottom: var(--ana-space-3);
-  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.7), 0 0 20px rgba(0,0,0,0.5);
 }
 .ana-level-hero__desc {
   font-size: var(--ana-text-md);
-  color: rgba(255,255,255,0.85);
+  color: rgba(255,255,255,0.95);
   line-height: var(--ana-leading-relaxed);
   margin-bottom: var(--ana-space-2);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
 }
 .ana-level-hero__meta {
   font-size: var(--ana-text-sm);
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: var(--ana-space-1);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
-.ana-level-hero__meta svg { color: rgba(255,255,255,0.5); }
+.ana-level-hero__meta svg { color: rgba(255,255,255,0.7); }
 .ana-level-hero__logo {
   width: 80px;
   height: auto;
