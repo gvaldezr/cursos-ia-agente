@@ -669,6 +669,7 @@ a:hover { color: var(--ana-primary-hover); }
   position: sticky;
   top: calc(var(--ana-header-height) + var(--ana-space-6));
   max-height: calc(100vh - var(--ana-header-height) - var(--ana-space-12));
+  max-height: calc(100dvh - var(--ana-header-height) - var(--ana-space-12));
   overflow-y: auto;
 }
 @media (min-width: 1024px) {
@@ -1342,15 +1343,17 @@ a:hover { color: var(--ana-primary-hover); }
 /* ══════════════════════════════════════════════════════════════════════════════
    SCROLL REVEAL
    ══════════════════════════════════════════════════════════════════════════════ */
-.scroll-reveal {
+/* El estado oculto solo aplica cuando JS está activo (html.js). Sin JS, el
+   contenido queda visible por defecto (no se oculta nunca). */
+.js .scroll-reveal {
   opacity: 0;
   transform: translateY(12px);
   transition: opacity 300ms ease-out, transform 300ms ease-out;
 }
 .scroll-reveal.visible { opacity: 1; transform: translateY(0); }
-.scroll-reveal:nth-child(2) { transition-delay: 80ms; }
-.scroll-reveal:nth-child(3) { transition-delay: 160ms; }
-.scroll-reveal:nth-child(4) { transition-delay: 240ms; }
+.js .scroll-reveal:nth-child(2) { transition-delay: 80ms; }
+.js .scroll-reveal:nth-child(3) { transition-delay: 160ms; }
+.js .scroll-reveal:nth-child(4) { transition-delay: 240ms; }
 
 /* ══════════════════════════════════════════════════════════════════════════════
    ANIMATIONS

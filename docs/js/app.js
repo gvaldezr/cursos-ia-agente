@@ -7,6 +7,11 @@
 (function () {
   'use strict';
 
+  /* Marca temprana: si JS corre, el <html> obtiene la clase "js". El CSS solo
+     oculta los .scroll-reveal cuando existe "js"; si JS no corre (o falla al
+     cargar), el contenido queda visible por defecto (nunca oculto). */
+  document.documentElement.classList.add('js');
+
   /* ─── CONSTANTES ─── */
   const STATE_KEY  = 'anahuac-ia-progress';
   const TOTAL      = 8;
@@ -18,6 +23,7 @@
   const LOGO_IA      = 'assets/logo-ia/ia-solid-negativo.png';
 
   var currentObserver = null; /* Referencia al IntersectionObserver activo */
+  var revealSafetyTimer = null; /* Red de seguridad para revelar scroll-reveal (Safari iOS) */
 
   const LEVELS = [
     {
@@ -353,14 +359,21 @@
   function initScrollReveal() {
     /* Desconectar observer anterior para evitar memory leak */
     if (currentObserver) { currentObserver.disconnect(); currentObserver = null; }
+    if (revealSafetyTimer) { clearTimeout(revealSafetyTimer); revealSafetyTimer = null; }
 
-    if (prefersReducedMotion()) {
-      /* Mostrar todo inmediatamente */
-      document.querySelectorAll('.scroll-reveal').forEach(function (el) {
-        el.classList.add('visible');
-      });
+    var nodes = document.querySelectorAll('.scroll-reveal');
+
+    function revealAll() {
+      nodes.forEach(function (el) { el.classList.add('visible'); });
+    }
+
+    /* Si no hay soporte de IntersectionObserver o el usuario prefiere menos
+       movimiento, mostramos todo de inmediato (nunca dejar contenido oculto). */
+    if (prefersReducedMotion() || typeof IntersectionObserver === 'undefined') {
+      revealAll();
       return;
     }
+
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -368,12 +381,30 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.scroll-reveal').forEach(function (el) {
-      observer.observe(el);
+    }, {
+      /* rootMargin revela un poco antes de entrar al viewport; threshold 0
+         dispara en cuanto asoma 1px (más robusto en Safari iOS que 0.1). */
+      root: null,
+      rootMargin: '0px 0px -5% 0px',
+      threshold: 0
     });
+
+    nodes.forEach(function (el) { observer.observe(el); });
     currentObserver = observer;
+
+    /* FIX Safari iOS: en algunos casos (incógnito, dark mode, timing de layout)
+       el observer no dispara para elementos que quedan bajo el pliegue, y el
+       contenido se queda en opacity:0 = invisible al scrollear. Como red de
+       seguridad, tras un breve lapso forzamos a visibles todos los elementos
+       que aún no se revelaron. La animación se pierde solo si el observer
+       falló; el contenido NUNCA queda oculto. */
+    revealSafetyTimer = setTimeout(function () {
+      var stillHidden = document.querySelectorAll('.scroll-reveal:not(.visible)');
+      if (stillHidden.length) {
+        stillHidden.forEach(function (el) { el.classList.add('visible'); });
+      }
+      revealSafetyTimer = null;
+    }, 1200);
   }
 
   /* ─── COPY TO CLIPBOARD ─── */
