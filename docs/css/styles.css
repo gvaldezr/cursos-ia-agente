@@ -1109,6 +1109,14 @@ a:hover { color: var(--ana-primary-hover); }
   .tooltip { transition: none; }
 }
 
+/* Los nodos de progreso son enlaces circulares que usan .tooltip-trigger solo
+   para mostrar el título del nivel. No deben heredar el subrayado punteado ni
+   el cursor de "ayuda" propios de un término inline. */
+.ana-progress-node.tooltip-trigger {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* ══════════════════════════════════════════
    CHECKMARK ANIMADO (MI-09)
    ══════════════════════════════════════════ */

@@ -864,14 +864,13 @@
     BADGES.forEach(function (badge) {
       var earned = isBadgeEarned(badge);
       var mod = earned ? ' ana-credential-badge--earned' : ' ana-credential-badge--locked';
-      html += '    <div class="ana-credential-card scroll-reveal tooltip-trigger">';
+      html += '    <div class="ana-credential-card scroll-reveal">';
       html += '      <div class="ana-credential-badge ' + badge.cssClass + mod + '">';
       html += '        ' + svgIcon('icon-trophy', 32);
       html += '      </div>';
       html += '      <p class="ana-credential-card__name">' + badge.name + '</p>';
       html += '      <p class="ana-credential-card__range">' + badge.range + '</p>';
       html += '      <p class="ana-credential-card__info">' + badge.desc + '</p>';
-      html += '      <span class="tooltip">Complete ' + badge.range + ' para obtener este badge</span>';
       if (earned) {
         html += '      <span class="ana-badge ana-badge--complete">' + svgIcon('icon-check', 14) + ' Obtenido</span>';
       } else {
