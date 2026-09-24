@@ -497,7 +497,7 @@
     /* ── Hero Section ── */
     html += '<section class="ana-hero" aria-labelledby="hero-title">';
     html += '  <div class="ana-container">';
-    html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" loading="lazy" style="width:100px;height:auto;display:block;margin:0 auto var(--ana-space-6);opacity:0.9;">';
+    html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" loading="lazy" onerror="this.style.display=\'none\'" style="width:100px;height:auto;display:block;margin:0 auto var(--ana-space-6);opacity:0.9;">';
     html += '    <p class="ana-hero__overline">Universidad Anáhuac Mayab · Formación Continua</p>';
     html += '    <h1 class="ana-hero__title" id="hero-title">IA Práctica para Líderes Anáhuac</h1>';
     html += '    <p class="ana-hero__subtitle">Programa de formación en inteligencia artificial generativa para directivos. 8 niveles progresivos, de conceptos fundamentales a agentes de IA.</p>';
@@ -730,7 +730,7 @@
     /* Hero banner del nivel con imagen */
     html += '<div class="ana-level-hero" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.7)), url(\'' + IMAGES_PATH + 'nivel-' + n + '-hero.png\')">';
     html += '  <div class="ana-level-hero__content">';
-    html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" class="ana-level-hero__logo" loading="lazy">';
+    html += '    <img src="' + LOGO_IA + '" alt="iA Anáhuac" class="ana-level-hero__logo" loading="lazy" onerror="this.style.display=\'none\'">';
     html += '    <p class="ana-level-hero__overline">NIVEL ' + n + ' · ' + actName + ' · Versión ' + versionLabel + '</p>';
     html += '    <h1 class="ana-level-hero__title">' + level.title + '</h1>';
     html += '    <p class="ana-level-hero__desc">' + level.desc + '</p>';
@@ -826,7 +826,11 @@
         var lvl = parseInt(this.dataset.level, 10);
         completeLevel(lvl);
         updateMobileNav();
-        renderLevel(lvl);
+        /* BUG-Windows FIX: diferir el re-render fuera del ciclo del evento.
+           renderLevel() reemplaza app.innerHTML y destruye este mismo botón;
+           si se ejecuta síncronamente, el layout se recalcula, el botón cambia
+           de posición y el mouseup cae en el vacío (Chrome Windows). */
+        setTimeout(function () { renderLevel(lvl); }, 0);
       });
     }
 
