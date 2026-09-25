@@ -1637,6 +1637,11 @@ input:focus-visible, textarea:focus-visible, select:focus-visible { outline: non
   max-width: 100%;
   width: 680px;
   height: auto;
+  /* Reserva de espacio (los diagramas son 1:1) para evitar layout shift al
+     cargar la imagen lazy: sin esto, al decodificar empuja el contenido de
+     abajo — incluido el botón "Marcar como completado" — y en Chrome Windows
+     el mouseup caía en el vacío. */
+  aspect-ratio: 1 / 1;
   border-radius: var(--ana-radius-lg, 12px);
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;

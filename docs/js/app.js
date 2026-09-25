@@ -819,20 +819,11 @@
     /* ── Cargar contenido HTML del módulo via fetch ── */
     loadLevelContent(n);
 
-    /* Evento: marcar como completado */
-    var btnComplete = document.getElementById('btn-complete-level');
-    if (btnComplete) {
-      btnComplete.addEventListener('click', function () {
-        var lvl = parseInt(this.dataset.level, 10);
-        completeLevel(lvl);
-        updateMobileNav();
-        /* BUG-Windows FIX: diferir el re-render fuera del ciclo del evento.
-           renderLevel() reemplaza app.innerHTML y destruye este mismo botón;
-           si se ejecuta síncronamente, el layout se recalcula, el botón cambia
-           de posición y el mouseup cae en el vacío (Chrome Windows). */
-        setTimeout(function () { renderLevel(lvl); }, 0);
-      });
-    }
+    /* El botón "Marcar como completado" se maneja por DELEGACIÓN en init()
+       (listener único sobre #app que persiste entre renders). No se adjunta
+       un listener por-render aquí: hacerlo era frágil porque renderLevel()
+       reconstruye el DOM y el botón podía moverse/destruirse durante el
+       propio ciclo del clic (Chrome Windows: el mouseup caía en el vacío). */
 
     initScrollReveal();
   }
@@ -1099,6 +1090,23 @@
       var trigger = e.target.closest('[data-slides]');
       if (!trigger || typeof SlideViewer === 'undefined') return;
       SlideViewer.open(parseInt(trigger.dataset.slides, 10));
+    });
+
+    /* BUG-Windows FIX: "Marcar como completado" por delegación sobre #app.
+       #app persiste entre renders, así que el handler nunca se destruye durante
+       el clic. Aunque renderLevel() reconstruya el DOM, el estado ya se
+       persistió en localStorage antes de re-renderizar, y el re-render se
+       difiere para que el ciclo del evento termine primero. */
+    app.addEventListener('click', function (e) {
+      var btn = e.target.closest('#btn-complete-level');
+      if (!btn) return;
+      var lvl = parseInt(btn.dataset.level, 10);
+      if (isNaN(lvl)) return;
+      completeLevel(lvl);          /* persiste en localStorage de inmediato */
+      updateMobileNav();
+      /* Diferir el re-render fuera del ciclo del evento para no destruir el
+         botón mientras el mouseup aún se resuelve (Chrome Windows). */
+      setTimeout(function () { renderLevel(lvl); }, 0);
     });
     /* Accesibilidad: activar con Enter/Espacio los elementos role="button" */
     app.addEventListener('keydown', function (e) {
